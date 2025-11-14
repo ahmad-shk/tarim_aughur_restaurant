@@ -1,0 +1,328 @@
+{
+  "categories": [
+    {
+      "id": "breakfast",
+      "name": "Breakfast",
+      "categoryImage": "/menu-items/menu-category.png",
+      "sections": [
+        {
+          "id": "breakfast-1",
+          "items": [
+            {
+              "id": "breakfast-item-1",
+              "name": "Patatas Bravas",
+              "description": "Crispy potatoes topped with spicy tomato sauce and aioli for a perfect snack.",
+              "price": 10,
+              "image": "/menu-items/menu-product-image.png",
+              "isSpicy": true
+            },
+            {
+              "id": "breakfast-item-2",
+              "name": "Tortilla Española",
+              "description": "Spanish omelet made with potatoes, onions, and eggs. A classic dish.",
+              "price": 12,
+              "image": "/menu-items/menu-product-image.png",
+              "isSpicy": false
+            },
+            {
+              "id": "breakfast-item-3",
+              "name": "Pan con Tomate",
+              "description": "Fresh tomato and olive oil on toasted bread. Simple and delicious.",
+              "price": 8,
+              "image": "/menu-items/menu-product-image.png",
+              "isSpicy": false
+            },
+            {
+              "id": "breakfast-item-4",
+              "name": "Churros con Chocolate",
+              "description": "Fried pastry served with hot chocolate. A sweet start to your day.",
+              "price": 9,
+              "image": "/menu-items/menu-product-image.png",
+              "isSpicy": false
+            }
+          ]
+        },
+        {
+          "id": "breakfast-2",
+          "items": [
+            {
+              "id": "breakfast-item-5",
+              "name": "Croquetas de Jamón",
+              "description": "Creamy ham croquetas. A perfect savory breakfast treat.",
+              "price": 11,
+              "image": "/menu-items/menu-product-image.png",
+              "isSpicy": false
+            },
+            {
+              "id": "breakfast-item-6",
+              "name": "Huevos Rotos",
+              "description": "Crispy fried potatoes with runny eggs and serrano ham.",
+              "price": 13,
+              "image": "/menu-items/menu-product-image.png",
+              "isSpicy": false
+            },
+            {
+              "id": "breakfast-item-7",
+              "name": "Espinacas con Garbanzos",
+              "description": "Sautéed spinach with chickpeas. Healthy and flavorful.",
+              "price": 10,
+              "image": "/menu-items/menu-product-image.png",
+              "isSpicy": false
+            },
+            {
+              "id": "breakfast-item-8",
+              "name": "Jamón Ibérico",
+              "description": "Premium Iberian ham sliced fresh. A luxury breakfast.",
+              "price": 15,
+              "image": "/menu-items/menu-product-image.png",
+              "isSpicy": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lunch",
+      "name": "Lunch",
+      "categoryImage": "/menu-items/menu-category.png",
+      "sections": [
+        {
+          "id": "lunch-1",
+          "items": [
+            {
+              "id": "lunch-item-1",
+              "name": "Paella Valenciana",
+              "description": "Traditional Valencian paella with saffron, chicken, and seafood.",
+              "price": 18,
+              "image": "/menu-items/menu-product-image.png",
+              "isSpicy": false
+            },
+            {
+              "id": "lunch-item-2",
+              "name": "Gazpacho",
+              "description": "Cold tomato soup perfect for warm days.",
+              "price": 8,
+              "image": "/menu-items/menu-product-image.png",
+              "isSpicy": false
+            },
+            {
+              "id": "lunch-item-3",
+              "name": "Pulpo a la Gallega",
+              "description": "Tender octopus with paprika and olive oil.",
+              "price": 16,
+              "image": "/menu-items/menu-product-image.png",
+              "isSpicy": true
+            },
+            {
+              "id": "lunch-item-4",
+              "name": "Rabo de Toro",
+              "description": "Hearty oxtail stew. A Spanish comfort food.",
+              "price": 14,
+              "image": "/menu-items/menu-product-image.png",
+              "isSpicy": false
+            }
+          ]
+        },
+        {
+          "id": "lunch-2",
+          "items": [
+            {
+              "id": "lunch-item-5",
+              "name": "Gambas al Ajillo",
+              "description": "Shrimp sautéed with garlic and olive oil.",
+              "price": 15,
+              "image": "/menu-items/menu-product-image.png",
+              "isSpicy": true
+            },
+            {
+              "id": "lunch-item-6",
+              "name": "Calamares Fritos",
+              "description": "Crispy fried squid served with lemon.",
+              "price": 13,
+              "image": "/menu-items/menu-product-image.png",
+              "isSpicy": false
+            },
+            {
+              "id": "lunch-item-7",
+              "name": "Bacalao a la Vizcaína",
+              "description": "Cod with red peppers and tomato sauce.",
+              "price": 17,
+              "image": "/menu-items/menu-product-image.png",
+              "isSpicy": false
+            },
+            {
+              "id": "lunch-item-8",
+              "name": "Caldo Gallego",
+              "description": "Traditional Galician soup with white beans and greens.",
+              "price": 10,
+              "image": "/menu-items/menu-product-image.png",
+              "isSpicy": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dinner",
+      "name": "Dinner",
+      "categoryImage": "/menu-items/menu-category.png",
+      "sections": [
+        {
+          "id": "dinner-1",
+          "items": [
+            {
+              "id": "dinner-item-1",
+              "name": "Rabo de Toro",
+              "description": "Braised oxtail in red wine reduction.",
+              "price": 20,
+              "image": "/menu-items/menu-product-image.png",
+              "isSpicy": false
+            },
+            {
+              "id": "dinner-item-2",
+              "name": "Merluza a la Sal",
+              "description": "Hake baked in sea salt. Elegant and flavorful.",
+              "price": 22,
+              "image": "/menu-items/menu-product-image.png",
+              "isSpicy": false
+            },
+            {
+              "id": "dinner-item-3",
+              "name": "Solomillo al Whisky",
+              "description": "Tenderloin steak with whisky sauce.",
+              "price": 25,
+              "image": "/menu-items/menu-product-image.png",
+              "isSpicy": false
+            },
+            {
+              "id": "dinner-item-4",
+              "name": "Lubina a la Dorada",
+              "description": "Sea bass with golden sauce.",
+              "price": 23,
+              "image": "/menu-items/menu-product-image.png",
+              "isSpicy": false
+            }
+          ]
+        },
+        {
+          "id": "dinner-2",
+          "items": [
+            {
+              "id": "dinner-item-5",
+              "name": "Pato a la Naranja",
+              "description": "Duck in orange sauce. A classic French-Spanish fusion.",
+              "price": 24,
+              "image": "/menu-items/menu-product-image.png",
+              "isSpicy": false
+            },
+            {
+              "id": "dinner-item-6",
+              "name": "Carne Guisada",
+              "description": "Slow-cooked beef stew with vegetables.",
+              "price": 18,
+              "image": "/menu-items/menu-product-image.png",
+              "isSpicy": false
+            },
+            {
+              "id": "dinner-item-7",
+              "name": "Champiñones Rellenos",
+              "description": "Stuffed mushrooms with meat and cheese.",
+              "price": 14,
+              "image": "/menu-items/menu-product-image.png",
+              "isSpicy": false
+            },
+            {
+              "id": "dinner-item-8",
+              "name": "Costillas BBQ Ibéricas",
+              "description": "Slow-cooked Iberian pork ribs with BBQ sauce.",
+              "price": 21,
+              "image": "/menu-items/menu-product-image.png",
+              "isSpicy": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "desserts",
+      "name": "Desserts",
+      "categoryImage": "/menu-items/menu-category.png",
+      "sections": [
+        {
+          "id": "desserts-1",
+          "items": [
+            {
+              "id": "dessert-item-1",
+              "name": "Flan",
+              "description": "Creamy caramel custard. A Spanish classic.",
+              "price": 7,
+              "image": "/menu-items/menu-product-image.png",
+              "isSpicy": false
+            },
+            {
+              "id": "dessert-item-2",
+              "name": "Tarta de Santiago",
+              "description": "Almond tart from Santiago de Compostela.",
+              "price": 8,
+              "image": "/menu-items/menu-product-image.png",
+              "isSpicy": false
+            },
+            {
+              "id": "dessert-item-3",
+              "name": "Crema Catalana",
+              "description": "Catalan cream with caramelized sugar top.",
+              "price": 8,
+              "image": "/menu-items/menu-product-image.png",
+              "isSpicy": false
+            },
+            {
+              "id": "dessert-item-4",
+              "name": "Torrijas",
+              "description": "Spanish French toast with honey and cinnamon.",
+              "price": 9,
+              "image": "/menu-items/menu-product-image.png",
+              "isSpicy": false
+            }
+          ]
+        },
+        {
+          "id": "desserts-2",
+          "items": [
+            {
+              "id": "dessert-item-5",
+              "name": "Churros",
+              "description": "Fried pastry dusted with sugar. Perfect for dipping.",
+              "price": 6,
+              "image": "/menu-items/menu-product-image.png",
+              "isSpicy": false
+            },
+            {
+              "id": "dessert-item-6",
+              "name": "Natillas",
+              "description": "Creamy custard with crushed cookies.",
+              "price": 7,
+              "image": "/menu-items/menu-product-image.png",
+              "isSpicy": false
+            },
+            {
+              "id": "dessert-item-7",
+              "name": "Polvorones",
+              "description": "Crumbly shortbread cookies. Traditional holiday treat.",
+              "price": 5,
+              "image": "/menu-items/menu-product-image.png",
+              "isSpicy": false
+            },
+            {
+              "id": "dessert-item-8",
+              "name": "Sorbete de Limón",
+              "description": "Refreshing lemon sorbet.",
+              "price": 6,
+              "image": "/menu-items/menu-product-image.png",
+              "isSpicy": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
