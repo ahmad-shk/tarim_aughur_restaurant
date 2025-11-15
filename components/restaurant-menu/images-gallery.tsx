@@ -28,6 +28,7 @@ const ImageModal = ({ selectedItem }: ImageModalProps) => {
     ref: (slider: any) => setNav1(slider),
     arrows: false,
     fade: true,
+    infinite: false,   
   };
 
   const thumbSettings = {
@@ -39,6 +40,7 @@ const ImageModal = ({ selectedItem }: ImageModalProps) => {
     centerPadding: '0px',
     variableWidth: true,
     arrows: false,
+    infinite: false,   
   };
 
   return (
