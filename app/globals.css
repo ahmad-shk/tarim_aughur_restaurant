@@ -239,3 +239,8 @@ form .react-datepicker-wrapper {display: block;}
     max-width: 860px;
   }
 }
+
+.open-drawer {overflow: hidden;}
+
+[data-slot="dialog-overlay"] {z-index: 101;}
+[data-slot="dialog-content"] {z-index: 102;}
