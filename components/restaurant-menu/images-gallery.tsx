@@ -6,12 +6,12 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
 const images = [
-  { src: '/menu-items/menu-product-image.png', alt: 'category 1' },
-  { src: '/menu-items/menu-product-image.png', alt: 'category 2' },
-  { src: '/menu-items/menu-product-image.png', alt: 'category 3' },
-  { src: '/menu-items/menu-product-image.png', alt: 'category 1' },
-  { src: '/menu-items/menu-product-image.png', alt: 'category 2' },
-  { src: '/menu-items/menu-product-image.png', alt: 'category 3' },
+  { src: '/menu-items/menu-item.png', alt: 'category 1' },
+  { src: '/menu-items/menu-item.png', alt: 'category 2' },
+  { src: '/menu-items/menu-item.png', alt: 'category 3' },
+  { src: '/menu-items/menu-item.png', alt: 'category 1' },
+  { src: '/menu-items/menu-item.png', alt: 'category 2' },
+  { src: '/menu-items/menu-item.png', alt: 'category 3' },
 ];
 
 const ImageModal = () => {
@@ -46,13 +46,13 @@ const ImageModal = () => {
       {/* Main Slider */}
       <Slider {...mainSettings} ref={slider1} className='max-w-full'>
         {images.map((img, idx) => (
-          <div key={idx} className="relative w-full max-h-[500] rounded-3xl overflow-hidden">
+          <div key={idx} className="relative w-full aspect-16/8 rounded-3xl overflow-hidden">
             <Image
               src={img.src}
               alt={img.alt}
-              width={1056}
-              height={600}
-              className=" object-cover"
+              width={"100"}
+              height={'100'}
+              className="w-full object-cover"
             />
           </div>
         ))}

@@ -227,3 +227,15 @@ form .react-datepicker-wrapper {display: block;}
 
 
 .banner-borders {height: calc(100% + 92px); top: -92px;}
+
+/* modal view */
+@media screen and (max-width: 1700px) {
+  .modal-menu-width {
+    max-width: 1100px;
+  }
+}
+@media screen and (max-width: 1800px) {
+  .modal-menu-width {
+    max-width: 860px;
+  }
+}
