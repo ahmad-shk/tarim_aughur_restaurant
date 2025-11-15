@@ -11,7 +11,6 @@ const images = [
   { src: '/menu-items/menu-item.png', alt: 'category 3' },
   { src: '/menu-items/menu-item.png', alt: 'category 1' },
   { src: '/menu-items/menu-item.png', alt: 'category 2' },
-  { src: '/menu-items/menu-item.png', alt: 'category 3' },
 ];
 
 const ImageModal = () => {
@@ -26,6 +25,7 @@ const ImageModal = () => {
     ref: (slider:any) => setNav1(slider),
     arrows: false,
     fade: true,
+    infinite: false,   
   };
 
   // Thumbnail slider settings
@@ -38,6 +38,7 @@ const ImageModal = () => {
     centerPadding: '0px',
     variableWidth: true,
     arrows: false,
+    infinite: false,   
   };
 
 

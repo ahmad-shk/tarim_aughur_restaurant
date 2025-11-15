@@ -217,7 +217,7 @@ export default function MenuGroup() {
           </div>
 
           <div className="space-y-10 p-10">
-              {drawerCategory.sections.map((section, sectionIndex) => (
+            {(drawerCategory?.sections || []).map((section, sectionIndex) => (
                 <div
                   key={section.id}
                   className={`item-row flex flex-col ${sectionIndex % 2 === 0 ? "lg:flex-row" : "lg:flex-row-reverse"
