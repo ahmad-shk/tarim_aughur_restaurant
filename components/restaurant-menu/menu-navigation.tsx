@@ -41,9 +41,7 @@ export default function MenuNavigation({ activeCategory, onCategoryChange, langu
               ${activeCategory === category.id
                 ? "bg-color-secondary text-primary"
                 : "bg-white/20 hover:bg-white/30 hover:scale-105 hover:shadow-md"
-              }
-`}
-
+              }`}
           >
             {category.label}
           </button>

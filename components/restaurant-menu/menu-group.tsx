@@ -196,7 +196,7 @@ export default function MenuGroup() {
         {/* Drawer Panel */}
         <aside
           className={`absolute right-0 top-0 h-full bg-white dark:bg-color-primary shadow-xl 
-            w-[80%] overflow-auto transition-transform duration-300
+            lg:w-[80%] w-full overflow-auto transition-transform duration-300
             ${isDrawerOpen ? "translate-x-0" : "translate-x-full"}`}
         >
           {/* Drawer Header */}
