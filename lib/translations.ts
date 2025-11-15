@@ -102,7 +102,7 @@ export const translations = {
                 "name": "Patatas Bravas",
                 "description": "Knusprige Kartoffeln, garniert mit scharfer Tomatensauce und Aioli – der perfekte Snack.",
                 "price": 10,
-                "image": "/menu-items/menu-product-image.png",
+                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": true
               },
               {
@@ -110,7 +110,7 @@ export const translations = {
                 "name": "Tortilla Española",
                 "description": "Spanisches Omelett aus Kartoffeln, Zwiebeln und Eiern. Ein klassisches Gericht.",
                 "price": 12,
-                "image": "/menu-items/menu-product-image.png",
+                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -118,7 +118,7 @@ export const translations = {
                 "name": "Pan con Tomate",
                 "description": "Frische Tomaten und Olivenöl auf geröstetem Brot. Einfach und köstlich.",
                 "price": 8,
-                "image": "/menu-items/menu-product-image.png",
+                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -126,7 +126,7 @@ export const translations = {
                 "name": "Churros con Chocolate",
                 "description": "Frittiertes Gebäck, serviert mit heißer Schokolade. Ein süßer Start in den Tag.",
                 "price": 9,
-                "image": "/menu-items/menu-product-image.png",
+                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               }
             ]
@@ -139,7 +139,7 @@ export const translations = {
                 "name": "Croquetas de Jamón",
                 "description": "Cremige Schinken-Kroketten. Ein perfekter herzhafter Frühstücksgenuss.",
                 "price": 11,
-                "image": "/menu-items/menu-product-image.png",
+                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -147,7 +147,7 @@ export const translations = {
                 "name": "Huevos Rotos",
                 "description": "Knusprige Bratkartoffeln mit Spiegeleiern und Serrano-Schinken.",
                 "price": 13,
-                "image": "/menu-items/menu-product-image.png",
+                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -155,7 +155,7 @@ export const translations = {
                 "name": "Espinacas con Garbanzos",
                 "description": "Gebratener Spinat mit Kichererbsen. Gesund und voller Geschmack.",
                 "price": 10,
-                "image": "/menu-items/menu-product-image.png",
+                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -163,7 +163,7 @@ export const translations = {
                 "name": "Jamón Ibérico",
                 "description": "Frisch aufgeschnittener iberischer Schinken. Ein luxuriöses Frühstück.",
                 "price": 15,
-                "image": "/menu-items/menu-product-image.png",
+                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               }
             ]
@@ -183,7 +183,7 @@ export const translations = {
                 "name": "Paella Valenciana",
                 "description": "Traditionelle valencianische Paella mit Safran, Huhn und Meeresfrüchten.",
                 "price": 18,
-                "image": "/menu-items/menu-product-image.png",
+                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -191,7 +191,7 @@ export const translations = {
                 "name": "Gazpacho",
                 "description": "Kalte Tomatensuppe – perfekt für warme Tage.",
                 "price": 8,
-                "image": "/menu-items/menu-product-image.png",
+                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -199,7 +199,7 @@ export const translations = {
                 "name": "Pulpo a la Gallega",
                 "description": "Zarter Oktopus mit Paprika und Olivenöl.",
                 "price": 16,
-                "image": "/menu-items/menu-product-image.png",
+                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": true
               },
               {
@@ -207,7 +207,7 @@ export const translations = {
                 "name": "Rabo de Toro",
                 "description": "Herzhaftes Ochsenschwanzragout – spanisches Soulfood.",
                 "price": 14,
-                "image": "/menu-items/menu-product-image.png",
+                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               }
             ]
@@ -220,7 +220,7 @@ export const translations = {
                 "name": "Gambas al Ajillo",
                 "description": "Garnelen in Knoblauch und Olivenöl gebraten.",
                 "price": 15,
-                "image": "/menu-items/menu-product-image.png",
+                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": true
               },
               {
@@ -228,7 +228,7 @@ export const translations = {
                 "name": "Calamares Fritos",
                 "description": "Knusprig frittierte Tintenfischringe mit Zitrone serviert.",
                 "price": 13,
-                "image": "/menu-items/menu-product-image.png",
+                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -236,7 +236,7 @@ export const translations = {
                 "name": "Bacalao a la Vizcaína",
                 "description": "Kabeljau mit Paprika und Tomatensauce.",
                 "price": 17,
-                "image": "/menu-items/menu-product-image.png",
+                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -244,7 +244,7 @@ export const translations = {
                 "name": "Caldo Gallego",
                 "description": "Traditionelle galicische Suppe mit weißen Bohnen und Gemüse.",
                 "price": 10,
-                "image": "/menu-items/menu-product-image.png",
+                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               }
             ]
@@ -264,7 +264,7 @@ export const translations = {
                 "name": "Rabo de Toro",
                 "description": "Geschmorter Ochsenschwanz in Rotweinreduktion.",
                 "price": 20,
-                "image": "/menu-items/menu-product-image.png",
+                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -272,7 +272,7 @@ export const translations = {
                 "name": "Merluza a la Sal",
                 "description": "Im Meersalz gebackener Seehecht – elegant und aromatisch.",
                 "price": 22,
-                "image": "/menu-items/menu-product-image.png",
+                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -280,7 +280,7 @@ export const translations = {
                 "name": "Solomillo al Whisky",
                 "description": "Rinderfilet mit Whiskysoße.",
                 "price": 25,
-                "image": "/menu-items/menu-product-image.png",
+                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -288,7 +288,7 @@ export const translations = {
                 "name": "Lubina a la Dorada",
                 "description": "Goldbarsch mit feiner Sauce.",
                 "price": 23,
-                "image": "/menu-items/menu-product-image.png",
+                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               }
             ]
@@ -301,7 +301,7 @@ export const translations = {
                 "name": "Pato a la Naranja",
                 "description": "Ente in Orangensauce – eine französisch-spanische Fusion.",
                 "price": 24,
-                "image": "/menu-items/menu-product-image.png",
+                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -309,7 +309,7 @@ export const translations = {
                 "name": "Carne Guisada",
                 "description": "Langsam geschmortes Rindfleisch mit Gemüse.",
                 "price": 18,
-                "image": "/menu-items/menu-product-image.png",
+                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -317,7 +317,7 @@ export const translations = {
                 "name": "Champiñones Rellenos",
                 "description": "Gefüllte Champignons mit Fleisch und Käse.",
                 "price": 14,
-                "image": "/menu-items/menu-product-image.png",
+                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -325,7 +325,7 @@ export const translations = {
                 "name": "Costillas BBQ Ibéricas",
                 "description": "Langsam gegarte iberische Schweinerippchen mit BBQ-Sauce.",
                 "price": 21,
-                "image": "/menu-items/menu-product-image.png",
+                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": true
               }
             ]
@@ -345,7 +345,7 @@ export const translations = {
                 "name": "Flan",
                 "description": "Cremiger Karamellpudding – ein spanischer Klassiker.",
                 "price": 7,
-                "image": "/menu-items/menu-product-image.png",
+                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -353,7 +353,7 @@ export const translations = {
                 "name": "Tarta de Santiago",
                 "description": "Mandelkuchen aus Santiago de Compostela.",
                 "price": 8,
-                "image": "/menu-items/menu-product-image.png",
+                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -361,7 +361,7 @@ export const translations = {
                 "name": "Crema Catalana",
                 "description": "Katalanische Creme mit karamellisierter Zuckerschicht.",
                 "price": 8,
-                "image": "/menu-items/menu-product-image.png",
+                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -369,7 +369,7 @@ export const translations = {
                 "name": "Torrijas",
                 "description": "Spanischer French Toast mit Honig und Zimt.",
                 "price": 9,
-                "image": "/menu-items/menu-product-image.png",
+                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               }
             ]
@@ -382,7 +382,7 @@ export const translations = {
                 "name": "Churros",
                 "description": "Frittiertes Gebäck mit Zucker bestäubt. Perfekt zum Dippen.",
                 "price": 6,
-                "image": "/menu-items/menu-product-image.png",
+                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -390,7 +390,7 @@ export const translations = {
                 "name": "Natillas",
                 "description": "Cremiger Vanillepudding mit zerdrückten Keksen.",
                 "price": 7,
-                "image": "/menu-items/menu-product-image.png",
+                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -398,7 +398,7 @@ export const translations = {
                 "name": "Polvorones",
                 "description": "Zartes Mürbeteiggebäck – ein traditionelles Weihnachtsdessert.",
                 "price": 5,
-                "image": "/menu-items/menu-product-image.png",
+                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -406,7 +406,7 @@ export const translations = {
                 "name": "Sorbete de Limón",
                 "description": "Erfrischendes Zitronensorbet.",
                 "price": 6,
-                "image": "/menu-items/menu-product-image.png",
+                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               }
             ]
@@ -531,7 +531,7 @@ export const translations = {
                 "name": "Patatas Bravas",
                 "description": "Crispy potatoes topped with spicy tomato sauce and aioli for a perfect snack.",
                 "price": 10,
-                "image": "/menu-items/menu-product-image.png",
+                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": true
               },
               {
@@ -539,7 +539,7 @@ export const translations = {
                 "name": "Tortilla Española",
                 "description": "Spanish omelet made with potatoes, onions, and eggs. A classic dish.",
                 "price": 12,
-                "image": "/menu-items/menu-product-image.png",
+                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -547,7 +547,7 @@ export const translations = {
                 "name": "Pan con Tomate",
                 "description": "Fresh tomato and olive oil on toasted bread. Simple and delicious.",
                 "price": 8,
-                "image": "/menu-items/menu-product-image.png",
+                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -555,7 +555,7 @@ export const translations = {
                 "name": "Churros con Chocolate",
                 "description": "Fried pastry served with hot chocolate. A sweet start to your day.",
                 "price": 9,
-                "image": "/menu-items/menu-product-image.png",
+                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               }
             ]
@@ -568,7 +568,7 @@ export const translations = {
                 "name": "Croquetas de Jamón",
                 "description": "Creamy ham croquetas. A perfect savory breakfast treat.",
                 "price": 11,
-                "image": "/menu-items/menu-product-image.png",
+                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -576,7 +576,7 @@ export const translations = {
                 "name": "Huevos Rotos",
                 "description": "Crispy fried potatoes with runny eggs and serrano ham.",
                 "price": 13,
-                "image": "/menu-items/menu-product-image.png",
+                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -584,7 +584,7 @@ export const translations = {
                 "name": "Espinacas con Garbanzos",
                 "description": "Sautéed spinach with chickpeas. Healthy and flavorful.",
                 "price": 10,
-                "image": "/menu-items/menu-product-image.png",
+                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -592,7 +592,7 @@ export const translations = {
                 "name": "Jamón Ibérico",
                 "description": "Premium Iberian ham sliced fresh. A luxury breakfast.",
                 "price": 15,
-                "image": "/menu-items/menu-product-image.png",
+                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               }
             ]
@@ -612,7 +612,7 @@ export const translations = {
                 "name": "Paella Valenciana",
                 "description": "Traditional Valencian paella with saffron, chicken, and seafood.",
                 "price": 18,
-                "image": "/menu-items/menu-product-image.png",
+                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -620,7 +620,7 @@ export const translations = {
                 "name": "Gazpacho",
                 "description": "Cold tomato soup perfect for warm days.",
                 "price": 8,
-                "image": "/menu-items/menu-product-image.png",
+                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -628,7 +628,7 @@ export const translations = {
                 "name": "Pulpo a la Gallega",
                 "description": "Tender octopus with paprika and olive oil.",
                 "price": 16,
-                "image": "/menu-items/menu-product-image.png",
+                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": true
               },
               {
@@ -636,7 +636,7 @@ export const translations = {
                 "name": "Rabo de Toro",
                 "description": "Hearty oxtail stew. A Spanish comfort food.",
                 "price": 14,
-                "image": "/menu-items/menu-product-image.png",
+                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               }
             ]
@@ -649,7 +649,7 @@ export const translations = {
                 "name": "Gambas al Ajillo",
                 "description": "Shrimp sautéed with garlic and olive oil.",
                 "price": 15,
-                "image": "/menu-items/menu-product-image.png",
+                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": true
               },
               {
@@ -657,7 +657,7 @@ export const translations = {
                 "name": "Calamares Fritos",
                 "description": "Crispy fried squid served with lemon.",
                 "price": 13,
-                "image": "/menu-items/menu-product-image.png",
+                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -665,7 +665,7 @@ export const translations = {
                 "name": "Bacalao a la Vizcaína",
                 "description": "Cod with red peppers and tomato sauce.",
                 "price": 17,
-                "image": "/menu-items/menu-product-image.png",
+                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -673,7 +673,7 @@ export const translations = {
                 "name": "Caldo Gallego",
                 "description": "Traditional Galician soup with white beans and greens.",
                 "price": 10,
-                "image": "/menu-items/menu-product-image.png",
+                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               }
             ]
@@ -693,7 +693,7 @@ export const translations = {
                 "name": "Rabo de Toro",
                 "description": "Braised oxtail in red wine reduction.",
                 "price": 20,
-                "image": "/menu-items/menu-product-image.png",
+                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -701,7 +701,7 @@ export const translations = {
                 "name": "Merluza a la Sal",
                 "description": "Hake baked in sea salt. Elegant and flavorful.",
                 "price": 22,
-                "image": "/menu-items/menu-product-image.png",
+                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -709,7 +709,7 @@ export const translations = {
                 "name": "Solomillo al Whisky",
                 "description": "Tenderloin steak with whisky sauce.",
                 "price": 25,
-                "image": "/menu-items/menu-product-image.png",
+                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -717,7 +717,7 @@ export const translations = {
                 "name": "Lubina a la Dorada",
                 "description": "Sea bass with golden sauce.",
                 "price": 23,
-                "image": "/menu-items/menu-product-image.png",
+                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               }
             ]
@@ -730,7 +730,7 @@ export const translations = {
                 "name": "Pato a la Naranja",
                 "description": "Duck in orange sauce. A classic French-Spanish fusion.",
                 "price": 24,
-                "image": "/menu-items/menu-product-image.png",
+                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -738,7 +738,7 @@ export const translations = {
                 "name": "Carne Guisada",
                 "description": "Slow-cooked beef stew with vegetables.",
                 "price": 18,
-                "image": "/menu-items/menu-product-image.png",
+                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -746,7 +746,7 @@ export const translations = {
                 "name": "Champiñones Rellenos",
                 "description": "Stuffed mushrooms with meat and cheese.",
                 "price": 14,
-                "image": "/menu-items/menu-product-image.png",
+                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -754,7 +754,7 @@ export const translations = {
                 "name": "Costillas BBQ Ibéricas",
                 "description": "Slow-cooked Iberian pork ribs with BBQ sauce.",
                 "price": 21,
-                "image": "/menu-items/menu-product-image.png",
+                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": true
               }
             ]
@@ -774,7 +774,7 @@ export const translations = {
                 "name": "Flan",
                 "description": "Creamy caramel custard. A Spanish classic.",
                 "price": 7,
-                "image": "/menu-items/menu-product-image.png",
+                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -782,7 +782,7 @@ export const translations = {
                 "name": "Tarta de Santiago",
                 "description": "Almond tart from Santiago de Compostela.",
                 "price": 8,
-                "image": "/menu-items/menu-product-image.png",
+                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -790,7 +790,7 @@ export const translations = {
                 "name": "Crema Catalana",
                 "description": "Catalan cream with caramelized sugar top.",
                 "price": 8,
-                "image": "/menu-items/menu-product-image.png",
+                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -798,7 +798,7 @@ export const translations = {
                 "name": "Torrijas",
                 "description": "Spanish French toast with honey and cinnamon.",
                 "price": 9,
-                "image": "/menu-items/menu-product-image.png",
+                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               }
             ]
@@ -811,7 +811,7 @@ export const translations = {
                 "name": "Churros",
                 "description": "Fried pastry dusted with sugar. Perfect for dipping.",
                 "price": 6,
-                "image": "/menu-items/menu-product-image.png",
+                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -819,7 +819,7 @@ export const translations = {
                 "name": "Natillas",
                 "description": "Creamy custard with crushed cookies.",
                 "price": 7,
-                "image": "/menu-items/menu-product-image.png",
+                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -827,7 +827,7 @@ export const translations = {
                 "name": "Polvorones",
                 "description": "Crumbly shortbread cookies. Traditional holiday treat.",
                 "price": 5,
-                "image": "/menu-items/menu-product-image.png",
+                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -835,7 +835,7 @@ export const translations = {
                 "name": "Sorbete de Limón",
                 "description": "Refreshing lemon sorbet.",
                 "price": 6,
-                "image": "/menu-items/menu-product-image.png",
+                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               }
             ]
@@ -955,7 +955,7 @@ export const translations = {
                 "name": "香辣炸土豆",
                 "description": "香脆的土豆配上辣味番茄酱和蒜味蛋黄酱，是完美的小吃。",
                 "price": 10,
-                "image": "/menu-items/menu-product-image.png",
+                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": true
               },
               {
@@ -963,7 +963,7 @@ export const translations = {
                 "name": "西班牙蛋饼",
                 "description": "用土豆、洋葱和鸡蛋制作的西班牙传统煎蛋饼，经典美味。",
                 "price": 12,
-                "image": "/menu-items/menu-product-image.png",
+                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -971,7 +971,7 @@ export const translations = {
                 "name": "番茄面包",
                 "description": "新鲜番茄和橄榄油涂在烤面包上，简单又美味。",
                 "price": 8,
-                "image": "/menu-items/menu-product-image.png",
+                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -979,7 +979,7 @@ export const translations = {
                 "name": "巧克力吉拿棒",
                 "description": "油炸甜点配热巧克力酱，为您的一天带来甜蜜的开始。",
                 "price": 9,
-                "image": "/menu-items/menu-product-image.png",
+                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               }
             ]
@@ -992,7 +992,7 @@ export const translations = {
                 "name": "火腿可乐饼",
                 "description": "奶香浓郁的火腿可乐饼，是完美的咸味早餐点心。",
                 "price": 11,
-                "image": "/menu-items/menu-product-image.png",
+                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -1000,7 +1000,7 @@ export const translations = {
                 "name": "碎蛋薯条",
                 "description": "香脆炸土豆配溏心蛋和塞拉诺火腿。",
                 "price": 13,
-                "image": "/menu-items/menu-product-image.png",
+                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -1008,7 +1008,7 @@ export const translations = {
                 "name": "菠菜鹰嘴豆",
                 "description": "炒菠菜配鹰嘴豆，健康又美味。",
                 "price": 10,
-                "image": "/menu-items/menu-product-image.png",
+                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -1016,7 +1016,7 @@ export const translations = {
                 "name": "伊比利亚火腿",
                 "description": "新鲜切片的顶级伊比利亚火腿，奢华早餐之选。",
                 "price": 15,
-                "image": "/menu-items/menu-product-image.png",
+                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               }
             ]
@@ -1036,7 +1036,7 @@ export const translations = {
                 "name": "瓦伦西亚海鲜饭",
                 "description": "传统瓦伦西亚海鲜饭，加入藏红花、鸡肉和海鲜。",
                 "price": 18,
-                "image": "/menu-items/menu-product-image.png",
+                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -1044,7 +1044,7 @@ export const translations = {
                 "name": "西班牙冷汤",
                 "description": "冰凉的番茄汤，非常适合炎热的天气。",
                 "price": 8,
-                "image": "/menu-items/menu-product-image.png",
+                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -1052,7 +1052,7 @@ export const translations = {
                 "name": "加利西亚章鱼",
                 "description": "嫩滑的章鱼配红椒粉和橄榄油。",
                 "price": 16,
-                "image": "/menu-items/menu-product-image.png",
+                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": true
               },
               {
@@ -1060,7 +1060,7 @@ export const translations = {
                 "name": "牛尾炖菜",
                 "description": "浓郁的西班牙牛尾炖菜，温暖又满足。",
                 "price": 14,
-                "image": "/menu-items/menu-product-image.png",
+                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               }
             ]
@@ -1073,7 +1073,7 @@ export const translations = {
                 "name": "蒜香虾",
                 "description": "虾仁用蒜和橄榄油炒制，香气扑鼻。",
                 "price": 15,
-                "image": "/menu-items/menu-product-image.png",
+                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": true
               },
               {
@@ -1081,7 +1081,7 @@ export const translations = {
                 "name": "炸鱿鱼圈",
                 "description": "香脆炸鱿鱼圈，配上新鲜柠檬。",
                 "price": 13,
-                "image": "/menu-items/menu-product-image.png",
+                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -1089,7 +1089,7 @@ export const translations = {
                 "name": "巴斯克鳕鱼",
                 "description": "鳕鱼配红椒和番茄酱，美味可口。",
                 "price": 17,
-                "image": "/menu-items/menu-product-image.png",
+                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -1097,7 +1097,7 @@ export const translations = {
                 "name": "加利西亚汤",
                 "description": "传统加利西亚汤，加入白豆和绿叶菜。",
                 "price": 10,
-                "image": "/menu-items/menu-product-image.png",
+                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               }
             ]
@@ -1117,7 +1117,7 @@ export const translations = {
                 "name": "红酒炖牛尾",
                 "description": "牛尾用红酒慢炖，香浓入味。",
                 "price": 20,
-                "image": "/menu-items/menu-product-image.png",
+                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -1125,7 +1125,7 @@ export const translations = {
                 "name": "盐焗鳕鱼",
                 "description": "整条鳕鱼盐焗而成，鲜嫩可口。",
                 "price": 22,
-                "image": "/menu-items/menu-product-image.png",
+                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -1133,7 +1133,7 @@ export const translations = {
                 "name": "威士忌牛排",
                 "description": "嫩牛里脊配威士忌酱汁。",
                 "price": 25,
-                "image": "/menu-items/menu-product-image.png",
+                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -1141,7 +1141,7 @@ export const translations = {
                 "name": "黄金鲈鱼",
                 "description": "煎鲈鱼配金色酱汁，口感丰富。",
                 "price": 23,
-                "image": "/menu-items/menu-product-image.png",
+                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               }
             ]
@@ -1154,7 +1154,7 @@ export const translations = {
                 "name": "橙汁鸭",
                 "description": "橙汁烤鸭，法式与西班牙风味的完美融合。",
                 "price": 24,
-                "image": "/menu-items/menu-product-image.png",
+                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -1162,7 +1162,7 @@ export const translations = {
                 "name": "炖牛肉",
                 "description": "慢炖牛肉配蔬菜，香气四溢。",
                 "price": 18,
-                "image": "/menu-items/menu-product-image.png",
+                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -1170,7 +1170,7 @@ export const translations = {
                 "name": "酿蘑菇",
                 "description": "蘑菇内填充肉末和奶酪，味道浓郁。",
                 "price": 14,
-                "image": "/menu-items/menu-product-image.png",
+                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -1178,7 +1178,7 @@ export const translations = {
                 "name": "伊比利亚烤排骨",
                 "description": "慢火烤制的伊比利亚猪肋排，配BBQ酱。",
                 "price": 21,
-                "image": "/menu-items/menu-product-image.png",
+                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": true
               }
             ]
@@ -1198,7 +1198,7 @@ export const translations = {
                 "name": "焦糖布丁",
                 "description": "浓郁的焦糖布丁，西班牙经典甜点。",
                 "price": 7,
-                "image": "/menu-items/menu-product-image.png",
+                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -1206,7 +1206,7 @@ export const translations = {
                 "name": "圣地亚哥杏仁蛋糕",
                 "description": "来自圣地亚哥的传统杏仁蛋糕。",
                 "price": 8,
-                "image": "/menu-items/menu-product-image.png",
+                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -1214,7 +1214,7 @@ export const translations = {
                 "name": "加泰罗尼亚奶油",
                 "description": "加泰罗尼亚奶油配焦糖脆皮。",
                 "price": 8,
-                "image": "/menu-items/menu-product-image.png",
+                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -1222,7 +1222,7 @@ export const translations = {
                 "name": "西班牙法式吐司",
                 "description": "西班牙式法式吐司配蜂蜜和肉桂。",
                 "price": 9,
-                "image": "/menu-items/menu-product-image.png",
+                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               }
             ]
@@ -1235,7 +1235,7 @@ export const translations = {
                 "name": "吉拿棒",
                 "description": "撒糖的油炸点心，适合蘸酱食用。",
                 "price": 6,
-                "image": "/menu-items/menu-product-image.png",
+                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -1243,7 +1243,7 @@ export const translations = {
                 "name": "奶油布丁",
                 "description": "顺滑的奶油布丁，搭配碎饼干。",
                 "price": 7,
-                "image": "/menu-items/menu-product-image.png",
+                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -1251,7 +1251,7 @@ export const translations = {
                 "name": "酥饼",
                 "description": "松脆的西班牙传统酥饼，节日美味。",
                 "price": 5,
-                "image": "/menu-items/menu-product-image.png",
+                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -1259,7 +1259,7 @@ export const translations = {
                 "name": "柠檬冰沙",
                 "description": "清爽的柠檬冰沙，完美收尾。",
                 "price": 6,
-                "image": "/menu-items/menu-product-image.png",
+                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               }
             ]
@@ -1267,7 +1267,7 @@ export const translations = {
         ]
       }
     ],
-    
+
     contactUsTitle: "联系我们",
     contactUsSubTitle: "传统风味精髓",
     ContactSection1Heading: "传统风味精髓",
@@ -1380,7 +1380,7 @@ export const translations = {
                 "name": "Пататас Бравас",
                 "description": "Хрустящий картофель с острой томатной сальсой и айоли — идеальная закуска.",
                 "price": 10,
-                "image": "/menu-items/menu-product-image.png",
+                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": true
               },
               {
@@ -1388,7 +1388,7 @@ export const translations = {
                 "name": "Тортилья Эспаньола",
                 "description": "Испанский омлет из картофеля, лука и яиц. Классическое блюдо.",
                 "price": 12,
-                "image": "/menu-items/menu-product-image.png",
+                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -1396,7 +1396,7 @@ export const translations = {
                 "name": "Пан кон Томате",
                 "description": "Свежие томаты и оливковое масло на поджаренном хлебе. Просто и вкусно.",
                 "price": 8,
-                "image": "/menu-items/menu-product-image.png",
+                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -1404,7 +1404,7 @@ export const translations = {
                 "name": "Чуррос с шоколадом",
                 "description": "Жареное тесто, подающееся с горячим шоколадом. Сладкое начало дня.",
                 "price": 9,
-                "image": "/menu-items/menu-product-image.png",
+                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               }
             ]
@@ -1417,7 +1417,7 @@ export const translations = {
                 "name": "Крокетас де Хамон",
                 "description": "Нежные крокеты с ветчиной. Идеальный сытный завтрак.",
                 "price": 11,
-                "image": "/menu-items/menu-product-image.png",
+                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -1425,7 +1425,7 @@ export const translations = {
                 "name": "Уэво Ротос",
                 "description": "Хрустящий картофель с яйцами всмятку и хамоном.",
                 "price": 13,
-                "image": "/menu-items/menu-product-image.png",
+                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -1433,7 +1433,7 @@ export const translations = {
                 "name": "Шпинат с нутом",
                 "description": "Обжаренный шпинат с нутом. Полезно и ароматно.",
                 "price": 10,
-                "image": "/menu-items/menu-product-image.png",
+                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -1441,7 +1441,7 @@ export const translations = {
                 "name": "Хамон Иберико",
                 "description": "Премиум иберийская ветчина, нарезанная тонкими ломтиками. Роскошный завтрак.",
                 "price": 15,
-                "image": "/menu-items/menu-product-image.png",
+                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               }
             ]
@@ -1461,7 +1461,7 @@ export const translations = {
                 "name": "Паэлья Валенсиана",
                 "description": "Традиционная валенсийская паэлья с шафраном, курицей и морепродуктами.",
                 "price": 18,
-                "image": "/menu-items/menu-product-image.png",
+                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -1469,7 +1469,7 @@ export const translations = {
                 "name": "Гаспачо",
                 "description": "Холодный томатный суп, идеально подходящий для жарких дней.",
                 "price": 8,
-                "image": "/menu-items/menu-product-image.png",
+                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -1477,7 +1477,7 @@ export const translations = {
                 "name": "Пульпо а ла Гальега",
                 "description": "Нежный осьминог с паприкой и оливковым маслом.",
                 "price": 16,
-                "image": "/menu-items/menu-product-image.png",
+                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": true
               },
               {
@@ -1485,7 +1485,7 @@ export const translations = {
                 "name": "Рабо де Торо",
                 "description": "Сытное рагу из бычьего хвоста. Испанская классика.",
                 "price": 14,
-                "image": "/menu-items/menu-product-image.png",
+                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               }
             ]
@@ -1498,7 +1498,7 @@ export const translations = {
                 "name": "Гамбас аль Ахио",
                 "description": "Креветки, обжаренные с чесноком и оливковым маслом.",
                 "price": 15,
-                "image": "/menu-items/menu-product-image.png",
+                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": true
               },
               {
@@ -1506,7 +1506,7 @@ export const translations = {
                 "name": "Каламарес Фритос",
                 "description": "Хрустящие жареные кальмары с лимоном.",
                 "price": 13,
-                "image": "/menu-items/menu-product-image.png",
+                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -1514,7 +1514,7 @@ export const translations = {
                 "name": "Бакалао а ла Вискайна",
                 "description": "Треска с красным перцем и томатным соусом.",
                 "price": 17,
-                "image": "/menu-items/menu-product-image.png",
+                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -1522,7 +1522,7 @@ export const translations = {
                 "name": "Кальдо Гальего",
                 "description": "Традиционный галисийский суп с белой фасолью и зеленью.",
                 "price": 10,
-                "image": "/menu-items/menu-product-image.png",
+                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               }
             ]
@@ -1542,7 +1542,7 @@ export const translations = {
                 "name": "Рабо де Торо",
                 "description": "Тушёный бычий хвост в соусе из красного вина.",
                 "price": 20,
-                "image": "/menu-items/menu-product-image.png",
+                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -1550,7 +1550,7 @@ export const translations = {
                 "name": "Мерлуза а ла Саль",
                 "description": "Мерлуза, запечённая в морской соли. Изящно и вкусно.",
                 "price": 22,
-                "image": "/menu-items/menu-product-image.png",
+                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -1558,7 +1558,7 @@ export const translations = {
                 "name": "Соломильо аль Виски",
                 "description": "Стейк из вырезки в виски-соусе.",
                 "price": 25,
-                "image": "/menu-items/menu-product-image.png",
+                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -1566,7 +1566,7 @@ export const translations = {
                 "name": "Лубина а ла Дорада",
                 "description": "Сибас с золотистым соусом.",
                 "price": 23,
-                "image": "/menu-items/menu-product-image.png",
+                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               }
             ]
@@ -1579,7 +1579,7 @@ export const translations = {
                 "name": "Пато а ла Наранха",
                 "description": "Утка в апельсиновом соусе. Классическое испано-французское блюдо.",
                 "price": 24,
-                "image": "/menu-items/menu-product-image.png",
+                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -1587,7 +1587,7 @@ export const translations = {
                 "name": "Карне Гисада",
                 "description": "Тушёная говядина с овощами.",
                 "price": 18,
-                "image": "/menu-items/menu-product-image.png",
+                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -1595,7 +1595,7 @@ export const translations = {
                 "name": "Шампиньоны Рельенос",
                 "description": "Фаршированные грибы с мясом и сыром.",
                 "price": 14,
-                "image": "/menu-items/menu-product-image.png",
+                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -1603,7 +1603,7 @@ export const translations = {
                 "name": "Иберийские рёбрышки BBQ",
                 "description": "Медленно приготовленные иберийские свиные рёбра в барбекю соусе.",
                 "price": 21,
-                "image": "/menu-items/menu-product-image.png",
+                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": true
               }
             ]
@@ -1623,7 +1623,7 @@ export const translations = {
                 "name": "Флан",
                 "description": "Нежный карамельный пудинг — испанская классика.",
                 "price": 7,
-                "image": "/menu-items/menu-product-image.png",
+                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -1631,7 +1631,7 @@ export const translations = {
                 "name": "Тарта де Сантьяго",
                 "description": "Миндальный торт из Сантьяго-де-Компостела.",
                 "price": 8,
-                "image": "/menu-items/menu-product-image.png",
+                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -1639,7 +1639,7 @@ export const translations = {
                 "name": "Крема Каталана",
                 "description": "Каталонский крем с карамелизованной корочкой.",
                 "price": 8,
-                "image": "/menu-items/menu-product-image.png",
+                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -1647,7 +1647,7 @@ export const translations = {
                 "name": "Торрийяс",
                 "description": "Испанские гренки с мёдом и корицей.",
                 "price": 9,
-                "image": "/menu-items/menu-product-image.png",
+                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               }
             ]
@@ -1660,7 +1660,7 @@ export const translations = {
                 "name": "Чуррос",
                 "description": "Жареное тесто, посыпанное сахаром. Идеально для макания в соус.",
                 "price": 6,
-                "image": "/menu-items/menu-product-image.png",
+                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -1668,15 +1668,14 @@ export const translations = {
                 "name": "Натильяс",
                 "description": "Нежный кремовый десерт с крошкой печенья.",
                 "price": 7,
-                "image": "/menu-items/menu-product-image.png",
+                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
-                "id": "dessert-item-7",
                 "name": "Польворонес",
                 "description": "Рассыпчатое песочное печенье. Традиционное праздничное лакомство.",
                 "price": 5,
-                "image": "/menu-items/menu-product-image.png",
+                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               },
               {
@@ -1684,7 +1683,7 @@ export const translations = {
                 "name": "Сорбет де Лимон",
                 "description": "Освежающий лимонный сорбет.",
                 "price": 6,
-                "image": "/menu-items/menu-product-image.png",
+                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
                 "isSpicy": false
               }
             ]
@@ -1692,7 +1691,7 @@ export const translations = {
         ]
       }
     ],
-    
+
     contactUsTitle: "Связаться с нами",
     contactUsSubTitle: "Суть традиционных вкусов",
     ContactSection1Heading: "Суть традиционных вкусов",
@@ -1913,7 +1912,11 @@ export type Language = keyof typeof translations
 type TranslationKeys = keyof typeof translations["en"]
 
 // Type-safe translation getter
-export const getTranslation = (lang: Language, key: TranslationKeys): string => {
-  const translationSet = translations[lang] as unknown as Record<TranslationKeys, string>
-  return translationSet[key] || translations.en[key] || ""
-}
+export const getTranslation = (
+  lang: Language,
+  key: TranslationKeys
+): string => {
+  return translations[lang]?.[key] 
+      ?? translations.en?.[key] 
+      ?? "";
+};

@@ -12,7 +12,7 @@ interface MenuItem {
   name: string
   description: string
   price: number
-  image: string
+  images: string[]
   isSpicy: boolean
 }
 
@@ -75,7 +75,7 @@ export default function MenuGroup() {
                         <div className="item flex items-center gap-3 flex-1">
                           <div className="image rounded-sm min-w-[120px] w-[120px]">
                             <Image
-                              src={item.image || "/placeholder.svg"}
+                              src={item.images[0] || "/placeholder.svg"}
                               width="120"
                               height="82"
                               alt={item.name}
@@ -165,7 +165,7 @@ export default function MenuGroup() {
               </div>
 
               {/* Image Gallery */}
-              <ImageModal />
+              <ImageModal selectedItem={selectedItem} />
             </div>
           )}
         </DialogContent>
