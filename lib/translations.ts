@@ -1914,6 +1914,6 @@ type TranslationKeys = keyof typeof translations["en"]
 
 // Type-safe translation getter
 export const getTranslation = (lang: Language, key: TranslationKeys): string => {
-  const translationSet = translations[lang] as Record<TranslationKeys, string>
+  const translationSet = translations[lang] as unknown as Record<TranslationKeys, string>
   return translationSet[key] || translations.en[key] || ""
 }
