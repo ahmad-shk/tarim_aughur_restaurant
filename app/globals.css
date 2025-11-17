@@ -167,9 +167,6 @@ html, body {
 
   .testimonial-swiper .swiper-button-next,
   .testimonial-swiper .swiper-button-prev {top: 68% !important;}
-
-  /* .mbl-placeholder {position: absolute; left: 0; top: 0; width: 100%; height: 100%; opacity: .2;}
-  .mbl-placeholder img {width: 100%; height: 100%;} */
 }
 
 @media screen and (min-width: 1300px) {
@@ -203,9 +200,6 @@ form .react-datepicker-wrapper {display: block;}
 .light .filter-logo {filter: brightness(100);}
 
 
-.thumb-slider .slick-track {
-  display: flex;
-}
 .thumb-slider .slick-slide {
   width: 189px; min-width: 189px;
 }
@@ -228,19 +222,36 @@ form .react-datepicker-wrapper {display: block;}
 
 .banner-borders {height: calc(100% + 92px); top: -92px;}
 
-/* modal view */
-@media screen and (max-width: 1700px) {
-  .modal-menu-width {
-    max-width: 1100px;
-  }
-}
-@media screen and (max-width: 1800px) {
-  .modal-menu-width {
-    max-width: 860px;
-  }
-}
-
 .open-drawer {overflow: hidden;}
 
 [data-slot="dialog-overlay"] {z-index: 101;}
 [data-slot="dialog-content"] {z-index: 102;}
+
+/* product-item--image */
+.product-item--image {aspect-ratio: 9/16; overflow: hidden; border-radius: 12px; max-height: 180px; min-width: 140px;}
+.product-item--image * {width: 100%; height: 100%; object-fit: cover;}
+
+.product-preview--image {aspect-ratio: 9/16; min-width: 450px; max-width: 450px;}
+.product-preview--image * {width: 100%; height: 100%; object-fit: cover;}
+
+@media screen and (max-width: 991px) { 
+  .product-item--image {min-width: 110px; max-height: 150px;}
+  .product-preview--image {max-height: 440px; min-width: auto;}
+}
+
+/* gallery-slider */
+.gallery-slider .main-image {max-width: 880px;}
+
+.swiper-slide-fully-visible {opacity: .4;}
+.swiper-slide-thumb-active {opacity: 1;}
+
+.swiper-button-prev,
+.swiper-button-next {color: #F5E3BF !important;}
+
+.modal-menu-width {max-width: 1100px; width: 100%;}
+@media screen and (max-width: 1366px) { 
+  .modal-menu-width {max-width: 900px}
+}
+@media screen and (max-width: 1366px) { 
+  .modal-menu-width {max-width: 1000px}
+}

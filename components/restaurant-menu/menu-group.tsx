@@ -59,7 +59,7 @@ export default function MenuGroup() {
                   className={`item-row flex flex-col ${sectionIndex % 2 === 0 ? "lg:flex-row" : "lg:flex-row-reverse"
                     } items-center gap-6 lg:gap-12`}
                 >
-                  <div className="image rounded-md overflow-hidden">
+                  <div className="image rounded-md overflow-hidden product-preview--image">
                     <Image
                       src={category.categoryImage || "/placeholder.svg"}
                       width="400"
@@ -76,7 +76,7 @@ export default function MenuGroup() {
                         onClick={() => handleItemClick(item)}
                       >
                         <div className="item flex items-center gap-3 flex-1">
-                          <div className="image rounded-sm min-w-[120px] w-[120px]">
+                          <div className="image rounded-sm product-item--image">
                             <Image
                               src={item.images?.[0] ?? "/placeholder.svg"}
                               width="120"
@@ -86,7 +86,7 @@ export default function MenuGroup() {
                           </div>
 
                           <div className="info text-black dark:text-color-secondary flex-1">
-                            <div className="flex gap-2 items-center flex-1">
+                            <div className="flex gap-2 items-center flex-1 mb-2">
                               <h5 className="aboreto-text text-xl lg:text-3xl flex items-center gap-2 flex-1">
                                 {item.name}
 
@@ -239,7 +239,7 @@ export default function MenuGroup() {
                       onClick={() => handleItemClick(item)}
                     >
                       <div className="item flex items-center gap-3 flex-1">
-                        <div className="image rounded-sm min-w-[120px] w-[120px]">
+                        <div className="image rounded-sm product-item--image">
                           <Image
                             src={item.images[0] || "/placeholder.svg"}
                             width={120}
@@ -249,7 +249,7 @@ export default function MenuGroup() {
                         </div>
 
                         <div className="info text-black dark:text-color-secondary flex-1">
-                          <div className="flex gap-2 items-center flex-1">
+                          <div className="flex gap-2 items-center flex-1 mb-2">
                             <h5 className="aboreto-text text-xl lg:text-3xl flex items-center gap-2 flex-1">
                               {item.name}
 

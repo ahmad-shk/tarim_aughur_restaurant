@@ -1,84 +1,103 @@
-'use client';
-import React, { useState, useRef } from 'react';
-import Image from 'next/image';
-import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
+"use client";
+import React, { useState, useEffect } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { FreeMode, Navigation, Thumbs } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/free-mode";
+import "swiper/css/navigation";
+import "swiper/css/thumbs";
+import Image from "next/image";
 
 interface ImageModalProps {
   selectedItem: {
-    images?: string[]; // optional array of image URLs
+    images?: string[];
     name?: string;
   } | null;
 }
 
-const ImageModal = ({ selectedItem }: ImageModalProps) => {
-  console.log('Selected Item in ImageModal:', selectedItem);
-  const [nav1, setNav1] = useState<any>(null);
-  const [nav2, setNav2] = useState<any>(null);
-  const slider1 = useRef<any>(null);
-  const slider2 = useRef<any>(null);
+export default function App({ selectedItem }: ImageModalProps) {
+  const [thumbsSwiper, setThumbsSwiper] = useState<any>(null);
+  const [isMobile, setIsMobile] = useState(false);
 
-  if (!selectedItem || !selectedItem.images || selectedItem.images.length === 0) {
-    return <p>No images available</p>;
-  }
+  useEffect(() => {
+    const checkScreen = () => setIsMobile(window.innerWidth < 768);
+    checkScreen();
+    window.addEventListener("resize", checkScreen);
+    return () => window.removeEventListener("resize", checkScreen);
+  }, []);
 
-  const mainSettings = {
-    asNavFor: nav2,
-    ref: (slider: any) => setNav1(slider),
-    arrows: false,
-    fade: true,
-    infinite: false,   
-  };
-
-  const thumbSettings = {
-    asNavFor: nav1,
-    ref: (slider: any) => setNav2(slider),
-    slidesToShow: Math.min(selectedItem.images.length, 5),
-    swipeToSlide: true,
-    focusOnSelect: true,
-    centerPadding: '0px',
-    variableWidth: true,
-    arrows: false,
-    infinite: false,   
-  };
+  if (!selectedItem?.images) return null;
 
   return (
-    <div className="w-full max-w-full mx-auto">
-      {/* Main Slider */}
-      <Slider {...mainSettings} ref={slider1} className="max-w-full">
+    <div className="w-full flex flex-col md:flex-row gap-4 mb-10">
+  {/* MAIN IMAGE */}
+  <div className="w-full md:w-[84%] md:h-[460px] h-[220px]">
+    <Swiper
+      spaceBetween={10}
+      navigation={true}
+      thumbs={{
+        swiper: thumbsSwiper && !thumbsSwiper.destroyed ? thumbsSwiper : null,
+      }}
+      modules={[FreeMode, Navigation, Thumbs]}
+      className="mySwiper2 h-full"
+    >
+      {selectedItem.images.map((img, idx) => (
+        <SwiperSlide key={idx} className="relative w-full h-full rounded-lg overflow-hidden">
+          <Image
+            src={img}
+            alt=""
+            fill
+            className="object-cover"
+          />
+        </SwiperSlide>
+      ))}
+    </Swiper>
+  </div>
+
+  {/* THUMBNAILS */}
+  <div className="w-full md:w-[16%] md:h-[460px]">
+    {!isMobile && (
+      <Swiper
+        onSwiper={setThumbsSwiper}
+        direction="vertical"
+        slidesPerView={5}
+        spaceBetween={5}
+        freeMode={true}
+        watchSlidesProgress={true}
+        modules={[FreeMode, Navigation, Thumbs]}
+        className="mySwiper h-full"
+      >
         {selectedItem.images.map((img, idx) => (
-          <div key={idx} className="relative w-full aspect-16/8 rounded-3xl overflow-hidden">
-            <Image
-              src={img}
-              alt={`${selectedItem.name} image ${idx + 1}`}
-              width={800}
-              height={600}
-              className="w-full object-cover"
-            />
-          </div>
-        ))}
-      </Slider>
-
-      {/* Thumbnail Slider */}
-      <div className="mt-4 -mx-2.5">
-        <Slider className="thumb-slider" {...thumbSettings} ref={slider2}>
-          {selectedItem.images.map((img, idx) => (
-            <div key={idx} className="px-2.5">
-              <div className="relative h-[100px] cursor-pointer">
-                <Image
-                  src={img}
-                  alt={`${selectedItem.name} thumbnail ${idx + 1}`}
-                  fill
-                  className="object-cover rounded-lg"
-                />
-              </div>
+          <SwiperSlide key={idx}>
+            <div className="relative h-[80px] rounded-lg overflow-hidden">
+              <Image src={img} alt="" fill className="object-cover" />
             </div>
-          ))}
-        </Slider>
-      </div>
-    </div>
-  );
-};
+          </SwiperSlide>
+        ))}
+      </Swiper>
+    )}
 
-export default ImageModal;
+    {isMobile && (
+      <Swiper
+        onSwiper={setThumbsSwiper}
+        slidesPerView={4}
+        spaceBetween={10}
+        freeMode={true}
+        watchSlidesProgress={true}
+        modules={[FreeMode, Navigation, Thumbs]}
+        className="mySwiper mt-3"
+      >
+        {selectedItem.images.map((img, idx) => (
+          <SwiperSlide key={idx}>
+            <div className="relative h-[70px] rounded-lg overflow-hidden">
+              <Image src={img} alt="" fill className="object-cover" />
+            </div>
+          </SwiperSlide>
+        ))}
+      </Swiper>
+    )}
+  </div>
+</div>
+
+  );
+}

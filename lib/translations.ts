@@ -984,7 +984,7 @@ export const translations = {
       {
         "id": "main_dishes",
         "name": "Main Dishes",
-        "categoryImage": "/menu-items/menu-category.png",
+        "categoryImage": "/menu-items/product-1.jpg",
         "sections": [
           {
             "id": "main-1",
