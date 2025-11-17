@@ -16,10 +16,10 @@ import { useLanguage } from "@/lib/language-context";
 import { getTranslation } from "@/lib/translations";
 import { Hero } from "@/components/contact-us/hero";
 
-type MenuCategory = "breakfast" | "lunch" | "dinner" | "desserts"
+type MenuCategory = "main_dishes" | "noodles_rice_bowls" | "starters_snacks_salads" | "bbq_grills" | "vegetarish" | "beverages"
 
 export default function ResturantMenu() {
-  const [activeCategory, setActiveCategory] = useState<MenuCategory>("breakfast")
+  const [activeCategory, setActiveCategory] = useState<MenuCategory>("main_dishes")
 
   const { language } = useLanguage()
   const t = (key: string) => getTranslation(language, key as any)
@@ -32,7 +32,7 @@ export default function ResturantMenu() {
         <div className="max-w-[1300px] px-4 mx-auto md:mb-20 mb-12">
           <div className="grid md:grid-cols-2 md:gap-12 gap-10 items-center">
             <div className="md:text-start text-center">
-                <h3 className="aboreto-text dark:text-secondary 2xl:text-[55px] xl:text-[50px] text-[28px] md:mb-[20px] mb-[10px] leading-[1.3]">{t("ContactSection1Heading")}</h3>
+                <h3 className="aboreto-text dark:text-secondary 2xl:text-[55px] xl:text-[50px] text-[28px] md:mb-5 mb-2.5 leading-[1.3]">{t("ContactSection1Heading")}</h3>
                 <p className="md:text-[28px] text-[20px] md:w-8/12">{t("ContactSection1SubHeading")}</p>
             </div>
             <div className="grid grid-cols-2 md:gap-5 gap-2">

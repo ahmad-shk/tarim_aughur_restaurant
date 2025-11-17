@@ -2,7 +2,7 @@
 
 import { translations } from "@/lib/translations"
 
-type MenuCategory = "breakfast" | "lunch" | "dinner" | "desserts"
+type MenuCategory = "main_dishes" | "noodles_rice_bowls" | "starters_snacks_salads" | "bbq_grills" | "vegetarish" | "beverages"
 
 interface MenuNavigationProps {
   activeCategory: MenuCategory

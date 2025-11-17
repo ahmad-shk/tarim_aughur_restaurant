@@ -53,7 +53,7 @@ export default function MenuGroup() {
             </h2>
 
             <div className="space-y-10">
-              {category.sections.map((section, sectionIndex) => (
+              {category.sections.slice(0, 2).map((section, sectionIndex) => (
                 <div
                   key={section.id}
                   className={`item-row flex flex-col ${sectionIndex % 2 === 0 ? "lg:flex-row" : "lg:flex-row-reverse"
@@ -78,7 +78,7 @@ export default function MenuGroup() {
                         <div className="item flex items-center gap-3 flex-1">
                           <div className="image rounded-sm min-w-[120px] w-[120px]">
                             <Image
-                              src={item.images[0] || "/placeholder.svg"}
+                              src={item.images?.[0] ?? "/placeholder.svg"}
                               width="120"
                               height="82"
                               alt={item.name}
@@ -117,18 +117,19 @@ export default function MenuGroup() {
                   </ul>
                 </div>
               ))}
-
-              <div className="flex justify-center">
-                <button className="cursor-pointer aboreto-text px-8 md:py-3 py-2 rounded-full border-2 border-color-primary text-white transition-all duration-300 tracking-wide bg-color-primary dark:bg-color-secondary dark:text-color-primary hover:opacity-70"
-                  onClick={() => {
-                    setDrawerCategory(category);
-                    setIsDrawerOpen(true);
-                    document.querySelector('body')?.classList.add('open-drawer');
-                  }}
-                >
-                  See more
-                </button>
-              </div>
+              {category.sections.length > 2 &&
+                <div className="flex justify-center">
+                  <button className="cursor-pointer aboreto-text px-8 md:py-3 py-2 rounded-full border-2 border-color-primary text-white transition-all duration-300 tracking-wide bg-color-primary dark:bg-color-secondary dark:text-color-primary hover:opacity-70"
+                    onClick={() => {
+                      setDrawerCategory(category);
+                      setIsDrawerOpen(true);
+                      document.querySelector('body')?.classList.add('open-drawer');
+                    }}
+                  >
+                    See more
+                  </button>
+                </div>
+              }
             </div>
           </section>
         ))}
@@ -178,7 +179,7 @@ export default function MenuGroup() {
 
       {/* SEE MORE MODAL */}
       <div
-        className={`fixed inset-0 z-[100] transition-all duration-300 ${isDrawerOpen ? "visible" : "invisible"
+        className={`fixed inset-0 z-100 transition-all duration-300 ${isDrawerOpen ? "visible" : "invisible"
           }`}
       >
         {/* Background Overlay */}
@@ -210,7 +211,7 @@ export default function MenuGroup() {
               }}
               className="text-2xl dark:text-white close-button cursor-pointer hover:bg-light"
             >
-              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 12h18m0 0l-8.5-8.5M21 12l-8.5 8.5"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 12h18m0 0l-8.5-8.5M21 12l-8.5 8.5" /></svg>
             </button>
           </div>
 

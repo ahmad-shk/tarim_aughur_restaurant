@@ -81,251 +81,81 @@ export const translations = {
 
 
     // menu text
-    RestaurantMenuText: "Restaurantmenü",
-    menuCategories: {
-      breakfast: "FRÜHSTÜCK",
-      lunch: "MITTAGESSEN",
-      dinner: "ABENDESSEN",
-      desserts: "DESSERTS",
+    "RestaurantMenuText": "TARIM UYGHUR RESTAURANT MENÜ",
+    "menuCategories": {
+      "main_dishes": "HAUPTGERICHTE",
+      "noodles_rice_bowls": "NUDELN & REIS-BOWLS",
+      "starters_snacks_salads": "VORSPEISEN, SNACKS & SALATE",
+      "bbq_grills": "BBQ & GRILLS",
+      "vegetarish": "VEGETARISCH",
+      "beverages": "GETRÄNKE"
     },
     "categories": [
       {
-        "id": "breakfast",
-        "name": "Frühstück",
+        "id": "main_dishes",
+        "name": "Hauptgerichte",
         "categoryImage": "/menu-items/menu-category.png",
         "sections": [
           {
-            "id": "breakfast-1",
+            "id": "main-1",
             "items": [
               {
-                "id": "breakfast-item-1",
-                "name": "Patatas Bravas",
-                "description": "Knusprige Kartoffeln, garniert mit scharfer Tomatensauce und Aioli – der perfekte Snack.",
-                "price": 10,
-                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
+                "id": "main-item-1",
+                "name": "HÄHNCHEN MIT KARTOFFELN",
+                "description": "Hähnchen, Kartoffeln, Paprika, Chilischoten.",
+                "price": 12.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
                 "isSpicy": true
               },
               {
-                "id": "breakfast-item-2",
-                "name": "Tortilla Española",
-                "description": "Spanisches Omelett aus Kartoffeln, Zwiebeln und Eiern. Ein klassisches Gericht.",
-                "price": 12,
-                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
-                "isSpicy": false
-              },
-              {
-                "id": "breakfast-item-3",
-                "name": "Pan con Tomate",
-                "description": "Frische Tomaten und Olivenöl auf geröstetem Brot. Einfach und köstlich.",
-                "price": 8,
-                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
-                "isSpicy": false
-              },
-              {
-                "id": "breakfast-item-4",
-                "name": "Churros con Chocolate",
-                "description": "Frittiertes Gebäck, serviert mit heißer Schokolade. Ein süßer Start in den Tag.",
-                "price": 9,
-                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
-                "isSpicy": false
-              }
-            ]
-          },
-          {
-            "id": "breakfast-2",
-            "items": [
-              {
-                "id": "breakfast-item-5",
-                "name": "Croquetas de Jamón",
-                "description": "Cremige Schinken-Kroketten. Ein perfekter herzhafter Frühstücksgenuss.",
-                "price": 11,
-                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
-                "isSpicy": false
-              },
-              {
-                "id": "breakfast-item-6",
-                "name": "Huevos Rotos",
-                "description": "Knusprige Bratkartoffeln mit Spiegeleiern und Serrano-Schinken.",
-                "price": 13,
-                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
-                "isSpicy": false
-              },
-              {
-                "id": "breakfast-item-7",
-                "name": "Espinacas con Garbanzos",
-                "description": "Gebratener Spinat mit Kichererbsen. Gesund und voller Geschmack.",
-                "price": 10,
-                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
-                "isSpicy": false
-              },
-              {
-                "id": "breakfast-item-8",
-                "name": "Jamón Ibérico",
-                "description": "Frisch aufgeschnittener iberischer Schinken. Ein luxuriöses Frühstück.",
-                "price": 15,
-                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
-                "isSpicy": false
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "lunch",
-        "name": "Mittagessen",
-        "categoryImage": "/menu-items/menu-category.png",
-        "sections": [
-          {
-            "id": "lunch-1",
-            "items": [
-              {
-                "id": "lunch-item-1",
-                "name": "Paella Valenciana",
-                "description": "Traditionelle valencianische Paella mit Safran, Huhn und Meeresfrüchten.",
-                "price": 18,
-                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
-                "isSpicy": false
-              },
-              {
-                "id": "lunch-item-2",
-                "name": "Gazpacho",
-                "description": "Kalte Tomatensuppe – perfekt für warme Tage.",
-                "price": 8,
-                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
-                "isSpicy": false
-              },
-              {
-                "id": "lunch-item-3",
-                "name": "Pulpo a la Gallega",
-                "description": "Zarter Oktopus mit Paprika und Olivenöl.",
-                "price": 16,
-                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
+                "id": "main-item-2",
+                "name": "SPICY CRISPY CHICKEN",
+                "description": "Knuspriges Hähnchenfleisch, rote Chilischoten, getrocknete Chilischoten, scharf.",
+                "price": 35.0,
+                "price_large": 45.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
                 "isSpicy": true
               },
               {
-                "id": "lunch-item-4",
-                "name": "Rabo de Toro",
-                "description": "Herzhaftes Ochsenschwanzragout – spanisches Soulfood.",
-                "price": 14,
-                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
-                "isSpicy": false
-              }
-            ]
-          },
-          {
-            "id": "lunch-2",
-            "items": [
-              {
-                "id": "lunch-item-5",
-                "name": "Gambas al Ajillo",
-                "description": "Garnelen in Knoblauch und Olivenöl gebraten.",
-                "price": 15,
-                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
-                "isSpicy": true
-              },
-              {
-                "id": "lunch-item-6",
-                "name": "Calamares Fritos",
-                "description": "Knusprig frittierte Tintenfischringe mit Zitrone serviert.",
-                "price": 13,
-                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
+                "id": "main-item-3",
+                "name": "DAPANJI (L/S)",
+                "description": "Hähnchen, grüne Paprika, rote Paprika, Kartoffeln, Ingwer.",
+                "price": 35.0,
+                "price_large": 45.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
                 "isSpicy": false
               },
               {
-                "id": "lunch-item-7",
-                "name": "Bacalao a la Vizcaína",
-                "description": "Kabeljau mit Paprika und Tomatensauce.",
-                "price": 17,
-                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
-                "isSpicy": false
-              },
-              {
-                "id": "lunch-item-8",
-                "name": "Caldo Gallego",
-                "description": "Traditionelle galicische Suppe mit weißen Bohnen und Gemüse.",
-                "price": 10,
-                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
-                "isSpicy": false
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "dinner",
-        "name": "Abendessen",
-        "categoryImage": "/menu-items/menu-category.png",
-        "sections": [
-          {
-            "id": "dinner-1",
-            "items": [
-              {
-                "id": "dinner-item-1",
-                "name": "Rabo de Toro",
-                "description": "Geschmorter Ochsenschwanz in Rotweinreduktion.",
-                "price": 20,
-                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
-                "isSpicy": false
-              },
-              {
-                "id": "dinner-item-2",
-                "name": "Merluza a la Sal",
-                "description": "Im Meersalz gebackener Seehecht – elegant und aromatisch.",
-                "price": 22,
-                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
-                "isSpicy": false
-              },
-              {
-                "id": "dinner-item-3",
-                "name": "Solomillo al Whisky",
-                "description": "Rinderfilet mit Whiskysoße.",
-                "price": 25,
-                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
-                "isSpicy": false
-              },
-              {
-                "id": "dinner-item-4",
-                "name": "Lubina a la Dorada",
-                "description": "Goldbarsch mit feiner Sauce.",
-                "price": 23,
-                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
-                "isSpicy": false
-              }
-            ]
-          },
-          {
-            "id": "dinner-2",
-            "items": [
-              {
-                "id": "dinner-item-5",
-                "name": "Pato a la Naranja",
-                "description": "Ente in Orangensauce – eine französisch-spanische Fusion.",
-                "price": 24,
-                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
-                "isSpicy": false
-              },
-              {
-                "id": "dinner-item-6",
-                "name": "Carne Guisada",
-                "description": "Langsam geschmortes Rindfleisch mit Gemüse.",
-                "price": 18,
-                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
-                "isSpicy": false
-              },
-              {
-                "id": "dinner-item-7",
-                "name": "Champiñones Rellenos",
-                "description": "Gefüllte Champignons mit Fleisch und Käse.",
-                "price": 14,
-                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
-                "isSpicy": false
-              },
-              {
-                "id": "dinner-item-8",
-                "name": "Costillas BBQ Ibéricas",
-                "description": "Langsam gegarte iberische Schweinerippchen mit BBQ-Sauce.",
-                "price": 21,
-                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
+                "id": "main-item-4",
+                "name": "HÄHNCHENSTÜCK MIT CHILI",
+                "description": "Huhn, rote Paprika, getrocknete Chilis, pikant.",
+                "price": 35.0,
+                "price_large": 45.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
                 "isSpicy": true
               }
             ]
@@ -333,80 +163,740 @@ export const translations = {
         ]
       },
       {
-        "id": "desserts",
-        "name": "Nachspeisen",
+        "id": "noodles_rice_bowls",
+        "name": "Nudeln & Reis-Bowls",
         "categoryImage": "/menu-items/menu-category.png",
         "sections": [
           {
-            "id": "desserts-1",
+            "id": "noodle-rice-1",
             "items": [
               {
-                "id": "dessert-item-1",
-                "name": "Flan",
-                "description": "Cremiger Karamellpudding – ein spanischer Klassiker.",
-                "price": 7,
-                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
+                "id": "noodle-rice-item-1",
+                "name": "GESCHNITTENE NUDEL",
+                "description": "Rindfleisch, grüne Paprika, rote Paprika, handgezogene, gebratene Nudeln.",
+                "price": 14.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
                 "isSpicy": false
               },
               {
-                "id": "dessert-item-2",
-                "name": "Tarta de Santiago",
-                "description": "Mandelkuchen aus Santiago de Compostela.",
-                "price": 8,
-                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
+                "id": "noodle-rice-item-2",
+                "name": "RINDFLEISCH UND GEMÜSE MIT GESCHNITTENE NUDELN",
+                "description": "Rindfleisch, grüne Paprika, rote Paprika, Handgezogene, gebratene Nudeln.",
+                "price": 14.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
                 "isSpicy": false
               },
               {
-                "id": "dessert-item-3",
-                "name": "Crema Catalana",
-                "description": "Katalanische Creme mit karamellisierter Zuckerschicht.",
-                "price": 8,
-                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
+                "id": "noodle-rice-item-3",
+                "name": "POLO",
+                "description": "Rindfleisch, Karotten, Zwiebeln, Reis, Krautsalat.",
+                "price": 20.0,
+                "price_small": 15.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
                 "isSpicy": false
               },
               {
-                "id": "dessert-item-4",
-                "name": "Torrijas",
-                "description": "Spanischer French Toast mit Honig und Zimt.",
-                "price": 9,
-                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
+                "id": "noodle-rice-item-4",
+                "name": "GEBRATENES RINDFLEISCH KOCHEN",
+                "description": "Rindfleisch, Kartoffeln, Karotten, Frühlingszwiebeln.",
+                "price": 45.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
                 "isSpicy": false
               }
             ]
           },
           {
-            "id": "desserts-2",
+            "id": "noodle-rice-2",
             "items": [
               {
-                "id": "dessert-item-5",
-                "name": "Churros",
-                "description": "Frittiertes Gebäck mit Zucker bestäubt. Perfekt zum Dippen.",
-                "price": 6,
-                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
+                "id": "noodle-rice-item-5",
+                "name": "Laghman (Handgezogene Nudeln)",
+                "description": "Rindfleisch, getrockneter Chili, gebratene Nudeln, Sesam, Knoblauch, Sojasauce.",
+                "price": 14.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": true
+              },
+              {
+                "id": "noodle-rice-item-6",
+                "name": "Ding Ding Kawap",
+                "description": "Rindfleisch, grüne Paprika, rote Paprika, Handgezogene, gebratene Nudeln.",
+                "price": 14.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
                 "isSpicy": false
               },
               {
-                "id": "dessert-item-6",
-                "name": "Natillas",
-                "description": "Cremiger Vanillepudding mit zerdrückten Keksen.",
-                "price": 7,
-                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
+                "id": "noodle-rice-item-7",
+                "name": "Pian-Pian Kawap",
+                "description": "Rindfleisch, grüne Paprika, rote Paprika, handgezogene, gebratene Nudeln.",
+                "price": 14.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
                 "isSpicy": false
               },
               {
-                "id": "dessert-item-7",
-                "name": "Polvorones",
-                "description": "Zartes Mürbeteiggebäck – ein traditionelles Weihnachtsdessert.",
-                "price": 5,
-                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
+                "id": "noodle-rice-item-8",
+                "name": "Zhuafan (Reisgericht)",
+                "description": "Rindfleisch, Karotten, Zwiebeln, Reis, Krautsalat.",
+                "price": 15.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "starters_snacks_salads",
+        "name": "Suppen, Kalte Vorspeisen & Snacks / Salate",
+        "categoryImage": "/menu-items/menu-category.png",
+        "sections": [
+          {
+            "id": "starters-1",
+            "items": [
+              {
+                "id": "starter-item-1",
+                "name": "RINDSUPPE MIT NUDEL",
+                "description": "Rindfleisch, Koriander, Rindfleischsuppe, Nudeln.",
+                "price": 9.9,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
                 "isSpicy": false
               },
               {
-                "id": "dessert-item-8",
-                "name": "Sorbete de Limón",
-                "description": "Erfrischendes Zitronensorbet.",
-                "price": 6,
-                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
+                "id": "starter-item-2",
+                "name": "GESCHMORTE NUDELN",
+                "description": "Rindfleisch, Koriander, Rindfleischsuppe, Nudeln, scharf und würzig.",
+                "price": 11.9,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": true
+              },
+              {
+                "id": "starter-item-3",
+                "name": "GEBRATENE SCHARFE REISNUDELN",
+                "description": "Pikant, Reisnudeln, Huhn, Sellerie.",
+                "price": 14.0,
+                "price_small": 12.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": true
+              },
+              {
+                "id": "starter-item-4",
+                "name": "SAMSA (1 STÜCK)",
+                "description": "Rindfleisch, getoastete Brötchen.",
+                "price": 2.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              }
+            ]
+          },
+          {
+            "id": "starters-2",
+            "items": [
+              {
+                "id": "starter-item-5",
+                "name": "GEDÄMPFTE TEIGTASCHEN (3 STÜCK)",
+                "description": "Gedämpfte Teigtaschen mit Rindfleisch.",
+                "price": 5.9,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "starter-item-6",
+                "name": "KALTER RINDFLEISCHSALAT",
+                "description": "Kalter Rindfleischsalat mit Rindfleisch, Koriander, Knoblauch.",
+                "price": 12.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "starter-item-7",
+                "name": "UYGHUR SALAT",
+                "description": "Vermicelli, Karotten.",
+                "price": 8.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "starter-item-8",
+                "name": "RANGPIZA",
+                "description": "Kalte Nudeln und Teigwaren.",
+                "price": 6.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              }
+            ]
+          },
+          {
+            "id": "starters-3",
+            "items": [
+              {
+                "id": "starter-item-9",
+                "name": "SERIGAX",
+                "description": "Kalte Nudeln und Teigwaren.",
+                "price": 6.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "starter-item-10",
+                "name": "MUNGOBOHNENMEHL MIT SOSE",
+                "description": "Kalte Nudeln und Teigwaren mit Mungobohnenmehlsauce.",
+                "price": 6.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "starter-item-11",
+                "name": "GURKENSALAT",
+                "description": "Gurkensalat.",
+                "price": 6.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "starter-item-12",
+                "name": "UIGURISCHE SPEZIAL SALAT",
+                "description": "Tomaten, Koriander, grüne Paprika, Zwiebeln.",
+                "price": 6.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              }
+            ]
+          },
+          {
+            "id": "starters-4",
+            "items": [
+              {
+                "id": "starter-item-13",
+                "name": "GOXNAN",
+                "description": "Rindfleisch, Zwiebel (Gebackenes Brot mit Rindfleischfüllung).",
+                "price": 15.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "starter-item-14",
+                "name": "QUQUR",
+                "description": "Rindfleisch (Gedämpfter gefüllter Hefekloß mit Rindfleisch).",
+                "price": 12.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "starter-item-15",
+                "name": "REIS",
+                "description": "Reis.",
+                "price": 4.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "bbq_grills",
+        "name": "BBQ & Grills / Gegrillte Spezialitäten",
+        "categoryImage": "/menu-items/menu-category.png",
+        "sections": [
+          {
+            "id": "bbq-1",
+            "items": [
+              {
+                "id": "bbq-item-1",
+                "name": "LAMMSPIESSE (1 STÜCK)",
+                "description": "Lamm/Rindfleisch.",
+                "price": 4.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "bbq-item-2",
+                "name": "LAMMKARREE (1 STÜCK)",
+                "description": "Lammkarree.",
+                "price": 6.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "vegetarish",
+        "name": "Vegetarisch",
+        "categoryImage": "/menu-items/menu-category.png",
+        "sections": [
+          {
+            "id": "veg-1",
+            "items": [
+              {
+                "id": "veg-item-1",
+                "name": "SCHARFER MALA-TOFU",
+                "description": "Tofu, Frühlingszwiebeln und Chili.",
+                "price": 9.9,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": true
+              },
+              {
+                "id": "veg-item-2",
+                "name": "SPINAT MIT EI",
+                "description": "Eier, Spinat.",
+                "price": 9.9,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "veg-item-3",
+                "name": "SAUER-SCHARFE KARTOFFELN",
+                "description": "Geschredderte Kartoffeln, Paprika.",
+                "price": 9.9,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "beverages",
+        "name": "Getränke",
+        "categoryImage": "/menu-items/menu-category.png",
+        "sections": [
+          {
+            "id": "beverages-1",
+            "items": [
+              {
+                "id": "beverage-item-1",
+                "name": "REDBULL",
+                "description": "Softdrink.",
+                "price": 3.9,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "beverage-item-2",
+                "name": "COCA COLA/ZERO",
+                "description": "Softdrink.",
+                "price": 3.5,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "beverage-item-3",
+                "name": "FANTA",
+                "description": "Softdrink.",
+                "price": 3.8,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "beverage-item-4",
+                "name": "SPRITE",
+                "description": "Softdrink.",
+                "price": 3.8,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              }
+            ]
+          },
+          {
+            "id": "beverages-2",
+            "items": [
+              {
+                "id": "beverage-item-5",
+                "name": "EIS TEE ZITRONE/PFIRSICH",
+                "description": "Softdrink.",
+                "price": 3.3,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "beverage-item-6",
+                "name": "SODA ZITRONE",
+                "description": "Softdrink.",
+                "price": 3.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "beverage-item-7",
+                "name": "SODA HOLUNDER",
+                "description": "Softdrink.",
+                "price": 3.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "beverage-item-8",
+                "name": "SODA HIMBEER",
+                "description": "Softdrink.",
+                "price": 3.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              }
+            ]
+          },
+          {
+            "id": "beverages-3",
+            "items": [
+              {
+                "id": "beverage-item-9",
+                "name": "PFIRSICHSAFT STILL",
+                "description": "Softdrink.",
+                "price": 2.5,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "beverage-item-10",
+                "name": "KWAS",
+                "description": "Softdrink.",
+                "price": 3.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "beverage-item-11",
+                "name": "APFEL GESPRITZT",
+                "description": "Softdrink.",
+                "price": 3.5,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "beverage-item-12",
+                "name": "ORANGE GESPRITZT",
+                "description": "Softdrink.",
+                "price": 3.5,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              }
+            ]
+          },
+          {
+            "id": "beverages-4",
+            "items": [
+              {
+                "id": "beverage-item-13",
+                "name": "JASMIN TEE (KANNE)",
+                "description": "Heißgetränk.",
+                "price": 6.5,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "beverage-item-14",
+                "name": "SCHWARZER TEE (KANNE)",
+                "description": "Heißgetränk.",
+                "price": 6.5,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "beverage-item-15",
+                "name": "GRÜNER TEE (KANNE)",
+                "description": "Heißgetränk.",
+                "price": 6.5,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "beverage-item-16",
+                "name": "ROSEN TEE (KANNE)",
+                "description": "Heißgetränk.",
+                "price": 6.5,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "beverage-item-17",
+                "name": "INGWERTEE (KANNE)",
+                "description": "Heißgetränk.",
+                "price": 6.5,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "beverage-item-18",
+                "name": "SPEZIAL TEE (KANNE)",
+                "description": "Heißgetränk.",
+                "price": 6.5,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
                 "isSpicy": false
               }
             ]
@@ -510,251 +1000,81 @@ export const translations = {
     allRightsReserved: "All Rights Reserved",
 
     // menu text
-    RestaurantMenuText: "Restaurant Menu",
-    menuCategories: {
-      breakfast: "BREAKFAST",
-      lunch: "LUNCH",
-      dinner: "DINNER",
-      desserts: "DESSERTS",
+    "RestaurantMenuText": "TARIM UYGHUR RESTAURANT MENU",
+    "menuCategories": {
+      "main_dishes": "MAIN DISHES",
+      "noodles_rice_bowls": "NOODLES & RICE BOWLS",
+      "starters_snacks_salads": "STARTERS, SNACKS & SALADS",
+      "bbq_grills": "BBQ & GRILLS",
+      "vegetarish": "VEGETARIAN",
+      "beverages": "BEVERAGES"
     },
     "categories": [
       {
-        "id": "breakfast",
-        "name": "Breakfast",
+        "id": "main_dishes",
+        "name": "Main Dishes",
         "categoryImage": "/menu-items/menu-category.png",
         "sections": [
           {
-            "id": "breakfast-1",
+            "id": "main-1",
             "items": [
               {
-                "id": "breakfast-item-1",
-                "name": "Patatas Bravas",
-                "description": "Crispy potatoes topped with spicy tomato sauce and aioli for a perfect snack.",
-                "price": 10,
-                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
+                "id": "main-item-1",
+                "name": "CHICKEN WITH POTATOES",
+                "description": "Chicken, Potatoes, Paprika, Chili peppers.",
+                "price": 12.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
                 "isSpicy": true
               },
               {
-                "id": "breakfast-item-2",
-                "name": "Tortilla Española",
-                "description": "Spanish omelet made with potatoes, onions, and eggs. A classic dish.",
-                "price": 12,
-                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
-                "isSpicy": false
-              },
-              {
-                "id": "breakfast-item-3",
-                "name": "Pan con Tomate",
-                "description": "Fresh tomato and olive oil on toasted bread. Simple and delicious.",
-                "price": 8,
-                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
-                "isSpicy": false
-              },
-              {
-                "id": "breakfast-item-4",
-                "name": "Churros con Chocolate",
-                "description": "Fried pastry served with hot chocolate. A sweet start to your day.",
-                "price": 9,
-                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
-                "isSpicy": false
-              }
-            ]
-          },
-          {
-            "id": "breakfast-2",
-            "items": [
-              {
-                "id": "breakfast-item-5",
-                "name": "Croquetas de Jamón",
-                "description": "Creamy ham croquetas. A perfect savory breakfast treat.",
-                "price": 11,
-                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
-                "isSpicy": false
-              },
-              {
-                "id": "breakfast-item-6",
-                "name": "Huevos Rotos",
-                "description": "Crispy fried potatoes with runny eggs and serrano ham.",
-                "price": 13,
-                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
-                "isSpicy": false
-              },
-              {
-                "id": "breakfast-item-7",
-                "name": "Espinacas con Garbanzos",
-                "description": "Sautéed spinach with chickpeas. Healthy and flavorful.",
-                "price": 10,
-                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
-                "isSpicy": false
-              },
-              {
-                "id": "breakfast-item-8",
-                "name": "Jamón Ibérico",
-                "description": "Premium Iberian ham sliced fresh. A luxury breakfast.",
-                "price": 15,
-                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
-                "isSpicy": false
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "lunch",
-        "name": "Lunch",
-        "categoryImage": "/menu-items/menu-category.png",
-        "sections": [
-          {
-            "id": "lunch-1",
-            "items": [
-              {
-                "id": "lunch-item-1",
-                "name": "Paella Valenciana",
-                "description": "Traditional Valencian paella with saffron, chicken, and seafood.",
-                "price": 18,
-                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
-                "isSpicy": false
-              },
-              {
-                "id": "lunch-item-2",
-                "name": "Gazpacho",
-                "description": "Cold tomato soup perfect for warm days.",
-                "price": 8,
-                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
-                "isSpicy": false
-              },
-              {
-                "id": "lunch-item-3",
-                "name": "Pulpo a la Gallega",
-                "description": "Tender octopus with paprika and olive oil.",
-                "price": 16,
-                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
+                "id": "main-item-2",
+                "name": "SPICY CRISPY CHICKEN",
+                "description": "Crispy chicken meat, red chili peppers, dried chili peppers, spicy.",
+                "price": 35.0,
+                "price_large": 45.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
                 "isSpicy": true
               },
               {
-                "id": "lunch-item-4",
-                "name": "Rabo de Toro",
-                "description": "Hearty oxtail stew. A Spanish comfort food.",
-                "price": 14,
-                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
-                "isSpicy": false
-              }
-            ]
-          },
-          {
-            "id": "lunch-2",
-            "items": [
-              {
-                "id": "lunch-item-5",
-                "name": "Gambas al Ajillo",
-                "description": "Shrimp sautéed with garlic and olive oil.",
-                "price": 15,
-                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
-                "isSpicy": true
-              },
-              {
-                "id": "lunch-item-6",
-                "name": "Calamares Fritos",
-                "description": "Crispy fried squid served with lemon.",
-                "price": 13,
-                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
+                "id": "main-item-3",
+                "name": "DAPANJI (L/S)",
+                "description": "Chicken, green paprika, red paprika, potatoes, ginger.",
+                "price": 35.0,
+                "price_large": 45.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
                 "isSpicy": false
               },
               {
-                "id": "lunch-item-7",
-                "name": "Bacalao a la Vizcaína",
-                "description": "Cod with red peppers and tomato sauce.",
-                "price": 17,
-                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
-                "isSpicy": false
-              },
-              {
-                "id": "lunch-item-8",
-                "name": "Caldo Gallego",
-                "description": "Traditional Galician soup with white beans and greens.",
-                "price": 10,
-                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
-                "isSpicy": false
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "dinner",
-        "name": "Dinner",
-        "categoryImage": "/menu-items/menu-category.png",
-        "sections": [
-          {
-            "id": "dinner-1",
-            "items": [
-              {
-                "id": "dinner-item-1",
-                "name": "Rabo de Toro",
-                "description": "Braised oxtail in red wine reduction.",
-                "price": 20,
-                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
-                "isSpicy": false
-              },
-              {
-                "id": "dinner-item-2",
-                "name": "Merluza a la Sal",
-                "description": "Hake baked in sea salt. Elegant and flavorful.",
-                "price": 22,
-                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
-                "isSpicy": false
-              },
-              {
-                "id": "dinner-item-3",
-                "name": "Solomillo al Whisky",
-                "description": "Tenderloin steak with whisky sauce.",
-                "price": 25,
-                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
-                "isSpicy": false
-              },
-              {
-                "id": "dinner-item-4",
-                "name": "Lubina a la Dorada",
-                "description": "Sea bass with golden sauce.",
-                "price": 23,
-                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
-                "isSpicy": false
-              }
-            ]
-          },
-          {
-            "id": "dinner-2",
-            "items": [
-              {
-                "id": "dinner-item-5",
-                "name": "Pato a la Naranja",
-                "description": "Duck in orange sauce. A classic French-Spanish fusion.",
-                "price": 24,
-                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
-                "isSpicy": false
-              },
-              {
-                "id": "dinner-item-6",
-                "name": "Carne Guisada",
-                "description": "Slow-cooked beef stew with vegetables.",
-                "price": 18,
-                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
-                "isSpicy": false
-              },
-              {
-                "id": "dinner-item-7",
-                "name": "Champiñones Rellenos",
-                "description": "Stuffed mushrooms with meat and cheese.",
-                "price": 14,
-                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
-                "isSpicy": false
-              },
-              {
-                "id": "dinner-item-8",
-                "name": "Costillas BBQ Ibéricas",
-                "description": "Slow-cooked Iberian pork ribs with BBQ sauce.",
-                "price": 21,
-                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
+                "id": "main-item-4",
+                "name": "CHICKEN PIECES WITH CHILI",
+                "description": "Chicken, red paprika, dried chilis, piquant.",
+                "price": 35.0,
+                "price_large": 45.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
                 "isSpicy": true
               }
             ]
@@ -762,80 +1082,740 @@ export const translations = {
         ]
       },
       {
-        "id": "desserts",
-        "name": "Desserts",
+        "id": "noodles_rice_bowls",
+        "name": "Noodles & Rice Bowls",
         "categoryImage": "/menu-items/menu-category.png",
         "sections": [
           {
-            "id": "desserts-1",
+            "id": "noodle-rice-1",
             "items": [
               {
-                "id": "dessert-item-1",
-                "name": "Flan",
-                "description": "Creamy caramel custard. A Spanish classic.",
-                "price": 7,
-                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
+                "id": "noodle-rice-item-1",
+                "name": "CUT NOODLES",
+                "description": "Beef, green paprika, red paprika, hand-pulled, fried noodles.",
+                "price": 14.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
                 "isSpicy": false
               },
               {
-                "id": "dessert-item-2",
-                "name": "Tarta de Santiago",
-                "description": "Almond tart from Santiago de Compostela.",
-                "price": 8,
-                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
+                "id": "noodle-rice-item-2",
+                "name": "BEEF AND VEGETABLES WITH CUT NOODLES",
+                "description": "Beef, green paprika, red paprika, hand-pulled, fried noodles.",
+                "price": 14.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
                 "isSpicy": false
               },
               {
-                "id": "dessert-item-3",
-                "name": "Crema Catalana",
-                "description": "Catalan cream with caramelized sugar top.",
-                "price": 8,
-                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
+                "id": "noodle-rice-item-3",
+                "name": "POLO (RICE PILAF)",
+                "description": "Beef, carrots, onions, rice, coleslaw.",
+                "price": 20.0,
+                "price_small": 15.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
                 "isSpicy": false
               },
               {
-                "id": "dessert-item-4",
-                "name": "Torrijas",
-                "description": "Spanish French toast with honey and cinnamon.",
-                "price": 9,
-                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
+                "id": "noodle-rice-item-4",
+                "name": "FRIED BEEF STEW",
+                "description": "Fried beef, potatoes, carrots, spring onions.",
+                "price": 45.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
                 "isSpicy": false
               }
             ]
           },
           {
-            "id": "desserts-2",
+            "id": "noodle-rice-2",
             "items": [
               {
-                "id": "dessert-item-5",
-                "name": "Churros",
-                "description": "Fried pastry dusted with sugar. Perfect for dipping.",
-                "price": 6,
-                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
+                "id": "noodle-rice-item-5",
+                "name": "Laghman (Hand-pulled Noodles)",
+                "description": "Beef, dried chili, fried noodles, sesame, garlic, soy sauce.",
+                "price": 14.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": true
+              },
+              {
+                "id": "noodle-rice-item-6",
+                "name": "Ding Ding Kawap",
+                "description": "Beef, green peppers, red peppers, fried noodles.",
+                "price": 14.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
                 "isSpicy": false
               },
               {
-                "id": "dessert-item-6",
-                "name": "Natillas",
-                "description": "Creamy custard with crushed cookies.",
-                "price": 7,
-                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
+                "id": "noodle-rice-item-7",
+                "name": "Pian-Pian Kawap",
+                "description": "Beef, green peppers, red peppers, fried noodles.",
+                "price": 14.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
                 "isSpicy": false
               },
               {
-                "id": "dessert-item-7",
-                "name": "Polvorones",
-                "description": "Crumbly shortbread cookies. Traditional holiday treat.",
-                "price": 5,
-                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
+                "id": "noodle-rice-item-8",
+                "name": "Zhuafan (Rice Dish)",
+                "description": "Beef, carrots, onions, rice, coleslaw.",
+                "price": 15.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "starters_snacks_salads",
+        "name": "Soups, Cold Starters & Snacks / Salads",
+        "categoryImage": "/menu-items/menu-category.png",
+        "sections": [
+          {
+            "id": "starters-1",
+            "items": [
+              {
+                "id": "starter-item-1",
+                "name": "BEEF SOUP WITH NOODLES",
+                "description": "Beef, coriander, beef soup, noodles.",
+                "price": 9.9,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
                 "isSpicy": false
               },
               {
-                "id": "dessert-item-8",
-                "name": "Sorbete de Limón",
-                "description": "Refreshing lemon sorbet.",
-                "price": 6,
-                "images": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
+                "id": "starter-item-2",
+                "name": "BRAISED NOODLES (SPICY)",
+                "description": "Beef, coriander, beef soup, noodles, hot and spicy.",
+                "price": 11.9,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": true
+              },
+              {
+                "id": "starter-item-3",
+                "name": "FRIED SPICY RICE NOODLES",
+                "description": "Piquant, rice noodles, chicken, celery.",
+                "price": 14.0,
+                "price_small": 12.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": true
+              },
+              {
+                "id": "starter-item-4",
+                "name": "SAMSA (1 PIECE)",
+                "description": "Beef, toasted bread rolls (baked pastry).",
+                "price": 2.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              }
+            ]
+          },
+          {
+            "id": "starters-2",
+            "items": [
+              {
+                "id": "starter-item-5",
+                "name": "STEAMED DUMPLINGS (3 PIECES)",
+                "description": "Steamed dumplings with beef.",
+                "price": 5.9,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "starter-item-6",
+                "name": "COLD BEEF SALAD",
+                "description": "Cold beef salad with beef, coriander, garlic.",
+                "price": 12.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "starter-item-7",
+                "name": "UYGHUR SALAD",
+                "description": "Vermicelli, carrots.",
+                "price": 8.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "starter-item-8",
+                "name": "RANGPIZA",
+                "description": "Cold noodles and pasta.",
+                "price": 6.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              }
+            ]
+          },
+          {
+            "id": "starters-3",
+            "items": [
+              {
+                "id": "starter-item-9",
+                "name": "SERIGAX",
+                "description": "Cold noodles and pasta.",
+                "price": 6.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "starter-item-10",
+                "name": "MUNG BEAN FLOUR WITH SAUCE",
+                "description": "Cold noodles and pasta with Mung bean flour sauce.",
+                "price": 6.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "starter-item-11",
+                "name": "CUCUMBER SALAD",
+                "description": "Cucumber salad.",
+                "price": 6.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "starter-item-12",
+                "name": "UYGHUR SPECIAL SALAD",
+                "description": "Tomatoes, coriander, green paprika, onions.",
+                "price": 6.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              }
+            ]
+          },
+          {
+            "id": "starters-4",
+            "items": [
+              {
+                "id": "starter-item-13",
+                "name": "GOXNAN (BEEF BREAD)",
+                "description": "Beef, onion.",
+                "price": 15.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "starter-item-14",
+                "name": "QUQUR (STEAMED BUN)",
+                "description": "Beef.",
+                "price": 12.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "starter-item-15",
+                "name": "RICE",
+                "description": "Rice.",
+                "price": 4.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "bbq_grills",
+        "name": "BBQ & Grills / Grilled Specialties",
+        "categoryImage": "/menu-items/menu-category.png",
+        "sections": [
+          {
+            "id": "bbq-1",
+            "items": [
+              {
+                "id": "bbq-item-1",
+                "name": "LAMB SKEWERS (1 PIECE)",
+                "description": "Lamb/Beef.",
+                "price": 4.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "bbq-item-2",
+                "name": "LAMB CHOPS (1 PIECE)",
+                "description": "Lamb chops.",
+                "price": 6.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "vegetarish",
+        "name": "Vegetarian",
+        "categoryImage": "/menu-items/menu-category.png",
+        "sections": [
+          {
+            "id": "veg-1",
+            "items": [
+              {
+                "id": "veg-item-1",
+                "name": "SPICY MALA TOFU",
+                "description": "Tofu, spring onions and chili.",
+                "price": 9.9,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": true
+              },
+              {
+                "id": "veg-item-2",
+                "name": "SPINACH WITH EGG",
+                "description": "Eggs, spinach.",
+                "price": 9.9,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "veg-item-3",
+                "name": "SOUR-SPICY POTATOES",
+                "description": "Shredded potatoes, paprika.",
+                "price": 9.9,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "beverages",
+        "name": "Beverages",
+        "categoryImage": "/menu-items/menu-category.png",
+        "sections": [
+          {
+            "id": "beverages-1",
+            "items": [
+              {
+                "id": "beverage-item-1",
+                "name": "REDBULL",
+                "description": "Soft drink.",
+                "price": 3.9,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "beverage-item-2",
+                "name": "COCA COLA/ZERO",
+                "description": "Soft drink.",
+                "price": 3.5,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "beverage-item-3",
+                "name": "FANTA",
+                "description": "Soft drink.",
+                "price": 3.8,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "beverage-item-4",
+                "name": "SPRITE",
+                "description": "Soft drink.",
+                "price": 3.8,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              }
+            ]
+          },
+          {
+            "id": "beverages-2",
+            "items": [
+              {
+                "id": "beverage-item-5",
+                "name": "ICED TEA LEMON/PEACH",
+                "description": "Soft drink.",
+                "price": 3.3,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "beverage-item-6",
+                "name": "SODA LEMON",
+                "description": "Soft drink.",
+                "price": 3.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "beverage-item-7",
+                "name": "SODA ELDERFLOWER",
+                "description": "Soft drink.",
+                "price": 3.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "beverage-item-8",
+                "name": "SODA RASPBERRY",
+                "description": "Soft drink.",
+                "price": 3.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              }
+            ]
+          },
+          {
+            "id": "beverages-3",
+            "items": [
+              {
+                "id": "beverage-item-9",
+                "name": "PEACH JUICE STILL",
+                "description": "Soft drink.",
+                "price": 2.5,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "beverage-item-10",
+                "name": "KVASS",
+                "description": "Soft drink.",
+                "price": 3.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "beverage-item-11",
+                "name": "APPLE SPRITZER",
+                "description": "Soft drink.",
+                "price": 3.5,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "beverage-item-12",
+                "name": "ORANGE SPRITZER",
+                "description": "Soft drink.",
+                "price": 3.5,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              }
+            ]
+          },
+          {
+            "id": "beverages-4",
+            "items": [
+              {
+                "id": "beverage-item-13",
+                "name": "JASMINE TEA (POT)",
+                "description": "Hot beverage.",
+                "price": 6.5,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "beverage-item-14",
+                "name": "BLACK TEA (POT)",
+                "description": "Hot beverage.",
+                "price": 6.5,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "beverage-item-15",
+                "name": "GREEN TEA (POT)",
+                "description": "Hot beverage.",
+                "price": 6.5,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "beverage-item-16",
+                "name": "ROSE TEA (POT)",
+                "description": "Hot beverage.",
+                "price": 6.5,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "beverage-item-17",
+                "name": "GINGER TEA (POT)",
+                "description": "Hot beverage.",
+                "price": 6.5,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "beverage-item-18",
+                "name": "SPECIAL TEA (POT)",
+                "description": "Hot beverage.",
+                "price": 6.5,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
                 "isSpicy": false
               }
             ]
@@ -853,7 +1833,7 @@ export const translations = {
     ContactSection1Block2Title: "Address",
     ContactSection1Block2Time: "123 Luxury Lane, Downtown"
   },
-
+  // Chinese
   zh: {
     home: "主页",
     menu: "餐厅菜单",
@@ -934,251 +1914,66 @@ export const translations = {
       "TARIM是一家真正的维吾尔餐厅，将丝绸之路美食带入现代餐饮体验。",
     allRightsReserved: "版权所有",
 
-    RestaurantMenuText: "餐厅菜单",
-    menuCategories: {
-      breakfast: "早餐",
-      lunch: "午餐",
-      dinner: "晚餐",
-      desserts: "甜点",
+    // menu text
+    "RestaurantMenuText": "塔里木维吾尔餐厅菜单",
+    "menuCategories": {
+      "main_dishes": "主菜",
+      "noodles_rice_bowls": "面食和米饭",
+      "starters_snacks_salads": "开胃菜, 小吃和沙拉",
+      "bbq_grills": "烧烤",
+      "vegetarish": "素食",
+      "beverages": "饮品"
     },
     "categories": [
       {
-        "id": "breakfast",
-        "name": "早餐",
+        "id": "main_dishes",
+        "name": "主菜",
         "categoryImage": "/menu-items/menu-category.png",
         "sections": [
           {
-            "id": "breakfast-1",
+            "id": "main-1",
             "items": [
               {
-                "id": "breakfast-item-1",
-                "name": "香辣炸土豆",
-                "description": "香脆的土豆配上辣味番茄酱和蒜味蛋黄酱，是完美的小吃。",
-                "price": 10,
-                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
+                "id": "main-item-1",
+                "name": "大盘鸡肉和土豆",
+                "description": "鸡肉、土豆、甜椒、辣椒。",
+                "price": 12.0,
+                "images": [
+                  "/menu-items/menu-product-image.png"
+                ],
                 "isSpicy": true
               },
               {
-                "id": "breakfast-item-2",
-                "name": "西班牙蛋饼",
-                "description": "用土豆、洋葱和鸡蛋制作的西班牙传统煎蛋饼，经典美味。",
-                "price": 12,
-                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
-                "isSpicy": false
-              },
-              {
-                "id": "breakfast-item-3",
-                "name": "番茄面包",
-                "description": "新鲜番茄和橄榄油涂在烤面包上，简单又美味。",
-                "price": 8,
-                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
-                "isSpicy": false
-              },
-              {
-                "id": "breakfast-item-4",
-                "name": "巧克力吉拿棒",
-                "description": "油炸甜点配热巧克力酱，为您的一天带来甜蜜的开始。",
-                "price": 9,
-                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
-                "isSpicy": false
-              }
-            ]
-          },
-          {
-            "id": "breakfast-2",
-            "items": [
-              {
-                "id": "breakfast-item-5",
-                "name": "火腿可乐饼",
-                "description": "奶香浓郁的火腿可乐饼，是完美的咸味早餐点心。",
-                "price": 11,
-                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
-                "isSpicy": false
-              },
-              {
-                "id": "breakfast-item-6",
-                "name": "碎蛋薯条",
-                "description": "香脆炸土豆配溏心蛋和塞拉诺火腿。",
-                "price": 13,
-                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
-                "isSpicy": false
-              },
-              {
-                "id": "breakfast-item-7",
-                "name": "菠菜鹰嘴豆",
-                "description": "炒菠菜配鹰嘴豆，健康又美味。",
-                "price": 10,
-                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
-                "isSpicy": false
-              },
-              {
-                "id": "breakfast-item-8",
-                "name": "伊比利亚火腿",
-                "description": "新鲜切片的顶级伊比利亚火腿，奢华早餐之选。",
-                "price": 15,
-                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
-                "isSpicy": false
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "lunch",
-        "name": "午餐",
-        "categoryImage": "/menu-items/menu-category.png",
-        "sections": [
-          {
-            "id": "lunch-1",
-            "items": [
-              {
-                "id": "lunch-item-1",
-                "name": "瓦伦西亚海鲜饭",
-                "description": "传统瓦伦西亚海鲜饭，加入藏红花、鸡肉和海鲜。",
-                "price": 18,
-                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
-                "isSpicy": false
-              },
-              {
-                "id": "lunch-item-2",
-                "name": "西班牙冷汤",
-                "description": "冰凉的番茄汤，非常适合炎热的天气。",
-                "price": 8,
-                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
-                "isSpicy": false
-              },
-              {
-                "id": "lunch-item-3",
-                "name": "加利西亚章鱼",
-                "description": "嫩滑的章鱼配红椒粉和橄榄油。",
-                "price": 16,
-                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
+                "id": "main-item-2",
+                "name": "香辣酥脆鸡",
+                "description": "酥脆鸡肉、红辣椒、干辣椒，香辣。",
+                "price": 35.0,
+                "price_large": 45.0,
+                "images": [
+                  "/menu-items/menu-product-image.png"
+                ],
                 "isSpicy": true
               },
               {
-                "id": "lunch-item-4",
-                "name": "牛尾炖菜",
-                "description": "浓郁的西班牙牛尾炖菜，温暖又满足。",
-                "price": 14,
-                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
-                "isSpicy": false
-              }
-            ]
-          },
-          {
-            "id": "lunch-2",
-            "items": [
-              {
-                "id": "lunch-item-5",
-                "name": "蒜香虾",
-                "description": "虾仁用蒜和橄榄油炒制，香气扑鼻。",
-                "price": 15,
-                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
-                "isSpicy": true
-              },
-              {
-                "id": "lunch-item-6",
-                "name": "炸鱿鱼圈",
-                "description": "香脆炸鱿鱼圈，配上新鲜柠檬。",
-                "price": 13,
-                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
+                "id": "main-item-3",
+                "name": "大盘鸡 (大/小)",
+                "description": "鸡肉、青椒、红椒、土豆、姜。",
+                "price": 35.0,
+                "price_large": 45.0,
+                "images": [
+                  "/menu-items/menu-product-image.png"
+                ],
                 "isSpicy": false
               },
               {
-                "id": "lunch-item-7",
-                "name": "巴斯克鳕鱼",
-                "description": "鳕鱼配红椒和番茄酱，美味可口。",
-                "price": 17,
-                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
-                "isSpicy": false
-              },
-              {
-                "id": "lunch-item-8",
-                "name": "加利西亚汤",
-                "description": "传统加利西亚汤，加入白豆和绿叶菜。",
-                "price": 10,
-                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
-                "isSpicy": false
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "dinner",
-        "name": "晚餐",
-        "categoryImage": "/menu-items/menu-category.png",
-        "sections": [
-          {
-            "id": "dinner-1",
-            "items": [
-              {
-                "id": "dinner-item-1",
-                "name": "红酒炖牛尾",
-                "description": "牛尾用红酒慢炖，香浓入味。",
-                "price": 20,
-                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
-                "isSpicy": false
-              },
-              {
-                "id": "dinner-item-2",
-                "name": "盐焗鳕鱼",
-                "description": "整条鳕鱼盐焗而成，鲜嫩可口。",
-                "price": 22,
-                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
-                "isSpicy": false
-              },
-              {
-                "id": "dinner-item-3",
-                "name": "威士忌牛排",
-                "description": "嫩牛里脊配威士忌酱汁。",
-                "price": 25,
-                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
-                "isSpicy": false
-              },
-              {
-                "id": "dinner-item-4",
-                "name": "黄金鲈鱼",
-                "description": "煎鲈鱼配金色酱汁，口感丰富。",
-                "price": 23,
-                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
-                "isSpicy": false
-              }
-            ]
-          },
-          {
-            "id": "dinner-2",
-            "items": [
-              {
-                "id": "dinner-item-5",
-                "name": "橙汁鸭",
-                "description": "橙汁烤鸭，法式与西班牙风味的完美融合。",
-                "price": 24,
-                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
-                "isSpicy": false
-              },
-              {
-                "id": "dinner-item-6",
-                "name": "炖牛肉",
-                "description": "慢炖牛肉配蔬菜，香气四溢。",
-                "price": 18,
-                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
-                "isSpicy": false
-              },
-              {
-                "id": "dinner-item-7",
-                "name": "酿蘑菇",
-                "description": "蘑菇内填充肉末和奶酪，味道浓郁。",
-                "price": 14,
-                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
-                "isSpicy": false
-              },
-              {
-                "id": "dinner-item-8",
-                "name": "伊比利亚烤排骨",
-                "description": "慢火烤制的伊比利亚猪肋排，配BBQ酱。",
-                "price": 21,
-                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
+                "id": "main-item-4",
+                "name": "辣椒炒鸡块",
+                "description": "鸡肉、红椒、干辣椒，微辣。",
+                "price": 35.0,
+                "price_large": 45.0,
+                "images": [
+                  "/menu-items/menu-product-image.png"
+                ],
                 "isSpicy": true
               }
             ]
@@ -1186,80 +1981,556 @@ export const translations = {
         ]
       },
       {
-        "id": "desserts",
-        "name": "甜点",
+        "id": "noodles_rice_bowls",
+        "name": "面食和米饭",
         "categoryImage": "/menu-items/menu-category.png",
         "sections": [
           {
-            "id": "desserts-1",
+            "id": "noodle-rice-1",
             "items": [
               {
-                "id": "dessert-item-1",
-                "name": "焦糖布丁",
-                "description": "浓郁的焦糖布丁，西班牙经典甜点。",
-                "price": 7,
-                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
+                "id": "noodle-rice-item-1",
+                "name": "炒面片",
+                "description": "牛肉、青椒、红椒、手工拉面片，炒制。",
+                "price": 14.0,
+                "images": [
+                  "/menu-items/menu-product-image.png"
+                ],
                 "isSpicy": false
               },
               {
-                "id": "dessert-item-2",
-                "name": "圣地亚哥杏仁蛋糕",
-                "description": "来自圣地亚哥的传统杏仁蛋糕。",
-                "price": 8,
-                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
+                "id": "noodle-rice-item-2",
+                "name": "牛肉蔬菜炒面片",
+                "description": "牛肉、青椒、红椒、手工拉面片，炒制。",
+                "price": 14.0,
+                "images": [
+                  "/menu-items/menu-product-image.png"
+                ],
                 "isSpicy": false
               },
               {
-                "id": "dessert-item-3",
-                "name": "加泰罗尼亚奶油",
-                "description": "加泰罗尼亚奶油配焦糖脆皮。",
-                "price": 8,
-                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
+                "id": "noodle-rice-item-3",
+                "name": "抓饭",
+                "description": "牛肉、胡萝卜、洋葱、米饭、卷心菜沙拉。",
+                "price": 20.0,
+                "price_small": 15.0,
+                "images": [
+                  "/menu-items/menu-product-image.png"
+                ],
                 "isSpicy": false
               },
               {
-                "id": "dessert-item-4",
-                "name": "西班牙法式吐司",
-                "description": "西班牙式法式吐司配蜂蜜和肉桂。",
-                "price": 9,
-                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
+                "id": "noodle-rice-item-4",
+                "name": "红烧牛肉",
+                "description": "红烧牛肉、土豆、胡萝卜、葱。",
+                "price": 45.0,
+                "images": [
+                  "/menu-items/menu-product-image.png"
+                ],
                 "isSpicy": false
               }
             ]
           },
           {
-            "id": "desserts-2",
+            "id": "noodle-rice-2",
             "items": [
               {
-                "id": "dessert-item-5",
-                "name": "吉拿棒",
-                "description": "撒糖的油炸点心，适合蘸酱食用。",
-                "price": 6,
-                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
+                "id": "noodle-rice-item-5",
+                "name": "拉面",
+                "description": "牛肉、干辣椒、炒面、芝麻、大蒜、酱油。",
+                "price": 14.0,
+                "images": [
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": true
+              },
+              {
+                "id": "noodle-rice-item-6",
+                "name": "丁丁炒面",
+                "description": "牛肉、青椒、红椒、炒面。",
+                "price": 14.0,
+                "images": [
+                  "/menu-items/menu-product-image.png"
+                ],
                 "isSpicy": false
               },
               {
-                "id": "dessert-item-6",
-                "name": "奶油布丁",
-                "description": "顺滑的奶油布丁，搭配碎饼干。",
-                "price": 7,
-                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
+                "id": "noodle-rice-item-7",
+                "name": "片片炒面",
+                "description": "牛肉、青椒、红椒、炒面。",
+                "price": 14.0,
+                "images": [
+                  "/menu-items/menu-product-image.png"
+                ],
                 "isSpicy": false
               },
               {
-                "id": "dessert-item-7",
-                "name": "酥饼",
-                "description": "松脆的西班牙传统酥饼，节日美味。",
-                "price": 5,
-                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
+                "id": "noodle-rice-item-8",
+                "name": "抓饭 (米饭菜)",
+                "description": "牛肉、胡萝卜、洋葱、米饭、卷心菜沙拉。",
+                "price": 15.0,
+                "images": [
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "starters_snacks_salads",
+        "name": "汤类, 冷菜小吃和沙拉",
+        "categoryImage": "/menu-items/menu-category.png",
+        "sections": [
+          {
+            "id": "starters-1",
+            "items": [
+              {
+                "id": "starter-item-1",
+                "name": "牛肉汤面",
+                "description": "牛肉、香菜、牛肉汤、面条。",
+                "price": 9.9,
+                "images": [
+                  "/menu-items/menu-product-image.png"
+                ],
                 "isSpicy": false
               },
               {
-                "id": "dessert-item-8",
-                "name": "柠檬冰沙",
-                "description": "清爽的柠檬冰沙，完美收尾。",
-                "price": 6,
-                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
+                "id": "starter-item-2",
+                "name": "红烧面 (辣味)",
+                "description": "牛肉、香菜、牛肉汤、面条，香辣。",
+                "price": 11.9,
+                "images": [
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": true
+              },
+              {
+                "id": "starter-item-3",
+                "name": "炒香辣米粉",
+                "description": "微辣、米粉、鸡肉、芹菜。",
+                "price": 14.0,
+                "price_small": 12.0,
+                "images": [
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": true
+              },
+              {
+                "id": "starter-item-4",
+                "name": "烤包子 (1个)",
+                "description": "牛肉，烤面包卷。",
+                "price": 2.0,
+                "images": [
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              }
+            ]
+          },
+          {
+            "id": "starters-2",
+            "items": [
+              {
+                "id": "starter-item-5",
+                "name": "蒸饺 (3个)",
+                "description": "牛肉蒸饺。",
+                "price": 5.9,
+                "images": [
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "starter-item-6",
+                "name": "冷牛肉沙拉",
+                "description": "牛肉、香菜、大蒜。",
+                "price": 12.0,
+                "images": [
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "starter-item-7",
+                "name": "维吾尔沙拉",
+                "description": "粉丝、胡萝卜。",
+                "price": 8.0,
+                "images": [
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "starter-item-8",
+                "name": "凉皮",
+                "description": "冷面食和面条。",
+                "price": 6.0,
+                "images": [
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              }
+            ]
+          },
+          {
+            "id": "starters-3",
+            "items": [
+              {
+                "id": "starter-item-9",
+                "name": "赛里尕什 (凉粉)",
+                "description": "冷面食和面条。",
+                "price": 6.0,
+                "images": [
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "starter-item-10",
+                "name": "绿豆粉配酱",
+                "description": "冷面食和面条，配绿豆粉酱。",
+                "price": 6.0,
+                "images": [
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "starter-item-11",
+                "name": "黄瓜沙拉",
+                "description": "黄瓜沙拉。",
+                "price": 6.0,
+                "images": [
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "starter-item-12",
+                "name": "维吾尔特色沙拉",
+                "description": "西红柿、香菜、青椒、洋葱。",
+                "price": 6.0,
+                "images": [
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              }
+            ]
+          },
+          {
+            "id": "starters-4",
+            "items": [
+              {
+                "id": "starter-item-13",
+                "name": "烤馕",
+                "description": "牛肉、洋葱 (牛肉馅烤馕)。",
+                "price": 15.0,
+                "images": [
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "starter-item-14",
+                "name": "曲曲",
+                "description": "牛肉 (牛肉馅蒸包/饺子)。",
+                "price": 12.0,
+                "images": [
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "starter-item-15",
+                "name": "米饭",
+                "description": "米饭。",
+                "price": 4.0,
+                "images": [
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "bbq_grills",
+        "name": "烧烤",
+        "categoryImage": "/menu-items/menu-category.png",
+        "sections": [
+          {
+            "id": "bbq-1",
+            "items": [
+              {
+                "id": "bbq-item-1",
+                "name": "羊肉串 (1串)",
+                "description": "羊肉/牛肉。",
+                "price": 4.0,
+                "images": [
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "bbq-item-2",
+                "name": "烤羊排 (1块)",
+                "description": "羊排。",
+                "price": 6.0,
+                "images": [
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "vegetarish",
+        "name": "素食",
+        "categoryImage": "/menu-items/menu-category.png",
+        "sections": [
+          {
+            "id": "veg-1",
+            "items": [
+              {
+                "id": "veg-item-1",
+                "name": "麻辣豆腐",
+                "description": "豆腐、葱和辣椒。",
+                "price": 9.9,
+                "images": [
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": true
+              },
+              {
+                "id": "veg-item-2",
+                "name": "菠菜炒鸡蛋",
+                "description": "鸡蛋、菠菜。",
+                "price": 9.9,
+                "images": [
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "veg-item-3",
+                "name": "酸辣土豆丝",
+                "description": "土豆丝、甜椒。",
+                "price": 9.9,
+                "images": [
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "beverages",
+        "name": "饮品",
+        "categoryImage": "/menu-items/menu-category.png",
+        "sections": [
+          {
+            "id": "beverages-1",
+            "items": [
+              {
+                "id": "beverage-item-1",
+                "name": "红牛",
+                "description": "软饮。",
+                "price": 3.9,
+                "images": [
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "beverage-item-2",
+                "name": "可口可乐/零度",
+                "description": "软饮。",
+                "price": 3.5,
+                "images": [
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "beverage-item-3",
+                "name": "芬达",
+                "description": "软饮。",
+                "price": 3.8,
+                "images": [
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "beverage-item-4",
+                "name": "雪碧",
+                "description": "软饮。",
+                "price": 3.8,
+                "images": [
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              }
+            ]
+          },
+          {
+            "id": "beverages-2",
+            "items": [
+              {
+                "id": "beverage-item-5",
+                "name": "冰红茶 柠檬/桃子",
+                "description": "软饮。",
+                "price": 3.3,
+                "images": [
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "beverage-item-6",
+                "name": "苏打水 柠檬",
+                "description": "软饮。",
+                "price": 3.0,
+                "images": [
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "beverage-item-7",
+                "name": "苏打水 接骨木花",
+                "description": "软饮。",
+                "price": 3.0,
+                "images": [
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "beverage-item-8",
+                "name": "苏打水 树莓",
+                "description": "软饮。",
+                "price": 3.0,
+                "images": [
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              }
+            ]
+          },
+          {
+            "id": "beverages-3",
+            "items": [
+              {
+                "id": "beverage-item-9",
+                "name": "桃汁 (无气)",
+                "description": "软饮。",
+                "price": 2.5,
+                "images": [
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "beverage-item-10",
+                "name": "格瓦斯",
+                "description": "软饮。",
+                "price": 3.0,
+                "images": [
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "beverage-item-11",
+                "name": "苹果苏打水",
+                "description": "软饮。",
+                "price": 3.5,
+                "images": [
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "beverage-item-12",
+                "name": "橙子苏打水",
+                "description": "软饮。",
+                "price": 3.5,
+                "images": [
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              }
+            ]
+          },
+          {
+            "id": "beverages-4",
+            "items": [
+              {
+                "id": "beverage-item-13",
+                "name": "茉莉花茶 (壶)",
+                "description": "热饮。",
+                "price": 6.5,
+                "images": [
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "beverage-item-14",
+                "name": "红茶 (壶)",
+                "description": "热饮。",
+                "price": 6.5,
+                "images": [
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "beverage-item-15",
+                "name": "绿茶 (壶)",
+                "description": "热饮。",
+                "price": 6.5,
+                "images": [
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "beverage-item-16",
+                "name": "玫瑰茶 (壶)",
+                "description": "热饮。",
+                "price": 6.5,
+                "images": [
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "beverage-item-17",
+                "name": "姜茶 (壶)",
+                "description": "热饮。",
+                "price": 6.5,
+                "images": [
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "beverage-item-18",
+                "name": "特色茶 (壶)",
+                "description": "热饮。",
+                "price": 6.5,
+                "images": [
+                  "/menu-items/menu-product-image.png"
+                ],
                 "isSpicy": false
               }
             ]
@@ -1267,7 +2538,6 @@ export const translations = {
         ]
       }
     ],
-
     contactUsTitle: "联系我们",
     contactUsSubTitle: "传统风味精髓",
     ContactSection1Heading: "传统风味精髓",
@@ -1359,251 +2629,82 @@ export const translations = {
     allRightsReserved: "Все права защищены",
 
     // menu text
-    RestaurantMenuText: "Меню ресторана",
-    menuCategories: {
-      breakfast: "Завтрак",
-      lunch: "Обед",
-      dinner: "Ужин",
-      desserts: "Десерты",
+
+    "RestaurantMenuText": "МЕНЮ РЕСТОРАНА ТАРИМ УЙГУР",
+    "menuCategories": {
+      "main_dishes": "ОСНОВНЫЕ БЛЮДА",
+      "noodles_rice_bowls": "ЛАПША И РИСОВЫЕ БЛЮДА",
+      "starters_snacks_salads": "ЗАКУСКИ, СНЭКИ И САЛАТЫ",
+      "bbq_grills": "ШАШЛЫК И ГРИЛЬ",
+      "vegetarish": "ВЕГЕТАРИАНСКИЕ БЛЮДА",
+      "beverages": "НАПИТКИ"
     },
     "categories": [
       {
-        "id": "breakfast",
-        "name": "Завтрак",
+        "id": "main_dishes",
+        "name": "Основные Блюда",
         "categoryImage": "/menu-items/menu-category.png",
         "sections": [
           {
-            "id": "breakfast-1",
+            "id": "main-1",
             "items": [
               {
-                "id": "breakfast-item-1",
-                "name": "Пататас Бравас",
-                "description": "Хрустящий картофель с острой томатной сальсой и айоли — идеальная закуска.",
-                "price": 10,
-                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
+                "id": "main-item-1",
+                "name": "КУРИЦА С КАРТОФЕЛЕМ",
+                "description": "Курица, картофель, паприка, перец чили.",
+                "price": 12.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
                 "isSpicy": true
               },
               {
-                "id": "breakfast-item-2",
-                "name": "Тортилья Эспаньола",
-                "description": "Испанский омлет из картофеля, лука и яиц. Классическое блюдо.",
-                "price": 12,
-                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
-                "isSpicy": false
-              },
-              {
-                "id": "breakfast-item-3",
-                "name": "Пан кон Томате",
-                "description": "Свежие томаты и оливковое масло на поджаренном хлебе. Просто и вкусно.",
-                "price": 8,
-                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
-                "isSpicy": false
-              },
-              {
-                "id": "breakfast-item-4",
-                "name": "Чуррос с шоколадом",
-                "description": "Жареное тесто, подающееся с горячим шоколадом. Сладкое начало дня.",
-                "price": 9,
-                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
-                "isSpicy": false
-              }
-            ]
-          },
-          {
-            "id": "breakfast-2",
-            "items": [
-              {
-                "id": "breakfast-item-5",
-                "name": "Крокетас де Хамон",
-                "description": "Нежные крокеты с ветчиной. Идеальный сытный завтрак.",
-                "price": 11,
-                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
-                "isSpicy": false
-              },
-              {
-                "id": "breakfast-item-6",
-                "name": "Уэво Ротос",
-                "description": "Хрустящий картофель с яйцами всмятку и хамоном.",
-                "price": 13,
-                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
-                "isSpicy": false
-              },
-              {
-                "id": "breakfast-item-7",
-                "name": "Шпинат с нутом",
-                "description": "Обжаренный шпинат с нутом. Полезно и ароматно.",
-                "price": 10,
-                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
-                "isSpicy": false
-              },
-              {
-                "id": "breakfast-item-8",
-                "name": "Хамон Иберико",
-                "description": "Премиум иберийская ветчина, нарезанная тонкими ломтиками. Роскошный завтрак.",
-                "price": 15,
-                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
-                "isSpicy": false
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "lunch",
-        "name": "Обед",
-        "categoryImage": "/menu-items/menu-category.png",
-        "sections": [
-          {
-            "id": "lunch-1",
-            "items": [
-              {
-                "id": "lunch-item-1",
-                "name": "Паэлья Валенсиана",
-                "description": "Традиционная валенсийская паэлья с шафраном, курицей и морепродуктами.",
-                "price": 18,
-                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
-                "isSpicy": false
-              },
-              {
-                "id": "lunch-item-2",
-                "name": "Гаспачо",
-                "description": "Холодный томатный суп, идеально подходящий для жарких дней.",
-                "price": 8,
-                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
-                "isSpicy": false
-              },
-              {
-                "id": "lunch-item-3",
-                "name": "Пульпо а ла Гальега",
-                "description": "Нежный осьминог с паприкой и оливковым маслом.",
-                "price": 16,
-                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
+                "id": "main-item-2",
+                "name": "ОСТРАЯ ХРУСТЯЩАЯ КУРИЦА",
+                "description": "Хрустящее куриное мясо, красный перец чили, сушеный перец чили, острое.",
+                "price": 35.0,
+                "price_large": 45.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
                 "isSpicy": true
               },
               {
-                "id": "lunch-item-4",
-                "name": "Рабо де Торо",
-                "description": "Сытное рагу из бычьего хвоста. Испанская классика.",
-                "price": 14,
-                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
-                "isSpicy": false
-              }
-            ]
-          },
-          {
-            "id": "lunch-2",
-            "items": [
-              {
-                "id": "lunch-item-5",
-                "name": "Гамбас аль Ахио",
-                "description": "Креветки, обжаренные с чесноком и оливковым маслом.",
-                "price": 15,
-                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
-                "isSpicy": true
-              },
-              {
-                "id": "lunch-item-6",
-                "name": "Каламарес Фритос",
-                "description": "Хрустящие жареные кальмары с лимоном.",
-                "price": 13,
-                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
+                "id": "main-item-3",
+                "name": "ДАПАНДЖИ (Б/М)",
+                "description": "Курица, зеленый перец, красный перец, картофель, имбирь.",
+                "price": 35.0,
+                "price_large": 45.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
                 "isSpicy": false
               },
               {
-                "id": "lunch-item-7",
-                "name": "Бакалао а ла Вискайна",
-                "description": "Треска с красным перцем и томатным соусом.",
-                "price": 17,
-                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
-                "isSpicy": false
-              },
-              {
-                "id": "lunch-item-8",
-                "name": "Кальдо Гальего",
-                "description": "Традиционный галисийский суп с белой фасолью и зеленью.",
-                "price": 10,
-                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
-                "isSpicy": false
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "dinner",
-        "name": "Ужин",
-        "categoryImage": "/menu-items/menu-category.png",
-        "sections": [
-          {
-            "id": "dinner-1",
-            "items": [
-              {
-                "id": "dinner-item-1",
-                "name": "Рабо де Торо",
-                "description": "Тушёный бычий хвост в соусе из красного вина.",
-                "price": 20,
-                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
-                "isSpicy": false
-              },
-              {
-                "id": "dinner-item-2",
-                "name": "Мерлуза а ла Саль",
-                "description": "Мерлуза, запечённая в морской соли. Изящно и вкусно.",
-                "price": 22,
-                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
-                "isSpicy": false
-              },
-              {
-                "id": "dinner-item-3",
-                "name": "Соломильо аль Виски",
-                "description": "Стейк из вырезки в виски-соусе.",
-                "price": 25,
-                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
-                "isSpicy": false
-              },
-              {
-                "id": "dinner-item-4",
-                "name": "Лубина а ла Дорада",
-                "description": "Сибас с золотистым соусом.",
-                "price": 23,
-                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
-                "isSpicy": false
-              }
-            ]
-          },
-          {
-            "id": "dinner-2",
-            "items": [
-              {
-                "id": "dinner-item-5",
-                "name": "Пато а ла Наранха",
-                "description": "Утка в апельсиновом соусе. Классическое испано-французское блюдо.",
-                "price": 24,
-                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
-                "isSpicy": false
-              },
-              {
-                "id": "dinner-item-6",
-                "name": "Карне Гисада",
-                "description": "Тушёная говядина с овощами.",
-                "price": 18,
-                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
-                "isSpicy": false
-              },
-              {
-                "id": "dinner-item-7",
-                "name": "Шампиньоны Рельенос",
-                "description": "Фаршированные грибы с мясом и сыром.",
-                "price": 14,
-                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
-                "isSpicy": false
-              },
-              {
-                "id": "dinner-item-8",
-                "name": "Иберийские рёбрышки BBQ",
-                "description": "Медленно приготовленные иберийские свиные рёбра в барбекю соусе.",
-                "price": 21,
-                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
+                "id": "main-item-4",
+                "name": "КУСОЧКИ КУРИЦЫ С ЧИЛИ",
+                "description": "Курица, красный перец, сушеный перец чили, пикантно.",
+                "price": 35.0,
+                "price_large": 45.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
                 "isSpicy": true
               }
             ]
@@ -1611,86 +2712,748 @@ export const translations = {
         ]
       },
       {
-        "id": "desserts",
-        "name": "Десерты",
+        "id": "noodles_rice_bowls",
+        "name": "Лапша и Рисовые Блюда",
         "categoryImage": "/menu-items/menu-category.png",
         "sections": [
           {
-            "id": "desserts-1",
+            "id": "noodle-rice-1",
             "items": [
               {
-                "id": "dessert-item-1",
-                "name": "Флан",
-                "description": "Нежный карамельный пудинг — испанская классика.",
-                "price": 7,
-                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
+                "id": "noodle-rice-item-1",
+                "name": "РЕЗАНАЯ ЛАПША",
+                "description": "Говядина, зеленый перец, красный перец, жареная лапша ручной вытяжки.",
+                "price": 14.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
                 "isSpicy": false
               },
               {
-                "id": "dessert-item-2",
-                "name": "Тарта де Сантьяго",
-                "description": "Миндальный торт из Сантьяго-де-Компостела.",
-                "price": 8,
-                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
+                "id": "noodle-rice-item-2",
+                "name": "ГОВЯДИНА И ОВОЩИ С РЕЗАНОЙ ЛАПШОЙ",
+                "description": "Говядина, зеленый перец, красный перец, жареная лапша ручной вытяжки.",
+                "price": 14.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
                 "isSpicy": false
               },
               {
-                "id": "dessert-item-3",
-                "name": "Крема Каталана",
-                "description": "Каталонский крем с карамелизованной корочкой.",
-                "price": 8,
-                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
+                "id": "noodle-rice-item-3",
+                "name": "ПЛОВ",
+                "description": "Говядина, морковь, лук, рис, салат из капусты.",
+                "price": 20.0,
+                "price_small": 15.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
                 "isSpicy": false
               },
               {
-                "id": "dessert-item-4",
-                "name": "Торрийяс",
-                "description": "Испанские гренки с мёдом и корицей.",
-                "price": 9,
-                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
+                "id": "noodle-rice-item-4",
+                "name": "ЖАРЕНАЯ ГОВЯДИНА (ТУШЕНИЕ)",
+                "description": "Жареная говядина, картофель, морковь, зеленый лук.",
+                "price": 45.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
                 "isSpicy": false
               }
             ]
           },
           {
-            "id": "desserts-2",
+            "id": "noodle-rice-2",
             "items": [
               {
-                "id": "dessert-item-5",
-                "name": "Чуррос",
-                "description": "Жареное тесто, посыпанное сахаром. Идеально для макания в соус.",
-                "price": 6,
-                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
+                "id": "noodle-rice-item-5",
+                "name": "Лагман (Лапша ручной вытяжки)",
+                "description": "Говядина, сушеный чили, жареная лапша, кунжут, чеснок, соевый соус.",
+                "price": 14.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": true
+              },
+              {
+                "id": "noodle-rice-item-6",
+                "name": "Дин Дин Кавап",
+                "description": "Говядина, зеленый перец, красный перец, жареная лапша.",
+                "price": 14.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
                 "isSpicy": false
               },
               {
-                "id": "dessert-item-6",
-                "name": "Натильяс",
-                "description": "Нежный кремовый десерт с крошкой печенья.",
-                "price": 7,
-                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
+                "id": "noodle-rice-item-7",
+                "name": "Пян-Пян Кавап",
+                "description": "Говядина, зеленый перец, красный перец, жареная лапша.",
+                "price": 14.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
                 "isSpicy": false
               },
               {
-                "name": "Польворонес",
-                "description": "Рассыпчатое песочное печенье. Традиционное праздничное лакомство.",
-                "price": 5,
-                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
+                "id": "noodle-rice-item-8",
+                "name": "Жуафан (Рисовое блюдо)",
+                "description": "Говядина, морковь, лук, рис, салат из капусты.",
+                "price": 15.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "starters_snacks_salads",
+        "name": "Супы, Холодные Закуски и Салаты",
+        "categoryImage": "/menu-items/menu-category.png",
+        "sections": [
+          {
+            "id": "starters-1",
+            "items": [
+              {
+                "id": "starter-item-1",
+                "name": "ГОВЯЖИЙ СУП С ЛАПШОЙ",
+                "description": "Говядина, кинза, говяжий бульон, лапша.",
+                "price": 9.9,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
                 "isSpicy": false
               },
               {
-                "id": "dessert-item-8",
-                "name": "Сорбет де Лимон",
-                "description": "Освежающий лимонный сорбет.",
-                "price": 6,
-                "image": ["/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png","/menu-items/menu-product-image.png"  ],
+                "id": "starter-item-2",
+                "name": "ТУШЕНАЯ ЛАПША (ОСТРАЯ)",
+                "description": "Говядина, кинза, говяжий бульон, лапша, острое и пряное.",
+                "price": 11.9,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": true
+              },
+              {
+                "id": "starter-item-3",
+                "name": "ЖАРЕНАЯ ОСТРАЯ РИСОВАЯ ЛАПША",
+                "description": "Пикантная, рисовая лапша, курица, сельдерей.",
+                "price": 14.0,
+                "price_small": 12.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": true
+              },
+              {
+                "id": "starter-item-4",
+                "name": "САМСА (1 ШТ)",
+                "description": "Говядина, поджаренная булочка (печеное тесто).",
+                "price": 2.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              }
+            ]
+          },
+          {
+            "id": "starters-2",
+            "items": [
+              {
+                "id": "starter-item-5",
+                "name": "ПАРОВЫЕ ПЕЛЬМЕНИ (3 ШТ)",
+                "description": "Паровые пельмени с говядиной.",
+                "price": 5.9,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "starter-item-6",
+                "name": "ХОЛОДНЫЙ САЛАТ ИЗ ГОВЯДИНЫ",
+                "description": "Холодный салат из говядины с говядиной, кинзой, чесноком.",
+                "price": 12.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "starter-item-7",
+                "name": "УЙГУРСКИЙ САЛАТ",
+                "description": "Вермишель, морковь.",
+                "price": 8.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "starter-item-8",
+                "name": "РАНГПИЗА",
+                "description": "Холодная лапша и макаронные изделия.",
+                "price": 6.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              }
+            ]
+          },
+          {
+            "id": "starters-3",
+            "items": [
+              {
+                "id": "starter-item-9",
+                "name": "СЕРИГАШ (ХОЛОДНАЯ ЛАПША)",
+                "description": "Холодная лапша и макаронные изделия.",
+                "price": 6.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "starter-item-10",
+                "name": "МУКА ИЗ МАША С СОУСОМ",
+                "description": "Холодная лапша и макаронные изделия с соусом из машевой муки.",
+                "price": 6.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "starter-item-11",
+                "name": "САЛАТ ИЗ ОГУРЦОВ",
+                "description": "Салат из огурцов.",
+                "price": 6.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "starter-item-12",
+                "name": "УЙГУРСКИЙ СПЕЦИАЛЬНЫЙ САЛАТ",
+                "description": "Помидоры, кинза, зеленый перец, лук.",
+                "price": 6.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              }
+            ]
+          },
+          {
+            "id": "starters-4",
+            "items": [
+              {
+                "id": "starter-item-13",
+                "name": "ГОХНАН (МЯСНАЯ ЛЕПЕШКА)",
+                "description": "Говядина, лук (запеченный хлеб с говяжьей начинкой).",
+                "price": 15.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "starter-item-14",
+                "name": "КУКУР (ПАРОВАЯ БУЛОЧКА)",
+                "description": "Говядина (паровой фаршированный дрожжевой клецка с говядиной).",
+                "price": 12.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "starter-item-15",
+                "name": "РИС",
+                "description": "Рис.",
+                "price": 4.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "bbq_grills",
+        "name": "Шашлык и Гриль / Жареные Специалитеты",
+        "categoryImage": "/menu-items/menu-category.png",
+        "sections": [
+          {
+            "id": "bbq-1",
+            "items": [
+              {
+                "id": "bbq-item-1",
+                "name": "ШАШЛЫК ИЗ БАРАНИНЫ (1 ШТ)",
+                "description": "Баранина/Говядина.",
+                "price": 4.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "bbq-item-2",
+                "name": "КАРЕ ЯГНЕНКА (1 ШТ)",
+                "description": "Каре ягненка.",
+                "price": 6.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "vegetarish",
+        "name": "Вегетарианские Блюда",
+        "categoryImage": "/menu-items/menu-category.png",
+        "sections": [
+          {
+            "id": "veg-1",
+            "items": [
+              {
+                "id": "veg-item-1",
+                "name": "ОСТРЫЙ МАЛА-ТОФУ",
+                "description": "Тофу, зеленый лук и чили.",
+                "price": 9.9,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": true
+              },
+              {
+                "id": "veg-item-2",
+                "name": "ШПИНАТ С ЯЙЦОМ",
+                "description": "Яйца, шпинат.",
+                "price": 9.9,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "veg-item-3",
+                "name": "КИСЛО-ОСТРЫЙ КАРТОФЕЛЬ",
+                "description": "Нарезанный картофель, паприка.",
+                "price": 9.9,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "beverages",
+        "name": "Напитки",
+        "categoryImage": "/menu-items/menu-category.png",
+        "sections": [
+          {
+            "id": "beverages-1",
+            "items": [
+              {
+                "id": "beverage-item-1",
+                "name": "REDBULL",
+                "description": "Безалкогольный напиток.",
+                "price": 3.9,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "beverage-item-2",
+                "name": "COCA COLA/ZERO",
+                "description": "Безалкогольный напиток.",
+                "price": 3.5,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "beverage-item-3",
+                "name": "FANTA",
+                "description": "Безалкогольный напиток.",
+                "price": 3.8,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "beverage-item-4",
+                "name": "SPRITE",
+                "description": "Безалкогольный напиток.",
+                "price": 3.8,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              }
+            ]
+          },
+          {
+            "id": "beverages-2",
+            "items": [
+              {
+                "id": "beverage-item-5",
+                "name": "ХОЛОДНЫЙ ЧАЙ ЛИМОН/ПЕРСИК",
+                "description": "Безалкогольный напиток.",
+                "price": 3.3,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "beverage-item-6",
+                "name": "СОДОВАЯ ЛИМОН",
+                "description": "Безалкогольный напиток.",
+                "price": 3.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "beverage-item-7",
+                "name": "СОДОВАЯ БУЗИНА",
+                "description": "Безалкогольный напиток.",
+                "price": 3.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "beverage-item-8",
+                "name": "СОДОВАЯ МАЛИНА",
+                "description": "Безалкогольный напиток.",
+                "price": 3.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              }
+            ]
+          },
+          {
+            "id": "beverages-3",
+            "items": [
+              {
+                "id": "beverage-item-9",
+                "name": "ПЕРСИКОВЫЙ СОК БЕЗ ГАЗА",
+                "description": "Безалкогольный напиток.",
+                "price": 2.5,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "beverage-item-10",
+                "name": "КВАС",
+                "description": "Безалкогольный напиток.",
+                "price": 3.0,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "beverage-item-11",
+                "name": "ЯБЛОЧНЫЙ СПРИТЦЕР",
+                "description": "Безалкогольный напиток.",
+                "price": 3.5,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "beverage-item-12",
+                "name": "АПЕЛЬСИНОВЫЙ СПРИТЦЕР",
+                "description": "Безалкогольный напиток.",
+                "price": 3.5,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              }
+            ]
+          },
+          {
+            "id": "beverages-4",
+            "items": [
+              {
+                "id": "beverage-item-13",
+                "name": "ЖАСМИНОВЫЙ ЧАЙ (ЧАЙНИК)",
+                "description": "Горячий напиток.",
+                "price": 6.5,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "beverage-item-14",
+                "name": "ЧЕРНЫЙ ЧАЙ (ЧАЙНИК)",
+                "description": "Горячий напиток.",
+                "price": 6.5,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "beverage-item-15",
+                "name": "ЗЕЛЕНЫЙ ЧАЙ (ЧАЙНИК)",
+                "description": "Горячий напиток.",
+                "price": 6.5,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "beverage-item-16",
+                "name": "РОЗОВЫЙ ЧАЙ (ЧАЙНИК)",
+                "description": "Горячий напиток.",
+                "price": 6.5,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "beverage-item-17",
+                "name": "ИМБИРНЫЙ ЧАЙ (ЧАЙНИК)",
+                "description": "Горячий напиток.",
+                "price": 6.5,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
+                "isSpicy": false
+              },
+              {
+                "id": "beverage-item-18",
+                "name": "СПЕЦИАЛЬНЫЙ ЧАЙ (ЧАЙНИК)",
+                "description": "Горячий напиток.",
+                "price": 6.5,
+                "images": [
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
+                ],
                 "isSpicy": false
               }
             ]
           }
         ]
       }
-    ],
+    ]
+    ,
 
     contactUsTitle: "Связаться с нами",
     contactUsSubTitle: "Суть традиционных вкусов",
@@ -1916,7 +3679,7 @@ export const getTranslation = (
   lang: Language,
   key: TranslationKeys
 ): string => {
-  return translations[lang]?.[key] 
-      ?? translations.en?.[key] 
-      ?? "";
+  return translations[lang]?.[key]
+    ?? translations.en?.[key]
+    ?? "";
 };
