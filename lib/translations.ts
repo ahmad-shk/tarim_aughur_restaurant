@@ -105,26 +105,18 @@ export const translations = {
                 "description": "Hähnchen, Kartoffeln, Paprika, Chilischoten.",
                 "price": 12.0,
                 "images": [
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png"
+                  "/menu-items/product-1.jpg",
                 ],
                 "isSpicy": true
               },
               {
                 "id": "main-item-2",
-                "name": "SPICY CRISPY CHICKEN",
+                "name": "Scharfes knuspriges Hähnchen",
                 "description": "Knuspriges Hähnchenfleisch, rote Chilischoten, getrocknete Chilischoten, scharf.",
                 "price": 35.0,
                 "price_large": 45.0,
                 "images": [
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png"
+                  "/menu-items/product-2.jpg"
                 ],
                 "isSpicy": true
               },
@@ -190,11 +182,7 @@ export const translations = {
                 "description": "Rindfleisch, grüne Paprika, rote Paprika, Handgezogene, gebratene Nudeln.",
                 "price": 14.0,
                 "images": [
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png"
+                  "/menu-items/product-6.jpg",
                 ],
                 "isSpicy": false
               },
@@ -205,11 +193,7 @@ export const translations = {
                 "price": 20.0,
                 "price_small": 15.0,
                 "images": [
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png"
+                 "/menu-items/product-7.jpg",
                 ],
                 "isSpicy": false
               },
@@ -368,11 +352,9 @@ export const translations = {
                 "description": "Gedämpfte Teigtaschen mit Rindfleisch.",
                 "price": 5.9,
                 "images": [
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png"
+                  "/menu-items/product-16.jpg",
+                  "/menu-items/product-16.1.jpg"
+
                 ],
                 "isSpicy": false
               },
@@ -443,11 +425,7 @@ export const translations = {
                 "description": "Kalte Nudeln und Teigwaren mit Mungobohnenmehlsauce.",
                 "price": 6.0,
                 "images": [
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png"
+                  "/menu-items/product-24.jpg"
                 ],
                 "isSpicy": false
               },
@@ -544,11 +522,8 @@ export const translations = {
                 "description": "Lamm/Rindfleisch.",
                 "price": 4.0,
                 "images": [
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png"
+                  "/menu-items/product-29.jpg",
+                  "/menu-items/product-29.1.jpg",
                 ],
                 "isSpicy": false
               },
@@ -584,11 +559,7 @@ export const translations = {
                 "description": "Tofu, Frühlingszwiebeln und Chili.",
                 "price": 9.9,
                 "images": [
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png"
+                  "/menu-items/product-31.jpg",
                 ],
                 "isSpicy": true
               },
@@ -1024,11 +995,7 @@ export const translations = {
                 "description": "Chicken, Potatoes, Paprika, Chili peppers.",
                 "price": 12.0,
                 "images": [
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png"
+                  "/menu-items/product-1.jpg",
                 ],
                 "isSpicy": true
               },
@@ -1039,11 +1006,7 @@ export const translations = {
                 "price": 35.0,
                 "price_large": 45.0,
                 "images": [
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png"
+                 "/menu-items/product-2.jpg"
                 ],
                 "isSpicy": true
               },
@@ -1109,11 +1072,7 @@ export const translations = {
                 "description": "Beef, green paprika, red paprika, hand-pulled, fried noodles.",
                 "price": 14.0,
                 "images": [
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png"
+                  "/menu-items/product-6.jpg",
                 ],
                 "isSpicy": false
               },
@@ -1124,11 +1083,7 @@ export const translations = {
                 "price": 20.0,
                 "price_small": 15.0,
                 "images": [
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png"
+                  "/menu-items/product-7.jpg",
                 ],
                 "isSpicy": false
               },
@@ -1287,11 +1242,8 @@ export const translations = {
                 "description": "Steamed dumplings with beef.",
                 "price": 5.9,
                 "images": [
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png"
+                  "/menu-items/product-16.jpg",
+                  "/menu-items/product-16.1.jpg"
                 ],
                 "isSpicy": false
               },
@@ -1362,11 +1314,7 @@ export const translations = {
                 "description": "Cold noodles and pasta with Mung bean flour sauce.",
                 "price": 6.0,
                 "images": [
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png"
+                    "/menu-items/product-24.jpg"
                 ],
                 "isSpicy": false
               },
@@ -1503,11 +1451,7 @@ export const translations = {
                 "description": "Tofu, spring onions and chili.",
                 "price": 9.9,
                 "images": [
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png"
+                  "/menu-items/product-31.jpg"
                 ],
                 "isSpicy": true
               },
@@ -1789,7 +1733,12 @@ export const translations = {
                   "/menu-items/menu-product-image.png"
                 ],
                 "isSpicy": false
-              },
+              }
+            ],
+          },
+           {
+            "id": "beverages-5",
+            "items": [
               {
                 "id": "beverage-item-17",
                 "name": "GINGER TEA (POT)",
@@ -1818,7 +1767,7 @@ export const translations = {
                 ],
                 "isSpicy": false
               }
-            ]
+            ],
           }
         ]
       }
@@ -2004,7 +1953,7 @@ export const translations = {
                 "description": "牛肉、青椒、红椒、手工拉面片，炒制。",
                 "price": 14.0,
                 "images": [
-                  "/menu-items/menu-product-image.png"
+                  "/menu-items/product-6.jpg",
                 ],
                 "isSpicy": false
               },
@@ -2015,7 +1964,7 @@ export const translations = {
                 "price": 20.0,
                 "price_small": 15.0,
                 "images": [
-                  "/menu-items/menu-product-image.png"
+                "/menu-items/product-7.jpg",
                 ],
                 "isSpicy": false
               },
@@ -2138,7 +2087,8 @@ export const translations = {
                 "description": "牛肉蒸饺。",
                 "price": 5.9,
                 "images": [
-                  "/menu-items/menu-product-image.png"
+                  "/menu-items/product-16.jpg",
+                  "/menu-items/product-16.1.jpg"
                 ],
                 "isSpicy": false
               },
@@ -2193,7 +2143,7 @@ export const translations = {
                 "description": "冷面食和面条，配绿豆粉酱。",
                 "price": 6.0,
                 "images": [
-                  "/menu-items/menu-product-image.png"
+                  "/menu-items/product-24.jpg"
                 ],
                 "isSpicy": false
               },
@@ -2302,7 +2252,7 @@ export const translations = {
                 "description": "豆腐、葱和辣椒。",
                 "price": 9.9,
                 "images": [
-                  "/menu-items/menu-product-image.png"
+                  "/menu-items/product-31.jpg"
                 ],
                 "isSpicy": true
               },
@@ -2739,11 +2689,7 @@ export const translations = {
                 "description": "Говядина, зеленый перец, красный перец, жареная лапша ручной вытяжки.",
                 "price": 14.0,
                 "images": [
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png"
+                  "menu-items/product-6.jpg",
                 ],
                 "isSpicy": false
               },
@@ -2754,11 +2700,7 @@ export const translations = {
                 "price": 20.0,
                 "price_small": 15.0,
                 "images": [
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png"
+                 "/menu-items/product-7.jpg",
                 ],
                 "isSpicy": false
               },
@@ -2917,11 +2859,8 @@ export const translations = {
                 "description": "Паровые пельмени с говядиной.",
                 "price": 5.9,
                 "images": [
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png"
+                 "/menu-items/product-16.jpg",
+                  "/menu-items/product-16.1.jpg"
                 ],
                 "isSpicy": false
               },
@@ -2992,11 +2931,7 @@ export const translations = {
                 "description": "Холодная лапша и макаронные изделия с соусом из машевой муки.",
                 "price": 6.0,
                 "images": [
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png"
+                  "/menu-items/product-24.jpg",
                 ],
                 "isSpicy": false
               },
@@ -3133,11 +3068,7 @@ export const translations = {
                 "description": "Тофу, зеленый лук и чили.",
                 "price": 9.9,
                 "images": [
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png"
+                  "/menu-items/product-31.jpg",
                 ],
                 "isSpicy": true
               },
