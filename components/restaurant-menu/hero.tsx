@@ -22,7 +22,7 @@ export function Hero() {
         <img className="h-full" src={'/image/banner-layer.png'} />
       </div>
       <div className="relative z-2">
-        <h1 className="aboreto-text 2xl:text-[60px] xl:text-[50px] text-[34px] text-secondary leading-[1.1] text-balance whitespace-pre-line">
+        <h1 className="aboreto-text 2xl:text-[60px] xl:text-[50px] text-[34px] text-secondary leading-[1.1] text-balance whitespace-pre-line text-center">
           {t.RestaurantMenuText}
         </h1>
       </div>

@@ -31,7 +31,7 @@ export default function App({ selectedItem }: ImageModalProps) {
   return (
     <div className="w-full flex flex-col md:flex-row gap-4 mb-10">
   {/* MAIN IMAGE */}
-  <div className="w-full md:w-[84%] md:h-[460px] h-[220px]">
+  <div className="w-full md:w-[84%] md:h-[480px] h-[220px]">
     <Swiper
       spaceBetween={10}
       navigation={true}
@@ -55,7 +55,7 @@ export default function App({ selectedItem }: ImageModalProps) {
   </div>
 
   {/* THUMBNAILS */}
-  <div className="w-full md:w-[16%] md:h-[460px]">
+  <div className="w-full md:w-[16%] md:h-[480px]">
     {!isMobile && (
       <Swiper
         onSwiper={setThumbsSwiper}
@@ -69,8 +69,8 @@ export default function App({ selectedItem }: ImageModalProps) {
       >
         {selectedItem.images.map((img, idx) => (
           <SwiperSlide key={idx}>
-            <div className="relative h-[80px] rounded-lg overflow-hidden">
-              <Image src={img} alt="" fill className="object-cover" />
+            <div className="relative h-[100px] rounded-lg overflow-hidden bg-[#4b1c20] ">
+              <Image src={img} alt="" fill className="object-contain" />
             </div>
           </SwiperSlide>
         ))}
@@ -81,7 +81,7 @@ export default function App({ selectedItem }: ImageModalProps) {
       <Swiper
         onSwiper={setThumbsSwiper}
         slidesPerView={4}
-        spaceBetween={10}
+        spaceBetween={5}
         freeMode={true}
         watchSlidesProgress={true}
         modules={[FreeMode, Navigation, Thumbs]}
@@ -89,8 +89,8 @@ export default function App({ selectedItem }: ImageModalProps) {
       >
         {selectedItem.images.map((img, idx) => (
           <SwiperSlide key={idx}>
-            <div className="relative h-[70px] rounded-lg overflow-hidden">
-              <Image src={img} alt="" fill className="object-cover" />
+            <div className="relative h-[70px] rounded-sm overflow-hidden bg-[#4b1c20]">
+              <Image src={img} alt="" fill className="object-contain" />
             </div>
           </SwiperSlide>
         ))}

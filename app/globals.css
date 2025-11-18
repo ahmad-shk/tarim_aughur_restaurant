@@ -235,8 +235,8 @@ form .react-datepicker-wrapper {display: block;}
 .product-preview--image * {width: 100%; height: 100%; object-fit: cover;}
 
 @media screen and (max-width: 991px) { 
-  .product-item--image {min-width: 110px; max-height: 150px;}
-  .product-preview--image {max-height: 440px; min-width: auto;}
+  .product-item--image {min-width: 110px; max-height: 135px;}
+  .product-preview--image {max-height: 280px; min-width: auto;}
 }
 
 /* gallery-slider */
