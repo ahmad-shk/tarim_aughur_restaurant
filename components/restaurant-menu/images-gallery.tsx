@@ -29,9 +29,9 @@ export default function App({ selectedItem }: ImageModalProps) {
   if (!selectedItem?.images) return null;
 
   return (
-    <div className="w-full flex flex-col md:flex-row gap-4 mb-10">
+    <div className="w-full flex flex-row gap-4 mb-10">
   {/* MAIN IMAGE */}
-  <div className="w-full md:w-[84%] md:h-[480px] h-[220px]">
+  <div className="md:w-[84%] w-[76%] md:h-[540px] h-[320px]">
     <Swiper
       spaceBetween={10}
       navigation={true}
@@ -55,8 +55,8 @@ export default function App({ selectedItem }: ImageModalProps) {
   </div>
 
   {/* THUMBNAILS */}
-  <div className="w-full md:w-[16%] md:h-[480px]">
-    {!isMobile && (
+  <div className="md:w-[16%] w-[24%] md:h-[540px] h-[320px]">
+    {/* {!isMobile && ( */}
       <Swiper
         onSwiper={setThumbsSwiper}
         direction="vertical"
@@ -69,15 +69,15 @@ export default function App({ selectedItem }: ImageModalProps) {
       >
         {selectedItem.images.map((img, idx) => (
           <SwiperSlide key={idx}>
-            <div className="relative h-[100px] rounded-lg overflow-hidden bg-[#4b1c20] ">
+            <div className="relative md:h-[100px] h-[60px] md:rounded-lg rounded-md overflow-hidden bg-[#4b1c20] mb-2">
               <Image src={img} alt="" fill className="object-contain" />
             </div>
           </SwiperSlide>
         ))}
       </Swiper>
-    )}
+    {/* )} */}
 
-    {isMobile && (
+    {/* {isMobile && (
       <Swiper
         onSwiper={setThumbsSwiper}
         slidesPerView={4}
@@ -95,7 +95,7 @@ export default function App({ selectedItem }: ImageModalProps) {
           </SwiperSlide>
         ))}
       </Swiper>
-    )}
+    )} */}
   </div>
 </div>
 
