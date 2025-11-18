@@ -222,7 +222,7 @@ export default function MenuGroup() {
                 className={`item-row flex flex-col ${sectionIndex % 2 === 0 ? "lg:flex-row" : "lg:flex-row-reverse"
                   } items-center gap-6 lg:gap-12`}
               >
-                <div className="image rounded-md overflow-hidden">
+                <div className="image rounded-md overflow-hidden product-preview--image">
                   <Image
                     src={drawerCategory?.categoryImage || "/placeholder.svg"}
                     width={400}
