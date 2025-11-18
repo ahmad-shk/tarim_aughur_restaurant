@@ -42,12 +42,12 @@ export default function App({ selectedItem }: ImageModalProps) {
       className="mySwiper2 h-full"
     >
       {selectedItem.images.map((img, idx) => (
-        <SwiperSlide key={idx} className="relative w-full h-full rounded-lg overflow-hidden">
+        <SwiperSlide key={idx} className="bg-[#4b1c20] relative w-full h-full rounded-lg overflow-hidden">
           <Image
             src={img}
             alt=""
             fill
-            className="object-cover"
+            className="object-contain"
           />
         </SwiperSlide>
       ))}
