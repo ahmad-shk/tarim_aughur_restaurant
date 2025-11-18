@@ -48,9 +48,11 @@ export default function MenuGroup() {
       <main>
         {(t.categories as MenuCategory[]).map((category) => (
           <section key={category.id} className="py-7 md:py-10 px-4" id={category.id}>
-            <h2 className="aboreto-text dark:text-secondary text-center text-[35px] md:mb-[50px] mb-[25px]">
-              {category.name}
-            </h2>
+            <div className="flex justify-center">
+              <h2 className="aboreto-text dark:text-secondary text-center text-[35px] md:mb-[50px] mb-[25px] bg-[#4b1c20] px-4">
+                {category.name}
+              </h2>
+            </div>
 
             <div className="space-y-10">
               {category.sections.slice(0, 2).map((section, sectionIndex) => (
