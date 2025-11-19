@@ -164,9 +164,9 @@ export const translations = {
             "items": [
               {
                 "id": "noodle-rice-item-1",
-                "name": "GESCHNITTENE NUDEL",
-                "description": "Rindfleisch, grüne Paprika, rote Paprika, handgezogene, gebratene Nudeln.",
-                "price": 14.0,
+                "name": "GEBRATENES RINDFLEISCH KOCHEN",
+                "description": "Rindfleisch, Kartoffeln, Karotten, Frühlingszwiebeln.",
+                "price": 45.0,
                 "images": [
                   "/menu-items/menu-product-image.png",
                   "/menu-items/menu-product-image.png",
@@ -178,30 +178,37 @@ export const translations = {
               },
               {
                 "id": "noodle-rice-item-2",
-                "name": "RINDFLEISCH UND GEMÜSE MIT GESCHNITTENE NUDELN",
-                "description": "Rindfleisch, grüne Paprika, rote Paprika, Handgezogene, gebratene Nudeln.",
+                "name": "Laghman (Handgezogene Nudeln)",
+                "description": "Rindfleisch, getrockneter Chili, gebratene Nudeln, Sesam, Knoblauch, Sojasauce.",
                 "price": 14.0,
                 "images": [
-                  "/menu-items/product-6.jpg",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
                 ],
-                "isSpicy": false
+                "isSpicy": true
               },
               {
                 "id": "noodle-rice-item-3",
-                "name": "POLO",
-                "description": "Rindfleisch, Karotten, Zwiebeln, Reis, Krautsalat.",
-                "price": 20.0,
-                "price_small": 15.0,
+                "name": "Ding Ding Kawap",
+                "description": "Rindfleisch, grüne Paprika, rote Paprika, Handgezogene, gebratene Nudeln.",
+                "price": 14.0,
                 "images": [
-                 "/menu-items/product-7.jpg",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
                 ],
                 "isSpicy": false
               },
               {
                 "id": "noodle-rice-item-4",
-                "name": "GEBRATENES RINDFLEISCH KOCHEN",
-                "description": "Rindfleisch, Kartoffeln, Karotten, Frühlingszwiebeln.",
-                "price": 45.0,
+                "name": "Pian-Pian Kawap",
+                "description": "Rindfleisch, grüne Paprika, rote Paprika, handgezogene, gebratene Nudeln.",
+                "price": 14.0,
                 "images": [
                   "/menu-items/menu-product-image.png",
                   "/menu-items/menu-product-image.png",
@@ -218,48 +225,6 @@ export const translations = {
             "items": [
               {
                 "id": "noodle-rice-item-5",
-                "name": "Laghman (Handgezogene Nudeln)",
-                "description": "Rindfleisch, getrockneter Chili, gebratene Nudeln, Sesam, Knoblauch, Sojasauce.",
-                "price": 14.0,
-                "images": [
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png"
-                ],
-                "isSpicy": true
-              },
-              {
-                "id": "noodle-rice-item-6",
-                "name": "Ding Ding Kawap",
-                "description": "Rindfleisch, grüne Paprika, rote Paprika, Handgezogene, gebratene Nudeln.",
-                "price": 14.0,
-                "images": [
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png"
-                ],
-                "isSpicy": false
-              },
-              {
-                "id": "noodle-rice-item-7",
-                "name": "Pian-Pian Kawap",
-                "description": "Rindfleisch, grüne Paprika, rote Paprika, handgezogene, gebratene Nudeln.",
-                "price": 14.0,
-                "images": [
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png"
-                ],
-                "isSpicy": false
-              },
-              {
-                "id": "noodle-rice-item-8",
                 "name": "Zhuafan (Reisgericht)",
                 "description": "Rindfleisch, Karotten, Zwiebeln, Reis, Krautsalat.",
                 "price": 15.0,
@@ -297,20 +262,6 @@ export const translations = {
                   "/menu-items/menu-product-image.png"
                 ],
                 "isSpicy": false
-              },
-              {
-                "id": "starter-item-2",
-                "name": "GESCHMORTE NUDELN",
-                "description": "Rindfleisch, Koriander, Rindfleischsuppe, Nudeln, scharf und würzig.",
-                "price": 11.9,
-                "images": [
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png"
-                ],
-                "isSpicy": true
               },
               {
                 "id": "starter-item-3",
@@ -594,285 +545,6 @@ export const translations = {
             ]
           }
         ]
-      },
-      {
-        "id": "beverages",
-        "name": "Getränke",
-        "categoryImage": "/menu-items/menu-category.png",
-        "sections": [
-          {
-            "id": "beverages-1",
-            "items": [
-              {
-                "id": "beverage-item-1",
-                "name": "REDBULL",
-                "description": "Softdrink.",
-                "price": 3.9,
-                "images": [
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png"
-                ],
-                "isSpicy": false
-              },
-              {
-                "id": "beverage-item-2",
-                "name": "COCA COLA/ZERO",
-                "description": "Softdrink.",
-                "price": 3.5,
-                "images": [
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png"
-                ],
-                "isSpicy": false
-              },
-              {
-                "id": "beverage-item-3",
-                "name": "FANTA",
-                "description": "Softdrink.",
-                "price": 3.8,
-                "images": [
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png"
-                ],
-                "isSpicy": false
-              },
-              {
-                "id": "beverage-item-4",
-                "name": "SPRITE",
-                "description": "Softdrink.",
-                "price": 3.8,
-                "images": [
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png"
-                ],
-                "isSpicy": false
-              }
-            ]
-          },
-          {
-            "id": "beverages-2",
-            "items": [
-              {
-                "id": "beverage-item-5",
-                "name": "EIS TEE ZITRONE/PFIRSICH",
-                "description": "Softdrink.",
-                "price": 3.3,
-                "images": [
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png"
-                ],
-                "isSpicy": false
-              },
-              {
-                "id": "beverage-item-6",
-                "name": "SODA ZITRONE",
-                "description": "Softdrink.",
-                "price": 3.0,
-                "images": [
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png"
-                ],
-                "isSpicy": false
-              },
-              {
-                "id": "beverage-item-7",
-                "name": "SODA HOLUNDER",
-                "description": "Softdrink.",
-                "price": 3.0,
-                "images": [
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png"
-                ],
-                "isSpicy": false
-              },
-              {
-                "id": "beverage-item-8",
-                "name": "SODA HIMBEER",
-                "description": "Softdrink.",
-                "price": 3.0,
-                "images": [
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png"
-                ],
-                "isSpicy": false
-              }
-            ]
-          },
-          {
-            "id": "beverages-3",
-            "items": [
-              {
-                "id": "beverage-item-9",
-                "name": "PFIRSICHSAFT STILL",
-                "description": "Softdrink.",
-                "price": 2.5,
-                "images": [
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png"
-                ],
-                "isSpicy": false
-              },
-              {
-                "id": "beverage-item-10",
-                "name": "KWAS",
-                "description": "Softdrink.",
-                "price": 3.0,
-                "images": [
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png"
-                ],
-                "isSpicy": false
-              },
-              {
-                "id": "beverage-item-11",
-                "name": "APFEL GESPRITZT",
-                "description": "Softdrink.",
-                "price": 3.5,
-                "images": [
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png"
-                ],
-                "isSpicy": false
-              },
-              {
-                "id": "beverage-item-12",
-                "name": "ORANGE GESPRITZT",
-                "description": "Softdrink.",
-                "price": 3.5,
-                "images": [
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png"
-                ],
-                "isSpicy": false
-              }
-            ]
-          },
-          {
-            "id": "beverages-4",
-            "items": [
-              {
-                "id": "beverage-item-13",
-                "name": "JASMIN TEE (KANNE)",
-                "description": "Heißgetränk.",
-                "price": 6.5,
-                "images": [
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png"
-                ],
-                "isSpicy": false
-              },
-              {
-                "id": "beverage-item-14",
-                "name": "SCHWARZER TEE (KANNE)",
-                "description": "Heißgetränk.",
-                "price": 6.5,
-                "images": [
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png"
-                ],
-                "isSpicy": false
-              },
-              {
-                "id": "beverage-item-15",
-                "name": "GRÜNER TEE (KANNE)",
-                "description": "Heißgetränk.",
-                "price": 6.5,
-                "images": [
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png"
-                ],
-                "isSpicy": false
-              },
-              {
-                "id": "beverage-item-16",
-                "name": "ROSEN TEE (KANNE)",
-                "description": "Heißgetränk.",
-                "price": 6.5,
-                "images": [
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png"
-                ],
-                "isSpicy": false
-              },
-              {
-                "id": "beverage-item-17",
-                "name": "INGWERTEE (KANNE)",
-                "description": "Heißgetränk.",
-                "price": 6.5,
-                "images": [
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png"
-                ],
-                "isSpicy": false
-              },
-              {
-                "id": "beverage-item-18",
-                "name": "SPEZIAL TEE (KANNE)",
-                "description": "Heißgetränk.",
-                "price": 6.5,
-                "images": [
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png"
-                ],
-                "isSpicy": false
-              }
-            ]
-          }
-        ]
       }
     ],
 
@@ -1006,7 +678,7 @@ export const translations = {
                 "price": 35.0,
                 "price_large": 45.0,
                 "images": [
-                 "/menu-items/product-2.jpg"
+                  "/menu-items/product-2.jpg"
                 ],
                 "isSpicy": true
               },
@@ -1054,9 +726,9 @@ export const translations = {
             "items": [
               {
                 "id": "noodle-rice-item-1",
-                "name": "CUT NOODLES",
-                "description": "Beef, green paprika, red paprika, hand-pulled, fried noodles.",
-                "price": 14.0,
+                "name": "FRIED BEEF STEW",
+                "description": "Fried beef, potatoes, carrots, spring onions.",
+                "price": 45.0,
                 "images": [
                   "/menu-items/menu-product-image.png",
                   "/menu-items/menu-product-image.png",
@@ -1068,30 +740,37 @@ export const translations = {
               },
               {
                 "id": "noodle-rice-item-2",
-                "name": "BEEF AND VEGETABLES WITH CUT NOODLES",
-                "description": "Beef, green paprika, red paprika, hand-pulled, fried noodles.",
+                "name": "Laghman (Hand-pulled Noodles)",
+                "description": "Beef, dried chili, fried noodles, sesame, garlic, soy sauce.",
                 "price": 14.0,
                 "images": [
-                  "/menu-items/product-6.jpg",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
                 ],
-                "isSpicy": false
+                "isSpicy": true
               },
               {
                 "id": "noodle-rice-item-3",
-                "name": "POLO (RICE PILAF)",
-                "description": "Beef, carrots, onions, rice, coleslaw.",
-                "price": 20.0,
-                "price_small": 15.0,
+                "name": "Ding Ding Kawap",
+                "description": "Beef, green peppers, red peppers, fried noodles.",
+                "price": 14.0,
                 "images": [
-                  "/menu-items/product-7.jpg",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
                 ],
                 "isSpicy": false
               },
               {
                 "id": "noodle-rice-item-4",
-                "name": "FRIED BEEF STEW",
-                "description": "Fried beef, potatoes, carrots, spring onions.",
-                "price": 45.0,
+                "name": "Pian-Pian Kawap",
+                "description": "Beef, green peppers, red peppers, fried noodles.",
+                "price": 14.0,
                 "images": [
                   "/menu-items/menu-product-image.png",
                   "/menu-items/menu-product-image.png",
@@ -1108,48 +787,6 @@ export const translations = {
             "items": [
               {
                 "id": "noodle-rice-item-5",
-                "name": "Laghman (Hand-pulled Noodles)",
-                "description": "Beef, dried chili, fried noodles, sesame, garlic, soy sauce.",
-                "price": 14.0,
-                "images": [
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png"
-                ],
-                "isSpicy": true
-              },
-              {
-                "id": "noodle-rice-item-6",
-                "name": "Ding Ding Kawap",
-                "description": "Beef, green peppers, red peppers, fried noodles.",
-                "price": 14.0,
-                "images": [
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png"
-                ],
-                "isSpicy": false
-              },
-              {
-                "id": "noodle-rice-item-7",
-                "name": "Pian-Pian Kawap",
-                "description": "Beef, green peppers, red peppers, fried noodles.",
-                "price": 14.0,
-                "images": [
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png"
-                ],
-                "isSpicy": false
-              },
-              {
-                "id": "noodle-rice-item-8",
                 "name": "Zhuafan (Rice Dish)",
                 "description": "Beef, carrots, onions, rice, coleslaw.",
                 "price": 15.0,
@@ -1187,20 +824,6 @@ export const translations = {
                   "/menu-items/menu-product-image.png"
                 ],
                 "isSpicy": false
-              },
-              {
-                "id": "starter-item-2",
-                "name": "BRAISED NOODLES (SPICY)",
-                "description": "Beef, coriander, beef soup, noodles, hot and spicy.",
-                "price": 11.9,
-                "images": [
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png"
-                ],
-                "isSpicy": true
               },
               {
                 "id": "starter-item-3",
@@ -1314,7 +937,7 @@ export const translations = {
                 "description": "Cold noodles and pasta with Mung bean flour sauce.",
                 "price": 6.0,
                 "images": [
-                    "/menu-items/product-24.jpg"
+                  "/menu-items/product-24.jpg"
                 ],
                 "isSpicy": false
               },
@@ -1486,290 +1109,6 @@ export const translations = {
             ]
           }
         ]
-      },
-      {
-        "id": "beverages",
-        "name": "Beverages",
-        "categoryImage": "/menu-items/menu-category.png",
-        "sections": [
-          {
-            "id": "beverages-1",
-            "items": [
-              {
-                "id": "beverage-item-1",
-                "name": "REDBULL",
-                "description": "Soft drink.",
-                "price": 3.9,
-                "images": [
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png"
-                ],
-                "isSpicy": false
-              },
-              {
-                "id": "beverage-item-2",
-                "name": "COCA COLA/ZERO",
-                "description": "Soft drink.",
-                "price": 3.5,
-                "images": [
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png"
-                ],
-                "isSpicy": false
-              },
-              {
-                "id": "beverage-item-3",
-                "name": "FANTA",
-                "description": "Soft drink.",
-                "price": 3.8,
-                "images": [
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png"
-                ],
-                "isSpicy": false
-              },
-              {
-                "id": "beverage-item-4",
-                "name": "SPRITE",
-                "description": "Soft drink.",
-                "price": 3.8,
-                "images": [
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png"
-                ],
-                "isSpicy": false
-              }
-            ]
-          },
-          {
-            "id": "beverages-2",
-            "items": [
-              {
-                "id": "beverage-item-5",
-                "name": "ICED TEA LEMON/PEACH",
-                "description": "Soft drink.",
-                "price": 3.3,
-                "images": [
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png"
-                ],
-                "isSpicy": false
-              },
-              {
-                "id": "beverage-item-6",
-                "name": "SODA LEMON",
-                "description": "Soft drink.",
-                "price": 3.0,
-                "images": [
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png"
-                ],
-                "isSpicy": false
-              },
-              {
-                "id": "beverage-item-7",
-                "name": "SODA ELDERFLOWER",
-                "description": "Soft drink.",
-                "price": 3.0,
-                "images": [
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png"
-                ],
-                "isSpicy": false
-              },
-              {
-                "id": "beverage-item-8",
-                "name": "SODA RASPBERRY",
-                "description": "Soft drink.",
-                "price": 3.0,
-                "images": [
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png"
-                ],
-                "isSpicy": false
-              }
-            ]
-          },
-          {
-            "id": "beverages-3",
-            "items": [
-              {
-                "id": "beverage-item-9",
-                "name": "PEACH JUICE STILL",
-                "description": "Soft drink.",
-                "price": 2.5,
-                "images": [
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png"
-                ],
-                "isSpicy": false
-              },
-              {
-                "id": "beverage-item-10",
-                "name": "KVASS",
-                "description": "Soft drink.",
-                "price": 3.0,
-                "images": [
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png"
-                ],
-                "isSpicy": false
-              },
-              {
-                "id": "beverage-item-11",
-                "name": "APPLE SPRITZER",
-                "description": "Soft drink.",
-                "price": 3.5,
-                "images": [
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png"
-                ],
-                "isSpicy": false
-              },
-              {
-                "id": "beverage-item-12",
-                "name": "ORANGE SPRITZER",
-                "description": "Soft drink.",
-                "price": 3.5,
-                "images": [
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png"
-                ],
-                "isSpicy": false
-              }
-            ]
-          },
-          {
-            "id": "beverages-4",
-            "items": [
-              {
-                "id": "beverage-item-13",
-                "name": "JASMINE TEA (POT)",
-                "description": "Hot beverage.",
-                "price": 6.5,
-                "images": [
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png"
-                ],
-                "isSpicy": false
-              },
-              {
-                "id": "beverage-item-14",
-                "name": "BLACK TEA (POT)",
-                "description": "Hot beverage.",
-                "price": 6.5,
-                "images": [
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png"
-                ],
-                "isSpicy": false
-              },
-              {
-                "id": "beverage-item-15",
-                "name": "GREEN TEA (POT)",
-                "description": "Hot beverage.",
-                "price": 6.5,
-                "images": [
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png"
-                ],
-                "isSpicy": false
-              },
-              {
-                "id": "beverage-item-16",
-                "name": "ROSE TEA (POT)",
-                "description": "Hot beverage.",
-                "price": 6.5,
-                "images": [
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png"
-                ],
-                "isSpicy": false
-              }
-            ],
-          },
-           {
-            "id": "beverages-5",
-            "items": [
-              {
-                "id": "beverage-item-17",
-                "name": "GINGER TEA (POT)",
-                "description": "Hot beverage.",
-                "price": 6.5,
-                "images": [
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png"
-                ],
-                "isSpicy": false
-              },
-              {
-                "id": "beverage-item-18",
-                "name": "SPECIAL TEA (POT)",
-                "description": "Hot beverage.",
-                "price": 6.5,
-                "images": [
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png"
-                ],
-                "isSpicy": false
-              }
-            ],
-          }
-        ]
       }
     ],
 
@@ -1939,9 +1278,9 @@ export const translations = {
             "items": [
               {
                 "id": "noodle-rice-item-1",
-                "name": "炒面片",
-                "description": "牛肉、青椒、红椒、手工拉面片，炒制。",
-                "price": 14.0,
+                "name": "红烧牛肉",
+                "description": "红烧牛肉、土豆、胡萝卜、葱。",
+                "price": 45.0,
                 "images": [
                   "/menu-items/menu-product-image.png"
                 ],
@@ -1949,30 +1288,33 @@ export const translations = {
               },
               {
                 "id": "noodle-rice-item-2",
-                "name": "牛肉蔬菜炒面片",
-                "description": "牛肉、青椒、红椒、手工拉面片，炒制。",
+                "name": "拉面",
+                "description": "牛肉、干辣椒、炒面、芝麻、大蒜、酱油。",
                 "price": 14.0,
                 "images": [
-                  "/menu-items/product-6.jpg",
+                  "/menu-items/menu-product-image.png"
                 ],
-                "isSpicy": false
+                "isSpicy": true
               },
               {
                 "id": "noodle-rice-item-3",
-                "name": "抓饭",
-                "description": "牛肉、胡萝卜、洋葱、米饭、卷心菜沙拉。",
-                "price": 20.0,
-                "price_small": 15.0,
+                "name": "丁丁烤肉面",
+                "description": "牛肉、青椒、红椒、炒面。",
+                "price": 14.0,
                 "images": [
-                "/menu-items/product-7.jpg",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png",
+                  "/menu-items/menu-product-image.png"
                 ],
                 "isSpicy": false
               },
               {
-                "id": "noodle-rice-item-4",
-                "name": "红烧牛肉",
-                "description": "红烧牛肉、土豆、胡萝卜、葱。",
-                "price": 45.0,
+                "id": "noodle-rice-item-5",
+                "name": "片片炒面",
+                "description": "牛肉、青椒、红椒、炒面。",
+                "price": 14.0,
                 "images": [
                   "/menu-items/menu-product-image.png"
                 ],
@@ -1983,36 +1325,6 @@ export const translations = {
           {
             "id": "noodle-rice-2",
             "items": [
-              {
-                "id": "noodle-rice-item-5",
-                "name": "拉面",
-                "description": "牛肉、干辣椒、炒面、芝麻、大蒜、酱油。",
-                "price": 14.0,
-                "images": [
-                  "/menu-items/menu-product-image.png"
-                ],
-                "isSpicy": true
-              },
-              {
-                "id": "noodle-rice-item-6",
-                "name": "丁丁炒面",
-                "description": "牛肉、青椒、红椒、炒面。",
-                "price": 14.0,
-                "images": [
-                  "/menu-items/menu-product-image.png"
-                ],
-                "isSpicy": false
-              },
-              {
-                "id": "noodle-rice-item-7",
-                "name": "片片炒面",
-                "description": "牛肉、青椒、红椒、炒面。",
-                "price": 14.0,
-                "images": [
-                  "/menu-items/menu-product-image.png"
-                ],
-                "isSpicy": false
-              },
               {
                 "id": "noodle-rice-item-8",
                 "name": "抓饭 (米饭菜)",
@@ -2279,213 +1591,6 @@ export const translations = {
             ]
           }
         ]
-      },
-      {
-        "id": "beverages",
-        "name": "饮品",
-        "categoryImage": "/menu-items/menu-category.png",
-        "sections": [
-          {
-            "id": "beverages-1",
-            "items": [
-              {
-                "id": "beverage-item-1",
-                "name": "红牛",
-                "description": "软饮。",
-                "price": 3.9,
-                "images": [
-                  "/menu-items/menu-product-image.png"
-                ],
-                "isSpicy": false
-              },
-              {
-                "id": "beverage-item-2",
-                "name": "可口可乐/零度",
-                "description": "软饮。",
-                "price": 3.5,
-                "images": [
-                  "/menu-items/menu-product-image.png"
-                ],
-                "isSpicy": false
-              },
-              {
-                "id": "beverage-item-3",
-                "name": "芬达",
-                "description": "软饮。",
-                "price": 3.8,
-                "images": [
-                  "/menu-items/menu-product-image.png"
-                ],
-                "isSpicy": false
-              },
-              {
-                "id": "beverage-item-4",
-                "name": "雪碧",
-                "description": "软饮。",
-                "price": 3.8,
-                "images": [
-                  "/menu-items/menu-product-image.png"
-                ],
-                "isSpicy": false
-              }
-            ]
-          },
-          {
-            "id": "beverages-2",
-            "items": [
-              {
-                "id": "beverage-item-5",
-                "name": "冰红茶 柠檬/桃子",
-                "description": "软饮。",
-                "price": 3.3,
-                "images": [
-                  "/menu-items/menu-product-image.png"
-                ],
-                "isSpicy": false
-              },
-              {
-                "id": "beverage-item-6",
-                "name": "苏打水 柠檬",
-                "description": "软饮。",
-                "price": 3.0,
-                "images": [
-                  "/menu-items/menu-product-image.png"
-                ],
-                "isSpicy": false
-              },
-              {
-                "id": "beverage-item-7",
-                "name": "苏打水 接骨木花",
-                "description": "软饮。",
-                "price": 3.0,
-                "images": [
-                  "/menu-items/menu-product-image.png"
-                ],
-                "isSpicy": false
-              },
-              {
-                "id": "beverage-item-8",
-                "name": "苏打水 树莓",
-                "description": "软饮。",
-                "price": 3.0,
-                "images": [
-                  "/menu-items/menu-product-image.png"
-                ],
-                "isSpicy": false
-              }
-            ]
-          },
-          {
-            "id": "beverages-3",
-            "items": [
-              {
-                "id": "beverage-item-9",
-                "name": "桃汁 (无气)",
-                "description": "软饮。",
-                "price": 2.5,
-                "images": [
-                  "/menu-items/menu-product-image.png"
-                ],
-                "isSpicy": false
-              },
-              {
-                "id": "beverage-item-10",
-                "name": "格瓦斯",
-                "description": "软饮。",
-                "price": 3.0,
-                "images": [
-                  "/menu-items/menu-product-image.png"
-                ],
-                "isSpicy": false
-              },
-              {
-                "id": "beverage-item-11",
-                "name": "苹果苏打水",
-                "description": "软饮。",
-                "price": 3.5,
-                "images": [
-                  "/menu-items/menu-product-image.png"
-                ],
-                "isSpicy": false
-              },
-              {
-                "id": "beverage-item-12",
-                "name": "橙子苏打水",
-                "description": "软饮。",
-                "price": 3.5,
-                "images": [
-                  "/menu-items/menu-product-image.png"
-                ],
-                "isSpicy": false
-              }
-            ]
-          },
-          {
-            "id": "beverages-4",
-            "items": [
-              {
-                "id": "beverage-item-13",
-                "name": "茉莉花茶 (壶)",
-                "description": "热饮。",
-                "price": 6.5,
-                "images": [
-                  "/menu-items/menu-product-image.png"
-                ],
-                "isSpicy": false
-              },
-              {
-                "id": "beverage-item-14",
-                "name": "红茶 (壶)",
-                "description": "热饮。",
-                "price": 6.5,
-                "images": [
-                  "/menu-items/menu-product-image.png"
-                ],
-                "isSpicy": false
-              },
-              {
-                "id": "beverage-item-15",
-                "name": "绿茶 (壶)",
-                "description": "热饮。",
-                "price": 6.5,
-                "images": [
-                  "/menu-items/menu-product-image.png"
-                ],
-                "isSpicy": false
-              },
-              {
-                "id": "beverage-item-16",
-                "name": "玫瑰茶 (壶)",
-                "description": "热饮。",
-                "price": 6.5,
-                "images": [
-                  "/menu-items/menu-product-image.png"
-                ],
-                "isSpicy": false
-              },
-              {
-                "id": "beverage-item-17",
-                "name": "姜茶 (壶)",
-                "description": "热饮。",
-                "price": 6.5,
-                "images": [
-                  "/menu-items/menu-product-image.png"
-                ],
-                "isSpicy": false
-              },
-              {
-                "id": "beverage-item-18",
-                "name": "特色茶 (壶)",
-                "description": "热饮。",
-                "price": 6.5,
-                "images": [
-                  "/menu-items/menu-product-image.png"
-                ],
-                "isSpicy": false
-              }
-            ]
-          }
-        ]
       }
     ],
     contactUsTitle: "联系我们",
@@ -2671,41 +1776,6 @@ export const translations = {
             "items": [
               {
                 "id": "noodle-rice-item-1",
-                "name": "РЕЗАНАЯ ЛАПША",
-                "description": "Говядина, зеленый перец, красный перец, жареная лапша ручной вытяжки.",
-                "price": 14.0,
-                "images": [
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png"
-                ],
-                "isSpicy": false
-              },
-              {
-                "id": "noodle-rice-item-2",
-                "name": "ГОВЯДИНА И ОВОЩИ С РЕЗАНОЙ ЛАПШОЙ",
-                "description": "Говядина, зеленый перец, красный перец, жареная лапша ручной вытяжки.",
-                "price": 14.0,
-                "images": [
-                  "menu-items/product-6.jpg",
-                ],
-                "isSpicy": false
-              },
-              {
-                "id": "noodle-rice-item-3",
-                "name": "ПЛОВ",
-                "description": "Говядина, морковь, лук, рис, салат из капусты.",
-                "price": 20.0,
-                "price_small": 15.0,
-                "images": [
-                 "/menu-items/product-7.jpg",
-                ],
-                "isSpicy": false
-              },
-              {
-                "id": "noodle-rice-item-4",
                 "name": "ЖАРЕНАЯ ГОВЯДИНА (ТУШЕНИЕ)",
                 "description": "Жареная говядина, картофель, морковь, зеленый лук.",
                 "price": 45.0,
@@ -2717,14 +1787,9 @@ export const translations = {
                   "/menu-items/menu-product-image.png"
                 ],
                 "isSpicy": false
-              }
-            ]
-          },
-          {
-            "id": "noodle-rice-2",
-            "items": [
+              },
               {
-                "id": "noodle-rice-item-5",
+                "id": "noodle-rice-item-2",
                 "name": "Лагман (Лапша ручной вытяжки)",
                 "description": "Говядина, сушеный чили, жареная лапша, кунжут, чеснок, соевый соус.",
                 "price": 14.0,
@@ -2738,7 +1803,7 @@ export const translations = {
                 "isSpicy": true
               },
               {
-                "id": "noodle-rice-item-6",
+                "id": "noodle-rice-item-3",
                 "name": "Дин Дин Кавап",
                 "description": "Говядина, зеленый перец, красный перец, жареная лапша.",
                 "price": 14.0,
@@ -2752,7 +1817,7 @@ export const translations = {
                 "isSpicy": false
               },
               {
-                "id": "noodle-rice-item-7",
+                "id": "noodle-rice-item-4",
                 "name": "Пян-Пян Кавап",
                 "description": "Говядина, зеленый перец, красный перец, жареная лапша.",
                 "price": 14.0,
@@ -2765,6 +1830,11 @@ export const translations = {
                 ],
                 "isSpicy": false
               },
+            ]
+          },
+          {
+            "id": "noodle-rice-2",
+            "items": [
               {
                 "id": "noodle-rice-item-8",
                 "name": "Жуафан (Рисовое блюдо)",
@@ -2806,20 +1876,6 @@ export const translations = {
                 "isSpicy": false
               },
               {
-                "id": "starter-item-2",
-                "name": "ТУШЕНАЯ ЛАПША (ОСТРАЯ)",
-                "description": "Говядина, кинза, говяжий бульон, лапша, острое и пряное.",
-                "price": 11.9,
-                "images": [
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png",
-                  "/menu-items/menu-product-image.png"
-                ],
-                "isSpicy": true
-              },
-              {
                 "id": "starter-item-3",
                 "name": "ЖАРЕНАЯ ОСТРАЯ РИСОВАЯ ЛАПША",
                 "description": "Пикантная, рисовая лапша, курица, сельдерей.",
@@ -2859,7 +1915,7 @@ export const translations = {
                 "description": "Паровые пельмени с говядиной.",
                 "price": 5.9,
                 "images": [
-                 "/menu-items/product-16.jpg",
+                  "/menu-items/product-16.jpg",
                   "/menu-items/product-16.1.jpg"
                 ],
                 "isSpicy": false
