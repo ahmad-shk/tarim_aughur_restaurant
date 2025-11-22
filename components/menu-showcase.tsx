@@ -39,7 +39,9 @@ export function MenuShowcase() {
                   <h3 className="aboreto-text text-[#F5E3BF] xl:text-[23px] mb-2">{item.name}</h3>
                   <p className="text-[#F5E3BF] mb-5 font-bold">{item.price}</p>
                   <div className="flex justify-center items-center">
-                    <button className="bg-[#F5E3BF] rounded-[6px] cursor-pointer text-primary px-8 py-2 xl:font-bold font-medium transition transition-ease hover:opacity-85">{t("viewMenu")}</button>
+                    <button className="bg-[#F5E3BF] rounded-[6px] cursor-pointer text-primary px-8 py-2 xl:font-bold font-medium transition transition-ease hover:opacity-85"
+                    onClick={()=>{console.log('there---->')}}
+                    >{t("viewMenu")}</button>
                   </div>
                 </div>
               </div>
