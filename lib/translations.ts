@@ -607,7 +607,7 @@ export const translations = {
       {
         "id": "laghman",
         "name": "1. LAGHMAN / HAND-PULLED NOODLES",
-        "categoryImage": "/menu-items/menu-category-laghman.png",
+        "categoryImage": "/menu-items/Homemade-Laghman.jpg",
         "sections": [
           {
             "id": "laghman-main",
@@ -630,7 +630,7 @@ export const translations = {
                 "description": "Meat (as selected), Various Vegetables, Hand-Pulled Noodles.",
                 "price": 11.9,
                 "images": [
-                  "/menu-items/homemade-laghman.jpg"
+                  "/menu-items/Homemade-Laghman.jpg"
                 ],
                 "isSpicy": false
               },
@@ -641,7 +641,7 @@ export const translations = {
                 "description": "Beef, Bok Choy, Red Paprika, Green Paprika, Onion, Hand-Pulled, Fried Noodles.",
                 "price": 14.0,
                 "images": [
-                  "/menu-items/noodles-with-vegetables.jpg"
+                  "/menu-items/Noodles-with-Vegetables.jpg"
                 ],
                 "isSpicy": false
               },
@@ -663,7 +663,7 @@ export const translations = {
                 "description": "Beef, Green Paprika, Red Paprika, Hand-Pulled, Fried Noodles.",
                 "price": 14.0,
                 "images": [
-                  "/menu-items/sliced-noodles.png"
+                  "/menu-items/Sliced-Noodles.jpg"
                 ],
                 "isSpicy": false
               },
@@ -685,7 +685,7 @@ export const translations = {
       {
         "id": "rice_bowls",
         "name": "2. RICE BOWLS / RICE DISHES",
-        "categoryImage": "/menu-items/menu-category-rice.png",
+        "categoryImage": "/menu-items/Chicken-with-Potatoes.jpg",
         "sections": [
           {
             "id": "rice-main",
@@ -698,7 +698,7 @@ export const translations = {
                 "price": 20.0,
                 "price_small": 15.0,
                 "images": [
-                  "/menu-items/polo-pilaf.jpg"
+                  "/menu-items/POLO.jpg"
                 ],
                 "isSpicy": false
               },
@@ -709,7 +709,7 @@ export const translations = {
                 "description": "Beef, Potatoes, Carrots, Spring Onions.",
                 "price": 45.0,
                 "images": [
-                  "/menu-items/fried-beef-stew.jpg"
+                  "/menu-items/Fried-Beef-Stew.jpg"
                 ],
                 "isSpicy": false
               },
@@ -720,7 +720,7 @@ export const translations = {
                 "description": "Chicken, Potatoes, Paprika, Chili Peppers.",
                 "price": 12.0,
                 "images": [
-                  "/menu-items/chicken-with-potatoes.jpg"
+                  "/menu-items/Chicken-with-Potatoes.jpg"
                 ],
                 "isSpicy": true
               }
@@ -731,7 +731,7 @@ export const translations = {
       {
         "id": "vegetarian",
         "name": "3. VEGETARIAN",
-        "categoryImage": "/menu-items/menu-category-veg.png",
+        "categoryImage": "/menu-items/Spicy-Mala-Tofu.jpg",
         "sections": [
           {
             "id": "veg-main",
@@ -743,7 +743,7 @@ export const translations = {
                 "description": "Tofu, Spring Onions, and Chili.",
                 "price": 9.9,
                 "images": [
-                  "/menu-items/spicy-mala-tofu.jpg"
+                  "/menu-items/Spicy-Mala-Tofu.jpg"
                 ],
                 "isSpicy": true
               },
@@ -754,7 +754,7 @@ export const translations = {
                 "description": "Eggs, Spinach.",
                 "price": 9.9,
                 "images": [
-                  "/menu-items/spinach-with-egg.png"
+                  "/menu-items/Spinach-with-Egg.jpg"
                 ],
                 "isSpicy": false
               },
@@ -776,7 +776,7 @@ export const translations = {
       {
         "id": "bbq_grills",
         "name": "4. BBQ & GRILLS / GRILLED SPECIALTIES",
-        "categoryImage": "/menu-items/menu-category-bbq.png",
+        "categoryImage": "/menu-items/Lamb-Skewers.jpg",
         "sections": [
           {
             "id": "bbq-main",
@@ -789,7 +789,7 @@ export const translations = {
                 "price": 4.0,
                 "unit": "1 Pc",
                 "images": [
-                  "/menu-items/lamb-skewers.jpg"
+                  "/menu-items/Lamb-Skewers.jpg"
                 ],
                 "isSpicy": false
               },
@@ -812,7 +812,7 @@ export const translations = {
       {
         "id": "specialties_sides",
         "name": "5. SPECIALTIES & SIDES",
-        "categoryImage": "/menu-items/menu-category-specialties.png",
+        "categoryImage": "/menu-items/Goxnan.jpg",
         "sections": [
           {
             "id": "specialties-main",
@@ -860,7 +860,7 @@ export const translations = {
                 "description": "Beef, Onion.",
                 "price": 15.0,
                 "images": [
-                  "/menu-items/goxnan.jpg"
+                  "/menu-items/Goxnan.jpg"
                 ],
                 "isSpicy": false
               },
@@ -882,7 +882,7 @@ export const translations = {
                 "description": "Rice (plain boiled rice/sada chawal).",
                 "price": 4.0,
                 "images": [
-                  "/menu-items/rice.jpg"
+                  "/menu-items/Rice.png"
                 ],
                 "isSpicy": false
               }
@@ -893,7 +893,7 @@ export const translations = {
       {
         "id": "soups_snacks_small_bites",
         "name": "6. SOUPS & SNACKS / SOUPS & SMALL BITES",
-        "categoryImage": "/menu-items/menu-category-soups.png",
+        "categoryImage": "/menu-items/Beef-Soup-with-Noodles.jpg",
         "sections": [
           {
             "id": "soup-main",
@@ -905,7 +905,7 @@ export const translations = {
                 "description": "Beef, Coriander, Beef Soup, Noodles.",
                 "price": 9.9,
                 "images": [
-                  "/menu-items/beef-soup-noodles.png"
+                  "/menu-items/Beef-Soup-with-Noodles.jpg"
                 ],
                 "isSpicy": false
               },
@@ -939,7 +939,7 @@ export const translations = {
       {
         "id": "snacks_sides",
         "name": "7. SNACKS / SIDE DISHES",
-        "categoryImage": "/menu-items/menu-category-snacks.png",
+        "categoryImage": "/menu-items/Steamed-Dumplings.jpg",
         "sections": [
           {
             "id": "snacks-main",
@@ -952,7 +952,7 @@ export const translations = {
                 "price": 2.0,
                 "unit": "1 Pc",
                 "images": [
-                  "/menu-items/samsa.jpg"
+                  "/menu-items/Samsa.jpg"
                 ],
                 "isSpicy": false
               },
@@ -964,7 +964,9 @@ export const translations = {
                 "price": 5.9,
                 "unit": "3 Pcs",
                 "images": [
-                  "/menu-items/steamed-dumplings.jpg"
+                  "/menu-items/Steamed-Dumplings.jpg",
+                  "/menu-items/Steamed-Dumplings-1.jpg",
+                  "/menu-items/Steamed-Dumplings-2.jpg"
                 ],
                 "isSpicy": false
               }
@@ -975,7 +977,7 @@ export const translations = {
       {
         "id": "cold_starters",
         "name": "8. COLD STARTERS / COLD APPETIZERS",
-        "categoryImage": "/menu-items/menu-category-cold-starters.png",
+        "categoryImage": "/menu-items/Uyghur-Special-Salad.jpg",
         "sections": [
           {
             "id": "cold-starter-main",
@@ -987,7 +989,7 @@ export const translations = {
                 "description": "Beef, Coriander, Garlic.",
                 "price": 12.0,
                 "images": [
-                  "/menu-items/cold-beef-salad.jpg"
+                  "/menu-items/Cold-Beef-Salad.jpg"
                 ],
                 "isSpicy": false
               },
@@ -998,7 +1000,13 @@ export const translations = {
                 "description": "Vermicelli, Carrots.",
                 "price": 8.0,
                 "images": [
-                  "/menu-items/uyghur-salad.jpg"
+
+                  "/menu-items/Uyghur-Special-Salad-2.jpg",
+                  "/menu-items/Uyghur-Special-Salad-3.jpg",
+                  "/menu-items/Uyghur-Special-Salad-4.jpg",
+                  "/menu-items/Uyghur-Special-Salad-5.jpg",
+                  "/menu-items/Uyghur-Special-Salad-6.jpg",
+                  "/menu-items/Uyghur-Special-Salad-7.jpg"
                 ],
                 "isSpicy": false
               },
