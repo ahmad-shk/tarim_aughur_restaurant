@@ -14,10 +14,19 @@ import { translations } from "@/lib/translations"
 
 import { Footer } from "@/components/footer"
 
-type MenuCategory = "main_dishes" | "noodles_rice_bowls" | "starters_snacks_salads" | "bbq_grills" | "vegetarish" | "beverages"
+type MenuCategory =
+  | "laghman"
+  | "rice_bowls"
+  | "vegetarian"
+  | "bbq_grills"
+  | "specialties_sides"
+  | "soups_snacks_small_bites"
+  | "snacks_sides"
+  | "cold_starters";
+
 
 export default function ResturantMenu() {
-  const [activeCategory, setActiveCategory] = useState<MenuCategory>("main_dishes")
+  const [activeCategory, setActiveCategory] = useState<MenuCategory>("laghman")
   
   const { language } = useLanguage()
   const t = translations[language] // ✅ correct reference
