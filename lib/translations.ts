@@ -81,7 +81,7 @@ export const translations = {
 
 
     // menu text
-
+    "RestaurantMenuText": "TARIM UYGHUR RESTAURANT MENU",
     "menuCategories": {
       "laghman": "LÄGMEN / HANDGEZOGENE NUDELN",
       "rice_bowls": "REISSCHÜSSELN / REISGERICHTE",
@@ -97,7 +97,7 @@ export const translations = {
       {
         "id": "laghman",
         "name": "1. LÄGMEN / HANDGEZOGENE NUDELN",
-        "categoryImage": "/menu-items/menu-category-laghman.png",
+        "categoryImage": "/menu-items/Homemade-Laghman.jpg",
         "sections": [
           {
             "id": "laghman-main",
@@ -137,7 +137,12 @@ export const translations = {
                 "price": 14.0,
                 "images": ["/menu-items/qorulghan-laghman.jpg"],
                 "isSpicy": true
-              },
+              }
+            ]
+          },
+          {
+            "id": "laghman-main-1",
+            "items": [
               {
                 "id": "lag-item-5",
                 "name": "GESCHNITTENE NUDELN",
@@ -156,7 +161,7 @@ export const translations = {
                 "images": ["/menu-items/beef-sliced-noodles.png"],
                 "isSpicy": false
               }
-            ]
+            ],
           }
         ]
       },
@@ -321,7 +326,12 @@ export const translations = {
                 "price": 15.0,
                 "images": ["/menu-items/goxnan.jpg"],
                 "isSpicy": false
-              },
+              }
+            ]
+          },
+          {
+            "id": "specialties-main-1",
+            "items": [
               {
                 "id": "spec-item-5",
                 "name": "QUQUR",
@@ -340,7 +350,7 @@ export const translations = {
                 "images": ["/menu-items/rice.jpg"],
                 "isSpicy": false
               }
-            ]
+            ],
           }
         ]
       },
@@ -462,7 +472,12 @@ export const translations = {
                 "price": 6.0,
                 "images": ["/menu-items/serigax.jpg"],
                 "isSpicy": false
-              },
+              }
+            ]
+          },
+          {
+            "id": "cold-starter-main",
+            "items": [
               {
                 "id": "cold-item-5",
                 "name": "MUNGOBOHNENGELEE MIT SOSSE",
@@ -490,7 +505,7 @@ export const translations = {
                 "images": ["/menu-items/uyghur-special-salad.jpg"],
                 "isSpicy": false
               }
-            ]
+            ],
           }
         ]
       }
@@ -592,7 +607,7 @@ export const translations = {
     allRightsReserved: "All Rights Reserved",
 
     // menu text
-
+    "RestaurantMenuText": "TARIM UYGHUR RESTAURANT MENU",
     "menuCategories": {
       "laghman": "LAGHMAN / HAND-PULLED NOODLES",
       "rice_bowls": "RICE BOWLS / RICE DISHES",
@@ -655,7 +670,12 @@ export const translations = {
                   "/menu-items/qorulghan-laghman.jpg"
                 ],
                 "isSpicy": true
-              },
+              }
+            ]
+          },
+          {
+            "id": "laghman-main-1",
+            "items": [
               {
                 "id": "lag-item-5",
                 "name": "SLICED NOODLES",
@@ -678,7 +698,7 @@ export const translations = {
                 ],
                 "isSpicy": false
               }
-            ]
+            ],
           }
         ]
       },
@@ -863,7 +883,12 @@ export const translations = {
                   "/menu-items/Goxnan.jpg"
                 ],
                 "isSpicy": false
-              },
+              }
+            ]
+          },
+          {
+            "id": "specialties-main",
+            "items": [
               {
                 "id": "spec-item-5",
                 "name": "QUQUR",
@@ -886,7 +911,7 @@ export const translations = {
                 ],
                 "isSpicy": false
               }
-            ]
+            ],
           }
         ]
       },
@@ -1031,7 +1056,12 @@ export const translations = {
                   "/menu-items/serigax.jpg"
                 ],
                 "isSpicy": false
-              },
+              }
+            ]
+          },
+          {
+            "id": "cold-starter-main",
+            "items": [
               {
                 "id": "cold-item-5",
                 "name": "MUNG BEAN FLOUR WITH SAUCE",
@@ -1065,7 +1095,7 @@ export const translations = {
                 ],
                 "isSpicy": false
               }
-            ]
+            ],
           }
         ]
       }
@@ -1163,7 +1193,7 @@ export const translations = {
     allRightsReserved: "版权所有",
 
     // menu text
-
+    "RestaurantMenuText": "TARIM UYGHUR RESTAURANT MENU",
     "menuCategories": {
       "laghman": "拉面 / 手工拉面",
       "rice_bowls": "盖饭 / 米饭类",
@@ -1178,7 +1208,7 @@ export const translations = {
       {
         "id": "laghman",
         "name": "1. 拉面 / 手工拉面",
-        "categoryImage": "/menu-items/menu-category-laghman.png",
+        "categoryImage": "/menu-items/Homemade-Laghman.jpg",
         "sections": [
           {
             "id": "laghman-main",
@@ -1218,7 +1248,12 @@ export const translations = {
                 "price": 14.0,
                 "images": ["/menu-items/qorulghan-laghman.jpg"],
                 "isSpicy": true
-              },
+              }
+            ]
+          },
+          {
+            "id": "laghman-main-1",
+            "items": [
               {
                 "id": "lag-item-5",
                 "name": "刀削面",
@@ -1237,7 +1272,7 @@ export const translations = {
                 "images": ["/menu-items/beef-sliced-noodles.png"],
                 "isSpicy": false
               }
-            ]
+            ],
           }
         ]
       },
@@ -1398,7 +1433,12 @@ export const translations = {
                 "price": 15.0,
                 "images": ["/menu-items/goxnan.jpg"],
                 "isSpicy": false
-              },
+              }
+            ]
+          },
+          {
+            "id": "specialties-main-1",
+            "items": [
               {
                 "id": "spec-item-5",
                 "name": "QUQUR（牛肉干）",
@@ -1417,7 +1457,7 @@ export const translations = {
                 "images": ["/menu-items/rice.jpg"],
                 "isSpicy": false
               }
-            ]
+            ],
           }
         ]
       },
@@ -1536,7 +1576,13 @@ export const translations = {
                 "price": 6.0,
                 "images": ["/menu-items/serigax.jpg"],
                 "isSpicy": false
-              },
+              }
+            ]
+          },
+          {
+            "id": "cold-starter-main-1",
+            "items": [
+              ,
               {
                 "id": "cold-item-5",
                 "name": "凉拌绿豆凉粉",
@@ -1564,7 +1610,7 @@ export const translations = {
                 "images": ["/menu-items/uyghur-special-salad.jpg"],
                 "isSpicy": false
               }
-            ]
+            ],
           }
         ]
       }
@@ -1661,7 +1707,7 @@ export const translations = {
 
     // menu text
 
-
+    "RestaurantMenuText": "TARIM UYGHUR RESTAURANT MENU",
     "menuCategories": {
       "laghman": "Лагман / Ручная лапша",
       "rice_bowls": "Рисовые блюда / Донбури",
@@ -1676,7 +1722,7 @@ export const translations = {
       {
         "id": "laghman",
         "name": "1. Лагман / Ручная лапша",
-        "categoryImage": "/menu-items/menu-category-laghman.png",
+        "categoryImage": "/menu-items/Homemade-Laghman.jpg",
         "sections": [
           {
             "id": "laghman-main",
@@ -1716,7 +1762,12 @@ export const translations = {
                 "price": 14.0,
                 "images": ["/menu-items/qorulghan-laghman.jpg"],
                 "isSpicy": true
-              },
+              }
+            ]
+          },
+          {
+            "id": "laghman-main-1",
+            "items": [
               {
                 "id": "lag-item-5",
                 "name": "Резаная лапша",
@@ -1735,7 +1786,7 @@ export const translations = {
                 "images": ["/menu-items/beef-sliced-noodles.png"],
                 "isSpicy": false
               }
-            ]
+            ],
           }
         ]
       },
@@ -1896,7 +1947,12 @@ export const translations = {
                 "price": 15.0,
                 "images": ["/menu-items/goxnan.jpg"],
                 "isSpicy": false
-              },
+              }
+            ]
+          },
+          {
+            "id": "specialties-main-1",
+            "items": [
               {
                 "id": "spec-item-5",
                 "name": "Кукур (вяленая говядина)",
@@ -1915,7 +1971,7 @@ export const translations = {
                 "images": ["/menu-items/rice.jpg"],
                 "isSpicy": false
               }
-            ]
+            ],
           }
         ]
       },
@@ -2034,7 +2090,12 @@ export const translations = {
                 "price": 6.0,
                 "images": ["/menu-items/serigax.jpg"],
                 "isSpicy": false
-              },
+              }
+            ]
+          },
+          {
+            "id": "cold-starter-main-1",
+            "items": [
               {
                 "id": "cold-item-5",
                 "name": "Холодный салат из зелёной фасолевой лапши",
@@ -2062,7 +2123,7 @@ export const translations = {
                 "images": ["/menu-items/uyghur-special-salad.jpg"],
                 "isSpicy": false
               }
-            ]
+            ],
           }
         ]
       }
