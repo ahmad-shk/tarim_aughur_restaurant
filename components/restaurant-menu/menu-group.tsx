@@ -167,7 +167,7 @@ export default function MenuGroup() {
                 </div>
 
                 <span className="aboreto-text text-xl md:text-3xl lg:text-[55px] text-color-primary dark:text-color-secondary">
-                  ${selectedItem.price}
+                  €{selectedItem.price}
                 </span>
               </div>
 
