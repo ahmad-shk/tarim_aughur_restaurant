@@ -10,31 +10,31 @@ export function SignatureDishes() {
   // ✅ Array of dishes for easier management
   const dishes = [
     {
-      img: "/image/signature-1.png",
+      img: "/image/signature-1.jpeg",
       title: t("signatureDishTitle1"),
       subtitle: t("signatureDishSubTitle1"),
       desc: t("signatureDishDesc1"),
     },
     {
-      img: "/image/signature-2.png",
+      img: "/image/signature-2.jpeg",
       title: t("signatureDishTitle2"),
       subtitle: t("signatureDishSubTitle2"),
       desc: t("signatureDishDesc2"),
     },
     {
-      img: "/image/signature-3.png",
+      img: "/image/signature-3.jpeg",
       title: t("signatureDishTitle3"),
       subtitle: t("signatureDishSubTitle3"),
       desc: t("signatureDishDesc3"),
     },
     {
-      img: "/image/signature-4.png",
+      img: "/image/signature-4.jpeg",
       title: t("signatureDishTitle4"),
       subtitle: t("signatureDishSubTitle4"),
       desc: t("signatureDishDesc4"),
     },
     {
-      img: "/image/signature-1.png",
+      img: "/image/signature-5.jpeg",
       title: t("signatureDishTitle5"),
       subtitle: t("signatureDishSubTitle5"),
       desc: t("signatureDishDesc5"),
@@ -57,7 +57,7 @@ export function SignatureDishes() {
             className="signature-box overflow-hidden lg:aspect-9/12 bg-black/20 flex items-center justify-center flex-col text-center py-12 px-4 relative text-white"
           >
             <div className="img w-full h-full absolute left-0 top-0">
-              <div className="bg-[#400004]/70 w-full h-full absolute z-1 top-0 left-0"></div>
+              <div className="bg-[#400004]/60 w-full h-full absolute z-1 top-0 left-0"></div>
               <img className="w-full h-full object-cover" src={dish.img} alt={dish.title} />
             </div>
             <div className="relative z-10">

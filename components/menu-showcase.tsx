@@ -10,10 +10,10 @@ export function MenuShowcase() {
   const t = (key: string) => getTranslation(language, key as any)
 
   const menuItems = [
-    { image: "slice-1.png", name: "Patatas Bravas", price: "$5.00", description: "Crispy potatoes with signature sauce" },
-    { image: "slice-2.png", name: "Paella de Mariscos", price: "$18.00", description: "Seafood paella with saffron rice" },
-    { image: "slice-3.png", name: "Chuletón de Buey", price: "$30.00", description: "Premium beef steak" },
-    { image: "slice-4.png", name: "Cocido Madrileño", price: "$16.00", description: "Traditional Madrid stew" },
+    { image: "slice-1.jpeg", name: "Uyghur Nann", price: "€3.00", description: "Crispy potatoes with signature sauce" },
+    { image: "slice-2.jpeg", name: "big Plate Chicken", price: "€36.00", description: "Seafood paella with saffron rice" },
+    { image: "signature-2.jpeg", name: "Spicy Chicken", price: "€36.00", description: "Premium beef steak" },
+    { image: "slice-4.jpeg", name: "Manta", price: "€7.00", description: "Traditional Madrid stew" },
   ]
 
   return (
