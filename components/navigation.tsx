@@ -24,7 +24,7 @@ export function Navigation() {
 
   return (
     <>
-      <nav className="sticky top-0 w-full backdrop-blur lg:z-50 z-10 bg-[#F5E3BF] py-[10px] lg:px-12 z-61 flex items-center w-full" style={{minHeight: '92px'}}>
+      <nav className="absolute top-0 w-full backdrop-blur lg:z-50 z-10 bg-[#F5E3BF] py-[10px] lg:px-12 z-61 flex items-center w-full" style={{minHeight: '92px'}}>
         <div className="max-w-[1300px] mx-auto px-4 w-full">
           <div className="flex justify-between items-center h-16">
             {/* Logo */}
