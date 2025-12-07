@@ -29,7 +29,7 @@ export default function ResturantMenu() {
   const [activeCategory, setActiveCategory] = useState<MenuCategory>("laghman")
   
   const { language } = useLanguage()
-  const t = translations[language] // ✅ correct reference
+  const t = translations[language] 
 
   const currentTranslations = translations[language] ?? translations.en;
   
