@@ -10,19 +10,19 @@ export function SignatureDishes() {
   // ✅ Array of dishes for easier management
   const dishes = [
     {
-      img: "/image/signature-1.jpeg",
+      img: "/image/kabab01.jpeg",
       title: t("signatureDishTitle1"),
       subtitle: t("signatureDishSubTitle1"),
       desc: t("signatureDishDesc1"),
     },
     {
-      img: "/image/signature-2.jpeg",
+      img: "/image/specy01.jpeg",
       title: t("signatureDishTitle2"),
       subtitle: t("signatureDishSubTitle2"),
       desc: t("signatureDishDesc2"),
     },
     {
-      img: "/image/signature-3.jpeg",
+      img: "/image/somasa.jpeg",
       title: t("signatureDishTitle3"),
       subtitle: t("signatureDishSubTitle3"),
       desc: t("signatureDishDesc3"),

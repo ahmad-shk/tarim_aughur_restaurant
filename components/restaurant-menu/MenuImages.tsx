@@ -27,18 +27,18 @@ export function MenuImages() {
                 className="w-full"
             >
                 {[
-                    '/image/signature-1.png',
+                    '/image/signature-1.jpeg',
                     '/image/signature-2.png',
+                    '/image/signature-2.jpeg',
                     '/image/signature-3.png',
+                    '/image/signature-3.jpeg',
                     '/image/signature-4.png',
-                    '/image/signature-1.png',
-                    '/image/signature-2.png',
-                    '/image/signature-3.png',
-                    '/image/signature-4.png',
+                    // '/image/signature-1.png',
+                    // '/image/signature-4.png',
                 ].map((src, i) => (
                     <SwiperSlide 
                         key={i} 
-                        className="!max-w-[360px] image-hover-scale"
+                        className="!max-w-[400px] image-hover-scale"
                     >
                         <img src={src} className="w-full" />
                     </SwiperSlide>

@@ -3,16 +3,24 @@
 import { useState } from "react"
 import { useLanguage } from "@/lib/language-context"
 import { getTranslation } from "@/lib/translations"
+// import { useRouter } from 'next/router';
+import { useRouter } from 'next/navigation';
 
 export function MenuShowcase() {
   const [selectedView, setSelectedView] = useState<string | null>(null)
   const { language } = useLanguage()
+  const router = useRouter();
+  
+  const handleClick = () => {
+    router.push('/restaurant-menu'); // navigate to /about page
+  };
+
   const t = (key: string) => getTranslation(language, key as any)
 
   const menuItems = [
     { image: "slice-1.jpeg", name: "Uyghur Nann", price: "€3.00", description: "Crispy potatoes with signature sauce" },
     { image: "slice-2.jpeg", name: "big Plate Chicken", price: "€36.00", description: "Seafood paella with saffron rice" },
-    { image: "signature-2.jpeg", name: "Spicy Chicken", price: "€36.00", description: "Premium beef steak" },
+    { image: "specy01.jpeg", name: "Spicy Chicken", price: "€40.00", description: "Premium beef steak" },
     { image: "slice-4.jpeg", name: "Manta", price: "€7.00", description: "Traditional Madrid stew" },
   ]
 
@@ -39,7 +47,12 @@ export function MenuShowcase() {
                   <h3 className="aboreto-text text-[#F5E3BF] xl:text-[23px] mb-2">{item.name}</h3>
                   <p className="text-[#F5E3BF] mb-5 font-bold">{item.price}</p>
                   <div className="flex justify-center items-center">
-                    <button className="bg-[#F5E3BF] rounded-[6px] cursor-pointer text-primary px-8 py-2 xl:font-bold font-medium transition transition-ease hover:opacity-85">{t("viewMenu")}</button>
+                    <button 
+                    onClick={()=>{
+                      handleClick()
+                    }}
+
+                    className="bg-[#F5E3BF] rounded-[6px] cursor-pointer text-primary px-8 py-2 xl:font-bold font-medium transition transition-ease hover:opacity-85">{t("viewMenu")}</button>
                   </div>
                 </div>
               </div>

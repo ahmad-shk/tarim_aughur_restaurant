@@ -25,6 +25,7 @@ interface MenuCategory {
   id: string
   name: string
   categoryImage: string
+  categoryImage1: string
   sections: MenuSection[]
 }
 
@@ -63,7 +64,7 @@ export default function MenuGroup() {
                 >
                   <div className="image rounded-md overflow-hidden product-preview--image">
                     <Image
-                      src={category.categoryImage || "/placeholder.svg"}
+                      src={sectionIndex > 0 ? category.categoryImage1 : category.categoryImage || "/placeholder.svg"}
                       width="400"
                       height="431"
                       alt={`${category.name} category`}
@@ -112,7 +113,7 @@ export default function MenuGroup() {
                         </div>
 
                         <span className="aboreto-text text-xl md:text-3xl text-black dark:text-color-secondary block text-end">
-                          ${item.price}
+                        €{item.price}
                         </span>
                       </li>
                     ))}
@@ -167,7 +168,7 @@ export default function MenuGroup() {
                 </div>
 
                 <span className="aboreto-text text-xl md:text-3xl lg:text-[55px] text-color-primary dark:text-color-secondary">
-                  ${selectedItem.price}
+                €{selectedItem.price}
                 </span>
               </div>
 

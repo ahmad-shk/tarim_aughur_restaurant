@@ -24,7 +24,7 @@ export function Navigation() {
 
   return (
     <>
-      <nav className="absolute top-0 w-full backdrop-blur lg:z-50 z-10 bg-[#F5E3BF] py-[10px] lg:px-12 z-61 flex items-center w-full" style={{minHeight: '92px'}}>
+      <nav className="sticky top-0 w-full backdrop-blur lg:z-50 z-10 bg-[#F5E3BF] py-[10px] lg:px-12 z-61 flex items-center w-full" style={{minHeight: '92px'}}>
         <div className="max-w-[1300px] mx-auto px-4 w-full">
           <div className="flex justify-between items-center h-16">
             {/* Logo */}
@@ -40,9 +40,9 @@ export function Navigation() {
               <Link href="/restaurant-menu" className={linkClass("/restaurant-menu")}>
                 {t("menu")}
               </Link>
-              <Link href="#gallery" className="text-primary font-semibold hover:underline transition">
+              {/* <Link href="#gallery" className="text-primary font-semibold hover:underline transition">
                 {t("gallery")}
-              </Link>
+              </Link> */}
             </div>
             <div className="flex items-center gap-2 justify-end md:min-w-[200px]">
               <Link

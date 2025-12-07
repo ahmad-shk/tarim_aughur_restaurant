@@ -59,8 +59,8 @@ export const translations = {
       "Reservieren Sie Ihren Tisch im Voraus, um einen reibungslosen Service und die perfekte Speiseatmosphäre zu genießen. Unser Team sorgt dafür, dass Ihr Besuch perfekt vorbereitet wird - von Ihrem bevorzugten Platz bis zu Ihren Lieblingsspeisen.",
     followUs: "Folgen Sie uns:",
     phoneLabel: "Telefonnummer",
-    phoneValue: "+43 1 728 0745",
-    ContactEmail: 'info@karim.com',
+    phoneValue: "06701958888",
+    ContactEmail: 'tarimrestaurantwien@gmail.com',
     selectTime: "Zeit auswählen",
     PersonWord: "Person",
     nameLabel: "Name",
@@ -85,7 +85,7 @@ export const translations = {
     "RestaurantMenuText": "TARIM UYGHUR RESTAURANT MENÜ",
     "menuCategories": {
       "laghman": "LAGHMAN / HANDGEZOGENE NUDELN",
-      "rice_bowls": "REISSCHALEN / REISGERICHTE",
+      "rice_bowls": "Feines Pfannengericht",
       "vegetarian": "VEGETARISCH",
       "bbq_grills": "BBQ & GRILL / GEGRILLTE SPEZIALITÄTEN",
       "specialties_sides": "SPEZIALITÄTEN & BEILAGEN",
@@ -98,6 +98,7 @@ export const translations = {
         "id": "laghman",
         "name": "1. LAGHMAN / HANDGEZOGENE NUDELN",
         "categoryImage": "/menu-items/Homemade-Laghman.jpg",
+        "categoryImage1": "/menu-items/Homemade-Laghman1.jpeg",
         "sections": [
           {
             "id": "laghman-main",
@@ -109,7 +110,7 @@ export const translations = {
                 "description": "Fleisch (nach Wahl), grüner Paprika, Chili, Pilze, Zwiebeln, handgezogene Nudeln.",
                 "price": 14.9,
                 "images": [
-                  "/menu-items/ShahLagman.jpg"
+                  "/menu-items/ShahLagman.jpeg"
                 ],
                 "isSpicy": true
               },
@@ -120,7 +121,7 @@ export const translations = {
                 "description": "Fleisch (nach Wahl), verschiedene Gemüse, handgezogene Nudeln.",
                 "price": 11.9,
                 "images": [
-                  "/menu-items/Homemade-Laghman.jpg"
+                  "/menu-items/Homemade-Laghman.jpeg"
                 ],
                 "isSpicy": false
               },
@@ -131,7 +132,7 @@ export const translations = {
                 "description": "Rindfleisch, Bok Choy, roter Paprika, grüner Paprika, Zwiebeln, handgezogene, gebratene Nudeln.",
                 "price": 14.0,
                 "images": [
-                  "/menu-items/Noodles-with-Vegetables.jpg"
+                  "/menu-items/Noodles-with-Vegetables.jpeg"
                 ],
                 "isSpicy": false
               },
@@ -142,7 +143,7 @@ export const translations = {
                 "description": "Rindfleisch, Schnittlauch, getrocknete Chili, gebraten, Sesam, Knoblauch, handgezogene Nudeln.",
                 "price": 14.0,
                 "images": [
-                  "/menu-items/qorulghan-laghman.jpg"
+                  "/menu-items/qorulghan-laghman.jpeg"
                 ],
                 "isSpicy": true
               }
@@ -153,23 +154,23 @@ export const translations = {
             "items": [
               {
                 "id": "lag-item-5",
-                "name": "GESCHNITTENE NUDEL",
-                "german_name": "GESCHNITTENE NUDEL",
+                "name": "Stir-Fried Corn Kernels",
+                "german_name": "Stir-Fried Corn Kernels",
                 "description": "Rindfleisch, grüner Paprika, roter Paprika, handgezogene, gebratene Nudeln.",
                 "price": 14.0,
                 "images": [
-                  "/menu-items/Sliced-Noodles.jpg"
+                  "/menu-items/Sliced-Noodles.jpeg"
                 ],
                 "isSpicy": false
               },
               {
                 "id": "lag-item-6",
-                "name": "RINDFLEISCH UND GEMÜSE MIT GESCHNITTENE NUDELN",
+                "name": "Gehackte gebratene Nudeln",
                 "german_name": "RINDFLEISCH UND GEMÜSE MITGESCHNITTENE NUDELN",
                 "description": "Rindfleisch, grüner Paprika, roter Paprika, handgezogene, gebratene Nudeln.",
                 "price": 14.0,
                 "images": [
-                  "/menu-items/beef-sliced-noodles.png"
+                  "/menu-items/beef-sliced-noodles.jpeg"
                 ],
                 "isSpicy": false
               }
@@ -179,43 +180,54 @@ export const translations = {
       },
       {
         "id": "rice_bowls",
-        "name": "2. REISSCHALEN / REISGERICHTE",
-        "categoryImage": "/menu-items/Chicken-with-Potatoes.jpg",
+        "name": "2. Feines Pfannengericht",
+        "categoryImage": "/beef.png",
         "sections": [
           {
             "id": "rice-main",
             "items": [
               {
                 "id": "rice-item-1",
-                "name": "POLO (PILAF)",
+                "name": "Scharf gebratener Rinderpansen",
                 "german_name": "POLO",
-                "description": "Rindfleisch, Karotten, Zwiebeln, Reis, Krautsalat. (20€ Groß / 15€ Klein)",
-                "price": 20.0,
+                "description": "Frischer Rinderpansen mit Chili, roter Paprika und grüner Paprika",
+                "price": 16.0,
                 "price_small": 15.0,
                 "images": [
-                  "/menu-items/POLO.jpg"
+                  "/menu-items/POLO.jpeg"
                 ],
                 "isSpicy": false
               },
               {
                 "id": "rice-item-2",
-                "name": "GEBRATENES RINDFLEISCH KOCHEN",
+                "name": "Gebratenes Schweinefleisch mit Knoblauchschossen",
                 "german_name": "GEBRATENES RINDFLEISCH KOCHEN",
-                "description": "Rindfleisch, Kartoffeln, Karotten, Frühlingszwiebeln.",
-                "price": 45.0,
+                "description": "Knoblauchschossen, Rindfleisch, Zwiebel, grüner Paprika",
+                "price": 14.0,
                 "images": [
-                  "/menu-items/Fried-Beef-Stew.jpg"
+                  "/menu-items/Fried-Beef-Stew.jpeg"
                 ],
                 "isSpicy": false
               },
               {
                 "id": "rice-item-3",
-                "name": "HÄHNCHEN MIT KARTOFFELN",
+                "name": "Gebratener Spinat mit Ei",
                 "german_name": "HÄHNCHEN MIT KARTOFFELN",
-                "description": "Hähnchen, Kartoffeln, Paprika, Chilischoten.",
-                "price": 12.0,
+                "description": "Spinat und Eier",
+                "price": 10.0,
                 "images": [
-                  "/menu-items/Chicken-with-Potatoes.jpg"
+                  "/menu-items/bocai.png"
+                ],
+                "isSpicy": true
+              },
+              {
+                "id": "rice-item-4",
+                "name": "Yu-Xiang-Rindfleischstreifen",
+                "german_name": "HÄHNCHEN MIT KARTOFFELN",
+                "description": "Rindfleisch, Judasohr, grüne Paprika und Bambussprossen",
+                "price": 18.0,
+                "images": [
+                  "/menu-items/Yu-Xiang.jpeg"
                 ],
                 "isSpicy": true
               }
@@ -233,34 +245,34 @@ export const translations = {
             "items": [
               {
                 "id": "veg-item-1",
-                "name": "SCHARFER MALA-TOFU",
+                "name": "Gebratenes Fleisch mit Champignons",
                 "german_name": "SCHARFER MALA-TOFU",
-                "description": "Tofu, Frühlingszwiebeln und Chili.",
-                "price": 9.9,
+                "description": "Rindfleisch, Champignons, Chili und grüne Paprika",
+                "price": 14.0,
                 "images": [
-                  "/menu-items/Spicy-Mala-Tofu.jpg"
+                  "/menu-items/Stir-Fried.jpeg"
                 ],
                 "isSpicy": true
               },
               {
                 "id": "veg-item-2",
-                "name": "SPINAT MIT EI",
+                "name": "Mapo Tofu",
                 "german_name": "SPINAT MIT EI",
-                "description": "Eier, Spinat.",
-                "price": 9.9,
+                "description": "Tofu und Frühlingszwiebeln",
+                "price": 14,
                 "images": [
-                  "/menu-items/Spinach-with-Egg.jpg"
+                  "/menu-items/Mapo-Tofu.jpeg"
                 ],
                 "isSpicy": false
               },
               {
                 "id": "veg-item-3",
-                "name": "SAUER-SCHARFE KARTOFFELN",
+                "name": "Gebratener Brokkoli",
                 "german_name": "SAUER-SCHARFE KARTOFFELN",
-                "description": "Geriebene Kartoffeln, Paprika.",
-                "price": 9.9,
+                "description": "Brokkoli",
+                "price": 14,
                 "images": [
-                  "/menu-items/hot-sour-potatoes.png"
+                  "/menu-items/Stir-Fried-Broccoli.jpeg"
                 ],
                 "isSpicy": true
               }
@@ -281,22 +293,22 @@ export const translations = {
                 "name": "LAMMSPIESSE",
                 "german_name": "LAMB SKEWERS / LAMMSPIESSE",
                 "description": "Lamm/Rindfleisch. (Preis pro Stück)",
-                "price": 4.0,
-                "unit": "1 Pc",
+                "price": 12.0,
+                "unit": "3 Pc",
                 "images": [
-                  "/menu-items/Lamb-Skewers.jpg"
+                  "/menu-items/Lamb-Skewers.jpeg"
                 ],
                 "isSpicy": false
               },
               {
                 "id": "bbq-item-2",
-                "name": "LAMMKARREE",
+                "name": "Gegrillte Lammnieren",
                 "german_name": "LAMMKARREE",
-                "description": "Lammkarree. (Preis pro Stück)",
-                "price": 6.0,
+                "description": "Gegrillte Lammnieren",
+                "price": 7.0,
                 "unit": "1 Pc",
                 "images": [
-                  "/menu-items/lamb-rack.jpg"
+                  "/menu-items/lamb-rack.jpeg"
                 ],
                 "isSpicy": false
               }
@@ -307,58 +319,59 @@ export const translations = {
       {
         "id": "specialties_sides",
         "name": "5. SPEZIALITÄTEN & BEILAGEN",
-        "categoryImage": "/menu-items/Goxnan.jpg",
+        "categoryImage": "/menu-items/Goxnan.jpeg",
+        "categoryImage1": "/menu-items/Goxnan1.jpeg",
         "sections": [
           {
             "id": "specialties-main",
             "items": [
               {
                 "id": "spec-item-1",
-                "name": "WÜRZIGES KNUSPRIGES HÄHNCHEN",
+                "name": "Großer Hähnchentopf",
                 "german_name": "SPICY CRISPY CHICKEN",
-                "description": "Knuspriges Hähnchenfleisch, rote Chilischoten, getrocknete Chilischoten, SCHARF. (35€ Klein / 45€ Groß)",
-                "price": 35.0,
+                "description": "Hähnchenfleisch, Kartoffeln, Zwiebeln, Ingwer, Gewürze, Chili und Koriander",
+                "price": 'Groß 45 • Mittel 35 • Klein 14',
                 "price_large": 45.0,
                 "images": [
-                  "/menu-items/spicy-crispy-chicken.jpg"
+                  "/menu-items/spicy-crispy-chicken.jpeg"
                 ],
                 "isSpicy": true
               },
               {
                 "id": "spec-item-2",
-                "name": "DAPANJI",
+                "name": "Scharfes Hähnchen mit Chilischoten",
                 "german_name": "DAPANJI",
-                "description": "Hähnchen, grüner Paprika, roter Paprika, Kartoffeln, Ingwer. (35€ Klein / 45€ Groß)",
-                "price": 35.0,
-                "price_large": 45.0,
+                "description": "Hähnchenfleisch, Chili, Lauch, Frühlingszwiebeln und Ingwer",
+                "price": 40.0,
+                "price_large": 40.0,
                 "images": [
-                  "/menu-items/dapanji.jpg"
+                  "/menu-items/dapanji.jpeg"
                 ],
                 "isSpicy": false
               },
-              {
-                "id": "spec-item-3",
-                "name": "HÄHNCHENSTÜCK MIT CHILI",
-                "german_name": "HÄHNCHENSTÜCK MIT CHILI",
-                "description": "Hähnchen, roter Paprika, getrocknete Chilies, SCHARF. (35€ Klein / 45€ Groß)",
-                "price": 35.0,
-                "price_large": 45.0,
-                "images": [
-                  "/menu-items/chicken-pieces-chili.jpg"
-                ],
-                "isSpicy": true
-              },
-              {
-                "id": "spec-item-4",
-                "name": "GOXNAN",
-                "german_name": "GOXNAN",
-                "description": "Rindfleisch, Zwiebeln.",
-                "price": 15.0,
-                "images": [
-                  "/menu-items/Goxnan.jpg"
-                ],
-                "isSpicy": false
-              }
+              // {
+              //   "id": "spec-item-3",
+              //   "name": "HÄHNCHENSTÜCK MIT CHILI",
+              //   "german_name": "HÄHNCHENSTÜCK MIT CHILI",
+              //   "description": "Hähnchen, roter Paprika, getrocknete Chilies, SCHARF. (35€ Klein / 45€ Groß)",
+              //   "price": 35.0,
+              //   "price_large": 45.0,
+              //   "images": [
+              //     "/menu-items/chicken-pieces-chili.jpg"
+              //   ],
+              //   "isSpicy": true
+              // },
+              // {
+              //   "id": "spec-item-4",
+              //   "name": "GOXNAN",
+              //   "german_name": "GOXNAN",
+              //   "description": "Rindfleisch, Zwiebeln.",
+              //   "price": 15.0,
+              //   "images": [
+              //     "/menu-items/Goxnan.jpg"
+              //   ],
+              //   "isSpicy": false
+              // }
             ]
           },
           {
@@ -366,12 +379,12 @@ export const translations = {
             "items": [
               {
                 "id": "spec-item-5",
-                "name": "QUQUR",
+                "name": "Nudeln",
                 "german_name": "QUQUR",
-                "description": "Rindfleisch.",
-                "price": 12.0,
+                "description": "Nudeln.",
+                "price": 3.0,
                 "images": [
-                  "/menu-items/ququr.jpg"
+                  "/menu-items/ququr.jpeg"
                 ],
                 "isSpicy": false
               },
@@ -380,7 +393,7 @@ export const translations = {
                 "name": "REIS",
                 "german_name": "RICE",
                 "description": "Reis (einfacher gekochter Reis/Sada Chawal).",
-                "price": 4.0,
+                "price": 3.0,
                 "images": [
                   "/menu-items/Rice.png"
                 ],
@@ -400,38 +413,38 @@ export const translations = {
             "items": [
               {
                 "id": "soup-item-1",
-                "name": "RINDSSUPPE MIT NUDEL",
+                "name": "Geschmorte Rindfleischnudelsuppe",
                 "german_name": "RINDSSUPPE MIT NUDEL",
                 "description": "Rindfleisch, Koriander, Rindssuppe, Nudeln.",
-                "price": 9.9,
+                "price": 14,
                 "images": [
-                  "/menu-items/Beef-Soup-with-Noodles.jpg"
+                  "/menu-items/Beef-Soup-with-Noodles.jpeg"
                 ],
                 "isSpicy": false
               },
               {
                 "id": "soup-item-2",
-                "name": "GESCHMORTE NUDELN",
+                "name": "Rindfleischnudelsuppe in klarer Brühe",
                 "german_name": "GESCHMORTE NUDELN",
-                "description": "Rindfleisch, Koriander, Rindssuppe, Nudeln, scharf und würzig.",
-                "price": 11.9,
+                "description": "Koriander, suppe, Nudeln, scharf und würzig.",
+                "price": 11.0,
                 "images": [
-                  "/menu-items/stewed-noodles.png"
+                  "/menu-items/stewed-noodles.jpeg"
                 ],
                 "isSpicy": true
               },
-              {
-                "id": "soup-item-3",
-                "name": "GEBRATENE SCHARFE REISNUDELN",
-                "german_name": "GEBRATENE SCHARFE REISNUDELN",
-                "description": "Scharf, Reisnudeln, Hähnchen, Sellerie. (14€ Groß / 12€ Klein)",
-                "price": 14.0,
-                "price_small": 12.0,
-                "images": [
-                  "/menu-items/fried-spicy-rice-noodles.png"
-                ],
-                "isSpicy": true
-              }
+              // {
+              //   "id": "soup-item-3",
+              //   "name": "GEBRATENE SCHARFE REISNUDELN",
+              //   "german_name": "GEBRATENE SCHARFE REISNUDELN",
+              //   "description": "Scharf, Reisnudeln, Hähnchen, Sellerie. (14€ Groß / 12€ Klein)",
+              //   "price": 14.0,
+              //   "price_small": 12.0,
+              //   "images": [
+              //     "/menu-items/fried-spicy-rice-noodles.png"
+              //   ],
+              //   "isSpicy": true
+              // }
             ]
           }
         ]
@@ -449,7 +462,7 @@ export const translations = {
                 "name": "SAMSA",
                 "german_name": "SAMSA",
                 "description": "Rindfleisch, getoastete Brötchen. (Preis pro Stück)",
-                "price": 2.0,
+                "price": 3.0,
                 "unit": "1 Pc",
                 "images": [
                   "/menu-items/Samsa.jpg"
@@ -458,15 +471,15 @@ export const translations = {
               },
               {
                 "id": "snack-item-2",
-                "name": "GEDÄMPFTE TEIGTASCHEN",
+                "name": "Gedämpfte Brötchen",
                 "german_name": "GEDÄMPFTE TEIGTASCHEN",
                 "description": "Rindfleisch. (Preis für 3 Stück)",
-                "price": 5.9,
+                "price": 7,
                 "unit": "3 Pcs",
                 "images": [
-                  "/menu-items/Steamed-Dumplings.jpg",
+                  "/menu-items/Steamed-Dumplings.jpeg",
                   "/menu-items/Steamed-Dumplings-1.jpg",
-                  "/menu-items/Steamed-Dumplings-2.jpg"
+                  // "/menu-items/Steamed-Dumplings-2.jpg"
                 ],
                 "isSpicy": false
               }
@@ -478,6 +491,7 @@ export const translations = {
         "id": "cold_starters",
         "name": "8. KALTE VORSPEISEN / KALTE APPETIZER",
         "categoryImage": "/menu-items/Uyghur-Special-Salad.jpg",
+        "categoryImage1": "/menu-items/Uyghur-Special-Salad.jpg",
         "sections": [
           {
             "id": "cold-starter-main",
@@ -487,7 +501,7 @@ export const translations = {
                 "name": "KALTER RINDFLEISCHSALAT",
                 "german_name": "KALTER RINDFLEISCHSALAT",
                 "description": "Rindfleisch, Koriander, Knoblauch.",
-                "price": 12.0,
+                "price": 13.0,
                 "images": [
                   "/menu-items/Cold-Beef-Salad.jpg"
                 ],
@@ -511,23 +525,23 @@ export const translations = {
               },
               {
                 "id": "cold-item-3",
-                "name": "RANGPÏZA",
+                "name": "Ranpiza mit sauce",
                 "german_name": "RANGPÏZA",
                 "description": "Kalte Nudeln und Pasta.",
-                "price": 6.0,
+                "price": 8.0,
                 "images": [
-                  "/menu-items/rangpiza.jpg"
+                  "/menu-items/rangpiza.jpeg"
                 ],
                 "isSpicy": false
               },
               {
                 "id": "cold-item-4",
-                "name": "SERIGAX",
+                "name": "gelbe Nudeln",
                 "german_name": "SERIGAX",
                 "description": "Kalte Nudeln und Pasta.",
-                "price": 6.0,
+                "price": 7.0,
                 "images": [
-                  "/menu-items/serigax.jpg"
+                  "/menu-items/serigax.jpeg"
                 ],
                 "isSpicy": false
               }
@@ -536,39 +550,39 @@ export const translations = {
           {
             "id": "cold-starter-main",
             "items": [
-              {
-                "id": "cold-item-5",
-                "name": "MUNGBOHNENMEHL MIT SOSSE",
-                "german_name": "MUNGOBOHNENMEHL MIT SOSE",
-                "description": "Kalte Nudeln und Pasta.",
-                "price": 6.0,
-                "images": [
-                  "/menu-items/mung-bean-flour.jpg"
-                ],
-                "isSpicy": false
-              },
+              // {
+              //   "id": "cold-item-5",
+              //   "name": "MUNGBOHNENMEHL MIT SOSSE",
+              //   "german_name": "MUNGOBOHNENMEHL MIT SOSE",
+              //   "description": "Kalte Nudeln und Pasta.",
+              //   "price": 6.0,
+              //   "images": [
+              //     "/menu-items/mung-bean-flour.jpg"
+              //   ],
+              //   "isSpicy": false
+              // },
               {
                 "id": "cold-item-6",
                 "name": "GURKENSALAT",
                 "german_name": "GURKENSALAT",
                 "description": "Gurken.",
-                "price": 6.0,
+                "price": 7.0,
                 "images": [
                   "/menu-items/Cucumber-Salad.jpg"
                 ],
                 "isSpicy": false
               },
-              {
-                "id": "cold-item-7",
-                "name": "UIGURISCHE SPEZIAL SALAT",
-                "german_name": "UIGURISCHE SPEZIAL SALAT",
-                "description": "Tomaten, Koriander, grüner Paprika, Zwiebeln.",
-                "price": 6.0,
-                "images": [
-                  "/menu-items/uyghur-special-salad.jpg"
-                ],
-                "isSpicy": false
-              }
+              // {
+              //   "id": "cold-item-7",
+              //   "name": "UIGURISCHE SPEZIAL SALAT",
+              //   "german_name": "UIGURISCHE SPEZIAL SALAT",
+              //   "description": "Tomaten, Koriander, grüner Paprika, Zwiebeln.",
+              //   "price": 6.0,
+              //   "images": [
+              //     "/menu-items/uyghur-special-salad.jpg"
+              //   ],
+              //   "isSpicy": false
+              // }
             ]
           }
         ]
@@ -641,9 +655,9 @@ export const translations = {
     testimonialReview:
       "This is a great restaurant with great food and even better atmosphere. The food is delicious and the service was incredibly fast and friendly. It is definitely one of the best restaurants in Vienna!",
     customerName: "JONATHAN XANDER",
-    // testimonialReview1:
-    //   "This is a great restaurant with great food and even better atmosphere. The food is delicious and the service was incredibly fast and friendly. It is definitely one of the best restaurants in Vienna!",
-    // customerName1: "JONATHAN XANDER",
+    testimonialReview1:
+      "This is a great restaurant with great food and even better atmosphere. The food is delicious and the service was incredibly fast and friendly. It is definitely one of the best restaurants in Vienna!",
+    customerName1: "JONATHAN XANDER",
 
     reservationTitle: "RESERVATION",
     reservationSubtitle: "Fell Happiness by Making a Reservation",
@@ -651,8 +665,8 @@ export const translations = {
       "Reserve your table in advance to enjoy seamless service and the perfect dining atmosphere. Our team will ensure your visit is prepared to perfection - from your preferred seating to your favorite dishes.",
     followUs: "Follow Us:",
     phoneLabel: "Phone Number",
-    phoneValue: "+43 1 728 0745",
-    ContactEmail: 'info@karim.com',
+    phoneValue: "06701958888",
+    ContactEmail: 'tarimrestaurantwien@gmail.com',
     selectTime: "Select time",
     PersonWord: "Person",
     nameLabel: "Name",
@@ -675,7 +689,7 @@ export const translations = {
     "RestaurantMenuText": "TARIM UYGHUR RESTAURANT MENU",
     "menuCategories": {
       "laghman": "LAGHMAN / HAND-PULLED NOODLES",
-      "rice_bowls": "RICE BOWLS / RICE DISHES",
+      "rice_bowls": "Delicate Stir-Fry",
       "vegetarian": "VEGETARIAN",
       "bbq_grills": "BBQ & GRILLS / GRILLED SPECIALTIES",
       "specialties_sides": "SPECIALTIES & SIDES",
@@ -688,18 +702,19 @@ export const translations = {
         "id": "laghman",
         "name": "1. LAGHMAN / HAND-PULLED NOODLES",
         "categoryImage": "/menu-items/Homemade-Laghman.jpg",
+        "categoryImage1": "/menu-items/Homemade-Laghman1.jpeg",
         "sections": [
           {
             "id": "laghman-main",
             "items": [
               {
                 "id": "lag-item-1",
-                "name": "SHAH LAGHMAN",
+                "name": "TARIM Royal Lagman",
                 "german_name": "SCHAH-LÄGHMEN",
                 "description": "Meat (as selected), Green Paprika, Chili, Mushrooms, Onion, Hand-Pulled Noodles.",
                 "price": 14.9,
                 "images": [
-                  "/menu-items/ShahLagman.jpg"
+                  "/menu-items/ShahLagman.jpeg"
                 ],
                 "isSpicy": true
               },
@@ -710,18 +725,18 @@ export const translations = {
                 "description": "Meat (as selected), Various Vegetables, Hand-Pulled Noodles.",
                 "price": 11.9,
                 "images": [
-                  "/menu-items/Homemade-Laghman.jpg"
+                  "/menu-items/Homemade-Laghman.jpeg"
                 ],
                 "isSpicy": false
               },
               {
                 "id": "lag-item-3",
-                "name": "NOODLES WITH VEGETABLES",
+                "name": "QORULGHAN-LÄGMEN",
                 "german_name": "NUDELN MIT GEMÜSE",
                 "description": "Beef, Bok Choy, Red Paprika, Green Paprika, Onion, Hand-Pulled, Fried Noodles.",
                 "price": 14.0,
                 "images": [
-                  "/menu-items/Noodles-with-Vegetables.jpg"
+                  "/menu-items/Noodles-with-Vegetables.jpeg"
                 ],
                 "isSpicy": false
               },
@@ -732,7 +747,7 @@ export const translations = {
                 "description": "Beef, Chives, Dried Chili, Fried, Sesame, Garlic, Hand-Pulled Noodles.",
                 "price": 14.0,
                 "images": [
-                  "/menu-items/qorulghan-laghman.jpg"
+                  "/menu-items/qorulghan-laghman.jpeg"
                 ],
                 "isSpicy": true
               }
@@ -743,23 +758,23 @@ export const translations = {
             "items": [
               {
                 "id": "lag-item-5",
-                "name": "SLICED NOODLES",
-                "german_name": "GESCHNITTENE NUDEL",
+                "name": "Gebratener Gemüse-Maismix",
+                "german_name": "Gebratener Gemüse-Maismix",
                 "description": "Beef, Green Paprika, Red Paprika, Hand-Pulled, Fried Noodles.",
                 "price": 14.0,
                 "images": [
-                  "/menu-items/Sliced-Noodles.jpg"
+                  "/menu-items/Sliced-Noodles.jpeg"
                 ],
                 "isSpicy": false
               },
               {
                 "id": "lag-item-6",
-                "name": "BEEF AND VEGETABLES WITH SLICED NOODLES",
+                "name": "Diced Stir-Fry Noodles",
                 "german_name": "RINDFLEISCH UND GEMÜSE MITGESCHNITTENE NUDELN",
                 "description": "Beef, Green Paprika, Red Paprika, Hand-Pulled, Fried Noodles.",
                 "price": 14.0,
                 "images": [
-                  "/menu-items/beef-sliced-noodles.png"
+                  "/menu-items/beef-sliced-noodles.jpeg"
                 ],
                 "isSpicy": false
               }
@@ -769,43 +784,54 @@ export const translations = {
       },
       {
         "id": "rice_bowls",
-        "name": "2. RICE BOWLS / RICE DISHES",
-        "categoryImage": "/menu-items/Chicken-with-Potatoes.jpg",
+        "name": "2. Delicate Stir-Fry",
+        "categoryImage": "/beef.png",
         "sections": [
           {
             "id": "rice-main",
             "items": [
               {
                 "id": "rice-item-1",
-                "name": "POLO (PILAF)",
+                "name": "Stir-Fried Beef Tripe",
                 "german_name": "POLO",
-                "description": "Beef, Carrots, Onions, Rice, Coleslaw. (20€ Large / 15€ Small)",
-                "price": 20.0,
-                "price_small": 15.0,
+                "description": "Fresh Beef Tripe with Chili, Red Bell Pepper, and Green Bell Pepper",
+                "price": 16.0,
+                "price_small": 16.0,
                 "images": [
-                  "/menu-items/POLO.jpg"
+                  "/menu-items/POLO.jpeg"
                 ],
                 "isSpicy": false
               },
               {
                 "id": "rice-item-2",
-                "name": "FRIED BEEF STEW",
+                "name": "Sautéed Pork with Garlic Scapes",
                 "german_name": "GEBRATENES RINDFLEISCH KOCHEN",
-                "description": "Beef, Potatoes, Carrots, Spring Onions.",
-                "price": 45.0,
+                "description": "Fresh Beef Tripe with Chili, Red Bell Pepper, and Green Bell Pepper",
+                "price": 14.0,
                 "images": [
-                  "/menu-items/Fried-Beef-Stew.jpg"
+                  "/menu-items/Fried-Beef-Stew.jpeg"
                 ],
                 "isSpicy": false
               },
               {
                 "id": "rice-item-3",
-                "name": "CHICKEN WITH POTATOES",
+                "name": "Stir-Fried Spinach with Eggs",
                 "german_name": "HÄHNCHEN MIT KARTOFFELN",
-                "description": "Chicken, Potatoes, Paprika, Chili Peppers.",
-                "price": 12.0,
+                "description": "Cspinach and eggs",
+                "price": 10.0,
                 "images": [
-                  "/menu-items/Chicken-with-Potatoes.jpg"
+                  "/menu-items/bocai.png"
+                ],
+                "isSpicy": true
+              },
+              {
+                "id": "rice-item-4",
+                "name": "Yu-Xiang Shredded Beef",
+                "german_name": "HÄHNCHEN MIT KARTOFFELN",
+                "description": "Beef, Wood Ear Mushrooms, Green Bell Pepper, and Bamboo Shoots",
+                "price": 18.0,
+                "images": [
+                  "/menu-items/Yu-Xiang.jpeg"
                 ],
                 "isSpicy": true
               }
@@ -823,34 +849,34 @@ export const translations = {
             "items": [
               {
                 "id": "veg-item-1",
-                "name": "SPICY MALA TOFU",
+                "name": "Stir-Fried Beef with Button Mushrooms",
                 "german_name": "SCHARFER MALA-TOFU",
-                "description": "Tofu, Spring Onions, and Chili.",
-                "price": 9.9,
+                "description": "Beef, Mushrooms, Chili Peppers, and Green Bell Pepper.",
+                "price": 14.0,
                 "images": [
-                  "/menu-items/Spicy-Mala-Tofu.jpg"
+                  "/menu-items/Stir-Fried.jpeg"
                 ],
                 "isSpicy": true
               },
               {
                 "id": "veg-item-2",
-                "name": "SPINACH WITH EGG",
+                "name": "Mapo Tofu",
                 "german_name": "SPINAT MIT EI",
-                "description": "Eggs, Spinach.",
-                "price": 9.9,
+                "description": "Tofu, Green Onions.",
+                "price": 14,
                 "images": [
-                  "/menu-items/Spinach-with-Egg.jpg"
+                  "/menu-items/Mapo-Tofu.jpeg"
                 ],
                 "isSpicy": false
               },
               {
                 "id": "veg-item-3",
-                "name": "HOT AND SOUR POTATOES",
+                "name": "Stir-Fried Broccoli",
                 "german_name": "SAUER-SCHARFE KARTOFFELN",
-                "description": "Shredded Potatoes, Paprika.",
-                "price": 9.9,
+                "description": "Broccoli",
+                "price": 14,
                 "images": [
-                  "/menu-items/hot-sour-potatoes.png"
+                  "/menu-items/Stir-Fried-Broccoli.jpeg"
                 ],
                 "isSpicy": true
               }
@@ -871,22 +897,22 @@ export const translations = {
                 "name": "LAMB SKEWERS",
                 "german_name": "LAMB SKEWERS / LAMMSPIESSE",
                 "description": "Lamb/Beef. (Price per piece)",
-                "price": 4.0,
-                "unit": "1 Pc",
+                "price": 12.0,
+                "unit": "3 Pc",
                 "images": [
-                  "/menu-items/Lamb-Skewers.jpg"
+                  "/menu-items/Lamb-Skewers.jpeg"
                 ],
                 "isSpicy": false
               },
               {
                 "id": "bbq-item-2",
-                "name": "LAMB RACK",
+                "name": "Grilled Lamb Kidneys",
                 "german_name": "LAMMKARREE",
-                "description": "Lamb Rack. (Price per piece)",
-                "price": 6.0,
+                "description": "Grilled Lamb Kidneys",
+                "price": 7.0,
                 "unit": "1 Pc",
                 "images": [
-                  "/menu-items/lamb-rack.jpg"
+                  "/menu-items/lamb-rack.jpeg"
                 ],
                 "isSpicy": false
               }
@@ -897,58 +923,59 @@ export const translations = {
       {
         "id": "specialties_sides",
         "name": "5. SPECIALTIES & SIDES",
-        "categoryImage": "/menu-items/Goxnan.jpg",
+        "categoryImage": "/menu-items/Goxnan.jpeg",
+        "categoryImage1": "/menu-items/Goxnan1.jpeg",
         "sections": [
           {
             "id": "specialties-main",
             "items": [
               {
                 "id": "spec-item-1",
-                "name": "SPICY CRISPY CHICKEN",
+                "name": "Big Plate Chicken",
                 "german_name": "SPICY CRISPY CHICKEN",
-                "description": "Crispy Chicken Meat, Red Chili Peppers, Dried Chili Peppers, SPICY. (35€ Small / 45€ Large)",
-                "price": 35.0,
+                "description": "Chicken, Potatoes, Onions, Ginger, Spices, Chili Peppers, and Cilantro",
+                "price": '*Large – 45, Medium – 35, Small – 14',
                 "price_large": 45.0,
                 "images": [
-                  "/menu-items/spicy-crispy-chicken.jpg"
+                  "/menu-items/spicy-crispy-chicken.jpeg"
                 ],
                 "isSpicy": true
               },
               {
                 "id": "spec-item-2",
-                "name": "DAPANJI",
+                "name": "Spicy Chicken with Chili Peppers",
                 "german_name": "DAPANJI",
-                "description": "Chicken, Green Paprika, Red Paprika, Potatoes, Ginger. (35€ Small / 45€ Large)",
-                "price": 35.0,
-                "price_large": 45.0,
+                "description": "Chicken, Chili Peppers, Leeks, Green Onions, and Ginger",
+                "price": 40.0,
+                "price_large": 40.0,
                 "images": [
-                  "/menu-items/dapanji.jpg"
+                  "/menu-items/dapanji.jpeg"
                 ],
                 "isSpicy": false
               },
-              {
-                "id": "spec-item-3",
-                "name": "CHICKEN PIECES WITH CHILI",
-                "german_name": "HÄHNCHENSTÜCK MIT CHILI",
-                "description": "Chicken, Red Paprika, Dried Chilies, SPICY. (35€ Small / 45€ Large)",
-                "price": 35.0,
-                "price_large": 45.0,
-                "images": [
-                  "/menu-items/chicken-pieces-chili.jpg"
-                ],
-                "isSpicy": true
-              },
-              {
-                "id": "spec-item-4",
-                "name": "GOXNAN",
-                "german_name": "GOXNAN",
-                "description": "Beef, Onion.",
-                "price": 15.0,
-                "images": [
-                  "/menu-items/Goxnan.jpg"
-                ],
-                "isSpicy": false
-              }
+              // {
+              //   "id": "spec-item-3",
+              //   "name": "CHICKEN PIECES WITH CHILI",
+              //   "german_name": "HÄHNCHENSTÜCK MIT CHILI",
+              //   "description": "Chicken, Red Paprika, Dried Chilies, SPICY. (35€ Small / 45€ Large)",
+              //   "price": 35.0,
+              //   "price_large": 45.0,
+              //   "images": [
+              //     "/menu-items/chicken-pieces-chili.jpg"
+              //   ],
+              //   "isSpicy": true
+              // },
+              // {
+              //   "id": "spec-item-4",
+              //   "name": "GOXNAN",
+              //   "german_name": "GOXNAN",
+              //   "description": "Beef, Onion.",
+              //   "price": 15.0,
+              //   "images": [
+              //     "/menu-items/Goxnan.jpg"
+              //   ],
+              //   "isSpicy": false
+              // }
             ]
           },
           {
@@ -956,12 +983,12 @@ export const translations = {
             "items": [
               {
                 "id": "spec-item-5",
-                "name": "QUQUR",
+                "name": "Noodles",
                 "german_name": "QUQUR",
-                "description": "Beef.",
-                "price": 12.0,
+                "description": "Noodles.",
+                "price": 3.0,
                 "images": [
-                  "/menu-items/ququr.jpg"
+                  "/menu-items/ququr.jpeg"
                 ],
                 "isSpicy": false
               },
@@ -970,7 +997,7 @@ export const translations = {
                 "name": "RICE",
                 "german_name": "RICE",
                 "description": "Rice (plain boiled rice/sada chawal).",
-                "price": 4.0,
+                "price": 3.0,
                 "images": [
                   "/menu-items/Rice.png"
                 ],
@@ -990,38 +1017,38 @@ export const translations = {
             "items": [
               {
                 "id": "soup-item-1",
-                "name": "BEEF SOUP WITH NOODLES",
+                "name": "Braised Beef Noodle Soup",
                 "german_name": "RINDSSUPPE MIT NUDEL",
                 "description": "Beef, Coriander, Beef Soup, Noodles.",
-                "price": 9.9,
+                "price": 14,
                 "images": [
-                  "/menu-items/Beef-Soup-with-Noodles.jpg"
+                  "/menu-items/Beef-Soup-with-Noodles.jpeg"
                 ],
                 "isSpicy": false
               },
               {
                 "id": "soup-item-2",
-                "name": "STEWED NOODLES",
+                "name": "Clear Beef Noodle Soup",
                 "german_name": "GESCHMORTE NUDELN",
-                "description": "Beef, Coriander, Beef Soup, Noodles, Hot and Spicy.",
-                "price": 11.9,
+                "description": "Coriander, Soup, Noodles, Hot and Spicy.",
+                "price": 11.0,
                 "images": [
-                  "/menu-items/stewed-noodles.png"
+                  "/menu-items/stewed-noodles.jpeg"
                 ],
                 "isSpicy": true
               },
-              {
-                "id": "soup-item-3",
-                "name": "FRIED SPICY RICE NOODLES",
-                "german_name": "GEBRATENE SCHARFE REISNUDELN",
-                "description": "Spicy, Rice Noodles, Chicken, Celery. (14€ Large / 12€ Small)",
-                "price": 14.0,
-                "price_small": 12.0,
-                "images": [
-                  "/menu-items/fried-spicy-rice-noodles.png"
-                ],
-                "isSpicy": true
-              }
+              // {
+              //   "id": "soup-item-3",
+              //   "name": "FRIED SPICY RICE NOODLES",
+              //   "german_name": "GEBRATENE SCHARFE REISNUDELN",
+              //   "description": "Spicy, Rice Noodles, Chicken, Celery. (14€ Large / 12€ Small)",
+              //   "price": 14.0,
+              //   "price_small": 12.0,
+              //   "images": [
+              //     "/menu-items/fried-spicy-rice-noodles.png"
+              //   ],
+              //   "isSpicy": true
+              // }
             ]
           }
         ]
@@ -1039,7 +1066,7 @@ export const translations = {
                 "name": "SAMSA",
                 "german_name": "SAMSA",
                 "description": "Beef, Toasted Buns. (Price per piece)",
-                "price": 2.0,
+                "price": 3.0,
                 "unit": "1 Pc",
                 "images": [
                   "/menu-items/Samsa.jpg"
@@ -1048,15 +1075,15 @@ export const translations = {
               },
               {
                 "id": "snack-item-2",
-                "name": "STEAMED DUMPLINGS",
+                "name": "Steamed Buns",
                 "german_name": "GEDÄMPFTE TEIGTASCHEN",
                 "description": "Beef. (Price for 3 pieces)",
-                "price": 5.9,
+                "price": 7,
                 "unit": "3 Pcs",
                 "images": [
-                  "/menu-items/Steamed-Dumplings.jpg",
+                  "/menu-items/Steamed-Dumplings.jpeg",
                   "/menu-items/Steamed-Dumplings-1.jpg",
-                  "/menu-items/Steamed-Dumplings-2.jpg"
+                  // "/menu-items/Steamed-Dumplings-2.jpg"
                 ],
                 "isSpicy": false
               }
@@ -1068,6 +1095,7 @@ export const translations = {
         "id": "cold_starters",
         "name": "8. COLD STARTERS / COLD APPETIZERS",
         "categoryImage": "/menu-items/Uyghur-Special-Salad.jpg",
+        "categoryImage1": "/menu-items/Uyghur-Special-Salad.jpg",
         "sections": [
           {
             "id": "cold-starter-main",
@@ -1077,7 +1105,7 @@ export const translations = {
                 "name": "COLD BEEF SALAD",
                 "german_name": "KALTER RINDFLEISCHSALAT",
                 "description": "Beef, Coriander, Garlic.",
-                "price": 12.0,
+                "price": 13.0,
                 "images": [
                   "/menu-items/Cold-Beef-Salad.jpg"
                 ],
@@ -1102,23 +1130,23 @@ export const translations = {
               },
               {
                 "id": "cold-item-3",
-                "name": "RANGPÏZA",
+                "name": "Liangpi",
                 "german_name": "RANGPÏZA",
                 "description": "Cold Noodles and Pasta.",
-                "price": 6.0,
+                "price": 8.0,
                 "images": [
-                  "/menu-items/rangpiza.jpg"
+                  "/menu-items/rangpiza.jpeg"
                 ],
                 "isSpicy": false
               },
               {
                 "id": "cold-item-4",
-                "name": "SERIGAX",
+                "name": "cornmeal noodles",
                 "german_name": "SERIGAX",
                 "description": "Cold Noodles and Pasta.",
-                "price": 6.0,
+                "price": 7.0,
                 "images": [
-                  "/menu-items/serigax.jpg"
+                  "/menu-items/serigax.jpeg"
                 ],
                 "isSpicy": false
               }
@@ -1127,39 +1155,39 @@ export const translations = {
           {
             "id": "cold-starter-main",
             "items": [
-              {
-                "id": "cold-item-5",
-                "name": "MUNG BEAN FLOUR WITH SAUCE",
-                "german_name": "MUNGOBOHNENMEHL MIT SOSE",
-                "description": "Cold Noodles and Pasta.",
-                "price": 6.0,
-                "images": [
-                  "/menu-items/mung-bean-flour.jpg"
-                ],
-                "isSpicy": false
-              },
+              // {
+              //   "id": "cold-item-5",
+              //   "name": "MUNG BEAN FLOUR WITH SAUCE",
+              //   "german_name": "MUNGOBOHNENMEHL MIT SOSE",
+              //   "description": "Cold Noodles and Pasta.",
+              //   "price": 6.0,
+              //   "images": [
+              //     "/menu-items/mung-bean-flour.jpg"
+              //   ],
+              //   "isSpicy": false
+              // },
               {
                 "id": "cold-item-6",
                 "name": "CUCUMBER SALAD",
                 "german_name": "GURKENSALAT",
                 "description": "Cucumbers.",
-                "price": 6.0,
+                "price": 7.0,
                 "images": [
                   "/menu-items/Cucumber-Salad.jpg"
                 ],
                 "isSpicy": false
               },
-              {
-                "id": "cold-item-7",
-                "name": "UYGHUR SPECIAL SALAD",
-                "german_name": "UIGURISCHE SPEZIAL SALAT",
-                "description": "Tomatoes, Coriander, Green Paprika, Onions.",
-                "price": 6.0,
-                "images": [
-                  "/menu-items/uyghur-special-salad.jpg"
-                ],
-                "isSpicy": false
-              }
+              // {
+              //   "id": "cold-item-7",
+              //   "name": "UYGHUR SPECIAL SALAD",
+              //   "german_name": "UIGURISCHE SPEZIAL SALAT",
+              //   "description": "Tomatoes, Coriander, Green Paprika, Onions.",
+              //   "price": 6.0,
+              //   "images": [
+              //     "/menu-items/uyghur-special-salad.jpg"
+              //   ],
+              //   "isSpicy": false
+              // }
             ],
           }
         ]
@@ -1237,8 +1265,8 @@ export const translations = {
       "提前预订您的餐桌，享受无缝服务和完美的用餐环境。我们的团队将确保您的访问完美准备 - 从您喜欢的座位到您最喜爱的菜肴。",
     followUs: "关注我们：",
     phoneLabel: "电话号码",
-    phoneValue: "+43 1 728 0745",
-    ContactEmail: 'info@karim.com',
+    phoneValue: "06701958888",
+    ContactEmail: 'tarimrestaurantwien@gmail.com',
     PersonWord: "人",
     selectTime: "选择时间",
     nameLabel: "姓名",
@@ -1262,7 +1290,7 @@ export const translations = {
     "RestaurantMenuText": "塔里木维吾尔餐厅菜单",
     "menuCategories": {
       "laghman": "拉面 / 手拉面",
-      "rice_bowls": "盖饭 / 米饭类菜肴",
+      "rice_bowls": "精美小炒",
       "vegetarian": "素食",
       "bbq_grills": "烧烤 / 烤制特色菜",
       "specialties_sides": "特色菜及配菜",
@@ -1275,18 +1303,19 @@ export const translations = {
         "id": "laghman",
         "name": "1. 拉面 / 手拉面",
         "categoryImage": "/menu-items/Homemade-Laghman.jpg",
+        "categoryImage1": "/menu-items/Homemade-Laghman1.jpeg",
         "sections": [
           {
             "id": "laghman-main",
             "items": [
               {
                 "id": "lag-item-1",
-                "name": "国王拉面 (SHAH LAGHMAN)",
+                "name": "过油肉拌面",
                 "german_name": "SCHAH-LÄGHMEN",
                 "description": "肉类（自选）、青椒、辣椒、蘑菇、洋葱、手拉面。",
                 "price": 14.9,
                 "images": [
-                  "/menu-items/ShahLagman.jpg"
+                  "/menu-items/ShahLagman.jpeg"
                 ],
                 "isSpicy": true
               },
@@ -1297,18 +1326,18 @@ export const translations = {
                 "description": "肉类（自选）、各种蔬菜、手拉面。",
                 "price": 11.9,
                 "images": [
-                  "/menu-items/Homemade-Laghman.jpg"
+                  "/menu-items/Homemade-Laghman.jpeg"
                 ],
                 "isSpicy": false
               },
               {
                 "id": "lag-item-3",
-                "name": "蔬菜炒面",
+                "name": "干扁炒面",
                 "german_name": "NUDELN MIT GEMÜSE",
                 "description": "牛肉、小白菜、红椒、青椒、洋葱、手拉、炒面。",
                 "price": 14.0,
                 "images": [
-                  "/menu-items/Noodles-with-Vegetables.jpg"
+                  "/menu-items/Noodles-with-Vegetables.jpeg"
                 ],
                 "isSpicy": false
               },
@@ -1319,7 +1348,7 @@ export const translations = {
                 "description": "牛肉、韭菜、干辣椒、煎炸、芝麻、大蒜、手拉面。",
                 "price": 14.0,
                 "images": [
-                  "/menu-items/qorulghan-laghman.jpg"
+                  "/menu-items/qorulghan-laghman.jpeg"
                 ],
                 "isSpicy": true
               }
@@ -1330,23 +1359,23 @@ export const translations = {
             "items": [
               {
                 "id": "lag-item-5",
-                "name": "切片面",
-                "german_name": "GESCHNITTENE NUDEL",
+                "name": "色拉木玉米小炒",
+                "german_name": "色拉木玉米小炒",
                 "description": "牛肉、青椒、红椒、手拉、炒面。",
                 "price": 14.0,
                 "images": [
-                  "/menu-items/Sliced-Noodles.jpg"
+                  "/menu-items/Sliced-Noodles.jpeg"
                 ],
                 "isSpicy": false
               },
               {
                 "id": "lag-item-6",
-                "name": "牛肉蔬菜切片面",
+                "name": "丁丁炒面",
                 "german_name": "RINDFLEISCH UND GEMÜSE MITGESCHNITTENE NUDELN",
                 "description": "牛肉、青椒、红椒、手拉、炒面。",
                 "price": 14.0,
                 "images": [
-                  "/menu-items/beef-sliced-noodles.png"
+                  "/menu-items/beef-sliced-noodles.jpeg"
                 ],
                 "isSpicy": false
               }
@@ -1356,43 +1385,54 @@ export const translations = {
       },
       {
         "id": "rice_bowls",
-        "name": "2. 盖饭 / 米饭类菜肴",
-        "categoryImage": "/menu-items/Chicken-with-Potatoes.jpg",
+        "name": "2. 精美小炒",
+        "categoryImage": "/beef.png",
         "sections": [
           {
             "id": "rice-main",
             "items": [
               {
                 "id": "rice-item-1",
-                "name": "抓饭 (POLO)",
+                "name": "爆炒牛肚",
                 "german_name": "POLO",
-                "description": "牛肉、胡萝卜、洋葱、米饭、凉拌卷心菜。（20€ 大份 / 15€ 小份）",
-                "price": 20.0,
+                "description": "新鲜牛肚   辣椒    红青椒  绿青椒",
+                "price": 16.0,
                 "price_small": 15.0,
                 "images": [
-                  "/menu-items/POLO.jpg"
+                  "/menu-items/POLO.jpeg"
                 ],
                 "isSpicy": false
               },
               {
                 "id": "rice-item-2",
-                "name": "红烧牛肉",
+                "name": "蒜苔炒肉",
                 "german_name": "GEBRATENES RINDFLEISCH KOCHEN",
-                "description": "牛肉、土豆、胡萝卜、葱。",
-                "price": 45.0,
+                "description": "蒜苔 牛肉 洋葱 青椒",
+                "price": 14.0,
                 "images": [
-                  "/menu-items/Fried-Beef-Stew.jpg"
+                  "/menu-items/Fried-Beef-Stew.jpeg"
                 ],
                 "isSpicy": false
               },
               {
                 "id": "rice-item-3",
-                "name": "大盘鸡",
+                "name": "菠菜炒鸡蛋",
                 "german_name": "HÄHNCHEN MIT KARTOFFELN",
-                "description": "鸡肉、土豆、辣椒、辣椒。",
-                "price": 12.0,
+                "description": "菠菜  鸡蛋。",
+                "price": 10.0,
                 "images": [
-                  "/menu-items/Chicken-with-Potatoes.jpg"
+                  "/menu-items/bocai.png"
+                ],
+                "isSpicy": true
+              },
+              {
+                "id": "rice-item-4",
+                "name": "鱼香肉丝",
+                "german_name": "1HÄHNCHEN MIT KARTOFFELN",
+                "description": "牛肉  木耳  青椒  笋片",
+                "price": 18.0,
+                "images": [
+                  "/menu-items/Yu-Xiang.jpeg"
                 ],
                 "isSpicy": true
               }
@@ -1410,34 +1450,34 @@ export const translations = {
             "items": [
               {
                 "id": "veg-item-1",
-                "name": "麻辣豆腐",
+                "name": "圆菇炒肉",
                 "german_name": "SCHARFER MALA-TOFU",
-                "description": "豆腐、葱和辣椒。",
-                "price": 9.9,
+                "description": "蘑菇  牛肉  辣椒   青椒",
+                "price": 14.0,
                 "images": [
-                  "/menu-items/Spicy-Mala-Tofu.jpg"
+                  "/menu-items/Stir-Fried.jpeg"
                 ],
                 "isSpicy": true
               },
               {
                 "id": "veg-item-2",
-                "name": "菠菜炒鸡蛋",
+                "name": "麻婆豆腐",
                 "german_name": "SPINAT MIT EI",
-                "description": "鸡蛋、菠菜。",
-                "price": 9.9,
+                "description": "豆腐  小葱",
+                "price": 14,
                 "images": [
-                  "/menu-items/Spinach-with-Egg.jpg"
+                  "/menu-items/Mapo-Tofu.jpeg"
                 ],
                 "isSpicy": false
               },
               {
                 "id": "veg-item-3",
-                "name": "酸辣土豆丝",
+                "name": "素炒西兰花",
                 "german_name": "SAUER-SCHARFE KARTOFFELN",
-                "description": "土豆丝、辣椒。",
-                "price": 9.9,
+                "description": "西兰花",
+                "price": 14,
                 "images": [
-                  "/menu-items/hot-sour-potatoes.png"
+                  "/menu-items/Stir-Fried-Broccoli.jpeg"
                 ],
                 "isSpicy": true
               }
@@ -1458,22 +1498,22 @@ export const translations = {
                 "name": "羊肉串",
                 "german_name": "LAMB SKEWERS / LAMMSPIESSE",
                 "description": "羊肉/牛肉。（单价）",
-                "price": 4.0,
-                "unit": "1 串",
+                "price": 12,
+                "unit": "3 串",
                 "images": [
-                  "/menu-items/Lamb-Skewers.jpg"
+                  "/menu-items/Lamb-Skewers.jpeg"
                 ],
                 "isSpicy": false
               },
               {
                 "id": "bbq-item-2",
-                "name": "烤羊排",
+                "name": "烤羊腰",
                 "german_name": "LAMMKARREE",
-                "description": "羊排。（单价）",
-                "price": 6.0,
+                "description": "烤羊腰",
+                "price": 7.0,
                 "unit": "1 块",
                 "images": [
-                  "/menu-items/lamb-rack.jpg"
+                  "/menu-items/lamb-rack.jpeg"
                 ],
                 "isSpicy": false
               }
@@ -1484,58 +1524,59 @@ export const translations = {
       {
         "id": "specialties_sides",
         "name": "5. 特色菜及配菜",
-        "categoryImage": "/menu-items/Goxnan.jpg",
+        "categoryImage": "/menu-items/Goxnan.jpeg",
+        "categoryImage1": "/menu-items/Goxnan1.jpeg",
         "sections": [
           {
             "id": "specialties-main",
             "items": [
               {
                 "id": "spec-item-1",
-                "name": "香辣脆皮鸡",
+                "name": "大盘鸡",
                 "german_name": "SPICY CRISPY CHICKEN",
-                "description": "脆皮鸡肉、红辣椒、干辣椒、辣。（35€ 小份 / 45€ 大份）",
-                "price": 35.0,
+                "description": "鸡肉  土豆 洋葱  生姜   香料   辣椒  香菜",
+                "price": '大份 45 中份35  小份 14',
                 "price_large": 45.0,
                 "images": [
-                  "/menu-items/spicy-crispy-chicken.jpg"
+                  "/menu-items/spicy-crispy-chicken.jpeg"
                 ],
                 "isSpicy": true
               },
               {
                 "id": "spec-item-2",
-                "name": "大盘鸡",
+                "name": "辣子鸡",
                 "german_name": "DAPANJI",
-                "description": "鸡肉、青椒、红椒、土豆、姜。（35€ 小份 / 45€ 大份）",
-                "price": 35.0,
-                "price_large": 45.0,
+                "description": "鸡肉   辣椒   大葱  小葱   生姜",
+                "price": 40.0,
+                "price_large": 40.0,
                 "images": [
-                  "/menu-items/dapanji.jpg"
+                  "/menu-items/dapanji.jpeg"
                 ],
                 "isSpicy": false
               },
-              {
-                "id": "spec-item-3",
-                "name": "辣子鸡丁",
-                "german_name": "HÄHNCHENSTÜCK MIT CHILI",
-                "description": "鸡肉、红椒、干辣椒、辣。（35€ 小份 / 45€ 大份）",
-                "price": 35.0,
-                "price_large": 45.0,
-                "images": [
-                  "/menu-items/chicken-pieces-chili.jpg"
-                ],
-                "isSpicy": true
-              },
-              {
-                "id": "spec-item-4",
-                "name": "烤包子 (GOXNAN)",
-                "german_name": "GOXNAN",
-                "description": "牛肉、洋葱。",
-                "price": 15.0,
-                "images": [
-                  "/menu-items/Goxnan.jpg"
-                ],
-                "isSpicy": false
-              }
+              // {
+              //   "id": "spec-item-3",
+              //   "name": "辣子鸡丁",
+              //   "german_name": "HÄHNCHENSTÜCK MIT CHILI",
+              //   "description": "鸡肉、红椒、干辣椒、辣。（35€ 小份 / 45€ 大份）",
+              //   "price": 35.0,
+              //   "price_large": 45.0,
+              //   "images": [
+              //     "/menu-items/chicken-pieces-chili.jpg"
+              //   ],
+              //   "isSpicy": true
+              // },
+              // {
+              //   "id": "spec-item-4",
+              //   "name": "烤包子 (GOXNAN)",
+              //   "german_name": "GOXNAN",
+              //   "description": "牛肉、洋葱。",
+              //   "price": 15.0,
+              //   "images": [
+              //     "/menu-items/Goxnan.jpg"
+              //   ],
+              //   "isSpicy": false
+              // }
             ]
           },
           {
@@ -1543,12 +1584,12 @@ export const translations = {
             "items": [
               {
                 "id": "spec-item-5",
-                "name": "曲曲 (QUQUR)",
+                "name": "面",
                 "german_name": "QUQUR",
-                "description": "牛肉。",
-                "price": 12.0,
+                "description": "面",
+                "price": 3.0,
                 "images": [
-                  "/menu-items/ququr.jpg"
+                  "/menu-items/ququr.jpeg"
                 ],
                 "isSpicy": false
               },
@@ -1557,7 +1598,7 @@ export const translations = {
                 "name": "米饭",
                 "german_name": "RICE",
                 "description": "米饭（白米饭）。",
-                "price": 4.0,
+                "price": 3.0,
                 "images": [
                   "/menu-items/Rice.png"
                 ],
@@ -1577,38 +1618,38 @@ export const translations = {
             "items": [
               {
                 "id": "soup-item-1",
-                "name": "牛肉汤面",
+                "name": "红烧牛肉面",
                 "german_name": "RINDSSUPPE MIT NUDEL",
                 "description": "牛肉、香菜、牛肉汤、面条。",
-                "price": 9.9,
+                "price": 14,
                 "images": [
-                  "/menu-items/Beef-Soup-with-Noodles.jpg"
+                  "/menu-items/Beef-Soup-with-Noodles.jpeg"
                 ],
                 "isSpicy": false
               },
               {
                 "id": "soup-item-2",
-                "name": "炖面",
+                "name": "清汤牛肉面",
                 "german_name": "GESCHMORTE NUDELN",
-                "description": "牛肉、香菜、牛肉汤、面条、热辣。",
-                "price": 11.9,
+                "description": "香菜 汤、面条",
+                "price": 11,
                 "images": [
                   "/menu-items/stewed-noodles.png"
                 ],
                 "isSpicy": true
               },
-              {
-                "id": "soup-item-3",
-                "name": "香辣炒米粉",
-                "german_name": "GEBRATENE SCHARFE REISNUDELN",
-                "description": "辣、米粉、鸡肉、芹菜。（14€ 大份 / 12€ 小份）",
-                "price": 14.0,
-                "price_small": 12.0,
-                "images": [
-                  "/menu-items/fried-spicy-rice-noodles.png"
-                ],
-                "isSpicy": true
-              }
+              // {
+              //   "id": "soup-item-3",
+              //   "name": "香辣炒米粉",
+              //   "german_name": "GEBRATENE SCHARFE REISNUDELN",
+              //   "description": "辣、米粉、鸡肉、芹菜。（14€ 大份 / 12€ 小份）",
+              //   "price": 14.0,
+              //   "price_small": 12.0,
+              //   "images": [
+              //     "/menu-items/fried-spicy-rice-noodles.png"
+              //   ],
+              //   "isSpicy": true
+              // }
             ]
           }
         ]
@@ -1626,7 +1667,7 @@ export const translations = {
                 "name": "烤包子 (SAMSA)",
                 "german_name": "SAMSA",
                 "description": "牛肉、烤面包。（单价）",
-                "price": 2.0,
+                "price": 3.0,
                 "unit": "1 个",
                 "images": [
                   "/menu-items/Samsa.jpg"
@@ -1635,15 +1676,15 @@ export const translations = {
               },
               {
                 "id": "snack-item-2",
-                "name": "蒸饺",
+                "name": "包子",
                 "german_name": "GEDÄMPFTE TEIGTASCHEN",
                 "description": "牛肉。（3个的价格）",
-                "price": 5.9,
+                "price": 7,
                 "unit": "3 个",
                 "images": [
-                  "/menu-items/Steamed-Dumplings.jpg",
+                  "/menu-items/Steamed-Dumplings.jpeg",
                   "/menu-items/Steamed-Dumplings-1.jpg",
-                  "/menu-items/Steamed-Dumplings-2.jpg"
+                  // "/menu-items/Steamed-Dumplings-2.jpg"
                 ],
                 "isSpicy": false
               }
@@ -1655,6 +1696,7 @@ export const translations = {
         "id": "cold_starters",
         "name": "8. 冷开胃菜 / 冷盘",
         "categoryImage": "/menu-items/Uyghur-Special-Salad.jpg",
+        "categoryImage1": "/menu-items/Uyghur-Special-Salad.jpg",
         "sections": [
           {
             "id": "cold-starter-main",
@@ -1664,7 +1706,7 @@ export const translations = {
                 "name": "冷切牛肉沙拉",
                 "german_name": "KALTER RINDFLEISCHSALAT",
                 "description": "牛肉、香菜、大蒜。",
-                "price": 12.0,
+                "price": 13.0,
                 "images": [
                   "/menu-items/Cold-Beef-Salad.jpg"
                 ],
@@ -1688,23 +1730,23 @@ export const translations = {
               },
               {
                 "id": "cold-item-3",
-                "name": "凉粉 (RANGPÏZA)",
+                "name": "凉皮",
                 "german_name": "RANGPÏZA",
                 "description": "凉面和意面。",
-                "price": 6.0,
+                "price": 8.0,
                 "images": [
-                  "/menu-items/rangpiza.jpg"
+                  "/menu-items/rangpiza.jpeg"
                 ],
                 "isSpicy": false
               },
               {
                 "id": "cold-item-4",
-                "name": "SERIGAX",
+                "name": "黄面",
                 "german_name": "SERIGAX",
                 "description": "凉面和意面。",
-                "price": 6.0,
+                "price": 7.0,
                 "images": [
-                  "/menu-items/serigax.jpg"
+                  "/menu-items/serigax.jpeg"
                 ],
                 "isSpicy": false
               }
@@ -1713,39 +1755,39 @@ export const translations = {
           {
             "id": "cold-starter-main",
             "items": [
-              {
-                "id": "cold-item-5",
-                "name": "绿豆面配酱",
-                "german_name": "MUNGOBOHNENMEHL MIT SOSE",
-                "description": "凉面和意面。",
-                "price": 6.0,
-                "images": [
-                  "/menu-items/mung-bean-flour.jpg"
-                ],
-                "isSpicy": false
-              },
+              // {
+              //   "id": "cold-item-5",
+              //   "name": "绿豆面配酱",
+              //   "german_name": "MUNGOBOHNENMEHL MIT SOSE",
+              //   "description": "凉面和意面。",
+              //   "price": 6.0,
+              //   "images": [
+              //     "/menu-items/mung-bean-flour.jpg"
+              //   ],
+              //   "isSpicy": false
+              // },
               {
                 "id": "cold-item-6",
                 "name": "黄瓜沙拉",
                 "german_name": "GURKENSALAT",
                 "description": "黄瓜。",
-                "price": 6.0,
+                "price": 7.0,
                 "images": [
                   "/menu-items/Cucumber-Salad.jpg"
                 ],
                 "isSpicy": false
               },
-              {
-                "id": "cold-item-7",
-                "name": "维吾尔特色沙拉",
-                "german_name": "UIGURISCHE SPEZIAL SALAT",
-                "description": "西红柿、香菜、青椒、洋葱。",
-                "price": 6.0,
-                "images": [
-                  "/menu-items/uyghur-special-salad.jpg"
-                ],
-                "isSpicy": false
-              }
+              // {
+              //   "id": "cold-item-7",
+              //   "name": "维吾尔特色沙拉",
+              //   "german_name": "UIGURISCHE SPEZIAL SALAT",
+              //   "description": "西红柿、香菜、青椒、洋葱。",
+              //   "price": 6.0,
+              //   "images": [
+              //     "/menu-items/uyghur-special-salad.jpg"
+              //   ],
+              //   "isSpicy": false
+              // }
             ]
           }
         ]
@@ -1821,8 +1863,8 @@ export const translations = {
       "Забронируйте столик заранее, чтобы насладиться безупречным обслуживанием и идеальной атмосферой. Наша команда позаботится о каждом нюансе — от вашего любимого места до любимых блюд.",
     followUs: "Подписывайтесь на нас:",
     phoneLabel: "Телефон",
-    phoneValue: "+43 1 728 0745",
-    ContactEmail: "info@karim.com",
+    phoneValue: "06701958888",
+    ContactEmail: "tarimrestaurantwien@gmail.com",
     selectTime: "Выбрать время",
     PersonWord: "Человек",
     nameLabel: "Имя",
@@ -1846,7 +1888,7 @@ export const translations = {
     "RestaurantMenuText": "МЕНЮ УЙГУРСКОГО РЕСТОРАНА TARIM",
     "menuCategories": {
       "laghman": "ЛАГМАН / ЛАПША РУЧНОЙ РАБОТЫ",
-      "rice_bowls": "БЛЮДА ИЗ РИСА",
+      "rice_bowls": "Изысканная обжарка",
       "vegetarian": "ВЕГЕТАРИАНСКИЕ БЛЮДА",
       "bbq_grills": "ШАШЛЫК И ГРИЛЬ / СПЕЦИАЛИТЕТЫ НА ГРИЛЕ",
       "specialties_sides": "ФИРМЕННЫЕ БЛЮДА И ГАРНИРЫ",
@@ -1859,6 +1901,7 @@ export const translations = {
         "id": "laghman",
         "name": "1. ЛАГМАН / ЛАПША РУЧНОЙ РАБОТЫ",
         "categoryImage": "/menu-items/Homemade-Laghman.jpg",
+        "categoryImage1": "/menu-items/Homemade-Laghman1.jpeg",
         "sections": [
           {
             "id": "laghman-main",
@@ -1870,7 +1913,7 @@ export const translations = {
                 "description": "Мясо (на выбор), зеленый перец, чили, грибы, лук, лапша ручной работы.",
                 "price": 14.9,
                 "images": [
-                  "/menu-items/ShahLagman.jpg"
+                  "/menu-items/ShahLagman.jpeg"
                 ],
                 "isSpicy": true
               },
@@ -1881,18 +1924,18 @@ export const translations = {
                 "description": "Мясо (на выбор), различные овощи, лапша ручной работы.",
                 "price": 11.9,
                 "images": [
-                  "/menu-items/Homemade-Laghman.jpg"
+                  "/menu-items/Homemade-Laghman.jpeg"
                 ],
                 "isSpicy": false
               },
               {
                 "id": "lag-item-3",
-                "name": "ЛАПША С ОВОЩАМИ",
+                "name": "Жареная лапша по-сухому",
                 "german_name": "NUDELN MIT GEMÜSE",
                 "description": "Говядина, китайская капуста (бок-чой), красный перец, зеленый перец, лук, лапша ручной работы, жареная.",
                 "price": 14.0,
                 "images": [
-                  "/menu-items/Noodles-with-Vegetables.jpg"
+                  "/menu-items/Noodles-with-Vegetables.jpeg"
                 ],
                 "isSpicy": false
               },
@@ -1903,7 +1946,7 @@ export const translations = {
                 "description": "Говядина, шнитт-лук, сушеный чили, жареный кунжут, чеснок, лапша ручной работы.",
                 "price": 14.0,
                 "images": [
-                  "/menu-items/qorulghan-laghman.jpg"
+                  "/menu-items/qorulghan-laghman.jpeg"
                 ],
                 "isSpicy": true
               }
@@ -1914,23 +1957,23 @@ export const translations = {
             "items": [
               {
                 "id": "lag-item-5",
-                "name": "НАСЛУЩЕННАЯ ЛАПША",
+                "name": "Жареная кукуруза с овощами",
                 "german_name": "GESCHNITTENE NUDEL",
                 "description": "Говядина, зеленый перец, красный перец, лапша ручной работы, жареная.",
                 "price": 14.0,
                 "images": [
-                  "/menu-items/Sliced-Noodles.jpg"
+                  "/menu-items/Sliced-Noodles.jpeg"
                 ],
                 "isSpicy": false
               },
               {
                 "id": "lag-item-6",
-                "name": "ГОВЯДИНА И ОВОЩИ С НАРЕЗАННОЙ ЛАПШОЙ",
+                "name": "Лапша кубиками обжаренная",
                 "german_name": "RINDFLEISCH UND GEMÜSE MITGESCHNITTENE NUDELN",
                 "description": "Говядина, зеленый перец, красный перец, лапша ручной работы, жареная.",
                 "price": 14.0,
                 "images": [
-                  "/menu-items/beef-sliced-noodles.png"
+                  "/menu-items/beef-sliced-noodles.jpeg"
                 ],
                 "isSpicy": false
               }
@@ -1940,43 +1983,54 @@ export const translations = {
       },
       {
         "id": "rice_bowls",
-        "name": "2. БЛЮДА ИЗ РИСА",
-        "categoryImage": "/menu-items/Chicken-with-Potatoes.jpg",
+        "name": "2. Изысканная обжарка",
+        "categoryImage": "/beef.png",
         "sections": [
           {
             "id": "rice-main",
             "items": [
               {
                 "id": "rice-item-1",
-                "name": "ПОЛО (ПЛОВ)",
+                "name": "Остро обжаренный говяжий рубец",
                 "german_name": "POLO",
-                "description": "Говядина, морковь, лук, рис, салат из капусты. (20€ Большая / 15€ Малая)",
-                "price": 20.0,
+                "description": "Свежий говяжий рубец с перцем чили, красным и зелёным болгарским перцем",
+                "price": 16.0,
                 "price_small": 15.0,
                 "images": [
-                  "/menu-items/POLO.jpg"
+                  "/menu-items/POLO.jpeg"
                 ],
                 "isSpicy": false
               },
               {
                 "id": "rice-item-2",
-                "name": "ЖАРЕНОЕ ТУШЕНОЕ МЯСО (ГОВЯДИНА)",
+                "name": "Свинина, жаренная со стрелками чеснока",
                 "german_name": "GEBRATENES RINDFLEISCH KOCHEN",
-                "description": "Говядина, картофель, морковь, зеленый лук.",
-                "price": 45.0,
+                "description": "стрелки чеснока, говядина, лук, зелёный перец",
+                "price": 14.0,
                 "images": [
-                  "/menu-items/Fried-Beef-Stew.jpg"
+                  "/menu-items/Fried-Beef-Stew.jpeg"
                 ],
                 "isSpicy": false
               },
               {
                 "id": "rice-item-3",
-                "name": "КУРИЦА С КАРТОФЕЛЕМ",
+                "name": "Обжаренный шпинат с яйцом",
                 "german_name": "HÄHNCHEN MIT KARTOFFELN",
-                "description": "Курица, картофель, паприка, перец чили.",
-                "price": 12.0,
+                "description": "шпинат и яйца",
+                "price": 10.0,
                 "images": [
-                  "/menu-items/Chicken-with-Potatoes.jpg"
+                  "/menu-items/bocai.png"
+                ],
+                "isSpicy": true
+              },
+              {
+                "id": "rice-item-4",
+                "name": "Говяжая соломка в соусе юйсян",
+                "german_name": "1HÄHNCHEN MIT KARTOFFELN",
+                "description": "Говядина, древесные грибы, зелёный болгарский перец и бамбуковые побеги",
+                "price": 18.0,
+                "images": [
+                  "/menu-items/Yu-Xiang.jpeg"
                 ],
                 "isSpicy": true
               }
@@ -1994,34 +2048,34 @@ export const translations = {
             "items": [
               {
                 "id": "veg-item-1",
-                "name": "ОСТРЫЙ МАЛА-ТОФУ",
+                "name": "Говядина, обжаренная с шампиньонами",
                 "german_name": "SCHARFER MALA-TOFU",
-                "description": "Тофу, зеленый лук и чили.",
-                "price": 9.9,
+                "description": "Говядина, шампиньоны, перец чили и зелёный болгарский перец",
+                "price": 14.0,
                 "images": [
-                  "/menu-items/Spicy-Mala-Tofu.jpg"
+                  "/menu-items/Stir-Fried.jpeg"
                 ],
                 "isSpicy": true
               },
               {
                 "id": "veg-item-2",
-                "name": "ШПИНАТ С ЯЙЦОМ",
+                "name": "Мапо тофу",
                 "german_name": "SPINAT MIT EI",
-                "description": "Яйца, шпинат.",
-                "price": 9.9,
+                "description": "Тофу с зелёным луком",
+                "price": 14,
                 "images": [
-                  "/menu-items/Spinach-with-Egg.jpg"
+                  "/menu-items/Mapo-Tofu.jpeg"
                 ],
                 "isSpicy": false
               },
               {
                 "id": "veg-item-3",
-                "name": "КИСЛО-ОСТРЫЙ КАРТОФЕЛЬ",
+                "name": "Обжаренная брокколи",
                 "german_name": "SAUER-SCHARFE KARTOFFELN",
-                "description": "Измельченный картофель, паприка.",
-                "price": 9.9,
+                "description": "Брокколи",
+                "price": 14,
                 "images": [
-                  "/menu-items/hot-sour-potatoes.png"
+                  "/menu-items/Stir-Fried-Broccoli.jpeg"
                 ],
                 "isSpicy": true
               }
@@ -2042,22 +2096,22 @@ export const translations = {
                 "name": "ШАШЛЫК ИЗ БАРАНИНЫ",
                 "german_name": "LAMB SKEWERS / LAMMSPIESSE",
                 "description": "Баранина/Говядина. (Цена за штуку)",
-                "price": 4.0,
-                "unit": "1 Pc",
+                "price": 12.0,
+                "unit": "3 Pc",
                 "images": [
-                  "/menu-items/Lamb-Skewers.jpg"
+                  "/menu-items/Lamb-Skewers.jpeg"
                 ],
                 "isSpicy": false
               },
               {
                 "id": "bbq-item-2",
-                "name": "КАРЕ ЯГНЕНКА",
+                "name": "Жареные бараньи почки",
                 "german_name": "LAMMKARREE",
-                "description": "Каре ягненка. (Цена за штуку)",
-                "price": 6.0,
+                "description": "Жареные бараньи почки",
+                "price": 7.0,
                 "unit": "1 Pc",
                 "images": [
-                  "/menu-items/lamb-rack.jpg"
+                  "/menu-items/lamb-rack.jpeg"
                 ],
                 "isSpicy": false
               }
@@ -2068,58 +2122,59 @@ export const translations = {
       {
         "id": "specialties_sides",
         "name": "5. ФИРМЕННЫЕ БЛЮДА И ГАРНИРЫ",
-        "categoryImage": "/menu-items/Goxnan.jpg",
+        "categoryImage": "/menu-items/Goxnan.jpeg",
+        "categoryImage1": "/menu-items/Goxnan1.jpeg",
         "sections": [
           {
             "id": "specialties-main",
             "items": [
               {
                 "id": "spec-item-1",
-                "name": "ОСТРАЯ ХРУСТЯЩАЯ КУРИЦА",
+                "name": "Дапаньцзи",
                 "german_name": "SPICY CRISPY CHICKEN",
-                "description": "Хрустящее куриное мясо, красный перец чили, сушеный перец чили, ОСТРОЕ. (35€ Малая / 45€ Большая)",
-                "price": 35.0,
+                "description": "Курица, картофель, лук, имбирь, специи, перец чили и кинза",
+                "price": 'Большая 45 • Средняя 35 • Маленькая 14',
                 "price_large": 45.0,
                 "images": [
-                  "/menu-items/spicy-crispy-chicken.jpg"
+                  "/menu-items/spicy-crispy-chicken.jpeg"
                 ],
                 "isSpicy": true
               },
               {
                 "id": "spec-item-2",
-                "name": "ДАПАНЖИ",
+                "name": "Острая курица с перцем чили",
                 "german_name": "DAPANJI",
-                "description": "Курица, зеленый перец, красный перец, картофель, имбирь. (35€ Малая / 45€ Большая)",
-                "price": 35.0,
-                "price_large": 45.0,
+                "description": "Курица, перец чили, лук-порей, зелёный лук и имбирь",
+                "price": 40.0,
+                "price_large": 40.0,
                 "images": [
-                  "/menu-items/dapanji.jpg"
+                  "/menu-items/dapanji.jpeg"
                 ],
                 "isSpicy": false
               },
-              {
-                "id": "spec-item-3",
-                "name": "КУСОЧКИ КУРИЦЫ С ЧИЛИ",
-                "german_name": "HÄHNCHENSTÜCK MIT CHILI",
-                "description": "Курица, красный перец, сушеный перец чили, ОСТРОЕ. (35€ Малая / 45€ Большая)",
-                "price": 35.0,
-                "price_large": 45.0,
-                "images": [
-                  "/menu-items/chicken-pieces-chili.jpg"
-                ],
-                "isSpicy": true
-              },
-              {
-                "id": "spec-item-4",
-                "name": "ГОХНАН",
-                "german_name": "GOXNAN",
-                "description": "Говядина, лук.",
-                "price": 15.0,
-                "images": [
-                  "/menu-items/Goxnan.jpg"
-                ],
-                "isSpicy": false
-              }
+              // {
+              //   "id": "spec-item-3",
+              //   "name": "КУСОЧКИ КУРИЦЫ С ЧИЛИ",
+              //   "german_name": "HÄHNCHENSTÜCK MIT CHILI",
+              //   "description": "Курица, красный перец, сушеный перец чили, ОСТРОЕ. (35€ Малая / 45€ Большая)",
+              //   "price": 35.0,
+              //   "price_large": 45.0,
+              //   "images": [
+              //     "/menu-items/chicken-pieces-chili.jpg"
+              //   ],
+              //   "isSpicy": true
+              // },
+              // {
+              //   "id": "spec-item-4",
+              //   "name": "ГОХНАН",
+              //   "german_name": "GOXNAN",
+              //   "description": "Говядина, лук.",
+              //   "price": 15.0,
+              //   "images": [
+              //     "/menu-items/Goxnan.jpg"
+              //   ],
+              //   "isSpicy": false
+              // }
             ]
           },
           {
@@ -2127,12 +2182,12 @@ export const translations = {
             "items": [
               {
                 "id": "spec-item-5",
-                "name": "КУКУР",
+                "name": "Лапша",
                 "german_name": "QUQUR",
-                "description": "Говядина.",
-                "price": 12.0,
+                "description": "Лапша.",
+                "price": 3.0,
                 "images": [
-                  "/menu-items/ququr.jpg"
+                  "/menu-items/ququr.jpeg"
                 ],
                 "isSpicy": false
               },
@@ -2141,7 +2196,7 @@ export const translations = {
                 "name": "РИС",
                 "german_name": "RICE",
                 "description": "Рис (простой вареный рис/сада чавал).",
-                "price": 4.0,
+                "price": 3.0,
                 "images": [
                   "/menu-items/Rice.png"
                 ],
@@ -2161,38 +2216,38 @@ export const translations = {
             "items": [
               {
                 "id": "soup-item-1",
-                "name": "ГОВЯЖИЙ СУП С ЛАПШОЙ",
+                "name": "Лапша с тушёной говядиной",
                 "german_name": "RINDSSUPPE MIT NUDEL",
                 "description": "Говядина, кориандр, говяжий бульон, лапша.",
-                "price": 9.9,
+                "price": 14,
                 "images": [
-                  "/menu-items/Beef-Soup-with-Noodles.jpg"
+                  "/menu-items/Beef-Soup-with-Noodles.jpeg"
                 ],
                 "isSpicy": false
               },
               {
                 "id": "soup-item-2",
-                "name": "ТУШЕНАЯ ЛАПША",
+                "name": "Лапша с говядиной в прозрачном бульоне",
                 "german_name": "GESCHMORTE NUDELN",
-                "description": "Говядина, кориандр, говяжий бульон, лапша, острое.",
-                "price": 11.9,
+                "description": "кориандр, СУПЫ, лапша, острое.",
+                "price": 11.0,
                 "images": [
-                  "/menu-items/stewed-noodles.png"
+                  "/menu-items/stewed-noodles.jpeg"
                 ],
                 "isSpicy": true
               },
-              {
-                "id": "soup-item-3",
-                "name": "ЖАРЕНАЯ ОСТРАЯ РИСОВАЯ ЛАПША",
-                "german_name": "GEBRATENE SCHARFE REISNUDELN",
-                "description": "Острая рисовая лапша, курица, сельдерей. (14€ Большая / 12€ Малая)",
-                "price": 14.0,
-                "price_small": 12.0,
-                "images": [
-                  "/menu-items/fried-spicy-rice-noodles.png"
-                ],
-                "isSpicy": true
-              }
+              // {
+              //   "id": "soup-item-3",
+              //   "name": "ЖАРЕНАЯ ОСТРАЯ РИСОВАЯ ЛАПША",
+              //   "german_name": "GEBRATENE SCHARFE REISNUDELN",
+              //   "description": "Острая рисовая лапша, курица, сельдерей. (14€ Большая / 12€ Малая)",
+              //   "price": 14.0,
+              //   "price_small": 12.0,
+              //   "images": [
+              //     "/menu-items/fried-spicy-rice-noodles.png"
+              //   ],
+              //   "isSpicy": true
+              // }
             ]
           }
         ]
@@ -2210,7 +2265,7 @@ export const translations = {
                 "name": "САМСА",
                 "german_name": "SAMSA",
                 "description": "Говядина, жареные булочки. (Цена за штуку)",
-                "price": 2.0,
+                "price": 3.0,
                 "unit": "1 Pc",
                 "images": [
                   "/menu-items/Samsa.jpg"
@@ -2219,15 +2274,15 @@ export const translations = {
               },
               {
                 "id": "snack-item-2",
-                "name": "МАНТЫ",
+                "name": "Паровое булочки",
                 "german_name": "GEDÄMPFTE TEIGTASCHEN",
                 "description": "Говядина. (Цена за 3 штуки)",
-                "price": 5.9,
+                "price": 7,
                 "unit": "3 Pcs",
                 "images": [
-                  "/menu-items/Steamed-Dumplings.jpg",
+                  "/menu-items/Steamed-Dumplings.jpeg",
                   "/menu-items/Steamed-Dumplings-1.jpg",
-                  "/menu-items/Steamed-Dumplings-2.jpg"
+                  // "/menu-items/Steamed-Dumplings-2.jpg"
                 ],
                 "isSpicy": false
               }
@@ -2239,6 +2294,8 @@ export const translations = {
         "id": "cold_starters",
         "name": "8. ХОЛОДНЫЕ ЗАКУСКИ",
         "categoryImage": "/menu-items/Uyghur-Special-Salad.jpg",
+        "categoryImage1": "/menu-items/Uyghur-Special-Salad.jpg",
+
         "sections": [
           {
             "id": "cold-starter-main",
@@ -2248,7 +2305,7 @@ export const translations = {
                 "name": "ХОЛОДНЫЙ САЛАТ С ГОВЯДИНОЙ",
                 "german_name": "KALTER RINDFLEISCHSALAT",
                 "description": "Говядина, кориандр, чеснок.",
-                "price": 12.0,
+                "price": 13.0,
                 "images": [
                   "/menu-items/Cold-Beef-Salad.jpg"
                 ],
@@ -2272,23 +2329,23 @@ export const translations = {
               },
               {
                 "id": "cold-item-3",
-                "name": "РАНГПИЗА",
+                "name": "Лянпи",
                 "german_name": "RANGPÏZA",
                 "description": "Холодная лапша и паста.",
-                "price": 6.0,
+                "price": 8.0,
                 "images": [
-                  "/menu-items/rangpiza.jpg"
+                  "/menu-items/rangpiza.jpeg"
                 ],
                 "isSpicy": false
               },
               {
                 "id": "cold-item-4",
-                "name": "СЕРИГАХ",
+                "name": "жёлтая лапша",
                 "german_name": "SERIGAX",
                 "description": "Холодная лапша и паста.",
-                "price": 6.0,
+                "price": 7.0,
                 "images": [
-                  "/menu-items/serigax.jpg"
+                  "/menu-items/serigax.jpeg"
                 ],
                 "isSpicy": false
               }
@@ -2297,39 +2354,39 @@ export const translations = {
           {
             "id": "cold-starter-main",
             "items": [
-              {
-                "id": "cold-item-5",
-                "name": "МУКА ИЗ МАШОВЫХ БОБОВ С СОУСОМ",
-                "german_name": "MUNGOBOHNENMEHL MIT SOSE",
-                "description": "Холодная лапша и паста.",
-                "price": 6.0,
-                "images": [
-                  "/menu-items/mung-bean-flour.jpg"
-                ],
-                "isSpicy": false
-              },
+              // {
+              //   "id": "cold-item-5",
+              //   "name": "МУКА ИЗ МАШОВЫХ БОБОВ С СОУСОМ",
+              //   "german_name": "MUNGOBOHNENMEHL MIT SOSE",
+              //   "description": "Холодная лапша и паста.",
+              //   "price": 6.0,
+              //   "images": [
+              //     "/menu-items/mung-bean-flour.jpg"
+              //   ],
+              //   "isSpicy": false
+              // },
               {
                 "id": "cold-item-6",
                 "name": "САЛАТ ИЗ ОГУРЦОВ",
                 "german_name": "GURKENSALAT",
                 "description": "Огурцы.",
-                "price": 6.0,
+                "price": 7.0,
                 "images": [
                   "/menu-items/Cucumber-Salad.jpg"
                 ],
                 "isSpicy": false
               },
-              {
-                "id": "cold-item-7",
-                "name": "УЙГУРСКИЙ СПЕЦИАЛЬНЫЙ САЛАТ",
-                "german_name": "UIGURISCHE SPEZIAL SALAT",
-                "description": "Помидоры, кориандр, зеленый перец, лук.",
-                "price": 6.0,
-                "images": [
-                  "/menu-items/uyghur-special-salad.jpg"
-                ],
-                "isSpicy": false
-              }
+              // {
+              //   "id": "cold-item-7",
+              //   "name": "УЙГУРСКИЙ СПЕЦИАЛЬНЫЙ САЛАТ",
+              //   "german_name": "UIGURISCHE SPEZIAL SALAT",
+              //   "description": "Помидоры, кориандр, зеленый перец, лук.",
+              //   "price": 6.0,
+              //   "images": [
+              //     "/menu-items/uyghur-special-salad.jpg"
+              //   ],
+              //   "isSpicy": false
+              // }
             ]
           }
         ]
@@ -2354,7 +2411,7 @@ export const menuData = {
       id: "1",
       name: "uyghur nann",
       description: "Crispy potatoes topped with spicy tomato sauce and aioli for a perfect snack.",
-      price: "$10",
+      price: "€10",
       image: "/image/section-2.png",
       vegetarian: true,
     },
@@ -2362,7 +2419,7 @@ export const menuData = {
       id: "2",
       name: "CHEESE OMELET",
       description: "Fluffy three-egg omelet with melted cheddar and fresh herbs.",
-      price: "$12",
+      price: "€12",
       image: "/image/section-2.png",
       vegetarian: true,
     },
@@ -2370,7 +2427,7 @@ export const menuData = {
       id: "3",
       name: "BACON & EGGS",
       description: "Crispy bacon strips with perfectly cooked sunny-side eggs and toast.",
-      price: "$14",
+      price: "€14",
       image: "/image/section-2.png",
       vegetarian: false,
     },
@@ -2378,7 +2435,7 @@ export const menuData = {
       id: "4",
       name: "FRUIT SMOOTHIE BOWL",
       description: "Thick acai smoothie base topped with granola, coconut, and fresh berries.",
-      price: "$11",
+      price: "€11",
       image: "/image/section-2.png",
       vegetarian: true,
     },
@@ -2386,7 +2443,7 @@ export const menuData = {
       id: "5",
       name: "AVOCADO TOAST",
       description: "Sourdough toast with smashed avocado, lime juice, and red pepper flakes.",
-      price: "$9",
+      price: "€9",
       image: "/image/section-2.png",
       vegetarian: true,
     },
@@ -2394,7 +2451,7 @@ export const menuData = {
       id: "6",
       name: "FRENCH TOAST",
       description: "Brioche bread dipped in egg custard, pan-fried, and dusted with powdered sugar.",
-      price: "$10",
+      price: "€10",
       image: "/image/section-2.png",
       vegetarian: true,
     },
@@ -2404,7 +2461,7 @@ export const menuData = {
       id: "1",
       name: "GRILLED SALMON",
       description: "Fresh Atlantic salmon fillet with lemon butter sauce and seasonal vegetables.",
-      price: "$18",
+      price: "€18",
       image: "/image/section-2.png",
       vegetarian: false,
     },
@@ -2412,7 +2469,7 @@ export const menuData = {
       id: "2",
       name: "CAESAR SALAD",
       description: "Crisp romaine lettuce with parmesan, croutons, and creamy Caesar dressing.",
-      price: "$12",
+      price: "€12",
       image: "/fresh-caesar-salad.png",
       vegetarian: true,
     },
@@ -2420,7 +2477,7 @@ export const menuData = {
       id: "3",
       name: "BEEF BURGER",
       description: "Premium angus beef patty with cheddar, bacon, lettuce, tomato on brioche bun.",
-      price: "$16",
+      price: "€16",
       image: "/gourmet-beef-burger.png",
       vegetarian: false,
     },
@@ -2428,7 +2485,7 @@ export const menuData = {
       id: "4",
       name: "VEGETABLE PASTA",
       description: "Fresh pasta with seasonal vegetables, garlic, olive oil, and fresh basil.",
-      price: "$14",
+      price: "€14",
       image: "/image/section-2.png",
       vegetarian: true,
     },
@@ -2436,7 +2493,7 @@ export const menuData = {
       id: "5",
       name: "CHICKEN SANDWICH",
       description: "Grilled chicken breast with pesto mayo, fresh mozzarella, and tomato.",
-      price: "$13",
+      price: "€13",
       image: "/image/section-2.png",
       vegetarian: false,
     },
@@ -2444,7 +2501,7 @@ export const menuData = {
       id: "6",
       name: "QUINOA BOWL",
       description: "Nutritious quinoa base with roasted vegetables, chickpeas, and tahini dressing.",
-      price: "$13",
+      price: "€13",
       image: "/healthy-quinoa-bowl.png",
       vegetarian: true,
     },
@@ -2454,7 +2511,7 @@ export const menuData = {
       id: "1",
       name: "FILET MIGNON",
       description: "Premium tenderloin steak with garlic herb butter and truffle mashed potatoes.",
-      price: "$32",
+      price: "€32",
       image: "/image/section-2.png",
       vegetarian: false,
     },
@@ -2462,7 +2519,7 @@ export const menuData = {
       id: "2",
       name: "LOBSTER TAIL",
       description: "Fresh Maine lobster tail with drawn butter and grilled asparagus.",
-      price: "$28",
+      price: "€28",
       image: "/image/section-2.png",
       vegetarian: false,
     },
@@ -2470,7 +2527,7 @@ export const menuData = {
       id: "3",
       name: "DUCK CONFIT",
       description: "Slow-roasted duck leg with cherry gastrique and creamy celery root puree.",
-      price: "$26",
+      price: "€26",
       image: "/image/section-2.png",
       vegetarian: false,
     },
@@ -2478,7 +2535,7 @@ export const menuData = {
       id: "4",
       name: "VEGETABLE TART",
       description: "Caramelized onions, roasted root vegetables, and gruyere in puff pastry.",
-      price: "$18",
+      price: "€18",
       image: "/placeholder.svg?height=128&width=128",
       vegetarian: true,
     },
@@ -2486,7 +2543,7 @@ export const menuData = {
       id: "5",
       name: "LAMB CHOPS",
       description: "Herb-crusted lamb chops with rosemary jus and parmesan risotto.",
-      price: "$30",
+      price: "€30",
       image: "/placeholder.svg?height=128&width=128",
       vegetarian: false,
     },
@@ -2494,7 +2551,7 @@ export const menuData = {
       id: "6",
       name: "SEAFOOD RISOTTO",
       description: "Creamy arborio rice with shrimp, scallops, mussels, and saffron broth.",
-      price: "$24",
+      price: "€24",
       image: "/placeholder.svg?height=128&width=128",
       vegetarian: false,
     },
@@ -2504,7 +2561,7 @@ export const menuData = {
       id: "1",
       name: "CHOCOLATE LAVA CAKE",
       description: "Warm dark chocolate cake with molten center, served with vanilla ice cream.",
-      price: "$8",
+      price: "€8",
       image: "/placeholder.svg?height=128&width=128",
       vegetarian: true,
     },
@@ -2512,7 +2569,7 @@ export const menuData = {
       id: "2",
       name: "TIRAMISU",
       description: "Classic Italian dessert with mascarpone, espresso, and cocoa powder layers.",
-      price: "$7",
+      price: "€7",
       image: "/placeholder.svg?height=128&width=128",
       vegetarian: true,
     },
@@ -2520,7 +2577,7 @@ export const menuData = {
       id: "3",
       name: "STRAWBERRY CHEESECAKE",
       description: "Creamy New York style cheesecake with fresh strawberry compote and graham base.",
-      price: "$8",
+      price: "€8",
       image: "/placeholder.svg?height=128&width=128",
       vegetarian: true,
     },
@@ -2528,7 +2585,7 @@ export const menuData = {
       id: "4",
       name: "CRÈME BRÛLÉE",
       description: "Silky vanilla custard with caramelized sugar crust and fresh berries.",
-      price: "$9",
+      price: "€9",
       image: "/placeholder.svg?height=128&width=128",
       vegetarian: true,
     },
@@ -2536,7 +2593,7 @@ export const menuData = {
       id: "5",
       name: "LEMON TART",
       description: "Buttery pastry shell with tangy lemon curd filling and meringue top.",
-      price: "$7",
+      price: "€7",
       image: "/placeholder.svg?height=128&width=128",
       vegetarian: true,
     },
@@ -2544,7 +2601,7 @@ export const menuData = {
       id: "6",
       name: "MACARONS ASSORTMENT",
       description: "Colorful French macarons in assorted flavors: pistachio, raspberry, and rose.",
-      price: "$10",
+      price: "€10",
       image: "/placeholder.svg?height=128&width=128",
       vegetarian: true,
     },
