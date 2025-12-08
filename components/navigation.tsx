@@ -88,13 +88,13 @@ export function Navigation() {
         >
           {t("menu")}
         </Link>
-        <Link
+        {/* <Link
           href="#gallery"
           className="block px-4 py-3  hover:underline transition"
           onClick={() => setIsOpen(false)}
         >
           {t("gallery")}
-        </Link>
+        </Link> */}
       </div>
       {isOpen && <div className="bg-black/60 w-full h-full inset-0 fixed z-50"></div>}
     </>
