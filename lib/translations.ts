@@ -598,7 +598,7 @@ export const translations = {
     ContactSection1Block1Title: "Öffnungszeiten",
     ContactSection1Block1Time: "12:00 – 23:00",
     ContactSection1Block2Title: "Adresse",
-    ContactSection1Block2Time: "123 Luxusstraße, Innenstadt"
+    ContactSection1Block2Time: "Lorystraße 44, 1110 Wien, Österreich"
   },
 
   // English
@@ -655,9 +655,9 @@ export const translations = {
     testimonialReview:
       "This is a great restaurant with great food and even better atmosphere. The food is delicious and the service was incredibly fast and friendly. It is definitely one of the best restaurants in Vienna!",
     customerName: "JONATHAN XANDER",
-    testimonialReview1:
-      "This is a great restaurant with great food and even better atmosphere. The food is delicious and the service was incredibly fast and friendly. It is definitely one of the best restaurants in Vienna!",
-    customerName1: "JONATHAN XANDER",
+    // testimonialReview1:
+    //   "This is a great restaurant with great food and even better atmosphere. The food is delicious and the service was incredibly fast and friendly. It is definitely one of the best restaurants in Vienna!",
+    // customerName1: "JONATHAN XANDER",
 
     reservationTitle: "RESERVATION",
     reservationSubtitle: "Fell Happiness by Making a Reservation",
@@ -1202,7 +1202,7 @@ export const translations = {
     ContactSection1Block1Title: "Opening Hours",
     ContactSection1Block1Time: "12:00 PM – 11:00 PM",
     ContactSection1Block2Title: "Address",
-    ContactSection1Block2Time: "123 Luxury Lane, Downtown"
+    ContactSection1Block2Time: "Lorystraße 44, 1110 Wien"
   },
   // Chinese
   zh: {
@@ -1800,7 +1800,7 @@ export const translations = {
     ContactSection1Block1Title: "营业时间",
     ContactSection1Block1Time: "12:00 – 23:00",
     ContactSection1Block2Title: "地址",
-    ContactSection1Block2Time: "市中心奢华大道123号"
+    ContactSection1Block2Time: "奥地利 维也纳 1110 区 Lorystraße 44 号"
   },
   // Russian
   ru: {
@@ -2401,7 +2401,7 @@ export const translations = {
     ContactSection1Block1Title: "Часы работы",
     ContactSection1Block1Time: "12:00 – 23:00",
     ContactSection1Block2Title: "Адрес",
-    ContactSection1Block2Time: "123 Лакшери Лейн, центр города"
+    ContactSection1Block2Time: "Лориштрассе 44, 1110 Вена, Австрия"
   },
 }
 
