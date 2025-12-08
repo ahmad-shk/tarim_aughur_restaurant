@@ -13,26 +13,49 @@ export function Reservation() {
     name: "",
     phone: "",
     guests: "2",
-    date: "",
   })
 
   const { language } = useLanguage()
   const t = (key: string) => getTranslation(language, key as any)
 
   const [startDate, setStartDate] = useState<Date | null>(null)
-
   const [time, setTime] = useState<Date | null>(null)
-
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
     const { name, value } = e.target
     setFormData((prev) => ({ ...prev, [name]: value }))
   }
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
-    console.log("Reservation submitted:", formData)
-    alert("Thank you for your reservation request!")
+
+    const data = {
+      name: formData.name,
+      phone: formData.phone,
+      guests: formData.guests,
+      date: startDate ? startDate.toDateString() : "",
+      time: time ? time.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" }) : "",
+    }
+
+    try {
+      const res = await fetch("/api/reservation", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data),
+      })
+      const result = await res.json()
+      if (result.success) {
+        alert("Reservation email sent successfully!")
+        setFormData({ name: "", phone: "", guests: "" })
+        setStartDate(null)
+        setTime(null)
+      } else {
+        alert("Error sending reservation: " + result.error)
+      }
+    } catch (err: any) {
+      console.error(err)
+      alert("Something went wrong: " + err.message)
+    }
   }
 
   return (
@@ -135,7 +158,7 @@ export function Reservation() {
                   name="guests"
                   value={formData.guests}
                   onChange={handleChange}
-                  className="w-full border border-white bg-white/10 py-[12px] px-[20px] rounded-[10px] appearance-none"
+                  className="w-full border border-white border-white/10 py-[12px] px-[20px] rounded-[10px] appearance-none"
                 >
                   <option>1 {t("PersonWord")}</option>
                   <option>2 {t("PersonWord")}</option>
@@ -151,7 +174,7 @@ export function Reservation() {
               </div>
               <div>
                 {/* <label className="block text-sm font-light text-foreground/70 mb-2">{t("dateLabel")}</label> */}
-                <DatePicker className="w-full border border-white bg-white/10 py-[12px] px-[20px] rounded-[10px]" selected={startDate} onChange={(date) => setStartDate(date)} />
+                <DatePicker className="w-full border border-white bg-white/10 py-[12px] px-[20px] rounded-[10px]" selected={startDate} onChange={(date) => setStartDate(date)}  placeholderText={t("dateLabel")}/>
               </div>
               <div>
                 {/* <label className="block text-sm font-light text-foreground/70 mb-2">{t("dateLabel")}</label> */}
