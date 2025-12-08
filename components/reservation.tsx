@@ -9,10 +9,12 @@ import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 
 export function Reservation() {
+  const [loading, setLoading] = useState(false);
   const [formData, setFormData] = useState({
     name: "",
     phone: "",
-    guests: "2",
+    guests: "",
+    email: "",
   })
 
   const { language } = useLanguage()
@@ -27,10 +29,12 @@ export function Reservation() {
   }
 
   const handleSubmit = async (e: React.FormEvent) => {
+    setLoading(true);
     e.preventDefault()
 
     const data = {
       name: formData.name,
+      email: formData.email,  // <-- add this
       phone: formData.phone,
       guests: formData.guests,
       date: startDate ? startDate.toDateString() : "",
@@ -46,7 +50,7 @@ export function Reservation() {
       const result = await res.json()
       if (result.success) {
         alert("Reservation email sent successfully!")
-        setFormData({ name: "", phone: "", guests: "" })
+        setFormData({ name: "", phone: "", guests: "", email: "" })
         setStartDate(null)
         setTime(null)
       } else {
@@ -56,6 +60,7 @@ export function Reservation() {
       console.error(err)
       alert("Something went wrong: " + err.message)
     }
+    setLoading(false);
   }
 
   return (
@@ -65,8 +70,6 @@ export function Reservation() {
           <div className="">
             <h2 className="md:text-left text-center aboreto-text dark:text-secondary 2xl:text-[60px] xl:text-[50px] text-[28px] md:mb-[20px]">{t("reservationTitle")}</h2>
             <p className="md:text-left text-center md:text-[28px] text-[24px] font-medium md:w-8/12">{t("reservationSubtitle")}</p>
-            {/* <p className="text-foreground/70 font-light leading-relaxed">{t("reservationDesc")}</p> */}
-
             <div className="space-y-3 my-[33px]">
               <div className="flex items-center md:justify-start justify-center gap-[14px]">
                 <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg" className="dark:text-[#F5E3BF]">
@@ -84,42 +87,11 @@ export function Reservation() {
             <div>
               <h3 className="text-[28px] mb-[6px] md:text-start text-center">{t("followUs")}</h3>
               <div className="flex items-center gap-2 md:justify-start justify-center">
-                {/* <a href="#" className="dark:text-[#F5E3BF]">
-                  <svg width="47" height="47" viewBox="0 0 47 47" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M23.0441 0C10.3377 0 0 10.3377 0 23.0441C0 35.7497 10.3377 46.0883 23.0441 46.0883C35.7497 46.0883 46.0883 35.7497 46.0883 23.0441C46.0883 10.3377 35.7516 0 23.0441 0ZM28.775 23.8554H25.0259V37.2182H19.4705C19.4705 37.2182 19.4705 29.9167 19.4705 23.8554H16.8297V19.1326H19.4705V16.0778C19.4705 13.89 20.5101 10.4713 25.077 10.4713L29.1936 10.4871V15.0716C29.1936 15.0716 26.6921 15.0716 26.2057 15.0716C25.7193 15.0716 25.0278 15.3148 25.0278 16.3581V19.1335H29.2605L28.775 23.8554Z" fill="currentColor"/>
-                  </svg>
-                </a> */}
-                {/* <a
-                  href="https://wa.me/+436701958888"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="dark:text-primary text-secondary"
-                >
-                  <svg
-                    width="34"
-                    height="34"
-                    viewBox="0 0 24 24"
-                    fill="currentColor"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.472-.148-.67.149-.198.297-.767.966-.94 1.164-.173.198-.347.223-.644.074-.297-.149-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.521.149-.174.198-.298.298-.497.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.207-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.897a9.825 9.825 0 012.894 6.994c-.003 5.45-4.437 9.884-9.888 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L0 24l6.305-1.654a11.88 11.88 0 005.713 1.448h.005c6.554 0 11.89-5.335 11.892-11.893a11.82 11.82 0 00-3.436-8.415z" />
-                  </svg>
-                </a> */}
                 <a href="#" className="dark:text-[#F5E3BF]">
                   <svg width="47" height="47" viewBox="0 0 47 47" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M23.0439 0C35.7688 9.11574e-05 46.0878 10.3191 46.0879 23.0439C46.0879 35.7689 35.7688 46.0878 23.0439 46.0879C10.319 46.0879 0 35.7689 0 23.0439C0.000100433 10.319 10.319 0 23.0439 0ZM23.0439 9.81152C19.4503 9.81152 18.999 9.82725 17.5879 9.8916C16.1795 9.95597 15.2177 10.1799 14.376 10.5068C13.4932 10.8391 12.6929 11.3599 12.0322 12.0332C11.359 12.6938 10.8381 13.4942 10.5059 14.377C10.1789 15.2187 9.95559 16.1804 9.8916 17.5889C9.82691 18.9998 9.81152 19.4507 9.81152 23.0439C9.81152 26.6376 9.82655 27.0886 9.8916 28.5C9.9556 29.9082 10.1798 30.8705 10.5068 31.7119C10.8391 32.5947 11.3593 33.395 12.0322 34.0557C12.6933 34.729 13.4937 35.2497 14.377 35.582C15.2182 35.9089 16.1801 36.1319 17.5879 36.1963C18.9993 36.2606 19.4501 36.2764 23.0439 36.2764C26.6376 36.2764 27.0889 36.2606 28.5 36.1963C29.9078 36.1319 30.8697 35.9089 31.7109 35.582C33.4883 34.8946 34.8936 33.4893 35.5811 31.7119C35.908 30.8702 36.1323 29.9084 36.1963 28.5C36.261 27.0889 36.2764 26.6376 36.2764 23.0439C36.2764 19.4507 36.2606 18.9998 36.1963 17.5889C36.1319 16.1804 35.9084 15.2187 35.5811 14.377C35.2492 13.4942 34.7285 12.6942 34.0557 12.0332C33.3946 11.3598 32.5939 10.8381 31.7109 10.5059C30.8693 10.1793 29.9074 9.95559 28.499 9.8916C27.0882 9.82691 26.6372 9.81152 23.0439 9.81152ZM23.0439 12.1963C26.5771 12.1963 26.996 12.2098 28.3916 12.2734C29.6816 12.3322 30.3824 12.5474 30.8486 12.7285C31.4235 12.9405 31.9433 13.2793 32.3701 13.7188C32.8095 14.1456 33.1474 14.6658 33.3594 15.2402C33.5408 15.7065 33.7567 16.4073 33.8154 17.6973C33.8791 19.0925 33.8926 19.5114 33.8926 23.0449C33.8926 26.5776 33.8791 26.9962 33.8154 28.3916C33.7564 29.6817 33.5405 30.3824 33.3594 30.8486C32.9142 32.0026 32.0026 32.9152 30.8486 33.3604C30.3824 33.5418 29.6807 33.7567 28.3906 33.8154C26.9961 33.8791 26.5774 33.8926 23.0439 33.8926C19.5106 33.8926 19.0924 33.8791 17.6973 33.8154C16.4075 33.7567 15.7065 33.5418 15.2402 33.3604C14.6654 33.1483 14.1456 32.8096 13.7188 32.3701C13.2792 31.9432 12.9409 31.4235 12.7285 30.8486C12.5474 30.3824 12.3322 29.6817 12.2734 28.3916C12.2098 26.9962 12.1963 26.5776 12.1963 23.0449C12.1963 19.5114 12.2098 19.0925 12.2734 17.6973C12.3322 16.4073 12.5474 15.7065 12.7285 15.2402C12.9409 14.6653 13.2792 14.1456 13.7188 13.7188C14.1453 13.2792 14.6653 12.9405 15.2402 12.7285C15.7061 12.5474 16.4072 12.3325 17.6973 12.2734C19.0923 12.2098 19.5109 12.1963 23.0439 12.1963ZM23.0439 16.249C19.2913 16.2492 16.2492 19.2913 16.249 23.0439C16.249 26.7967 19.2912 29.8387 23.0439 29.8389C26.7965 29.8389 29.8389 26.7968 29.8389 23.0439C29.8387 19.2912 26.7964 16.249 23.0439 16.249ZM23.0439 18.6338C25.48 18.6338 27.4551 20.6089 27.4551 23.0449C27.4548 25.4808 25.4799 27.4551 23.0439 27.4551C20.6081 27.455 18.634 25.4807 18.6338 23.0449C18.6338 20.6089 20.608 18.6339 23.0439 18.6338ZM30.1074 14.3926C29.2307 14.3927 28.5197 15.1038 28.5195 15.9805C28.5195 16.8573 29.2306 17.5682 30.1074 17.5684C30.9844 17.5684 31.695 16.8574 31.6953 15.9805C31.6951 15.1037 30.9843 14.3926 30.1074 14.3926Z" fill="currentColor" />
                   </svg>
                 </a>
-                {/* <a href="#" className="dark:text-[#F5E3BF]">
-                  <svg width="47" height="47" viewBox="0 0 47 47" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M23.0441 0C10.3192 0 0 10.3192 0 23.0441C0 35.7691 10.3192 46.0883 23.0441 46.0883C35.7691 46.0883 46.0883 35.7691 46.0883 23.0441C46.0883 10.3192 35.7691 0 23.0441 0ZM34.6049 17.6317V20.752C33.1336 20.7525 31.7041 20.4642 30.3558 19.8954C29.4888 19.5294 28.6811 19.0578 27.9424 18.4879L27.9645 28.092C27.9552 30.2546 27.0996 32.2866 25.5511 33.8171C24.2909 35.0629 22.694 35.8552 20.9631 36.1116C20.5565 36.1718 20.1426 36.2027 19.724 36.2027C17.8712 36.2027 16.1122 35.6025 14.6733 34.4951C14.4025 34.2866 14.1435 34.0606 13.897 33.8171C12.2187 32.1584 11.3533 29.9103 11.499 27.5453C11.6102 25.7451 12.331 24.0282 13.5325 22.6825C15.1222 20.9018 17.3461 19.9135 19.724 19.9135C20.1426 19.9135 20.5565 19.9449 20.9631 20.0051V21.1588V24.368C20.5775 24.2408 20.1657 24.1709 19.7369 24.1709C17.5644 24.1709 15.8068 25.9433 15.8393 28.1174C15.8599 29.5084 16.6198 30.7243 17.7405 31.3946C18.2672 31.7096 18.8731 31.9048 19.5196 31.9403C20.0263 31.9681 20.5127 31.8975 20.9631 31.7488C22.5153 31.2361 23.635 29.7782 23.635 28.0587L23.6401 21.6273V9.88558H27.9371C27.9413 10.3114 27.9845 10.7268 28.0648 11.1293C28.3891 12.7587 29.3076 14.1723 30.5858 15.136C31.7004 15.9767 33.0882 16.475 34.5925 16.475C34.5935 16.475 34.6059 16.475 34.6048 16.474V17.6317H34.6049Z" fill="currentColor"/>
-                  </svg>
-                </a> */}
-                {/* <a href="#" className="dark:text-[#F5E3BF]">
-                  <svg width="47" height="47" viewBox="0 0 47 47" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M23.0439 0C35.7704 0 46.0878 10.3175 46.0879 23.0439C46.0879 35.7704 35.7704 46.0879 23.0439 46.0879C10.3175 46.0878 0 35.7704 0 23.0439C0.000100136 10.3176 10.3176 4.38589e-05 23.0439 0ZM20.1426 24.5479L9.79688 36.5732H12.1348L21.1807 26.0586L28.4053 36.5732H36.2959L25.5664 20.959L35.4326 9.49121H33.0947L24.5293 19.4482L17.6875 9.49121H9.79688L20.1426 24.5479ZM33.0957 34.8926H29.5049L12.9766 11.251H16.5674L33.0957 34.8926Z" fill="currentColor"/>
-                  </svg>
-                </a> */}
               </div>
             </div>
           </div>
@@ -127,7 +99,6 @@ export function Reservation() {
           <form onSubmit={handleSubmit} className="bg-primary primary-text-color rounded-lg p-8 space-y-4 form-bg">
             <h2 className="md:text-left text-center aboreto-text text-[#E3C08D] 2xl:text-[60px] xl:text-[50px] text-[28px] mb-[20px] md:pt-[20px]">{t("reservationTitle")}</h2>
             <div>
-              {/* <label className="block text-sm font-light text-foreground/70 mb-2">{t("nameLabel")}</label> */}
               <input
                 type="text"
                 name="name"
@@ -138,10 +109,20 @@ export function Reservation() {
                 placeholder={t("nameLabel")}
               />
             </div>
+            <div>
+              <input
+                type="email"
+                name="email"
+                value={formData.email}
+                onChange={handleChange}
+                required
+                className="w-full border border-white bg-white/10 py-[12px] px-[20px] rounded-[10px]"
+                placeholder={t("emailLabel")}
+              />
+            </div>
 
             <div className="grid md:grid-cols-2 gap-4">
               <div>
-                {/* <label className="block text-sm font-light text-foreground/70 mb-2">{t("phoneLabel")}</label> */}
                 <input
                   type="tel"
                   name="phone"
@@ -153,18 +134,17 @@ export function Reservation() {
                 />
               </div>
               <div className="relative">
-                {/* <label className="block text-sm font-light text-foreground/70 mb-2">{t("guestLabel")}</label> */}
                 <select
                   name="guests"
                   value={formData.guests}
                   onChange={handleChange}
                   className="w-full border border-white border-white/10 py-[12px] px-[20px] rounded-[10px] appearance-none"
                 >
-                  <option>1 {t("PersonWord")}</option>
-                  <option>2 {t("PersonWord")}</option>
-                  <option>3 {t("PersonWord")}</option>
-                  <option>4 {t("PersonWord")}</option>
-                  <option>5+ {t("PersonWord")}</option>
+                  <option className="bg-primary">1 {t("PersonWord")}</option>
+                  <option className="bg-primary">2 {t("PersonWord")}</option>
+                  <option className="bg-primary">3 {t("PersonWord")}</option>
+                  <option className="bg-primary">4 {t("PersonWord")}</option>
+                  <option className="bg-primary">5+ {t("PersonWord")}</option>
                 </select>
                 <div className="pointer-events-none absolute right-4 top-1/2 -translate-y-1/2">
                   <svg width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -172,18 +152,17 @@ export function Reservation() {
                   </svg>
                 </div>
               </div>
+
               <div>
-                {/* <label className="block text-sm font-light text-foreground/70 mb-2">{t("dateLabel")}</label> */}
-                <DatePicker className="w-full border border-white bg-white/10 py-[12px] px-[20px] rounded-[10px]" selected={startDate} onChange={(date) => setStartDate(date)}  placeholderText={t("dateLabel")}/>
+                <DatePicker className="w-full border border-white bg-white/10 py-[12px] px-[20px] rounded-[10px]" selected={startDate} onChange={(date) => setStartDate(date)} placeholderText={t("dateLabel")} />
               </div>
               <div>
-                {/* <label className="block text-sm font-light text-foreground/70 mb-2">{t("dateLabel")}</label> */}
                 <DatePicker
                   selected={time}
                   onChange={(selectedTime: Date | null) => setTime(selectedTime)}
                   showTimeSelect
                   showTimeSelectOnly
-                  timeIntervals={15} // 15-minute steps
+                  timeIntervals={15}
                   timeCaption="Time"
                   dateFormat="h:mm aa"
                   placeholderText={t("selectTime")}
@@ -194,10 +173,13 @@ export function Reservation() {
             <div className="md:text-left text-center mb-3 mt-3">
               <button
                 type="submit"
-                className="btn bg-[#F5E3BF] text-primary hover:opacity-90 transition"
+                disabled={loading}
+                className={`w-full py-3 px-4 rounded-[10px] bg-[#F5E3BF] text-primary flex justify-center items-center gap-2 hover:opacity-90 transition ${( loading) && "opacity-50 cursor-not-allowed"
+                  }`}
               >
-                {t("bookNow")}
-                {/* Submit */}
+                {loading && <span className="w-5 h-5 border-4 border-white border-t-transparent rounded-full animate-spin"></span>}
+
+                 {!loading && t("bookNow")}
               </button>
             </div>
           </form>

@@ -66,6 +66,7 @@ export const translations = {
     nameLabel: "Name",
     guestLabel: "Person",
     dateLabel: "Datum",
+    emailLabel: "E-Mail",
     bookTable: "TISCH RESERVIEREN",
     bookNow: "JETZT BUCHEN",
 
@@ -672,6 +673,7 @@ export const translations = {
     nameLabel: "Name",
     guestLabel: "Person",
     dateLabel: "Date",
+    emailLabel: "E-Mail",
     bookTable: "BOOK TABLE",
     bookNow: "BOOK NOW",
 
@@ -1272,6 +1274,7 @@ export const translations = {
     nameLabel: "姓名",
     guestLabel: "人数",
     dateLabel: "日期",
+    emailLabel: "电子邮件",
     bookTable: "预订餐桌",
     bookNow: "立即预订",
 
@@ -1868,6 +1871,7 @@ export const translations = {
     selectTime: "Выбрать время",
     PersonWord: "Человек",
     nameLabel: "Имя",
+    emailLabel: "Электронная почта",
     guestLabel: "Количество гостей",
     dateLabel: "Дата",
     bookTable: "ЗАБРОНИРОВАТЬ СТОЛИК",
