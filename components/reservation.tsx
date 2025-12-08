@@ -28,40 +28,46 @@ export function Reservation() {
     setFormData((prev) => ({ ...prev, [name]: value }))
   }
 
+  const [success, setSuccess] = useState(false);
+
   const handleSubmit = async (e: React.FormEvent) => {
     setLoading(true);
-    e.preventDefault()
+    e.preventDefault();
 
     const data = {
       name: formData.name,
-      email: formData.email,  // <-- add this
+      email: formData.email,
       phone: formData.phone,
       guests: formData.guests,
       date: startDate ? startDate.toDateString() : "",
       time: time ? time.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" }) : "",
-    }
+    };
 
     try {
       const res = await fetch("/api/reservation", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(data),
-      })
-      const result = await res.json()
+      });
+      const result = await res.json();
+
       if (result.success) {
-        alert("Reservation email sent successfully!")
-        setFormData({ name: "", phone: "", guests: "", email: "" })
-        setStartDate(null)
-        setTime(null)
+        setSuccess(true); // show green tick button
+        setFormData({ name: "", phone: "", guests: "", email: "" });
+        setStartDate(null);
+        setTime(null);
+
+        setTimeout(() => setSuccess(false), 3000); // reset after 3 seconds
       } else {
-        alert("Error sending reservation: " + result.error)
+        alert("Error sending reservation: " + result.error);
       }
     } catch (err: any) {
-      console.error(err)
-      alert("Something went wrong: " + err.message)
+      console.error(err);
+      alert("Something went wrong: " + err.message);
     }
+
     setLoading(false);
-  }
+  };
 
   return (
     <section id="reservation" className="">
@@ -173,13 +179,14 @@ export function Reservation() {
             <div className="md:text-left text-center mb-3 mt-3">
               <button
                 type="submit"
-                disabled={loading}
-                className={`w-full py-3 px-4 rounded-[10px] bg-[#F5E3BF] text-primary flex justify-center items-center gap-2 hover:opacity-90 transition ${( loading) && "opacity-50 cursor-not-allowed"
-                  }`}
+                disabled={loading || success}
+                className={`w-full py-3 px-4 rounded-[10px] flex justify-center items-center gap-2 transition
+                 ${loading ? "bg-[#F5E3BF] opacity-50 cursor-not-allowed text-primary" : ""}
+                ${success ? "bg-green-500 text-white" : "bg-[#F5E3BF] text-primary hover:opacity-90"}`}
               >
                 {loading && <span className="w-5 h-5 border-4 border-white border-t-transparent rounded-full animate-spin"></span>}
-
-                 {!loading && t("bookNow")}
+                {success && <span className="text-2xl">✔</span>}
+                {!loading && !success && t("bookNow")}
               </button>
             </div>
           </form>
