@@ -12,6 +12,7 @@ interface MenuItem {
   name: string
   description: string
   price: number
+  unit?: string
   images: string[]
   isSpicy: boolean
 }
@@ -32,7 +33,6 @@ interface MenuCategory {
 export default function MenuGroup() {
   const [isModalOpen, setIsModalOpen] = useState(false)
   const [selectedItem, setSelectedItem] = useState<MenuItem | null>(null)
-
   const { language } = useLanguage()
   const t = translations[language]
 
@@ -113,7 +113,7 @@ export default function MenuGroup() {
                         </div>
 
                         <span className="aboreto-text text-xl md:text-3xl text-black dark:text-color-secondary block text-end">
-                        €{item.price}
+                        €{item.price}{item.unit ? ` / ${item.unit}` : ""}
                         </span>
                       </li>
                     ))}

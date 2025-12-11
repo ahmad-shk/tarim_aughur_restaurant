@@ -109,7 +109,7 @@ export const translations = {
                 "name": "SHAH LAGHMAN",
                 "german_name": "SCHAH-LÄGHMEN",
                 "description": "Fleisch (nach Wahl), grüner Paprika, Chili, Pilze, Zwiebeln, handgezogene Nudeln.",
-                "price": 14.9,
+                "price": 16,
                 "images": [
                   "/menu-items/ShahLagman.jpeg"
                 ],
@@ -120,7 +120,7 @@ export const translations = {
                 "name": "HAUSGEMACHTE LAGHMAN",
                 "german_name": "HAUSGEMACHTE LÄGHMEN",
                 "description": "Fleisch (nach Wahl), verschiedene Gemüse, handgezogene Nudeln.",
-                "price": 11.9,
+                "price": 14,
                 "images": [
                   "/menu-items/Homemade-Laghman.jpeg"
                 ],
@@ -714,7 +714,7 @@ export const translations = {
                 "name": "TARIM Royal Lagman",
                 "german_name": "SCHAH-LÄGHMEN",
                 "description": "Meat (as selected), Green Paprika, Chili, Mushrooms, Onion, Hand-Pulled Noodles.",
-                "price": 14.9,
+                "price": 20,
                 "images": [
                   "/menu-items/ShahLagman.jpeg"
                 ],
@@ -725,7 +725,7 @@ export const translations = {
                 "name": "HOMEMADE LAGHMAN",
                 "german_name": "HAUSGEMACHTE LÄGHMEN",
                 "description": "Meat (as selected), Various Vegetables, Hand-Pulled Noodles.",
-                "price": 11.9,
+                "price": 14,
                 "images": [
                   "/menu-items/Homemade-Laghman.jpeg"
                 ],
@@ -736,7 +736,7 @@ export const translations = {
                 "name": "QORULGHAN-LÄGMEN",
                 "german_name": "NUDELN MIT GEMÜSE",
                 "description": "Beef, Bok Choy, Red Paprika, Green Paprika, Onion, Hand-Pulled, Fried Noodles.",
-                "price": 14.0,
+                "price": 15,
                 "images": [
                   "/menu-items/Noodles-with-Vegetables.jpeg"
                 ],
@@ -1173,7 +1173,7 @@ export const translations = {
                 "name": "CUCUMBER SALAD",
                 "german_name": "GURKENSALAT",
                 "description": "Cucumbers.",
-                "price": 7.0,
+                "price": 8,
                 "images": [
                   "/menu-items/Cucumber-Salad.jpg"
                 ],
@@ -1316,7 +1316,7 @@ export const translations = {
                 "name": "过油肉拌面",
                 "german_name": "SCHAH-LÄGHMEN",
                 "description": "肉类（自选）、青椒、辣椒、蘑菇、洋葱、手拉面。",
-                "price": 14.9,
+                "price": 20,
                 "images": [
                   "/menu-items/ShahLagman.jpeg"
                 ],
@@ -1327,7 +1327,7 @@ export const translations = {
                 "name": "家常拉面",
                 "german_name": "HAUSGEMACHTE LÄGHMEN",
                 "description": "肉类（自选）、各种蔬菜、手拉面。",
-                "price": 11.9,
+                "price": 14,
                 "images": [
                   "/menu-items/Homemade-Laghman.jpeg"
                 ],
@@ -1774,7 +1774,7 @@ export const translations = {
                 "name": "黄瓜沙拉",
                 "german_name": "GURKENSALAT",
                 "description": "黄瓜。",
-                "price": 7.0,
+                "price": 8,
                 "images": [
                   "/menu-items/Cucumber-Salad.jpg"
                 ],
@@ -1915,7 +1915,7 @@ export const translations = {
                 "name": "ШАХ-ЛАГМАН",
                 "german_name": "SCHAH-LÄGHMEN",
                 "description": "Мясо (на выбор), зеленый перец, чили, грибы, лук, лапша ручной работы.",
-                "price": 14.9,
+                "price": 20,
                 "images": [
                   "/menu-items/ShahLagman.jpeg"
                 ],
@@ -1926,7 +1926,7 @@ export const translations = {
                 "name": "ДОМАШНИЙ ЛАГМАН",
                 "german_name": "HAUSGEMACHTE LÄGHMEN",
                 "description": "Мясо (на выбор), различные овощи, лапша ручной работы.",
-                "price": 11.9,
+                "price": 14,
                 "images": [
                   "/menu-items/Homemade-Laghman.jpeg"
                 ],
@@ -2100,7 +2100,7 @@ export const translations = {
                 "name": "ШАШЛЫК ИЗ БАРАНИНЫ",
                 "german_name": "LAMB SKEWERS / LAMMSPIESSE",
                 "description": "Баранина/Говядина. (Цена за штуку)",
-                "price": 12.0,
+                "price":  12,
                 "unit": "3 Pc",
                 "images": [
                   "/menu-items/Lamb-Skewers.jpeg"
@@ -2374,7 +2374,7 @@ export const translations = {
                 "name": "САЛАТ ИЗ ОГУРЦОВ",
                 "german_name": "GURKENSALAT",
                 "description": "Огурцы.",
-                "price": 7.0,
+                "price": 8,
                 "images": [
                   "/menu-items/Cucumber-Salad.jpg"
                 ],
