@@ -100,6 +100,7 @@ export const translations = {
         "id": "laghman",
         "name": "1. HandgezogeneNudeln/Hand-PulledNooodle",
         "categoryImage": "/menu-items/Homemade-Laghman.jpg",
+        "categoryImage1": "/menu-items/Homemade-Laghman.jpg",
         "sections": [
           {
             "id": "laghman-main",
@@ -111,7 +112,7 @@ export const translations = {
                 "description": "FleischnachAuswahl,Paprika,Chinakohl,Pilzen,ZwiebelnundHandgezogenenNudel.",
                 "price": 20,
                 "images": [
-                  "/menu-items/ShahLagman.jpeg"
+                   "/menu-items/item7.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -135,7 +136,7 @@ export const translations = {
                 "description": "FleischnachAuswahl,Paprika,SpinatundHandgezogeneNudeln.",
                 "price": 14,
                 "images": [
-                  "/menu-items/Noodles-with-Vegetables.jpeg"
+                  "/menu-items/Noodles"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -147,7 +148,7 @@ export const translations = {
                 "description": "FleischnachAuswahl,Paprika,Zwiebeln,ChinakohlundverschiedeneGemüseundHausgemachteNudeln.",
                 "price": 15,
                 "images": [
-                  "/menu-items/qorulghan-laghman.jpeg"
+                  "/menu-items/item20.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": false
@@ -164,7 +165,7 @@ export const translations = {
                 "description": "FleischnachAuswahl,Schnittlauch,getrocknetem ChiliundPaprika.",
                 "price": 15,
                 "images": [
-                  "/menu-items/Sliced-Noodles.jpeg"
+                  "/menu-items/Slic"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -219,12 +220,12 @@ export const translations = {
               },
               {
                 "id": "rice-item-2",
-                "name": "Gebratener Reis mit Eier",
-                "german_name": "GEBRATENER REIS MIT EIER",
+                "name": "Geberatene Reis mit Eier",
+                "german_name": "GEBERATENE REIS MIT EIER",
                 "description": "Reis,Eier",
                 "price": 10,
                 "images": [
-                  "/menu-items/Fried-Beef-Stew.jpeg"
+                  "/menu-items/item3.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -248,7 +249,7 @@ export const translations = {
                 "description": "Nudeln,Rindfleischsuppe.",
                 "price": 10,
                 "images": [
-                  "/menu-items/POLO.jpeg"
+                  "/menu-items/item25.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": false
@@ -260,7 +261,7 @@ export const translations = {
                 "description": "GeschmortesRindfleisch,frischenNudelnundRindfleischsuppe.",
                 "price": 14,
                 "images": [
-                  "/menu-items/Fried-Beef-Stew.jpeg"
+                  "/menu-items/item25.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": false
@@ -296,7 +297,7 @@ export const translations = {
                 "description": "Hähnchen,Kartoffeln,PaprikaundChiliundeinePortionNudeln.",
                 "price": 45,
                 "images": [
-                  "/menu-items/POLO.jpeg"
+                  "/menu-items/item8.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": false
@@ -308,7 +309,7 @@ export const translations = {
                 "description": "Hähnchen,Chili,KnoblauchundFrühlingszwiebeln.",
                 "price": 40,
                 "images": [
-                  "/menu-items/Fried-Beef-Stew.jpeg"
+                  "/menu-items/item12.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": false
@@ -332,7 +333,7 @@ export const translations = {
                 "description": "Hühnerfleisch,Erdnüss.",
                 "price": 14,
                 "images": [
-                  "/menu-items/Fried-Beef-Stew.jpeg"
+                  "/menu-items/item9.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": false
@@ -344,7 +345,10 @@ export const translations = {
       {
         "id": "main_courses",
         "name": "5. Hauptgerichte/MainCourses",
-        "categoryImage": "/menu-items/Beef-Stew-with-Potatoes.jpg",
+        "categoryImage": "/menu-items/Homemade-Laghman1.jpeg",
+        "categoryImage1": "/menu-items/Homemade-Laghman1.jpeg",
+        "categoryImage2": "/menu-items/Homemade-Laghman1.jpeg",
+
         "sections": [
           {
             "id": "main-courses",
@@ -356,7 +360,7 @@ export const translations = {
                 "description": "Spinat,Ei.",
                 "price": 10,
                 "images": [
-                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                  "/menu-items/item5.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -368,7 +372,7 @@ export const translations = {
                 "description": "Mais,Paprika,Zwiebe.",
                 "price": 10,
                 "images": [
-                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                  "/menu-items/Homemade-Laghman1.jpeg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": true
@@ -380,13 +384,13 @@ export const translations = {
                 "description": "Aubergine,Paprika,Tomate.",
                 "price": 12,
                 "images": [
-                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                  "/menu-items/item2.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": true
               },
               {
-                "id": "main-course-item-5",
+                "id": "main-course-item-4",
                 "name": "Gebratene Yeshil Samsak",
                 "german_name": "GEBRATENE YESHIL SAMSAK",
                 "description": "Knoblauchstängel,Fleisch.",
@@ -409,7 +413,7 @@ export const translations = {
                 "description": "Tofu,Paprika.",
                 "price": 14,
                 "images": [
-                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                  "/menu-items/item19.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": true
@@ -421,7 +425,7 @@ export const translations = {
                 "description": "Tofu,Paprika,Pilz.",
                 "price": 14,
                 "images": [
-                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                  "/menu-items/item13.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": true
@@ -433,7 +437,7 @@ export const translations = {
                 "description": "Brokkoli,Paprika.",
                 "price": 14,
                 "images": [
-                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                  "/menu-items/item15.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": true
@@ -445,7 +449,7 @@ export const translations = {
                 "description": "Flaschenkürbis,Paprika.",
                 "price": 12,
                 "images": [
-                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                  "/menu-items/item17.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": true
@@ -462,7 +466,7 @@ export const translations = {
                 "description": "Rinderkutteln,Paprika.",
                 "price": 16,
                 "images": [
-                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                  "/menu-items/item6.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": false
@@ -474,7 +478,7 @@ export const translations = {
                 "description": "Champignons,Fleisch,Paprika.",
                 "price": 16,
                 "images": [
-                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                  "/menu-items/item23.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -486,7 +490,7 @@ export const translations = {
                 "description": "Rindfleischstreifen,Paprika,Pilze,Gurke,Karotten.",
                 "price": 16,
                 "images": [
-                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                  "/menu-items/item20.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -498,7 +502,7 @@ export const translations = {
                 "description": "Eier,Tomaten,Paprika.",
                 "price": 10,
                 "images": [
-                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                  "/menu-items/item25.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -510,10 +514,11 @@ export const translations = {
       {
         "id": "starters",
         "name": "6. Vorspeisen/Starters",
-        "categoryImage": "/menu-items/Beef-Stew-with-Potatoes.jpg",
+        "categoryImage": "/menu-items/Lamb-Skewers.jpg",
+        "categoryImage1": "/menu-items/Lamb-Skewers.jpg",
         "sections": [
           {
-            "id": "starter-section-1",
+            "id": "starter-section",
             "items": [
               {
                 "id": "starter-item-1",
@@ -522,7 +527,7 @@ export const translations = {
                 "description": "Rindfleisch,ZwiebelundChinakohl.",
                 "price": 7,
                 "images": [
-                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                  "/menu-items/Steamed-Dumplings.jpeg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -535,45 +540,7 @@ export const translations = {
                 "price": 3,
                 "additionPrice": "stück",
                 "images": [
-                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
-                ],
-                "isSpicy": false,
-                "isVegetarian": false
-              }
-            ]
-          }
-        ]
-
-      },
-      {
-        "id": "starters",
-        "name": "6. Vorspeisen/Starters",
-        "categoryImage": "/menu-items/Beef-Stew-with-Potatoes.jpg",
-        "sections": [
-          {
-            "id": "starter-section-1",
-            "items": [
-              {
-                "id": "starter-item-1",
-                "name": "Gedämpfte Teigtaschen",
-                "german_name": "GEDÄMPFTE TEIGTASCHEN",
-                "description": "Rindfleisch,ZwiebelundChinakohl.",
-                "price": 7,
-                "images": [
-                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
-                ],
-                "isSpicy": false,
-                "isVegetarian": false
-              },
-              {
-                "id": "starter-item-2",
-                "name": "Samsa",
-                "german_name": "SAMSA",
-                "description": "Rindfleisch,ZwiebelnundSesam.",
-                "price": 3,
-                "additionPrice": "stück",
-                "images": [
-                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                  "/menu-items/item11.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -583,10 +550,10 @@ export const translations = {
                 "name": "Lammspiesen",
                 "german_name": "LAMMSPIESEN",
                 "description": "Lamm.",
-                "price": 5,
-                "additionPrice": "stück",
+                "price": 12,
+                "additionPrice": "3 stück",
                 "images": [
-                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                  "/menu-items/item14.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -598,7 +565,7 @@ export const translations = {
                 "description": "Lammkarree.",
                 "price": 7,
                 "images": [
-                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                  "/menu-items/item00.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -606,13 +573,13 @@ export const translations = {
             ]
           },
           {
-            "id": "starter-section-2",
+            "id": "starter-section-1",
             "items": [
               {
-                "id": "starter-item-5",
+                "id": "starter-item-",
                 "name": "Rindfleischsala",
                 "german_name": "RINDFLEISCHSALA",
-                "description": "RindfleischundHausgemachteSauce.",
+                "description": "Rindfleisch und Hausgemachte Sauce.",
                 "price": 13,
                 "images": [
                   "/menu-items/Beef-Stew-with-Potatoes.jpeg"
@@ -623,11 +590,12 @@ export const translations = {
             ]
           }
         ]
+
       },
       {
         "id": "vegan_starters",
         "name": "Vegetarische Vorspeisen/Vegan Starters",
-        "categoryImage": "/menu-items/Beef-Stew-with-Potatoes.jpg",
+        "categoryImage": "/menu-items/Cucumber-Salad.jpg",
         "sections": [
           {
             "id": "vegan_starter_section_1",
@@ -639,7 +607,7 @@ export const translations = {
                 "description": "Frisch,zubereitete,Nudelnund,Hausgemachte,Sauce.",
                 "price": 6,
                 "images": [
-                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                  "/menu-items/item21.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": true
@@ -651,7 +619,7 @@ export const translations = {
                 "description": "Knackige,Gurkenund,Hausgemachte,Sauce.",
                 "price": 7,
                 "images": [
-                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                  "/menu-items/item22.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": true
@@ -663,7 +631,7 @@ export const translations = {
                 "description": "Zwiebel,Paprika,Tomatenund,Hausgemachte,Sauce.",
                 "price": 7,
                 "images": [
-                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                  "/menu-items/item16.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": true
@@ -786,6 +754,7 @@ export const translations = {
         "id": "laghman",
         "name": "1. Hand-Pulled Noodle / Laghman",
         "categoryImage": "/menu-items/Homemade-Laghman.jpg",
+        "categoryImage1": "/menu-items/Homemade-Laghman.jpg",
         "sections": [
           {
             "id": "laghman-main",
@@ -797,7 +766,7 @@ export const translations = {
                 "description": "Meat of choice, bell pepper, Chinese cabbage, mushrooms, onions, and hand-pulled noodles.",
                 "price": 20,
                 "images": [
-                  "/menu-items/ShahLagman.jpeg"
+                  "/menu-items/item7.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -821,7 +790,7 @@ export const translations = {
                 "description": "Meat of choice, bell pepper, spinach, and hand-pulled noodles.",
                 "price": 14,
                 "images": [
-                  "/menu-items/Noodles-with-Vegetables.jpeg"
+                  "/menu-items/Noodles-with"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -833,7 +802,7 @@ export const translations = {
                 "description": "Meat of choice, bell pepper, onions, Chinese cabbage, and various vegetables with homemade noodles.",
                 "price": 15,
                 "images": [
-                  "/menu-items/qorulghan-laghman.jpeg"
+                 "/menu-items/item20.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": false
@@ -850,7 +819,7 @@ export const translations = {
                 "description": "Meat of choice, chives, dried chili, and bell pepper.",
                 "price": 15,
                 "images": [
-                  "/menu-items/Sliced-Noodles.jpeg"
+                  "/menu-items/Slic"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -910,7 +879,7 @@ export const translations = {
                 "description": "Rice, eggs.",
                 "price": 10,
                 "images": [
-                  "/menu-items/Fried-Beef-Stew.jpeg"
+                  "/menu-items/item3.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -934,7 +903,7 @@ export const translations = {
                 "description": "Noodles, beef broth.",
                 "price": 10,
                 "images": [
-                  "/menu-items/POLO.jpeg"
+                  "/menu-items/item25.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": false
@@ -946,7 +915,7 @@ export const translations = {
                 "description": "Braised beef, fresh noodles, and beef broth.",
                 "price": 14,
                 "images": [
-                  "/menu-items/Fried-Beef-Stew.jpeg"
+                  "/menu-items/item10.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": false
@@ -982,7 +951,7 @@ export const translations = {
                 "description": "Chicken, potatoes, bell pepper, and chili with a serving of noodles.",
                 "price": 45,
                 "images": [
-                  "/menu-items/POLO.jpeg"
+                  "/menu-items/item8.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": false
@@ -994,7 +963,7 @@ export const translations = {
                 "description": "Chicken, chili, garlic, and scallions.",
                 "price": 40,
                 "images": [
-                  "/menu-items/Fried-Beef-Stew.jpeg"
+                  "/menu-items/item12.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": false
@@ -1018,7 +987,7 @@ export const translations = {
                 "description": "Chicken, peanuts.",
                 "price": 14,
                 "images": [
-                  "/menu-items/Fried-Beef-Stew.jpeg"
+                  "/menu-items/item9.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": false
@@ -1042,7 +1011,7 @@ export const translations = {
                 "description": "Spinach, eggs.",
                 "price": 10,
                 "images": [
-                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                  "/menu-items/item5.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -1054,7 +1023,7 @@ export const translations = {
                 "description": "Corn, bell pepper, onions.",
                 "price": 10,
                 "images": [
-                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                  "/menu-items/Homemade-Laghman1.jpeg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": true
@@ -1066,13 +1035,13 @@ export const translations = {
                 "description": "Eggplant, bell pepper, tomato.",
                 "price": 12,
                 "images": [
-                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                  "/menu-items/item2.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": true
               },
               {
-                "id": "main-course-item-5",
+                "id": "main-course-item-4",
                 "name": "Fried Garlic Scapes with Meat (Yeshil Samsak)",
                 "german_name": "GEBRATENE YESHIL SAMSAK",
                 "description": "Garlic scapes, meat.",
@@ -1095,7 +1064,7 @@ export const translations = {
                 "description": "Tofu, bell pepper.",
                 "price": 14,
                 "images": [
-                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                  "/menu-items/item19.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": true
@@ -1107,7 +1076,7 @@ export const translations = {
                 "description": "Tofu, bell pepper, mushrooms.",
                 "price": 14,
                 "images": [
-                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                  "/menu-items/item13.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": true
@@ -1119,7 +1088,7 @@ export const translations = {
                 "description": "Broccoli, bell pepper.",
                 "price": 14,
                 "images": [
-                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                  "/menu-items/item15.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": true
@@ -1131,7 +1100,7 @@ export const translations = {
                 "description": "Zucchini (Squash), bell pepper.",
                 "price": 12,
                 "images": [
-                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                  "/menu-items/item17.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": true
@@ -1148,7 +1117,7 @@ export const translations = {
                 "description": "Beef tripe, bell pepper.",
                 "price": 16,
                 "images": [
-                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                  "/menu-items/item6.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": false
@@ -1160,7 +1129,7 @@ export const translations = {
                 "description": "Mushrooms, meat, bell pepper.",
                 "price": 16,
                 "images": [
-                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                  "/menu-items/item23.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -1172,7 +1141,7 @@ export const translations = {
                 "description": "Beef slices, bell pepper, mushrooms, cucumber, carrots.",
                 "price": 16,
                 "images": [
-                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                  "/menu-items/item20.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -1184,7 +1153,7 @@ export const translations = {
                 "description": "Eggs, tomato, bell pepper.",
                 "price": 10,
                 "images": [
-                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                  "/menu-items/item25.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -1208,7 +1177,7 @@ export const translations = {
                 "description": "Beef, onions, and Chinese cabbage.",
                 "price": 7,
                 "images": [
-                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                  "/menu-items/Steamed-Dumplings.jpeg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -1221,7 +1190,7 @@ export const translations = {
                 "price": 3,
                 "additionPrice": "per piece",
                 "images": [
-                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                  "/menu-items/item11.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -1234,7 +1203,7 @@ export const translations = {
                 "price": 5,
                 "additionPrice": "per skewer",
                 "images": [
-                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                  "/menu-items/item14.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -1287,7 +1256,7 @@ export const translations = {
                 "description": "Freshly made noodles and homemade sauce.",
                 "price": 6,
                 "images": [
-                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                  "/menu-items/item21.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": true
@@ -1299,7 +1268,7 @@ export const translations = {
                 "description": "Crispy cucumbers and homemade sauce.",
                 "price": 7,
                 "images": [
-                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                  "/menu-items/item22.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": true
@@ -1311,7 +1280,7 @@ export const translations = {
                 "description": "Onions, bell pepper, tomato, and homemade sauce.",
                 "price": 7,
                 "images": [
-                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                  "/menu-items/item16.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": true
@@ -1431,6 +1400,7 @@ export const translations = {
         "id": "laghman",
         "name": "1. 手工拉面",
         "categoryImage": "/menu-items/Homemade-Laghman.jpg",
+        "categoryImage1": "/menu-items/Homemade-Laghman.jpg",
         "sections": [
           {
             "id": "laghman-main",
@@ -1442,7 +1412,7 @@ export const translations = {
                 "description": "自选肉类、灯笼椒、大白菜、蘑菇、洋葱和手工拉面。",
                 "price": 20,
                 "images": [
-                  "/menu-items/lag-item-1.jpg"
+                   "/menu-items/item7.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -1466,7 +1436,7 @@ export const translations = {
                 "description": "自选肉类、灯笼椒、菠菜和手工拉面。",
                 "price": 14,
                 "images": [
-                  "/menu-items/Noodles-with-Vegetables.jpeg"
+                  "/menu-items/Noodles-with"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -1478,7 +1448,7 @@ export const translations = {
                 "description": "自选肉类、灯笼椒、洋葱、大白菜和各种蔬菜以及家常面条。",
                 "price": 15,
                 "images": [
-                  "/menu-items/qorulghan-laghman.jpeg"
+                  "/menu-items/item20.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": false
@@ -1495,7 +1465,7 @@ export const translations = {
                 "description": "自选肉类、韭菜、干辣椒和灯笼椒。",
                 "price": 15,
                 "images": [
-                  "/menu-items/Sliced-Noodles.jpeg"
+                  "/menu-items/-Noodles.jpeg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -1555,7 +1525,7 @@ export const translations = {
                 "description": "米饭、鸡蛋。",
                 "price": 10,
                 "images": [
-                  "/menu-items/Fried-Beef-Stew.jpeg"
+                  "/menu-items/item3.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -1579,7 +1549,7 @@ export const translations = {
                 "description": "面条、牛肉汤。",
                 "price": 10,
                 "images": [
-                  "/menu-items/POLO.jpeg"
+                  "/menu-items/item25.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": false
@@ -1591,7 +1561,7 @@ export const translations = {
                 "description": "红烧牛肉、新鲜面条和牛肉汤。",
                 "price": 14,
                 "images": [
-                  "/menu-items/Fried-Beef-Stew.jpeg"
+                  "/menu-items/item10.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": false
@@ -1627,7 +1597,7 @@ export const translations = {
                 "description": "鸡肉、土豆、灯笼椒和辣椒，配一份面条。",
                 "price": 45,
                 "images": [
-                  "/menu-items/POLO.jpeg"
+                  "/menu-items/item8.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": false
@@ -1639,7 +1609,7 @@ export const translations = {
                 "description": "鸡肉、辣椒、大蒜和葱。",
                 "price": 40,
                 "images": [
-                  "/menu-items/Fried-Beef-Stew.jpeg"
+                  "/menu-items/item12.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": false
@@ -1663,7 +1633,7 @@ export const translations = {
                 "description": "鸡肉、花生。",
                 "price": 14,
                 "images": [
-                  "/menu-items/Fried-Beef-Stew.jpeg"
+                  "/menu-items/item9.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": false
@@ -1687,7 +1657,7 @@ export const translations = {
                 "description": "菠菜、鸡蛋。",
                 "price": 10,
                 "images": [
-                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                  "/menu-items/item5.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -1699,7 +1669,7 @@ export const translations = {
                 "description": "玉米、灯笼椒、洋葱。",
                 "price": 10,
                 "images": [
-                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                  "/menu-items/Homemade-Laghman1.jpeg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": true
@@ -1711,13 +1681,13 @@ export const translations = {
                 "description": "茄子、灯笼椒、番茄。",
                 "price": 12,
                 "images": [
-                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                  "/menu-items/item2.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": true
               },
               {
-                "id": "main-course-item-5",
+                "id": "main-course-item-4",
                 "name": "蒜苔炒肉",
                 "german_name": "GEBRATENE YESHIL SAMSAK",
                 "description": "蒜苔、肉。",
@@ -1740,7 +1710,7 @@ export const translations = {
                 "description": "豆腐、灯笼椒。",
                 "price": 14,
                 "images": [
-                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                  "/menu-items/item19.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": true
@@ -1752,7 +1722,7 @@ export const translations = {
                 "description": "豆腐、灯笼椒、蘑菇。",
                 "price": 14,
                 "images": [
-                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                  "/menu-items/item13.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": true
@@ -1764,7 +1734,7 @@ export const translations = {
                 "description": "西兰花、灯笼椒。",
                 "price": 14,
                 "images": [
-                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                  "/menu-items/item15.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": true
@@ -1776,7 +1746,7 @@ export const translations = {
                 "description": "葫芦瓜（南瓜）、灯笼椒。",
                 "price": 12,
                 "images": [
-                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                  "/menu-items/item17.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": true
@@ -1793,7 +1763,7 @@ export const translations = {
                 "description": "牛肚、灯笼椒。",
                 "price": 16,
                 "images": [
-                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                  "/menu-items/item6.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": false
@@ -1805,7 +1775,7 @@ export const translations = {
                 "description": "蘑菇、肉、灯笼椒。",
                 "price": 16,
                 "images": [
-                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                  "/menu-items/item23.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -1817,7 +1787,7 @@ export const translations = {
                 "description": "牛肉丝、灯笼椒、蘑菇、黄瓜、胡萝卜。",
                 "price": 16,
                 "images": [
-                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                  "/menu-items/item20.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -1829,7 +1799,7 @@ export const translations = {
                 "description": "鸡蛋、番茄、灯笼椒。",
                 "price": 10,
                 "images": [
-                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                  "/menu-items/item25.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -1853,7 +1823,7 @@ export const translations = {
                 "description": "牛肉、洋葱和白菜。",
                 "price": 7,
                 "images": [
-                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                  "/menu-items/Steamed-Dumplings.jpeg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -1866,7 +1836,7 @@ export const translations = {
                 "price": 3,
                 "additionPrice": "个",
                 "images": [
-                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                  "/menu-items/item11.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -1879,7 +1849,7 @@ export const translations = {
                 "price": 5,
                 "additionPrice": "串",
                 "images": [
-                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                  "/menu-items/item14.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -1932,7 +1902,7 @@ export const translations = {
                 "description": "新鲜制作的面条和家常酱汁。",
                 "price": 6,
                 "images": [
-                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                  "/menu-items/item21.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": true
@@ -1944,7 +1914,7 @@ export const translations = {
                 "description": "脆黄瓜和家常酱汁。",
                 "price": 7,
                 "images": [
-                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                  "/menu-items/item22.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": true
@@ -1956,7 +1926,7 @@ export const translations = {
                 "description": "洋葱、灯笼椒、番茄和家常酱汁。",
                 "price": 7,
                 "images": [
-                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                  "/menu-items/item16.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": true
@@ -2077,6 +2047,7 @@ export const translations = {
         "id": "laghman",
         "name": "1. Лагман / Лапша ручной работы",
         "categoryImage": "/menu-items/Homemade-Laghman.jpg",
+        "categoryImage1": "/menu-items/Homemade-Laghman.jpg",
         "sections": [
           {
             "id": "laghman-main",
@@ -2088,7 +2059,7 @@ export const translations = {
                 "description": "Мясо на выбор, болгарский перец, пекинская капуста, грибы, лук и лапша ручной работы.",
                 "price": 20,
                 "images": [
-                  "/menu-items/ShahLagman.jpeg"
+                  "/menu-items/item7.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -2112,7 +2083,7 @@ export const translations = {
                 "description": "Мясо на выбор, болгарский перец, шпинат и лапша ручной работы.",
                 "price": 14,
                 "images": [
-                  "/menu-items/Noodles-with-Vegetables.jpeg"
+                  "/menu-items/Noodles-with"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -2124,7 +2095,7 @@ export const translations = {
                 "description": "Мясо на выбор, болгарский перец, лук, пекинская капуста и различные овощи с домашней лапшой.",
                 "price": 15,
                 "images": [
-                  "/menu-items/qorulghan-laghman.jpeg"
+                  "/menu-items/item20.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": false
@@ -2141,7 +2112,7 @@ export const translations = {
                 "description": "Мясо на выбор, лук-порей, сушеный перец чили и болгарский перец.",
                 "price": 15,
                 "images": [
-                  "/menu-items/Sliced-Noodles.jpeg"
+                  "/menu-items/Sliced"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -2201,7 +2172,7 @@ export const translations = {
                 "description": "Рис, яйца.",
                 "price": 10,
                 "images": [
-                  "/menu-items/Fried-Beef-Stew.jpeg"
+                  "/menu-items/item3.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -2225,7 +2196,7 @@ export const translations = {
                 "description": "Лапша, говяжий бульон.",
                 "price": 10,
                 "images": [
-                  "/menu-items/POLO.jpeg"
+                  "/menu-items/item25.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": false
@@ -2237,7 +2208,7 @@ export const translations = {
                 "description": "Тушеная говядина, свежая лапша и говяжий бульон.",
                 "price": 14,
                 "images": [
-                  "/menu-items/Fried-Beef-Stew.jpeg"
+                  "/menu-items/item10.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": false
@@ -2273,7 +2244,7 @@ export const translations = {
                 "description": "Курица, картофель, болгарский перец и чили с порцией лапши.",
                 "price": 45,
                 "images": [
-                  "/menu-items/POLO.jpeg"
+                  "/menu-items/item8.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": false
@@ -2285,7 +2256,7 @@ export const translations = {
                 "description": "Курица, чили, чеснок и зеленый лук.",
                 "price": 40,
                 "images": [
-                  "/menu-items/Fried-Beef-Stew.jpeg"
+                  "/menu-items/item12.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": false
@@ -2309,7 +2280,7 @@ export const translations = {
                 "description": "Курица, арахис.",
                 "price": 14,
                 "images": [
-                  "/menu-items/Fried-Beef-Stew.jpeg"
+                  "/menu-items/item9.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": false
@@ -2333,7 +2304,7 @@ export const translations = {
                 "description": "Шпинат, яйца.",
                 "price": 10,
                 "images": [
-                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                  "/menu-items/item5.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -2345,7 +2316,7 @@ export const translations = {
                 "description": "Кукуруза, болгарский перец, лук.",
                 "price": 10,
                 "images": [
-                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                  "/menu-items/Homemade-Laghman1.jpeg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": true
@@ -2357,13 +2328,13 @@ export const translations = {
                 "description": "Баклажан, болгарский перец, помидор.",
                 "price": 12,
                 "images": [
-                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                  "/menu-items/item2.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": true
               },
               {
-                "id": "main-course-item-5",
+                "id": "main-course-item-4",
                 "name": "Жареный чесночный стебель с мясом",
                 "russian_name": "ЖАРЕНЫЙ ЧЕСНОЧНЫЙ СТЕБЕЛЬ",
                 "description": "Чесночный стебель, мясо.",
@@ -2386,7 +2357,7 @@ export const translations = {
                 "description": "Тофу, болгарский перец.",
                 "price": 14,
                 "images": [
-                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                  "/menu-items/item19.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": true
@@ -2398,7 +2369,7 @@ export const translations = {
                 "description": "Тофу, болгарский перец, грибы.",
                 "price": 14,
                 "images": [
-                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                  "/menu-items/item13.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": true
@@ -2410,7 +2381,7 @@ export const translations = {
                 "description": "Брокколи, болгарский перец.",
                 "price": 14,
                 "images": [
-                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                  "/menu-items/item15.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": true
@@ -2422,7 +2393,7 @@ export const translations = {
                 "description": "Цукини (тыква), болгарский перец.",
                 "price": 12,
                 "images": [
-                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                  "/menu-items/item17.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": true
@@ -2439,7 +2410,7 @@ export const translations = {
                 "description": "Говяжий рубец, болгарский перец.",
                 "price": 16,
                 "images": [
-                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                  "/menu-items/item6.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": false
@@ -2451,7 +2422,7 @@ export const translations = {
                 "description": "Грибы, мясо, болгарский перец.",
                 "price": 16,
                 "images": [
-                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                  "/menu-items/item23.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -2463,7 +2434,7 @@ export const translations = {
                 "description": "Говяжье филе, болгарский перец, грибы, огурец, морковь.",
                 "price": 16,
                 "images": [
-                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                  "/menu-items/item20.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -2475,7 +2446,7 @@ export const translations = {
                 "description": "Яйца, помидоры, болгарский перец.",
                 "price": 10,
                 "images": [
-                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                  "/menu-items/item25.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -2499,7 +2470,7 @@ export const translations = {
                 "description": "Говядина, лук и пекинская капуста.",
                 "price": 7,
                 "images": [
-                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                  "/menu-items/Steamed-Dumplings.jpeg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -2512,7 +2483,7 @@ export const translations = {
                 "price": 3,
                 "additionPrice": "шт.",
                 "images": [
-                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                  "/menu-items/item11.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -2525,7 +2496,7 @@ export const translations = {
                 "price": 5,
                 "additionPrice": "за штуку",
                 "images": [
-                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                  "/menu-items/item14.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -2579,7 +2550,7 @@ export const translations = {
                 "description": "Свежеприготовленная лапша и домашний соус.",
                 "price": 6,
                 "images": [
-                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                  "/menu-items/item21.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": true
@@ -2591,7 +2562,7 @@ export const translations = {
                 "description": "Хрустящие огурцы и домашний соус.",
                 "price": 7,
                 "images": [
-                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                  "/menu-items/item22.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": true
@@ -2603,7 +2574,7 @@ export const translations = {
                 "description": "Лук, болгарский перец, помидор и домашний соус.",
                 "price": 7,
                 "images": [
-                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                  "/menu-items/item16.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": true
