@@ -17,12 +17,11 @@ import { Footer } from "@/components/footer"
 type MenuCategory =
   | "laghman"
   | "rice_bowls"
-  | "vegetarian"
-  | "bbq_grills"
-  | "specialties_sides"
-  | "soups_snacks_small_bites"
-  | "snacks_sides"
-  | "cold_starters";
+  | "noodles_with_soup"
+  | "chicken_dishes"
+  | "main_courses"
+  | "starters"
+  | "vegan_starters";
 
 
 export default function ResturantMenu() {

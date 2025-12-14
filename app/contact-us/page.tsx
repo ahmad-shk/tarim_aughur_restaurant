@@ -16,10 +16,18 @@ import { useLanguage } from "@/lib/language-context";
 import { getTranslation } from "@/lib/translations";
 import { Hero } from "@/components/contact-us/hero";
 
-type MenuCategory = "main_dishes" | "noodles_rice_bowls" | "starters_snacks_salads" | "bbq_grills" | "vegetarish" | "beverages"
+type MenuCategory =
+  | "laghman"
+  | "rice_bowls"
+  | "noodles_with_soup"
+  | "chicken_dishes"
+  | "main_courses"
+  | "starters"
+  | "vegan_starters";
+
 
 export default function ResturantMenu() {
-  const [activeCategory, setActiveCategory] = useState<MenuCategory>("main_dishes")
+  const [activeCategory, setActiveCategory] = useState<MenuCategory>("laghman")
 
   const { language } = useLanguage()
   const t = (key: string) => getTranslation(language, key as any)
