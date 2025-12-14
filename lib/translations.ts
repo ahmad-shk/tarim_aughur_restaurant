@@ -999,7 +999,9 @@ export const translations = {
       {
         "id": "main_courses",
         "name": "5. Main Courses",
-        "categoryImage": "/menu-items/Beef-Stew-with-Potatoes.jpg",
+        "categoryImage": "/menu-items/Homemade-Laghman1.jpeg",
+        "categoryImage1": "/menu-items/Homemade-Laghman1.jpeg",
+        "categoryImage2": "/menu-items/Homemade-Laghman1.jpeg",
         "sections": [
           {
             "id": "main-courses",
@@ -1165,7 +1167,8 @@ export const translations = {
       {
         "id": "starters",
         "name": "6. Starters",
-        "categoryImage": "/menu-items/Beef-Stew-with-Potatoes.jpg",
+       "categoryImage": "/menu-items/Lamb-Skewers.jpg",
+        "categoryImage1": "/menu-items/Lamb-Skewers.jpg",
         "sections": [
           {
             "id": "starter-section-1",
@@ -1244,7 +1247,7 @@ export const translations = {
       {
         "id": "vegan_starters",
         "name": "Vegan Starters",
-        "categoryImage": "/menu-items/Beef-Stew-with-Potatoes.jpg",
+       "categoryImage": "/menu-items/Cucumber-Salad.jpg",
         "sections": [
           {
             "id": "vegan_starter_section_1",
@@ -1645,7 +1648,9 @@ export const translations = {
       {
         "id": "main_courses",
         "name": "5. 主菜",
-        "categoryImage": "/menu-items/Beef-Stew-with-Potatoes.jpg",
+        "categoryImage": "/menu-items/Homemade-Laghman1.jpeg",
+        "categoryImage1": "/menu-items/Homemade-Laghman1.jpeg",
+        "categoryImage2": "/menu-items/Homemade-Laghman1.jpeg",
         "sections": [
           {
             "id": "main-courses",
@@ -1811,7 +1816,8 @@ export const translations = {
       {
         "id": "starters",
         "name": "6. 开胃菜",
-        "categoryImage": "/menu-items/Beef-Stew-with-Potatoes.jpg",
+       "categoryImage": "/menu-items/Lamb-Skewers.jpg",
+        "categoryImage1": "/menu-items/Lamb-Skewers.jpg",
         "sections": [
           {
             "id": "starter-section-1",
@@ -1890,7 +1896,7 @@ export const translations = {
       {
         "id": "vegan_starters",
         "name": "素食开胃菜",
-        "categoryImage": "/menu-items/Beef-Stew-with-Potatoes.jpg",
+        "categoryImage": "/menu-items/Cucumber-Salad.jpg",
         "sections": [
           {
             "id": "vegan_starter_section_1",
@@ -2292,7 +2298,9 @@ export const translations = {
       {
         "id": "main_courses",
         "name": "5. Основные блюда",
-        "categoryImage": "/menu-items/Beef-Stew-with-Potatoes.jpg",
+       "categoryImage": "/menu-items/Homemade-Laghman1.jpeg",
+        "categoryImage1": "/menu-items/Homemade-Laghman1.jpeg",
+        "categoryImage2": "/menu-items/Homemade-Laghman1.jpeg",
         "sections": [
           {
             "id": "main-courses",
@@ -2458,7 +2466,8 @@ export const translations = {
       {
         "id": "starters",
         "name": "6. Закуски",
-        "categoryImage": "/menu-items/Beef-Stew-with-Potatoes.jpg",
+       "categoryImage": "/menu-items/Lamb-Skewers.jpg",
+        "categoryImage1": "/menu-items/Lamb-Skewers.jpg",
         "sections": [
           {
             "id": "starter-section-1",
@@ -2538,7 +2547,7 @@ export const translations = {
       {
         "id": "vegan_starters",
         "name": "Веганские закуски",
-        "categoryImage": "/menu-items/Beef-Stew-with-Potatoes.jpg",
+        "categoryImage": "/menu-items/Cucumber-Salad.jpg",
         "sections": [
           {
             "id": "vegan_starter_section_1",
