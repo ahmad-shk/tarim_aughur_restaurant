@@ -2134,6 +2134,7 @@ export const translations = {
               "name": "Салат из говядины",
               "russian_name": "САЛАТ ИЗ ГОВЯДИНЫ",
               "description": "Говядина и домашний соус.",
+              
               "price": 13,
               "images": [
                 "/menu-items/Beef-Stew-with-Potatoes.jpeg"
