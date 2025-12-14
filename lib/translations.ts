@@ -109,7 +109,7 @@ export const translations = {
                 "description": "Meat of choice, bell pepper, Chinese cabbage, mushrooms, onions, and hand-pulled noodles.",
                 "price": 20,
                 "images": [
-                  "/menu-items/ShahLagman.jpeg"
+                  "/menu-items/item7.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -756,7 +756,7 @@ export const translations = {
                 "german_name": "ROYAL LAGHMAN",
                 "description": "Meat of choice, bell peppers, Chinese cabbage, mushrooms, onions, and hand-pulled noodles.",
                 "price": 20,
-                "images": ["/menu-items/ShahLagman.jpeg"],
+                "images": ["/menu-items/lag-item-1.jpg"],
                 "isSpicy": false,
                 "isVegetarian": false
               },
@@ -1025,7 +1025,7 @@ export const translations = {
                 "description": "自选肉类、灯笼椒、大白菜、蘑菇、洋葱和手工拉面。",
                 "price": 20,
                 "images": [
-                  "/menu-items/ShahLagman.jpeg"
+                  "/menu-items/lag-item-1.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -1670,7 +1670,7 @@ export const translations = {
               "description": "Мясо на выбор, болгарский перец, пекинская капуста, грибы, лук и лапша ручной работы.",
               "price": 20,
               "images": [
-                "/menu-items/ShahLagman.jpeg"
+                "/menu-items/lag-item-1.jpg"
               ],
               "isSpicy": false,
               "isVegetarian": false
