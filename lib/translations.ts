@@ -83,20 +83,22 @@ export const translations = {
 
     // menu text
 
-    "RestaurantMenuText": "TARIM UYGHUR RESTAURANT MENU",
+    "RestaurantMenuText": "TARIM UYGHUR RESTAURANT MENÜ",
     "menuCategories": {
-      "laghman": "Hand-Pulled Noodle",
-      "rice_bowls": "Rice Dishes",
-      "noodles_with_soup": "Noodles With Soup",
-      "chicken_dishes": "Chicken Dishes",
-      "main_courses": "Main Courses",
-      "starters": "Starters",
-      "vegan_starters": "Vegan Starters"
+      "laghman": "HandgezogeneNudeln/Hand-PulledNooodle",
+      "rice_bowls": "Reisgerichte/RiceDishes",
+      "noodles_with_soup": "SuppemitNudeln/NoodlesWithSoup",
+      "chicken_dishes": "Hühnchengerichte/ChickenDishes",
+      "main_courses": "Hauptgerichte/MainCourses",
+      "starters": "Vorspeisen/Starters",
+      "vegan_starters": "VegetarischeVorspeisen/VeganStarters"
+
+
     },
     "categories": [
       {
         "id": "laghman",
-        "name": "1. Handgezogene Nudeln/Hand-Pulled Noodle",
+        "name": "1. HandgezogeneNudeln/Hand-PulledNooodle",
         "categoryImage": "/menu-items/Homemade-Laghman.jpg",
         "sections": [
           {
@@ -106,10 +108,10 @@ export const translations = {
                 "id": "lag-item-1",
                 "name": "Tarim Royal Lagman",
                 "german_name": "SCHAH LÄGHMEN",
-                "description": "Meat of choice, bell pepper, Chinese cabbage, mushrooms, onions, and hand-pulled noodles.",
+                "description": "FleischnachAuswahl,Paprika,Chinakohl,Pilzen,ZwiebelnundHandgezogenenNudel.",
                 "price": 20,
                 "images": [
-                  "/menu-items/item7.jpg"
+                  "/menu-items/ShahLagman.jpeg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -118,7 +120,7 @@ export const translations = {
                 "id": "lag-item-2",
                 "name": "Schah Lagman",
                 "german_name": "HAUSGEMACHTE LÄGHMEN",
-                "description": "Meat of choice, bell pepper, Chinese cabbage, mushrooms, onions, and hand-pulled noodles.",
+                "description": "FleischnachAuswahl,Paprika,Chinakohl,Pilzen,ZwiebelnundHandgezogenenNudeln.",
                 "price": 16,
                 "images": [
                   "/menu-items/Homemade-Laghman.jpeg"
@@ -130,7 +132,7 @@ export const translations = {
                 "id": "lag-item-3",
                 "name": "Hausgemachte Lagman",
                 "german_name": "NUDELN MIT GEMÜSE",
-                "description": "Meat of choice, bell pepper, spinach, and hand-pulled noodles.",
+                "description": "FleischnachAuswahl,Paprika,SpinatundHandgezogeneNudeln.",
                 "price": 14,
                 "images": [
                   "/menu-items/Noodles-with-Vegetables.jpeg"
@@ -142,14 +144,14 @@ export const translations = {
                 "id": "lag-item-4",
                 "name": "Tohsun Korimis",
                 "german_name": "TOHSUN KORIMIS",
-                "description": "Meat of choice, bell pepper, onions, Chinese cabbage, and various vegetables and homemade noodles.",
+                "description": "FleischnachAuswahl,Paprika,Zwiebeln,ChinakohlundverschiedeneGemüseundHausgemachteNudeln.",
                 "price": 15,
                 "images": [
                   "/menu-items/qorulghan-laghman.jpeg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": false
-              }
+              },
             ]
           },
           {
@@ -157,9 +159,9 @@ export const translations = {
             "items": [
               {
                 "id": "lag-item-5",
-                "name": "Fried Noodles",
+                "name": "Gebratene Nudeln",
                 "german_name": "Gebratene Nudeln",
-                "description": "Meat of choice, chives, dried chili, and bell pepper.",
+                "description": "FleischnachAuswahl,Schnittlauch,getrocknetem ChiliundPaprika.",
                 "price": 15,
                 "images": [
                   "/menu-items/Sliced-Noodles.jpeg"
@@ -171,7 +173,7 @@ export const translations = {
                 "id": "lag-item-6",
                 "name": "Marjan korimis",
                 "german_name": "MARJAN KORIMIS",
-                "description": "Hand-cut noodle cubes, meat, Chinese cabbage, and bell pepper.",
+                "description": "HandgeschnitteneNudelwürfeln,Fleisch,ChinakohlundPaprik.",
                 "price": 14.0,
                 "images": [
                   "/menu-items/beef-sliced-noodles.jpeg"
@@ -183,7 +185,7 @@ export const translations = {
                 "id": "lag-item-7",
                 "name": "Mamper",
                 "german_name": "Mamper",
-                "description": "Meat of choice, bell pepper, Chinese cabbage, and homemade noodles.",
+                "description": "FleischnachAuswahl,Paprika,ChinakohlundHausgemachteNudeln.",
                 "price": 15,
                 "images": [
                   "/menu-items/Sliced-Noodles.jpeg"
@@ -197,7 +199,7 @@ export const translations = {
       },
       {
         "id": "rice_bowls",
-        "name": "2. Reisgerichte/Rice Dishes",
+        "name": "2. Reisgerichte/RiceDishes",
         "categoryImage": "/beef.png",
         "sections": [
           {
@@ -207,7 +209,7 @@ export const translations = {
                 "id": "rice-item-1",
                 "name": "Polo",
                 "german_name": "POLO",
-                "description": "Meat, carrots, rice.",
+                "description": "Fleisch,Karotten,Reis",
                 "price": 15,
                 "images": [
                   "/menu-items/POLO.jpeg"
@@ -217,9 +219,9 @@ export const translations = {
               },
               {
                 "id": "rice-item-2",
-                "name": "Fried Rice with Eggs",
+                "name": "Gebratener Reis mit Eier",
                 "german_name": "GEBRATENER REIS MIT EIER",
-                "description": "Rice, eggs.",
+                "description": "Reis,Eier",
                 "price": 10,
                 "images": [
                   "/menu-items/Fried-Beef-Stew.jpeg"
@@ -233,7 +235,7 @@ export const translations = {
       },
       {
         "id": "noodles_with_soup",
-        "name": "3. Suppe mit Nudeln/Noodles With Soup",
+        "name": "3. SuppemitNudeln/NoodlesWithSoup",
         "categoryImage": "/beef.png",
         "sections": [
           {
@@ -243,7 +245,7 @@ export const translations = {
                 "id": "noodles-with-soup-item-1",
                 "name": "Ramen",
                 "german_name": "RAMEN",
-                "description": "Noodles, beef soup.",
+                "description": "Nudeln,Rindfleischsuppe.",
                 "price": 10,
                 "images": [
                   "/menu-items/POLO.jpeg"
@@ -255,7 +257,7 @@ export const translations = {
                 "id": "noodles-with-soup-item-2",
                 "name": "Hongshao Ramen",
                 "german_name": "HONGSHAO RAMEN",
-                "description": "Braised beef, fresh noodles, and beef soup.",
+                "description": "GeschmortesRindfleisch,frischenNudelnundRindfleischsuppe.",
                 "price": 14,
                 "images": [
                   "/menu-items/Fried-Beef-Stew.jpeg"
@@ -265,9 +267,9 @@ export const translations = {
               },
               {
                 "id": "noodles-with-soup-item-3",
-                "name": "Rice Noodles with Meat",
+                "name": "Reisnudeln mit Fleisch",
                 "german_name": "REISNUDELN MIT FLEISCH",
-                "description": "Meat of choice, rice noodles, chili sauce, celery.",
+                "description": "FleischnachAuswahl,Reisnudeln,Chili-Sauce,Sellerie.",
                 "price": 14,
                 "images": [
                   "/menu-items/POLO.jpeg"
@@ -281,7 +283,7 @@ export const translations = {
       },
       {
         "id": "chicken_dishes",
-        "name": "4. Hühnchengerichte/Chicken Dishes",
+        "name": "4. Hühnchengerichte/ChickenDishes",
         "categoryImage": "/beef.png",
         "sections": [
           {
@@ -289,9 +291,9 @@ export const translations = {
             "items": [
               {
                 "id": "chicken-dish-item-1",
-                "name": "Chicken with Potatoes",
+                "name": "Hähnchen mit Kartoffeln",
                 "german_name": "HÄHNCHEN MIT KARTOFFELN",
-                "description": "Chicken, potatoes, bell pepper and chili, and a portion of noodles.",
+                "description": "Hähnchen,Kartoffeln,PaprikaundChiliundeinePortionNudeln.",
                 "price": 45,
                 "images": [
                   "/menu-items/POLO.jpeg"
@@ -301,9 +303,9 @@ export const translations = {
               },
               {
                 "id": "chicken-dish-item-2",
-                "name": "Chicken with Chili",
+                "name": "Hähnchen mit Chil",
                 "german_name": "HÄHNCHEN MIT CHILI",
-                "description": "Chicken, chili, garlic, and spring onions.",
+                "description": "Hähnchen,Chili,KnoblauchundFrühlingszwiebeln.",
                 "price": 40,
                 "images": [
                   "/menu-items/Fried-Beef-Stew.jpeg"
@@ -313,9 +315,9 @@ export const translations = {
               },
               {
                 "id": "chicken-dish-item-3",
-                "name": "Spicy Fried Chicken",
+                "name": "Scharfesgebratenes Hähnchen",
                 "german_name": "SCHARFESGEBRATENES HÄHNCHEN",
-                "description": "Chicken, chili, sesame.",
+                "description": "Hähnchen,Chili,Seasam.",
                 "price": 40,
                 "images": [
                   "/menu-items/POLO.jpeg"
@@ -325,9 +327,9 @@ export const translations = {
               },
               {
                 "id": "chicken-dish-item-4",
-                "name": "Fried Chicken with Peanuts",
+                "name": "Gebratenes Hühnerfleisch mit Erdnüsse",
                 "german_name": "GEBRATENES HÜHNERFLEISCH MIT ERDNÜSSE",
-                "description": "Chicken, peanuts.",
+                "description": "Hühnerfleisch,Erdnüss.",
                 "price": 14,
                 "images": [
                   "/menu-items/Fried-Beef-Stew.jpeg"
@@ -341,7 +343,7 @@ export const translations = {
       },
       {
         "id": "main_courses",
-        "name": "5. Hauptgerichte/Main Courses",
+        "name": "5. Hauptgerichte/MainCourses",
         "categoryImage": "/menu-items/Beef-Stew-with-Potatoes.jpg",
         "sections": [
           {
@@ -349,9 +351,9 @@ export const translations = {
             "items": [
               {
                 "id": "main-course-item-1",
-                "name": "Fried Spinach with Egg",
+                "name": "Gebratener Spinat mit Ei",
                 "german_name": "GEBRATENER SPINAT MIT EI",
-                "description": "Spinach, egg.",
+                "description": "Spinat,Ei.",
                 "price": 10,
                 "images": [
                   "/menu-items/Beef-Stew-with-Potatoes.jpeg"
@@ -361,9 +363,9 @@ export const translations = {
               },
               {
                 "id": "main-course-item-2",
-                "name": "Corn with Vegetables",
-                "german_name": "MAIS MIT GEMÜSE",
-                "description": "Corn, bell pepper, onion.",
+                "name": "Maismit Gemuüse",
+                "german_name": "MAISMIT GEMÜSE",
+                "description": "Mais,Paprika,Zwiebe.",
                 "price": 10,
                 "images": [
                   "/menu-items/Beef-Stew-with-Potatoes.jpeg"
@@ -373,9 +375,9 @@ export const translations = {
               },
               {
                 "id": "main-course-item-3",
-                "name": "Fried Eggplant",
+                "name": "Gebratene Aubergine",
                 "german_name": "GEBRATENE AUBERGINE",
-                "description": "Eggplant, bell pepper, tomato.",
+                "description": "Aubergine,Paprika,Tomate.",
                 "price": 12,
                 "images": [
                   "/menu-items/Beef-Stew-with-Potatoes.jpeg"
@@ -385,9 +387,9 @@ export const translations = {
               },
               {
                 "id": "main-course-item-5",
-                "name": "Fried Yeshil Samsak",
+                "name": "Gebratene Yeshil Samsak",
                 "german_name": "GEBRATENE YESHIL SAMSAK",
-                "description": "Garlic stalks, meat.",
+                "description": "Knoblauchstängel,Fleisch.",
                 "price": 16,
                 "images": [
                   "/menu-items/Beef-Stew-with-Potatoes.jpeg"
@@ -404,7 +406,7 @@ export const translations = {
                 "id": "main-course-item-5",
                 "name": "Mala Tofu",
                 "german_name": "MALA TOFU",
-                "description": "Tofu, bell pepper.",
+                "description": "Tofu,Paprika.",
                 "price": 14,
                 "images": [
                   "/menu-items/Beef-Stew-with-Potatoes.jpeg"
@@ -414,9 +416,9 @@ export const translations = {
               },
               {
                 "id": "main-course-item-6",
-                "name": "Fried Tofu Home Style",
+                "name": "Gebratener Tofu nach Hausart",
                 "german_name": "GEBRATENER TOFU NACH HAUSART",
-                "description": "Tofu, bell pepper, mushroom.",
+                "description": "Tofu,Paprika,Pilz.",
                 "price": 14,
                 "images": [
                   "/menu-items/Beef-Stew-with-Potatoes.jpeg"
@@ -426,9 +428,9 @@ export const translations = {
               },
               {
                 "id": "main-course-item-7",
-                "name": "Fried Broccoli",
+                "name": "Gebratener Brokkoli",
                 "german_name": "GEBRATENER BROKKOLI",
-                "description": "Broccoli, bell pepper.",
+                "description": "Brokkoli,Paprika.",
                 "price": 14,
                 "images": [
                   "/menu-items/Beef-Stew-with-Potatoes.jpeg"
@@ -438,9 +440,9 @@ export const translations = {
               },
               {
                 "id": "main-course-item-8",
-                "name": "Fried Zucchini",
+                "name": "Gebratener Zucchini",
                 "german_name": "GEBRATENER ZUCCHINI",
-                "description": "Calabash (bottle gourd), bell pepper.",
+                "description": "Flaschenkürbis,Paprika.",
                 "price": 12,
                 "images": [
                   "/menu-items/Beef-Stew-with-Potatoes.jpeg"
@@ -455,9 +457,9 @@ export const translations = {
             "items": [
               {
                 "id": "main-course-item-9",
-                "name": "Fried Beef Tripe",
+                "name": "Gebratene Rinderkutteln",
                 "german_name": "GEBRATENE RINDERKUTTELN",
-                "description": "Beef tripe, bell pepper.",
+                "description": "Rinderkutteln,Paprika.",
                 "price": 16,
                 "images": [
                   "/menu-items/Beef-Stew-with-Potatoes.jpeg"
@@ -467,9 +469,9 @@ export const translations = {
               },
               {
                 "id": "main-course-item-10",
-                "name": "Fried Mushrooms with Meat",
+                "name": "Gebratene Champignons mit Fleisch",
                 "german_name": "GEBRATENE CHAMPIGNONS MIT FLEISCH",
-                "description": "Mushrooms, meat, bell pepper.",
+                "description": "Champignons,Fleisch,Paprika.",
                 "price": 16,
                 "images": [
                   "/menu-items/Beef-Stew-with-Potatoes.jpeg"
@@ -479,9 +481,9 @@ export const translations = {
               },
               {
                 "id": "main-course-item-11",
-                "name": "Fried Beef Tripe with Vegetables",
+                "name": "Gebratene Rinderkutteln mit Gemüse",
                 "german_name": "GEBRATENE RINDERKUTTELN MIT GEMÜSE",
-                "description": "Beef strips, bell pepper, mushrooms, cucumber, carrots.",
+                "description": "Rindfleischstreifen,Paprika,Pilze,Gurke,Karotten.",
                 "price": 16,
                 "images": [
                   "/menu-items/Beef-Stew-with-Potatoes.jpeg"
@@ -493,7 +495,7 @@ export const translations = {
                 "id": "main-course-item-12",
                 "name": "Tuhum Shohla",
                 "german_name": "Tuhum Shohla",
-                "description": "Eggs, tomatoes, bell pepper.",
+                "description": "Eier,Tomaten,Paprika.",
                 "price": 10,
                 "images": [
                   "/menu-items/Beef-Stew-with-Potatoes.jpeg"
@@ -515,9 +517,9 @@ export const translations = {
             "items": [
               {
                 "id": "starter-item-1",
-                "name": "Steamed Dumplings",
+                "name": "Gedämpfte Teigtaschen",
                 "german_name": "GEDÄMPFTE TEIGTASCHEN",
-                "description": "Beef, onion, and Chinese cabbage.",
+                "description": "Rindfleisch,ZwiebelundChinakohl.",
                 "price": 7,
                 "images": [
                   "/menu-items/Beef-Stew-with-Potatoes.jpeg"
@@ -529,9 +531,47 @@ export const translations = {
                 "id": "starter-item-2",
                 "name": "Samsa",
                 "german_name": "SAMSA",
-                "description": "Beef, onions, and sesame.",
+                "description": "Rindfleisch,ZwiebelnundSesam.",
                 "price": 3,
-                "additionPrice": "per piece",
+                "additionPrice": "stück",
+                "images": [
+                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                ],
+                "isSpicy": false,
+                "isVegetarian": false
+              }
+            ]
+          }
+        ]
+
+      },
+      {
+        "id": "starters",
+        "name": "6. Vorspeisen/Starters",
+        "categoryImage": "/menu-items/Beef-Stew-with-Potatoes.jpg",
+        "sections": [
+          {
+            "id": "starter-section-1",
+            "items": [
+              {
+                "id": "starter-item-1",
+                "name": "Gedämpfte Teigtaschen",
+                "german_name": "GEDÄMPFTE TEIGTASCHEN",
+                "description": "Rindfleisch,ZwiebelundChinakohl.",
+                "price": 7,
+                "images": [
+                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                ],
+                "isSpicy": false,
+                "isVegetarian": false
+              },
+              {
+                "id": "starter-item-2",
+                "name": "Samsa",
+                "german_name": "SAMSA",
+                "description": "Rindfleisch,ZwiebelnundSesam.",
+                "price": 3,
+                "additionPrice": "stück",
                 "images": [
                   "/menu-items/Beef-Stew-with-Potatoes.jpeg"
                 ],
@@ -540,11 +580,11 @@ export const translations = {
               },
               {
                 "id": "starter-item-3",
-                "name": "Lamb Skewers",
+                "name": "Lammspiesen",
                 "german_name": "LAMMSPIESEN",
-                "description": "Lamb.",
+                "description": "Lamm.",
                 "price": 5,
-                "additionPrice": "per piece",
+                "additionPrice": "stück",
                 "images": [
                   "/menu-items/Beef-Stew-with-Potatoes.jpeg"
                 ],
@@ -553,9 +593,9 @@ export const translations = {
               },
               {
                 "id": "starter-item-4",
-                "name": "Rack of Lamb",
+                "name": "Lammkarree",
                 "german_name": "LAMMKARREE",
-                "description": "Rack of lamb.",
+                "description": "Lammkarree.",
                 "price": 7,
                 "images": [
                   "/menu-items/Beef-Stew-with-Potatoes.jpeg"
@@ -570,9 +610,9 @@ export const translations = {
             "items": [
               {
                 "id": "starter-item-5",
-                "name": "Beef Salad",
+                "name": "Rindfleischsala",
                 "german_name": "RINDFLEISCHSALA",
-                "description": "Beef and homemade sauce.",
+                "description": "RindfleischundHausgemachteSauce.",
                 "price": 13,
                 "images": [
                   "/menu-items/Beef-Stew-with-Potatoes.jpeg"
@@ -594,9 +634,9 @@ export const translations = {
             "items": [
               {
                 "id": "vegan_starter_item_1",
-                "name": "Noodles with Sauce",
+                "name": "Nudeln mit Sauce",
                 "german_name": "NUDELN MIT SAUCE",
-                "description": "Freshly prepared noodles and homemade sauce.",
+                "description": "Frisch,zubereitete,Nudelnund,Hausgemachte,Sauce.",
                 "price": 6,
                 "images": [
                   "/menu-items/Beef-Stew-with-Potatoes.jpeg"
@@ -606,9 +646,9 @@ export const translations = {
               },
               {
                 "id": "vegan_starter_item_2",
-                "name": "Cucumber Salad",
+                "name": "Gurkensala",
                 "german_name": "GURKENSALA",
-                "description": "Crispy cucumbers and homemade sauce.",
+                "description": "Knackige,Gurkenund,Hausgemachte,Sauce.",
                 "price": 7,
                 "images": [
                   "/menu-items/Beef-Stew-with-Potatoes.jpeg"
@@ -618,9 +658,9 @@ export const translations = {
               },
               {
                 "id": "vegan_starter_item_3",
-                "name": "Uyghur Salad",
+                "name": "UigurSalat",
                 "german_name": "UIGURSALAT",
-                "description": "Onions, bell pepper, tomatoes, and homemade sauce.",
+                "description": "Zwiebel,Paprika,Tomatenund,Hausgemachte,Sauce.",
                 "price": 7,
                 "images": [
                   "/menu-items/Beef-Stew-with-Potatoes.jpeg"
@@ -730,557 +770,557 @@ export const translations = {
     allRightsReserved: "All Rights Reserved",
 
     // menu text
-    
-  "RestaurantMenuText": "TARIM UYGHUR RESTAURANT MENU",
-  "menuCategories": {
-    "laghman": "Hand-Pulled Noodle (Laghman)",
-    "rice_bowls": "Rice Dishes",
-    "noodles_with_soup": "Noodles With Soup",
-    "chicken_dishes": "Chicken Dishes",
-    "main_courses": "Main Courses",
-    "starters": "Starters",
-    "vegan_starters": "Vegan Starters"
-  },
-  "categories": [
-    {
-      "id": "laghman",
-      "name": "1. Hand-Pulled Noodle / Laghman",
-      "categoryImage": "/menu-items/Homemade-Laghman.jpg",
-      "sections": [
-        {
-          "id": "laghman-main",
-          "items": [
-            {
-              "id": "lag-item-1",
-              "name": "Shah Laghman (Royal Laghman)",
-              "german_name": "SCHAH LÄGHMEN",
-              "description": "Meat of choice, bell pepper, Chinese cabbage, mushrooms, onions, and hand-pulled noodles.",
-              "price": 20,
-              "images": [
-                "/menu-items/ShahLagman.jpeg"
-              ],
-              "isSpicy": false,
-              "isVegetarian": false
-            },
-            {
-              "id": "lag-item-2",
-              "name": "Homemade Laghman",
-              "german_name": "HAUSGEMACHTE LÄGHMEN",
-              "description": "Meat of choice, bell pepper, Chinese cabbage, mushrooms, onions, and hand-pulled noodles.",
-              "price": 16,
-              "images": [
-                "/menu-items/Homemade-Laghman.jpeg"
-              ],
-              "isSpicy": false,
-              "isVegetarian": false
-            },
-            {
-              "id": "lag-item-3",
-              "name": "Noodles with Vegetables",
-              "german_name": "NUDELN MIT GEMÜSE",
-              "description": "Meat of choice, bell pepper, spinach, and hand-pulled noodles.",
-              "price": 14,
-              "images": [
-                "/menu-items/Noodles-with-Vegetables.jpeg"
-              ],
-              "isSpicy": false,
-              "isVegetarian": false
-            },
-            {
-              "id": "lag-item-4",
-              "name": "Tohsun Korimis (Stir-fried Laghman)",
-              "german_name": "TOHSUN KORIMIS",
-              "description": "Meat of choice, bell pepper, onions, Chinese cabbage, and various vegetables with homemade noodles.",
-              "price": 15,
-              "images": [
-                "/menu-items/qorulghan-laghman.jpeg"
-              ],
-              "isSpicy": true,
-              "isVegetarian": false
-            }
-          ]
-        },
-        {
-          "id": "laghman-main-1",
-          "items": [
-            {
-              "id": "lag-item-5",
-              "name": "Fried Noodles (Chao Mian)",
-              "german_name": "Gebratene Nudeln",
-              "description": "Meat of choice, chives, dried chili, and bell pepper.",
-              "price": 15,
-              "images": [
-                "/menu-items/Sliced-Noodles.jpeg"
-              ],
-              "isSpicy": false,
-              "isVegetarian": false
-            },
-            {
-              "id": "lag-item-6",
-              "name": "Marjan Korimis (Sliced Noodle Dish)",
-              "german_name": "MARJAN KORIMIS",
-              "description": "Hand-cut noodle pieces, meat, Chinese cabbage, and bell pepper.",
-              "price": 14.0,
-              "images": [
-                "/menu-items/beef-sliced-noodles.jpeg"
-              ],
-              "isSpicy": false,
-              "isVegetarian": false
-            },
-            {
-              "id": "lag-item-7",
-              "name": "Mampar (Noodle Piece Soup)",
-              "german_name": "Mamper",
-              "description": "Meat of choice, bell pepper, Chinese cabbage, and homemade noodle pieces.",
-              "price": 15,
-              "images": [
-                "/menu-items/Sliced-Noodles.jpeg"
-              ],
-              "isSpicy": false,
-              "isVegetarian": false
-            }
-          ]
-        }
-      ]
+
+    "RestaurantMenuText": "TARIM UYGHUR RESTAURANT MENU",
+    "menuCategories": {
+      "laghman": "Hand-Pulled Noodle (Laghman)",
+      "rice_bowls": "Rice Dishes",
+      "noodles_with_soup": "Noodles With Soup",
+      "chicken_dishes": "Chicken Dishes",
+      "main_courses": "Main Courses",
+      "starters": "Starters",
+      "vegan_starters": "Vegan Starters"
     },
-    {
-      "id": "rice_bowls",
-      "name": "2. Rice Dishes",
-      "categoryImage": "/beef.png",
-      "sections": [
-        {
-          "id": "rice-main",
-          "items": [
-            {
-              "id": "rice-item-1",
-              "name": "Polo (Pilaf)",
-              "german_name": "POLO",
-              "description": "Meat, carrots, rice.",
-              "price": 15,
-              "images": [
-                "/menu-items/POLO.jpeg"
-              ],
-              "isSpicy": false,
-              "isVegetarian": false
-            },
-            {
-              "id": "rice-item-2",
-              "name": "Fried Rice with Eggs",
-              "german_name": "GEBRATENER REIS MIT EIER",
-              "description": "Rice, eggs.",
-              "price": 10,
-              "images": [
-                "/menu-items/Fried-Beef-Stew.jpeg"
-              ],
-              "isSpicy": false,
-              "isVegetarian": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "noodles_with_soup",
-      "name": "3. Noodles With Soup",
-      "categoryImage": "/beef.png",
-      "sections": [
-        {
-          "id": "",
-          "items": [
-            {
-              "id": "noodles-with-soup-item-1",
-              "name": "Ramen",
-              "german_name": "RAMEN",
-              "description": "Noodles, beef broth.",
-              "price": 10,
-              "images": [
-                "/menu-items/POLO.jpeg"
-              ],
-              "isSpicy": true,
-              "isVegetarian": false
-            },
-            {
-              "id": "noodles-with-soup-item-2",
-              "name": "Hongshao Ramen (Braised Beef Ramen)",
-              "german_name": "HONGSHAO RAMEN",
-              "description": "Braised beef, fresh noodles, and beef broth.",
-              "price": 14,
-              "images": [
-                "/menu-items/Fried-Beef-Stew.jpeg"
-              ],
-              "isSpicy": true,
-              "isVegetarian": false
-            },
-            {
-              "id": "noodles-with-soup-item-3",
-              "name": "Rice Noodles with Meat",
-              "german_name": "REISNUDELN MIT FLEISCH",
-              "description": "Meat of choice, rice noodles, chili sauce, celery.",
-              "price": 14,
-              "images": [
-                "/menu-items/POLO.jpeg"
-              ],
-              "isSpicy": true,
-              "isVegetarian": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "chicken_dishes",
-      "name": "4. Chicken Dishes",
-      "categoryImage": "/beef.png",
-      "sections": [
-        {
-          "id": "chicken-dishes",
-          "items": [
-            {
-              "id": "chicken-dish-item-1",
-              "name": "Chicken with Potatoes (Dapanji)",
-              "german_name": "HÄHNCHEN MIT KARTOFFELN",
-              "description": "Chicken, potatoes, bell pepper, and chili with a serving of noodles.",
-              "price": 45,
-              "images": [
-                "/menu-items/POLO.jpeg"
-              ],
-              "isSpicy": true,
-              "isVegetarian": false
-            },
-            {
-              "id": "chicken-dish-item-2",
-              "name": "Chicken with Chili",
-              "german_name": "HÄHNCHEN MIT CHILI",
-              "description": "Chicken, chili, garlic, and scallions.",
-              "price": 40,
-              "images": [
-                "/menu-items/Fried-Beef-Stew.jpeg"
-              ],
-              "isSpicy": true,
-              "isVegetarian": false
-            },
-            {
-              "id": "chicken-dish-item-3",
-              "name": "Spicy Fried Chicken",
-              "german_name": "SCHARFESGEBRATENES HÄHNCHEN",
-              "description": "Chicken, chili, sesame.",
-              "price": 40,
-              "images": [
-                "/menu-items/POLO.jpeg"
-              ],
-              "isSpicy": true,
-              "isVegetarian": false
-            },
-            {
-              "id": "chicken-dish-item-4",
-              "name": "Fried Chicken with Peanuts (Kung Pao Chicken)",
-              "german_name": "GEBRATENES HÜHNERFLEISCH MIT ERDNÜSSE",
-              "description": "Chicken, peanuts.",
-              "price": 14,
-              "images": [
-                "/menu-items/Fried-Beef-Stew.jpeg"
-              ],
-              "isSpicy": true,
-              "isVegetarian": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "main_courses",
-      "name": "5. Main Courses",
-      "categoryImage": "/menu-items/Beef-Stew-with-Potatoes.jpg",
-      "sections": [
-        {
-          "id": "main-courses",
-          "items": [
-            {
-              "id": "main-course-item-1",
-              "name": "Fried Spinach with Egg",
-              "german_name": "GEBRATENER SPINAT MIT EI",
-              "description": "Spinach, eggs.",
-              "price": 10,
-              "images": [
-                "/menu-items/Beef-Stew-with-Potatoes.jpeg"
-              ],
-              "isSpicy": false,
-              "isVegetarian": false
-            },
-            {
-              "id": "main-course-item-2",
-              "name": "Corn with Vegetables",
-              "german_name": "MAIS MIT GEMÜSE",
-              "description": "Corn, bell pepper, onions.",
-              "price": 10,
-              "images": [
-                "/menu-items/Beef-Stew-with-Potatoes.jpeg"
-              ],
-              "isSpicy": false,
-              "isVegetarian": true
-            },
-            {
-              "id": "main-course-item-3",
-              "name": "Fried Eggplant",
-              "german_name": "GEBRATENE AUBERGINE",
-              "description": "Eggplant, bell pepper, tomato.",
-              "price": 12,
-              "images": [
-                "/menu-items/Beef-Stew-with-Potatoes.jpeg"
-              ],
-              "isSpicy": true,
-              "isVegetarian": true
-            },
-            {
-              "id": "main-course-item-5",
-              "name": "Fried Garlic Scapes with Meat (Yeshil Samsak)",
-              "german_name": "GEBRATENE YESHIL SAMSAK",
-              "description": "Garlic scapes, meat.",
-              "price": 16,
-              "images": [
-                "/menu-items/Beef-Stew-with-Potatoes.jpeg"
-              ],
-              "isSpicy": false,
-              "isVegetarian": false
-            }
-          ]
-        },
-        {
-          "id": "main-courses-1",
-          "items": [
-            {
-              "id": "main-course-item-5",
-              "name": "Mala Tofu (Spicy Tofu)",
-              "german_name": "MALA TOFU",
-              "description": "Tofu, bell pepper.",
-              "price": 14,
-              "images": [
-                "/menu-items/Beef-Stew-with-Potatoes.jpeg"
-              ],
-              "isSpicy": true,
-              "isVegetarian": true
-            },
-            {
-              "id": "main-course-item-6",
-              "name": "Homemade Fried Tofu",
-              "german_name": "GEBRATENER TOFU NACH HAUSART",
-              "description": "Tofu, bell pepper, mushrooms.",
-              "price": 14,
-              "images": [
-                "/menu-items/Beef-Stew-with-Potatoes.jpeg"
-              ],
-              "isSpicy": false,
-              "isVegetarian": true
-            },
-            {
-              "id": "main-course-item-7",
-              "name": "Fried Broccoli",
-              "german_name": "GEBRATENER BROKKOLI",
-              "description": "Broccoli, bell pepper.",
-              "price": 14,
-              "images": [
-                "/menu-items/Beef-Stew-with-Potatoes.jpeg"
-              ],
-              "isSpicy": false,
-              "isVegetarian": true
-            },
-            {
-              "id": "main-course-item-8",
-              "name": "Fried Zucchini",
-              "german_name": "GEBRATENER ZUCCHINI",
-              "description": "Zucchini (Squash), bell pepper.",
-              "price": 12,
-              "images": [
-                "/menu-items/Beef-Stew-with-Potatoes.jpeg"
-              ],
-              "isSpicy": false,
-              "isVegetarian": true
-            }
-          ]
-        },
-        {
-          "id": "main-courses-2",
-          "items": [
-            {
-              "id": "main-course-item-9",
-              "name": "Stir-fried Beef Tripe",
-              "german_name": "GEBRATENE RINDERKUTTELN",
-              "description": "Beef tripe, bell pepper.",
-              "price": 16,
-              "images": [
-                "/menu-items/Beef-Stew-with-Potatoes.jpeg"
-              ],
-              "isSpicy": true,
-              "isVegetarian": false
-            },
-            {
-              "id": "main-course-item-10",
-              "name": "Fried Mushrooms with Meat",
-              "german_name": "GEBRATENE CHAMPIGNONS MIT FLEISCH",
-              "description": "Mushrooms, meat, bell pepper.",
-              "price": 16,
-              "images": [
-                "/menu-items/Beef-Stew-with-Potatoes.jpeg"
-              ],
-              "isSpicy": false,
-              "isVegetarian": false
-            },
-            {
-              "id": "main-course-item-11",
-              "name": "Fried Beef Tripe with Vegetables",
-              "german_name": "GEBRATENE RINDERKUTTELN MIT GEMÜSE",
-              "description": "Beef slices, bell pepper, mushrooms, cucumber, carrots.",
-              "price": 16,
-              "images": [
-                "/menu-items/Beef-Stew-with-Potatoes.jpeg"
-              ],
-              "isSpicy": false,
-              "isVegetarian": false
-            },
-            {
-              "id": "main-course-item-12",
-              "name": "Tuhum Shohla (Eggs with Tomato and Pepper)",
-              "german_name": "Tuhum Shohla",
-              "description": "Eggs, tomato, bell pepper.",
-              "price": 10,
-              "images": [
-                "/menu-items/Beef-Stew-with-Potatoes.jpeg"
-              ],
-              "isSpicy": false,
-              "isVegetarian": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "starters",
-      "name": "6. Starters",
-      "categoryImage": "/menu-items/Beef-Stew-with-Potatoes.jpg",
-      "sections": [
-        {
-          "id": "starter-section-1",
-          "items": [
-            {
-              "id": "starter-item-1",
-              "name": "Steamed Dumplings / Paozi (Manta)",
-              "german_name": "GEDÄMPFTE TEIGTASCHEN",
-              "description": "Beef, onions, and Chinese cabbage.",
-              "price": 7,
-              "images": [
-                "/menu-items/Beef-Stew-with-Potatoes.jpeg"
-              ],
-              "isSpicy": false,
-              "isVegetarian": false
-            },
-            {
-              "id": "starter-item-2",
-              "name": "Samsa (Baked Pastry)",
-              "german_name": "SAMSA",
-              "description": "Beef, onions, and sesame.",
-              "price": 3,
-              "additionPrice": "per piece",
-              "images": [
-                "/menu-items/Beef-Stew-with-Potatoes.jpeg"
-              ],
-              "isSpicy": false,
-              "isVegetarian": false
-            },
-            {
-              "id": "starter-item-3",
-              "name": "Lamb Skewers (Kebab)",
-              "german_name": "LAMMSPIESEN",
-              "description": "Lamb meat.",
-              "price": 5,
-              "additionPrice": "per skewer",
-              "images": [
-                "/menu-items/Beef-Stew-with-Potatoes.jpeg"
-              ],
-              "isSpicy": false,
-              "isVegetarian": false
-            },
-            {
-              "id": "starter-item-4",
-              "name": "Rack of Lamb",
-              "german_name": "LAMMKARREE",
-              "description": "Roasted rack of lamb.",
-              "price": 7,
-              "images": [
-                "/menu-items/Beef-Stew-with-Potatoes.jpeg"
-              ],
-              "isSpicy": false,
-              "isVegetarian": false
-            }
-          ]
-        },
-        {
-          "id": "starter-section-2",
-          "items": [
-            {
-              "id": "starter-item-5",
-              "name": "Beef Salad",
-              "german_name": "RINDFLEISCHSALA",
-              "description": "Beef and homemade sauce.",
-              "price": 13,
-              "images": [
-                "/menu-items/Beef-Stew-with-Potatoes.jpeg"
-              ],
-              "isSpicy": true,
-              "isVegetarian": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "vegan_starters",
-      "name": "Vegan Starters",
-      "categoryImage": "/menu-items/Beef-Stew-with-Potatoes.jpg",
-      "sections": [
-        {
-          "id": "vegan_starter_section_1",
-          "items": [
-            {
-              "id": "vegan_starter_item_1",
-              "name": "Noodles with Sauce",
-              "german_name": "NUDELN MIT SAUCE",
-              "description": "Freshly made noodles and homemade sauce.",
-              "price": 6,
-              "images": [
-                "/menu-items/Beef-Stew-with-Potatoes.jpeg"
-              ],
-              "isSpicy": false,
-              "isVegetarian": true
-            },
-            {
-              "id": "vegan_starter_item_2",
-              "name": "Cucumber Salad",
-              "german_name": "GURKENSALA",
-              "description": "Crispy cucumbers and homemade sauce.",
-              "price": 7,
-              "images": [
-                "/menu-items/Beef-Stew-with-Potatoes.jpeg"
-              ],
-              "isSpicy": false,
-              "isVegetarian": true
-            },
-            {
-              "id": "vegan_starter_item_3",
-              "name": "Uyghur Salad",
-              "german_name": "UIGURSALAT",
-              "description": "Onions, bell pepper, tomato, and homemade sauce.",
-              "price": 7,
-              "images": [
-                "/menu-items/Beef-Stew-with-Potatoes.jpeg"
-              ],
-              "isSpicy": false,
-              "isVegetarian": true
-            }
-          ]
-        }
-      ]
-    }
-  ],
+    "categories": [
+      {
+        "id": "laghman",
+        "name": "1. Hand-Pulled Noodle / Laghman",
+        "categoryImage": "/menu-items/Homemade-Laghman.jpg",
+        "sections": [
+          {
+            "id": "laghman-main",
+            "items": [
+              {
+                "id": "lag-item-1",
+                "name": "Shah Laghman (Royal Laghman)",
+                "german_name": "SCHAH LÄGHMEN",
+                "description": "Meat of choice, bell pepper, Chinese cabbage, mushrooms, onions, and hand-pulled noodles.",
+                "price": 20,
+                "images": [
+                  "/menu-items/ShahLagman.jpeg"
+                ],
+                "isSpicy": false,
+                "isVegetarian": false
+              },
+              {
+                "id": "lag-item-2",
+                "name": "Homemade Laghman",
+                "german_name": "HAUSGEMACHTE LÄGHMEN",
+                "description": "Meat of choice, bell pepper, Chinese cabbage, mushrooms, onions, and hand-pulled noodles.",
+                "price": 16,
+                "images": [
+                  "/menu-items/Homemade-Laghman.jpeg"
+                ],
+                "isSpicy": false,
+                "isVegetarian": false
+              },
+              {
+                "id": "lag-item-3",
+                "name": "Noodles with Vegetables",
+                "german_name": "NUDELN MIT GEMÜSE",
+                "description": "Meat of choice, bell pepper, spinach, and hand-pulled noodles.",
+                "price": 14,
+                "images": [
+                  "/menu-items/Noodles-with-Vegetables.jpeg"
+                ],
+                "isSpicy": false,
+                "isVegetarian": false
+              },
+              {
+                "id": "lag-item-4",
+                "name": "Tohsun Korimis (Stir-fried Laghman)",
+                "german_name": "TOHSUN KORIMIS",
+                "description": "Meat of choice, bell pepper, onions, Chinese cabbage, and various vegetables with homemade noodles.",
+                "price": 15,
+                "images": [
+                  "/menu-items/qorulghan-laghman.jpeg"
+                ],
+                "isSpicy": true,
+                "isVegetarian": false
+              }
+            ]
+          },
+          {
+            "id": "laghman-main-1",
+            "items": [
+              {
+                "id": "lag-item-5",
+                "name": "Fried Noodles (Chao Mian)",
+                "german_name": "Gebratene Nudeln",
+                "description": "Meat of choice, chives, dried chili, and bell pepper.",
+                "price": 15,
+                "images": [
+                  "/menu-items/Sliced-Noodles.jpeg"
+                ],
+                "isSpicy": false,
+                "isVegetarian": false
+              },
+              {
+                "id": "lag-item-6",
+                "name": "Marjan Korimis (Sliced Noodle Dish)",
+                "german_name": "MARJAN KORIMIS",
+                "description": "Hand-cut noodle pieces, meat, Chinese cabbage, and bell pepper.",
+                "price": 14.0,
+                "images": [
+                  "/menu-items/beef-sliced-noodles.jpeg"
+                ],
+                "isSpicy": false,
+                "isVegetarian": false
+              },
+              {
+                "id": "lag-item-7",
+                "name": "Mampar (Noodle Piece Soup)",
+                "german_name": "Mamper",
+                "description": "Meat of choice, bell pepper, Chinese cabbage, and homemade noodle pieces.",
+                "price": 15,
+                "images": [
+                  "/menu-items/Sliced-Noodles.jpeg"
+                ],
+                "isSpicy": false,
+                "isVegetarian": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "rice_bowls",
+        "name": "2. Rice Dishes",
+        "categoryImage": "/beef.png",
+        "sections": [
+          {
+            "id": "rice-main",
+            "items": [
+              {
+                "id": "rice-item-1",
+                "name": "Polo (Pilaf)",
+                "german_name": "POLO",
+                "description": "Meat, carrots, rice.",
+                "price": 15,
+                "images": [
+                  "/menu-items/POLO.jpeg"
+                ],
+                "isSpicy": false,
+                "isVegetarian": false
+              },
+              {
+                "id": "rice-item-2",
+                "name": "Fried Rice with Eggs",
+                "german_name": "GEBRATENER REIS MIT EIER",
+                "description": "Rice, eggs.",
+                "price": 10,
+                "images": [
+                  "/menu-items/Fried-Beef-Stew.jpeg"
+                ],
+                "isSpicy": false,
+                "isVegetarian": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "noodles_with_soup",
+        "name": "3. Noodles With Soup",
+        "categoryImage": "/beef.png",
+        "sections": [
+          {
+            "id": "",
+            "items": [
+              {
+                "id": "noodles-with-soup-item-1",
+                "name": "Ramen",
+                "german_name": "RAMEN",
+                "description": "Noodles, beef broth.",
+                "price": 10,
+                "images": [
+                  "/menu-items/POLO.jpeg"
+                ],
+                "isSpicy": true,
+                "isVegetarian": false
+              },
+              {
+                "id": "noodles-with-soup-item-2",
+                "name": "Hongshao Ramen (Braised Beef Ramen)",
+                "german_name": "HONGSHAO RAMEN",
+                "description": "Braised beef, fresh noodles, and beef broth.",
+                "price": 14,
+                "images": [
+                  "/menu-items/Fried-Beef-Stew.jpeg"
+                ],
+                "isSpicy": true,
+                "isVegetarian": false
+              },
+              {
+                "id": "noodles-with-soup-item-3",
+                "name": "Rice Noodles with Meat",
+                "german_name": "REISNUDELN MIT FLEISCH",
+                "description": "Meat of choice, rice noodles, chili sauce, celery.",
+                "price": 14,
+                "images": [
+                  "/menu-items/POLO.jpeg"
+                ],
+                "isSpicy": true,
+                "isVegetarian": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "chicken_dishes",
+        "name": "4. Chicken Dishes",
+        "categoryImage": "/beef.png",
+        "sections": [
+          {
+            "id": "chicken-dishes",
+            "items": [
+              {
+                "id": "chicken-dish-item-1",
+                "name": "Chicken with Potatoes (Dapanji)",
+                "german_name": "HÄHNCHEN MIT KARTOFFELN",
+                "description": "Chicken, potatoes, bell pepper, and chili with a serving of noodles.",
+                "price": 45,
+                "images": [
+                  "/menu-items/POLO.jpeg"
+                ],
+                "isSpicy": true,
+                "isVegetarian": false
+              },
+              {
+                "id": "chicken-dish-item-2",
+                "name": "Chicken with Chili",
+                "german_name": "HÄHNCHEN MIT CHILI",
+                "description": "Chicken, chili, garlic, and scallions.",
+                "price": 40,
+                "images": [
+                  "/menu-items/Fried-Beef-Stew.jpeg"
+                ],
+                "isSpicy": true,
+                "isVegetarian": false
+              },
+              {
+                "id": "chicken-dish-item-3",
+                "name": "Spicy Fried Chicken",
+                "german_name": "SCHARFESGEBRATENES HÄHNCHEN",
+                "description": "Chicken, chili, sesame.",
+                "price": 40,
+                "images": [
+                  "/menu-items/POLO.jpeg"
+                ],
+                "isSpicy": true,
+                "isVegetarian": false
+              },
+              {
+                "id": "chicken-dish-item-4",
+                "name": "Fried Chicken with Peanuts (Kung Pao Chicken)",
+                "german_name": "GEBRATENES HÜHNERFLEISCH MIT ERDNÜSSE",
+                "description": "Chicken, peanuts.",
+                "price": 14,
+                "images": [
+                  "/menu-items/Fried-Beef-Stew.jpeg"
+                ],
+                "isSpicy": true,
+                "isVegetarian": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "main_courses",
+        "name": "5. Main Courses",
+        "categoryImage": "/menu-items/Beef-Stew-with-Potatoes.jpg",
+        "sections": [
+          {
+            "id": "main-courses",
+            "items": [
+              {
+                "id": "main-course-item-1",
+                "name": "Fried Spinach with Egg",
+                "german_name": "GEBRATENER SPINAT MIT EI",
+                "description": "Spinach, eggs.",
+                "price": 10,
+                "images": [
+                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                ],
+                "isSpicy": false,
+                "isVegetarian": false
+              },
+              {
+                "id": "main-course-item-2",
+                "name": "Corn with Vegetables",
+                "german_name": "MAIS MIT GEMÜSE",
+                "description": "Corn, bell pepper, onions.",
+                "price": 10,
+                "images": [
+                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                ],
+                "isSpicy": false,
+                "isVegetarian": true
+              },
+              {
+                "id": "main-course-item-3",
+                "name": "Fried Eggplant",
+                "german_name": "GEBRATENE AUBERGINE",
+                "description": "Eggplant, bell pepper, tomato.",
+                "price": 12,
+                "images": [
+                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                ],
+                "isSpicy": true,
+                "isVegetarian": true
+              },
+              {
+                "id": "main-course-item-5",
+                "name": "Fried Garlic Scapes with Meat (Yeshil Samsak)",
+                "german_name": "GEBRATENE YESHIL SAMSAK",
+                "description": "Garlic scapes, meat.",
+                "price": 16,
+                "images": [
+                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                ],
+                "isSpicy": false,
+                "isVegetarian": false
+              }
+            ]
+          },
+          {
+            "id": "main-courses-1",
+            "items": [
+              {
+                "id": "main-course-item-5",
+                "name": "Mala Tofu (Spicy Tofu)",
+                "german_name": "MALA TOFU",
+                "description": "Tofu, bell pepper.",
+                "price": 14,
+                "images": [
+                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                ],
+                "isSpicy": true,
+                "isVegetarian": true
+              },
+              {
+                "id": "main-course-item-6",
+                "name": "Homemade Fried Tofu",
+                "german_name": "GEBRATENER TOFU NACH HAUSART",
+                "description": "Tofu, bell pepper, mushrooms.",
+                "price": 14,
+                "images": [
+                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                ],
+                "isSpicy": false,
+                "isVegetarian": true
+              },
+              {
+                "id": "main-course-item-7",
+                "name": "Fried Broccoli",
+                "german_name": "GEBRATENER BROKKOLI",
+                "description": "Broccoli, bell pepper.",
+                "price": 14,
+                "images": [
+                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                ],
+                "isSpicy": false,
+                "isVegetarian": true
+              },
+              {
+                "id": "main-course-item-8",
+                "name": "Fried Zucchini",
+                "german_name": "GEBRATENER ZUCCHINI",
+                "description": "Zucchini (Squash), bell pepper.",
+                "price": 12,
+                "images": [
+                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                ],
+                "isSpicy": false,
+                "isVegetarian": true
+              }
+            ]
+          },
+          {
+            "id": "main-courses-2",
+            "items": [
+              {
+                "id": "main-course-item-9",
+                "name": "Stir-fried Beef Tripe",
+                "german_name": "GEBRATENE RINDERKUTTELN",
+                "description": "Beef tripe, bell pepper.",
+                "price": 16,
+                "images": [
+                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                ],
+                "isSpicy": true,
+                "isVegetarian": false
+              },
+              {
+                "id": "main-course-item-10",
+                "name": "Fried Mushrooms with Meat",
+                "german_name": "GEBRATENE CHAMPIGNONS MIT FLEISCH",
+                "description": "Mushrooms, meat, bell pepper.",
+                "price": 16,
+                "images": [
+                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                ],
+                "isSpicy": false,
+                "isVegetarian": false
+              },
+              {
+                "id": "main-course-item-11",
+                "name": "Fried Beef Tripe with Vegetables",
+                "german_name": "GEBRATENE RINDERKUTTELN MIT GEMÜSE",
+                "description": "Beef slices, bell pepper, mushrooms, cucumber, carrots.",
+                "price": 16,
+                "images": [
+                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                ],
+                "isSpicy": false,
+                "isVegetarian": false
+              },
+              {
+                "id": "main-course-item-12",
+                "name": "Tuhum Shohla (Eggs with Tomato and Pepper)",
+                "german_name": "Tuhum Shohla",
+                "description": "Eggs, tomato, bell pepper.",
+                "price": 10,
+                "images": [
+                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                ],
+                "isSpicy": false,
+                "isVegetarian": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "starters",
+        "name": "6. Starters",
+        "categoryImage": "/menu-items/Beef-Stew-with-Potatoes.jpg",
+        "sections": [
+          {
+            "id": "starter-section-1",
+            "items": [
+              {
+                "id": "starter-item-1",
+                "name": "Steamed Dumplings / Paozi (Manta)",
+                "german_name": "GEDÄMPFTE TEIGTASCHEN",
+                "description": "Beef, onions, and Chinese cabbage.",
+                "price": 7,
+                "images": [
+                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                ],
+                "isSpicy": false,
+                "isVegetarian": false
+              },
+              {
+                "id": "starter-item-2",
+                "name": "Samsa (Baked Pastry)",
+                "german_name": "SAMSA",
+                "description": "Beef, onions, and sesame.",
+                "price": 3,
+                "additionPrice": "per piece",
+                "images": [
+                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                ],
+                "isSpicy": false,
+                "isVegetarian": false
+              },
+              {
+                "id": "starter-item-3",
+                "name": "Lamb Skewers (Kebab)",
+                "german_name": "LAMMSPIESEN",
+                "description": "Lamb meat.",
+                "price": 5,
+                "additionPrice": "per skewer",
+                "images": [
+                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                ],
+                "isSpicy": false,
+                "isVegetarian": false
+              },
+              {
+                "id": "starter-item-4",
+                "name": "Rack of Lamb",
+                "german_name": "LAMMKARREE",
+                "description": "Roasted rack of lamb.",
+                "price": 7,
+                "images": [
+                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                ],
+                "isSpicy": false,
+                "isVegetarian": false
+              }
+            ]
+          },
+          {
+            "id": "starter-section-2",
+            "items": [
+              {
+                "id": "starter-item-5",
+                "name": "Beef Salad",
+                "german_name": "RINDFLEISCHSALA",
+                "description": "Beef and homemade sauce.",
+                "price": 13,
+                "images": [
+                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                ],
+                "isSpicy": true,
+                "isVegetarian": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "vegan_starters",
+        "name": "Vegan Starters",
+        "categoryImage": "/menu-items/Beef-Stew-with-Potatoes.jpg",
+        "sections": [
+          {
+            "id": "vegan_starter_section_1",
+            "items": [
+              {
+                "id": "vegan_starter_item_1",
+                "name": "Noodles with Sauce",
+                "german_name": "NUDELN MIT SAUCE",
+                "description": "Freshly made noodles and homemade sauce.",
+                "price": 6,
+                "images": [
+                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                ],
+                "isSpicy": false,
+                "isVegetarian": true
+              },
+              {
+                "id": "vegan_starter_item_2",
+                "name": "Cucumber Salad",
+                "german_name": "GURKENSALA",
+                "description": "Crispy cucumbers and homemade sauce.",
+                "price": 7,
+                "images": [
+                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                ],
+                "isSpicy": false,
+                "isVegetarian": true
+              },
+              {
+                "id": "vegan_starter_item_3",
+                "name": "Uyghur Salad",
+                "german_name": "UIGURSALAT",
+                "description": "Onions, bell pepper, tomato, and homemade sauce.",
+                "price": 7,
+                "images": [
+                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                ],
+                "isSpicy": false,
+                "isVegetarian": true
+              }
+            ]
+          }
+        ]
+      }
+    ],
 
 
     contactUsTitle: "Contact Us",
@@ -2020,559 +2060,559 @@ export const translations = {
 
     // menu text
 
-    
-  
-  "RestaurantMenuText": "МЕНЮ УЙГУРСКОГО РЕСТОРАНА «ТАРИМ»",
-  "menuCategories": {
-    "laghman": "Лагман (Лапша ручной работы)",
-    "rice_bowls": "Блюда из риса",
-    "noodles_with_soup": "Лапша с супом",
-    "chicken_dishes": "Блюда из курицы",
-    "main_courses": "Основные блюда",
-    "starters": "Закуски",
-    "vegan_starters": "Веганские закуски"
-  },
-  "categories": [
-    {
-      "id": "laghman",
-      "name": "1. Лагман / Лапша ручной работы",
-      "categoryImage": "/menu-items/Homemade-Laghman.jpg",
-      "sections": [
-        {
-          "id": "laghman-main",
-          "items": [
-            {
-              "id": "lag-item-1",
-              "name": "Шах-Лагман",
-              "russian_name": "ШАХ-ЛАГМАН",
-              "description": "Мясо на выбор, болгарский перец, пекинская капуста, грибы, лук и лапша ручной работы.",
-              "price": 20,
-              "images": [
-                "/menu-items/ShahLagman.jpeg"
-              ],
-              "isSpicy": false,
-              "isVegetarian": false
-            },
-            {
-              "id": "lag-item-2",
-              "name": "Лагман по-домашнему",
-              "russian_name": "ДОМАШНИЙ ЛАГМАН",
-              "description": "Мясо на выбор, болгарский перец, пекинская капуста, грибы, лук и лапша ручной работы.",
-              "price": 16,
-              "images": [
-                "/menu-items/Homemade-Laghman.jpeg"
-              ],
-              "isSpicy": false,
-              "isVegetarian": false
-            },
-            {
-              "id": "lag-item-3",
-              "name": "Лапша с овощами",
-              "russian_name": "ЛАПША С ОВОЩАМИ",
-              "description": "Мясо на выбор, болгарский перец, шпинат и лапша ручной работы.",
-              "price": 14,
-              "images": [
-                "/menu-items/Noodles-with-Vegetables.jpeg"
-              ],
-              "isSpicy": false,
-              "isVegetarian": false
-            },
-            {
-              "id": "lag-item-4",
-              "name": "Тохсун-Коримис",
-              "russian_name": "ТОХСУН-КОРИМИС",
-              "description": "Мясо на выбор, болгарский перец, лук, пекинская капуста и различные овощи с домашней лапшой.",
-              "price": 15,
-              "images": [
-                "/menu-items/qorulghan-laghman.jpeg"
-              ],
-              "isSpicy": true,
-              "isVegetarian": false
-            }
-          ]
-        },
-        {
-          "id": "laghman-main-1",
-          "items": [
-            {
-              "id": "lag-item-5",
-              "name": "Жареная лапша",
-              "russian_name": "ЖАРЕНАЯ ЛАПША",
-              "description": "Мясо на выбор, лук-порей, сушеный перец чили и болгарский перец.",
-              "price": 15,
-              "images": [
-                "/menu-items/Sliced-Noodles.jpeg"
-              ],
-              "isSpicy": false,
-              "isVegetarian": false
-            },
-            {
-              "id": "lag-item-6",
-              "name": "Марджан-Коримис",
-              "russian_name": "МАРДЖАН-КОРИМИС",
-              "description": "Нарезанная вручную лапша, мясо, пекинская капуста и болгарский перец.",
-              "price": 14.0,
-              "images": [
-                "/menu-items/beef-sliced-noodles.jpeg"
-              ],
-              "isSpicy": false,
-              "isVegetarian": false
-            },
-            {
-              "id": "lag-item-7",
-              "name": "Мампар",
-              "russian_name": "МАМПАР",
-              "description": "Мясо на выбор, болгарский перец, пекинская капуста и домашние кусочки лапши.",
-              "price": 15,
-              "images": [
-                "/menu-items/Sliced-Noodles.jpeg"
-              ],
-              "isSpicy": false,
-              "isVegetarian": false
-            }
-          ]
-        }
-      ]
+
+
+    "RestaurantMenuText": "МЕНЮ УЙГУРСКОГО РЕСТОРАНА «ТАРИМ»",
+    "menuCategories": {
+      "laghman": "Лагман (Лапша ручной работы)",
+      "rice_bowls": "Блюда из риса",
+      "noodles_with_soup": "Лапша с супом",
+      "chicken_dishes": "Блюда из курицы",
+      "main_courses": "Основные блюда",
+      "starters": "Закуски",
+      "vegan_starters": "Веганские закуски"
     },
-    {
-      "id": "rice_bowls",
-      "name": "2. Блюда из риса",
-      "categoryImage": "/beef.png",
-      "sections": [
-        {
-          "id": "rice-main",
-          "items": [
-            {
-              "id": "rice-item-1",
-              "name": "Плов",
-              "russian_name": "ПЛОВ",
-              "description": "Мясо, морковь, рис.",
-              "price": 15,
-              "images": [
-                "/menu-items/POLO.jpeg"
-              ],
-              "isSpicy": false,
-              "isVegetarian": false
-            },
-            {
-              "id": "rice-item-2",
-              "name": "Жареный рис с яйцами",
-              "russian_name": "ЖАРЕНЫЙ РИС С ЯЙЦАМИ",
-              "description": "Рис, яйца.",
-              "price": 10,
-              "images": [
-                "/menu-items/Fried-Beef-Stew.jpeg"
-              ],
-              "isSpicy": false,
-              "isVegetarian": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "noodles_with_soup",
-      "name": "3. Лапша с супом",
-      "categoryImage": "/beef.png",
-      "sections": [
-        {
-          "id": "",
-          "items": [
-            {
-              "id": "noodles-with-soup-item-1",
-              "name": "Рамен",
-              "russian_name": "РАМЕН",
-              "description": "Лапша, говяжий бульон.",
-              "price": 10,
-              "images": [
-                "/menu-items/POLO.jpeg"
-              ],
-              "isSpicy": true,
-              "isVegetarian": false
-            },
-            {
-              "id": "noodles-with-soup-item-2",
-              "name": "Хуншао Рамен",
-              "russian_name": "ХУНШАО РАМЕН",
-              "description": "Тушеная говядина, свежая лапша и говяжий бульон.",
-              "price": 14,
-              "images": [
-                "/menu-items/Fried-Beef-Stew.jpeg"
-              ],
-              "isSpicy": true,
-              "isVegetarian": false
-            },
-            {
-              "id": "noodles-with-soup-item-3",
-              "name": "Рисовая лапша с мясом",
-              "russian_name": "РИСОВАЯ ЛАПША С МЯСОМ",
-              "description": "Мясо на выбор, рисовая лапша, соус чили, сельдерей.",
-              "price": 14,
-              "images": [
-                "/menu-items/POLO.jpeg"
-              ],
-              "isSpicy": true,
-              "isVegetarian": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "chicken_dishes",
-      "name": "4. Блюда из курицы",
-      "categoryImage": "/beef.png",
-      "sections": [
-        {
-          "id": "chicken-dishes",
-          "items": [
-            {
-              "id": "chicken-dish-item-1",
-              "name": "Курица с картофелем (Дапанджи)",
-              "russian_name": "КУРИЦА С КАРТОФЕЛЕМ",
-              "description": "Курица, картофель, болгарский перец и чили с порцией лапши.",
-              "price": 45,
-              "images": [
-                "/menu-items/POLO.jpeg"
-              ],
-              "isSpicy": true,
-              "isVegetarian": false
-            },
-            {
-              "id": "chicken-dish-item-2",
-              "name": "Курица с чили",
-              "russian_name": "КУРИЦА С ЧИЛИ",
-              "description": "Курица, чили, чеснок и зеленый лук.",
-              "price": 40,
-              "images": [
-                "/menu-items/Fried-Beef-Stew.jpeg"
-              ],
-              "isSpicy": true,
-              "isVegetarian": false
-            },
-            {
-              "id": "chicken-dish-item-3",
-              "name": "Острая жареная курица",
-              "russian_name": "ОСТРАЯ ЖАРЕНАЯ КУРИЦА",
-              "description": "Курица, чили, кунжут.",
-              "price": 40,
-              "images": [
-                "/menu-items/POLO.jpeg"
-              ],
-              "isSpicy": true,
-              "isVegetarian": false
-            },
-            {
-              "id": "chicken-dish-item-4",
-              "name": "Курица с арахисом",
-              "russian_name": "ЖАРЕНАЯ КУРИЦА С АРАХИСОМ",
-              "description": "Курица, арахис.",
-              "price": 14,
-              "images": [
-                "/menu-items/Fried-Beef-Stew.jpeg"
-              ],
-              "isSpicy": true,
-              "isVegetarian": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "main_courses",
-      "name": "5. Основные блюда",
-      "categoryImage": "/menu-items/Beef-Stew-with-Potatoes.jpg",
-      "sections": [
-        {
-          "id": "main-courses",
-          "items": [
-            {
-              "id": "main-course-item-1",
-              "name": "Жареный шпинат с яйцом",
-              "russian_name": "ЖАРЕНЫЙ ШПИНАТ С ЯЙЦОМ",
-              "description": "Шпинат, яйца.",
-              "price": 10,
-              "images": [
-                "/menu-items/Beef-Stew-with-Potatoes.jpeg"
-              ],
-              "isSpicy": false,
-              "isVegetarian": false
-            },
-            {
-              "id": "main-course-item-2",
-              "name": "Кукуруза с овощами",
-              "russian_name": "КУКУРУЗА С ОВОЩАМИ",
-              "description": "Кукуруза, болгарский перец, лук.",
-              "price": 10,
-              "images": [
-                "/menu-items/Beef-Stew-with-Potatoes.jpeg"
-              ],
-              "isSpicy": false,
-              "isVegetarian": true
-            },
-            {
-              "id": "main-course-item-3",
-              "name": "Жареный баклажан",
-              "russian_name": "ЖАРЕНЫЙ БАКЛАЖАН",
-              "description": "Баклажан, болгарский перец, помидор.",
-              "price": 12,
-              "images": [
-                "/menu-items/Beef-Stew-with-Potatoes.jpeg"
-              ],
-              "isSpicy": true,
-              "isVegetarian": true
-            },
-            {
-              "id": "main-course-item-5",
-              "name": "Жареный чесночный стебель с мясом",
-              "russian_name": "ЖАРЕНЫЙ ЧЕСНОЧНЫЙ СТЕБЕЛЬ",
-              "description": "Чесночный стебель, мясо.",
-              "price": 16,
-              "images": [
-                "/menu-items/Beef-Stew-with-Potatoes.jpeg"
-              ],
-              "isSpicy": false,
-              "isVegetarian": false
-            }
-          ]
-        },
-        {
-          "id": "main-courses-1",
-          "items": [
-            {
-              "id": "main-course-item-5",
-              "name": "Мала Тофу",
-              "russian_name": "МАЛА ТОФУ",
-              "description": "Тофу, болгарский перец.",
-              "price": 14,
-              "images": [
-                "/menu-items/Beef-Stew-with-Potatoes.jpeg"
-              ],
-              "isSpicy": true,
-              "isVegetarian": true
-            },
-            {
-              "id": "main-course-item-6",
-              "name": "Жареный тофу по-домашнему",
-              "russian_name": "ЖАРЕНЫЙ ТОФУ ПО-ДОМАШНЕМУ",
-              "description": "Тофу, болгарский перец, грибы.",
-              "price": 14,
-              "images": [
-                "/menu-items/Beef-Stew-with-Potatoes.jpeg"
-              ],
-              "isSpicy": false,
-              "isVegetarian": true
-            },
-            {
-              "id": "main-course-item-7",
-              "name": "Жареная брокколи",
-              "russian_name": "ЖАРЕНАЯ БРОККОЛИ",
-              "description": "Брокколи, болгарский перец.",
-              "price": 14,
-              "images": [
-                "/menu-items/Beef-Stew-with-Potatoes.jpeg"
-              ],
-              "isSpicy": false,
-              "isVegetarian": true
-            },
-            {
-              "id": "main-course-item-8",
-              "name": "Жареный цукини",
-              "russian_name": "ЖАРЕНЫЙ ЦУКИНИ",
-              "description": "Цукини (тыква), болгарский перец.",
-              "price": 12,
-              "images": [
-                "/menu-items/Beef-Stew-with-Potatoes.jpeg"
-              ],
-              "isSpicy": false,
-              "isVegetarian": true
-            }
-          ]
-        },
-        {
-          "id": "main-courses-2",
-          "items": [
-            {
-              "id": "main-course-item-9",
-              "name": "Жареный говяжий рубец",
-              "russian_name": "ЖАРЕНЫЙ ГОВЯЖИЙ РУБЕЦ",
-              "description": "Говяжий рубец, болгарский перец.",
-              "price": 16,
-              "images": [
-                "/menu-items/Beef-Stew-with-Potatoes.jpeg"
-              ],
-              "isSpicy": true,
-              "isVegetarian": false
-            },
-            {
-              "id": "main-course-item-10",
-              "name": "Жареные грибы с мясом",
-              "russian_name": "ЖАРЕНЫЕ ГРИБЫ С МЯСОМ",
-              "description": "Грибы, мясо, болгарский перец.",
-              "price": 16,
-              "images": [
-                "/menu-items/Beef-Stew-with-Potatoes.jpeg"
-              ],
-              "isSpicy": false,
-              "isVegetarian": false
-            },
-            {
-              "id": "main-course-item-11",
-              "name": "Жареный говяжий рубец с овощами",
-              "russian_name": "ЖАРЕНЫЙ ГОВЯЖИЙ РУБЕЦ С ОВОЩАМИ",
-              "description": "Говяжье филе, болгарский перец, грибы, огурец, морковь.",
-              "price": 16,
-              "images": [
-                "/menu-items/Beef-Stew-with-Potatoes.jpeg"
-              ],
-              "isSpicy": false,
-              "isVegetarian": false
-            },
-            {
-              "id": "main-course-item-12",
-              "name": "Тухум-Шохла",
-              "russian_name": "ТУХУМ-ШОХЛА",
-              "description": "Яйца, помидоры, болгарский перец.",
-              "price": 10,
-              "images": [
-                "/menu-items/Beef-Stew-with-Potatoes.jpeg"
-              ],
-              "isSpicy": false,
-              "isVegetarian": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "starters",
-      "name": "6. Закуски",
-      "categoryImage": "/menu-items/Beef-Stew-with-Potatoes.jpg",
-      "sections": [
-        {
-          "id": "starter-section-1",
-          "items": [
-            {
-              "id": "starter-item-1",
-              "name": "Манты/Паоцзы",
-              "russian_name": "МАНТЫ / ПАОЦЗЫ",
-              "description": "Говядина, лук и пекинская капуста.",
-              "price": 7,
-              "images": [
-                "/menu-items/Beef-Stew-with-Potatoes.jpeg"
-              ],
-              "isSpicy": false,
-              "isVegetarian": false
-            },
-            {
-              "id": "starter-item-2",
-              "name": "Самса",
-              "russian_name": "САМСА",
-              "description": "Говядина, лук и кунжут.",
-              "price": 3,
-              "additionPrice": "шт.",
-              "images": [
-                "/menu-items/Beef-Stew-with-Potatoes.jpeg"
-              ],
-              "isSpicy": false,
-              "isVegetarian": false
-            },
-            {
-              "id": "starter-item-3",
-              "name": "Шашлык из баранины",
-              "russian_name": "ШАШЛЫК ИЗ БАРАНИНЫ",
-              "description": "Баранина.",
-              "price": 5,
-              "additionPrice": "за штуку",
-              "images": [
-                "/menu-items/Beef-Stew-with-Potatoes.jpeg"
-              ],
-              "isSpicy": false,
-              "isVegetarian": false
-            },
-            {
-              "id": "starter-item-4",
-              "name": "Каре баранины",
-              "russian_name": "КАРЕ БАРАНИНЫ",
-              "description": "Жареное каре баранины.",
-              "price": 7,
-              "images": [
-                "/menu-items/Beef-Stew-with-Potatoes.jpeg"
-              ],
-              "isSpicy": false,
-              "isVegetarian": false
-            }
-          ]
-        },
-        {
-          "id": "starter-section-2",
-          "items": [
-            {
-              "id": "starter-item-5",
-              "name": "Салат из говядины",
-              "russian_name": "САЛАТ ИЗ ГОВЯДИНЫ",
-              "description": "Говядина и домашний соус.",
-              
-              "price": 13,
-              "images": [
-                "/menu-items/Beef-Stew-with-Potatoes.jpeg"
-              ],
-              "isSpicy": true,
-              "isVegetarian": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "vegan_starters",
-      "name": "Веганские закуски",
-      "categoryImage": "/menu-items/Beef-Stew-with-Potatoes.jpg",
-      "sections": [
-        {
-          "id": "vegan_starter_section_1",
-          "items": [
-            {
-              "id": "vegan_starter_item_1",
-              "name": "Лапша с соусом",
-              "russian_name": "ЛАПША С СОУСОМ",
-              "description": "Свежеприготовленная лапша и домашний соус.",
-              "price": 6,
-              "images": [
-                "/menu-items/Beef-Stew-with-Potatoes.jpeg"
-              ],
-              "isSpicy": false,
-              "isVegetarian": true
-            },
-            {
-              "id": "vegan_starter_item_2",
-              "name": "Салат из огурцов",
-              "russian_name": "САЛАТ ИЗ ОГУРЦОВ",
-              "description": "Хрустящие огурцы и домашний соус.",
-              "price": 7,
-              "images": [
-                "/menu-items/Beef-Stew-with-Potatoes.jpeg"
-              ],
-              "isSpicy": false,
-              "isVegetarian": true
-            },
-            {
-              "id": "vegan_starter_item_3",
-              "name": "Уйгурский салат",
-              "russian_name": "УЙГУРСКИЙ САЛАТ",
-              "description": "Лук, болгарский перец, помидор и домашний соус.",
-              "price": 7,
-              "images": [
-                "/menu-items/Beef-Stew-with-Potatoes.jpeg"
-              ],
-              "isSpicy": false,
-              "isVegetarian": true
-            }
-          ]
-        }
-      ]
-    }
-  ],
+    "categories": [
+      {
+        "id": "laghman",
+        "name": "1. Лагман / Лапша ручной работы",
+        "categoryImage": "/menu-items/Homemade-Laghman.jpg",
+        "sections": [
+          {
+            "id": "laghman-main",
+            "items": [
+              {
+                "id": "lag-item-1",
+                "name": "Шах-Лагман",
+                "russian_name": "ШАХ-ЛАГМАН",
+                "description": "Мясо на выбор, болгарский перец, пекинская капуста, грибы, лук и лапша ручной работы.",
+                "price": 20,
+                "images": [
+                  "/menu-items/ShahLagman.jpeg"
+                ],
+                "isSpicy": false,
+                "isVegetarian": false
+              },
+              {
+                "id": "lag-item-2",
+                "name": "Лагман по-домашнему",
+                "russian_name": "ДОМАШНИЙ ЛАГМАН",
+                "description": "Мясо на выбор, болгарский перец, пекинская капуста, грибы, лук и лапша ручной работы.",
+                "price": 16,
+                "images": [
+                  "/menu-items/Homemade-Laghman.jpeg"
+                ],
+                "isSpicy": false,
+                "isVegetarian": false
+              },
+              {
+                "id": "lag-item-3",
+                "name": "Лапша с овощами",
+                "russian_name": "ЛАПША С ОВОЩАМИ",
+                "description": "Мясо на выбор, болгарский перец, шпинат и лапша ручной работы.",
+                "price": 14,
+                "images": [
+                  "/menu-items/Noodles-with-Vegetables.jpeg"
+                ],
+                "isSpicy": false,
+                "isVegetarian": false
+              },
+              {
+                "id": "lag-item-4",
+                "name": "Тохсун-Коримис",
+                "russian_name": "ТОХСУН-КОРИМИС",
+                "description": "Мясо на выбор, болгарский перец, лук, пекинская капуста и различные овощи с домашней лапшой.",
+                "price": 15,
+                "images": [
+                  "/menu-items/qorulghan-laghman.jpeg"
+                ],
+                "isSpicy": true,
+                "isVegetarian": false
+              }
+            ]
+          },
+          {
+            "id": "laghman-main-1",
+            "items": [
+              {
+                "id": "lag-item-5",
+                "name": "Жареная лапша",
+                "russian_name": "ЖАРЕНАЯ ЛАПША",
+                "description": "Мясо на выбор, лук-порей, сушеный перец чили и болгарский перец.",
+                "price": 15,
+                "images": [
+                  "/menu-items/Sliced-Noodles.jpeg"
+                ],
+                "isSpicy": false,
+                "isVegetarian": false
+              },
+              {
+                "id": "lag-item-6",
+                "name": "Марджан-Коримис",
+                "russian_name": "МАРДЖАН-КОРИМИС",
+                "description": "Нарезанная вручную лапша, мясо, пекинская капуста и болгарский перец.",
+                "price": 14.0,
+                "images": [
+                  "/menu-items/beef-sliced-noodles.jpeg"
+                ],
+                "isSpicy": false,
+                "isVegetarian": false
+              },
+              {
+                "id": "lag-item-7",
+                "name": "Мампар",
+                "russian_name": "МАМПАР",
+                "description": "Мясо на выбор, болгарский перец, пекинская капуста и домашние кусочки лапши.",
+                "price": 15,
+                "images": [
+                  "/menu-items/Sliced-Noodles.jpeg"
+                ],
+                "isSpicy": false,
+                "isVegetarian": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "rice_bowls",
+        "name": "2. Блюда из риса",
+        "categoryImage": "/beef.png",
+        "sections": [
+          {
+            "id": "rice-main",
+            "items": [
+              {
+                "id": "rice-item-1",
+                "name": "Плов",
+                "russian_name": "ПЛОВ",
+                "description": "Мясо, морковь, рис.",
+                "price": 15,
+                "images": [
+                  "/menu-items/POLO.jpeg"
+                ],
+                "isSpicy": false,
+                "isVegetarian": false
+              },
+              {
+                "id": "rice-item-2",
+                "name": "Жареный рис с яйцами",
+                "russian_name": "ЖАРЕНЫЙ РИС С ЯЙЦАМИ",
+                "description": "Рис, яйца.",
+                "price": 10,
+                "images": [
+                  "/menu-items/Fried-Beef-Stew.jpeg"
+                ],
+                "isSpicy": false,
+                "isVegetarian": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "noodles_with_soup",
+        "name": "3. Лапша с супом",
+        "categoryImage": "/beef.png",
+        "sections": [
+          {
+            "id": "",
+            "items": [
+              {
+                "id": "noodles-with-soup-item-1",
+                "name": "Рамен",
+                "russian_name": "РАМЕН",
+                "description": "Лапша, говяжий бульон.",
+                "price": 10,
+                "images": [
+                  "/menu-items/POLO.jpeg"
+                ],
+                "isSpicy": true,
+                "isVegetarian": false
+              },
+              {
+                "id": "noodles-with-soup-item-2",
+                "name": "Хуншао Рамен",
+                "russian_name": "ХУНШАО РАМЕН",
+                "description": "Тушеная говядина, свежая лапша и говяжий бульон.",
+                "price": 14,
+                "images": [
+                  "/menu-items/Fried-Beef-Stew.jpeg"
+                ],
+                "isSpicy": true,
+                "isVegetarian": false
+              },
+              {
+                "id": "noodles-with-soup-item-3",
+                "name": "Рисовая лапша с мясом",
+                "russian_name": "РИСОВАЯ ЛАПША С МЯСОМ",
+                "description": "Мясо на выбор, рисовая лапша, соус чили, сельдерей.",
+                "price": 14,
+                "images": [
+                  "/menu-items/POLO.jpeg"
+                ],
+                "isSpicy": true,
+                "isVegetarian": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "chicken_dishes",
+        "name": "4. Блюда из курицы",
+        "categoryImage": "/beef.png",
+        "sections": [
+          {
+            "id": "chicken-dishes",
+            "items": [
+              {
+                "id": "chicken-dish-item-1",
+                "name": "Курица с картофелем (Дапанджи)",
+                "russian_name": "КУРИЦА С КАРТОФЕЛЕМ",
+                "description": "Курица, картофель, болгарский перец и чили с порцией лапши.",
+                "price": 45,
+                "images": [
+                  "/menu-items/POLO.jpeg"
+                ],
+                "isSpicy": true,
+                "isVegetarian": false
+              },
+              {
+                "id": "chicken-dish-item-2",
+                "name": "Курица с чили",
+                "russian_name": "КУРИЦА С ЧИЛИ",
+                "description": "Курица, чили, чеснок и зеленый лук.",
+                "price": 40,
+                "images": [
+                  "/menu-items/Fried-Beef-Stew.jpeg"
+                ],
+                "isSpicy": true,
+                "isVegetarian": false
+              },
+              {
+                "id": "chicken-dish-item-3",
+                "name": "Острая жареная курица",
+                "russian_name": "ОСТРАЯ ЖАРЕНАЯ КУРИЦА",
+                "description": "Курица, чили, кунжут.",
+                "price": 40,
+                "images": [
+                  "/menu-items/POLO.jpeg"
+                ],
+                "isSpicy": true,
+                "isVegetarian": false
+              },
+              {
+                "id": "chicken-dish-item-4",
+                "name": "Курица с арахисом",
+                "russian_name": "ЖАРЕНАЯ КУРИЦА С АРАХИСОМ",
+                "description": "Курица, арахис.",
+                "price": 14,
+                "images": [
+                  "/menu-items/Fried-Beef-Stew.jpeg"
+                ],
+                "isSpicy": true,
+                "isVegetarian": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "main_courses",
+        "name": "5. Основные блюда",
+        "categoryImage": "/menu-items/Beef-Stew-with-Potatoes.jpg",
+        "sections": [
+          {
+            "id": "main-courses",
+            "items": [
+              {
+                "id": "main-course-item-1",
+                "name": "Жареный шпинат с яйцом",
+                "russian_name": "ЖАРЕНЫЙ ШПИНАТ С ЯЙЦОМ",
+                "description": "Шпинат, яйца.",
+                "price": 10,
+                "images": [
+                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                ],
+                "isSpicy": false,
+                "isVegetarian": false
+              },
+              {
+                "id": "main-course-item-2",
+                "name": "Кукуруза с овощами",
+                "russian_name": "КУКУРУЗА С ОВОЩАМИ",
+                "description": "Кукуруза, болгарский перец, лук.",
+                "price": 10,
+                "images": [
+                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                ],
+                "isSpicy": false,
+                "isVegetarian": true
+              },
+              {
+                "id": "main-course-item-3",
+                "name": "Жареный баклажан",
+                "russian_name": "ЖАРЕНЫЙ БАКЛАЖАН",
+                "description": "Баклажан, болгарский перец, помидор.",
+                "price": 12,
+                "images": [
+                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                ],
+                "isSpicy": true,
+                "isVegetarian": true
+              },
+              {
+                "id": "main-course-item-5",
+                "name": "Жареный чесночный стебель с мясом",
+                "russian_name": "ЖАРЕНЫЙ ЧЕСНОЧНЫЙ СТЕБЕЛЬ",
+                "description": "Чесночный стебель, мясо.",
+                "price": 16,
+                "images": [
+                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                ],
+                "isSpicy": false,
+                "isVegetarian": false
+              }
+            ]
+          },
+          {
+            "id": "main-courses-1",
+            "items": [
+              {
+                "id": "main-course-item-5",
+                "name": "Мала Тофу",
+                "russian_name": "МАЛА ТОФУ",
+                "description": "Тофу, болгарский перец.",
+                "price": 14,
+                "images": [
+                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                ],
+                "isSpicy": true,
+                "isVegetarian": true
+              },
+              {
+                "id": "main-course-item-6",
+                "name": "Жареный тофу по-домашнему",
+                "russian_name": "ЖАРЕНЫЙ ТОФУ ПО-ДОМАШНЕМУ",
+                "description": "Тофу, болгарский перец, грибы.",
+                "price": 14,
+                "images": [
+                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                ],
+                "isSpicy": false,
+                "isVegetarian": true
+              },
+              {
+                "id": "main-course-item-7",
+                "name": "Жареная брокколи",
+                "russian_name": "ЖАРЕНАЯ БРОККОЛИ",
+                "description": "Брокколи, болгарский перец.",
+                "price": 14,
+                "images": [
+                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                ],
+                "isSpicy": false,
+                "isVegetarian": true
+              },
+              {
+                "id": "main-course-item-8",
+                "name": "Жареный цукини",
+                "russian_name": "ЖАРЕНЫЙ ЦУКИНИ",
+                "description": "Цукини (тыква), болгарский перец.",
+                "price": 12,
+                "images": [
+                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                ],
+                "isSpicy": false,
+                "isVegetarian": true
+              }
+            ]
+          },
+          {
+            "id": "main-courses-2",
+            "items": [
+              {
+                "id": "main-course-item-9",
+                "name": "Жареный говяжий рубец",
+                "russian_name": "ЖАРЕНЫЙ ГОВЯЖИЙ РУБЕЦ",
+                "description": "Говяжий рубец, болгарский перец.",
+                "price": 16,
+                "images": [
+                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                ],
+                "isSpicy": true,
+                "isVegetarian": false
+              },
+              {
+                "id": "main-course-item-10",
+                "name": "Жареные грибы с мясом",
+                "russian_name": "ЖАРЕНЫЕ ГРИБЫ С МЯСОМ",
+                "description": "Грибы, мясо, болгарский перец.",
+                "price": 16,
+                "images": [
+                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                ],
+                "isSpicy": false,
+                "isVegetarian": false
+              },
+              {
+                "id": "main-course-item-11",
+                "name": "Жареный говяжий рубец с овощами",
+                "russian_name": "ЖАРЕНЫЙ ГОВЯЖИЙ РУБЕЦ С ОВОЩАМИ",
+                "description": "Говяжье филе, болгарский перец, грибы, огурец, морковь.",
+                "price": 16,
+                "images": [
+                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                ],
+                "isSpicy": false,
+                "isVegetarian": false
+              },
+              {
+                "id": "main-course-item-12",
+                "name": "Тухум-Шохла",
+                "russian_name": "ТУХУМ-ШОХЛА",
+                "description": "Яйца, помидоры, болгарский перец.",
+                "price": 10,
+                "images": [
+                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                ],
+                "isSpicy": false,
+                "isVegetarian": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "starters",
+        "name": "6. Закуски",
+        "categoryImage": "/menu-items/Beef-Stew-with-Potatoes.jpg",
+        "sections": [
+          {
+            "id": "starter-section-1",
+            "items": [
+              {
+                "id": "starter-item-1",
+                "name": "Манты/Паоцзы",
+                "russian_name": "МАНТЫ / ПАОЦЗЫ",
+                "description": "Говядина, лук и пекинская капуста.",
+                "price": 7,
+                "images": [
+                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                ],
+                "isSpicy": false,
+                "isVegetarian": false
+              },
+              {
+                "id": "starter-item-2",
+                "name": "Самса",
+                "russian_name": "САМСА",
+                "description": "Говядина, лук и кунжут.",
+                "price": 3,
+                "additionPrice": "шт.",
+                "images": [
+                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                ],
+                "isSpicy": false,
+                "isVegetarian": false
+              },
+              {
+                "id": "starter-item-3",
+                "name": "Шашлык из баранины",
+                "russian_name": "ШАШЛЫК ИЗ БАРАНИНЫ",
+                "description": "Баранина.",
+                "price": 5,
+                "additionPrice": "за штуку",
+                "images": [
+                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                ],
+                "isSpicy": false,
+                "isVegetarian": false
+              },
+              {
+                "id": "starter-item-4",
+                "name": "Каре баранины",
+                "russian_name": "КАРЕ БАРАНИНЫ",
+                "description": "Жареное каре баранины.",
+                "price": 7,
+                "images": [
+                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                ],
+                "isSpicy": false,
+                "isVegetarian": false
+              }
+            ]
+          },
+          {
+            "id": "starter-section-2",
+            "items": [
+              {
+                "id": "starter-item-5",
+                "name": "Салат из говядины",
+                "russian_name": "САЛАТ ИЗ ГОВЯДИНЫ",
+                "description": "Говядина и домашний соус.",
+
+                "price": 13,
+                "images": [
+                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                ],
+                "isSpicy": true,
+                "isVegetarian": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "vegan_starters",
+        "name": "Веганские закуски",
+        "categoryImage": "/menu-items/Beef-Stew-with-Potatoes.jpg",
+        "sections": [
+          {
+            "id": "vegan_starter_section_1",
+            "items": [
+              {
+                "id": "vegan_starter_item_1",
+                "name": "Лапша с соусом",
+                "russian_name": "ЛАПША С СОУСОМ",
+                "description": "Свежеприготовленная лапша и домашний соус.",
+                "price": 6,
+                "images": [
+                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                ],
+                "isSpicy": false,
+                "isVegetarian": true
+              },
+              {
+                "id": "vegan_starter_item_2",
+                "name": "Салат из огурцов",
+                "russian_name": "САЛАТ ИЗ ОГУРЦОВ",
+                "description": "Хрустящие огурцы и домашний соус.",
+                "price": 7,
+                "images": [
+                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                ],
+                "isSpicy": false,
+                "isVegetarian": true
+              },
+              {
+                "id": "vegan_starter_item_3",
+                "name": "Уйгурский салат",
+                "russian_name": "УЙГУРСКИЙ САЛАТ",
+                "description": "Лук, болгарский перец, помидор и домашний соус.",
+                "price": 7,
+                "images": [
+                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                ],
+                "isSpicy": false,
+                "isVegetarian": true
+              }
+            ]
+          }
+        ]
+      }
+    ],
 
     contactUsTitle: "Связаться с нами",
     contactUsSubTitle: "Суть традиционных вкусов",
