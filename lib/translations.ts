@@ -135,7 +135,7 @@ export const translations = {
                 "description": "FleischnachAuswahl,Paprika,SpinatundHandgezogeneNudeln.",
                 "priceL": 14,
                 "images": [
-                  "/menu-items/Noodles-with-Vegetables.jpeg"
+                  "/menu-items/Item30.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -256,7 +256,7 @@ export const translations = {
                 "description": "Handgezogene Nudeln in einer kräftigen Brühe mit geschmortem Rindfleisch.",
                 "priceL": 14,
                 "images": [
-                  "/menu-items/Item25.jpg"
+                  "/menu-items/Item10.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": false
@@ -279,7 +279,7 @@ export const translations = {
                 "description": "FleischnachAuswahl,Reisnudeln,Chili-Sauce,Sellerie.",
                 "priceL": 14,
                 "images": [
-                  "/menu-items/POLO.jpeg"
+                  "/menu-items/Item31.jpeg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": false
@@ -815,7 +815,7 @@ export const translations = {
                 "description": "Meat of choice, bell pepper, spinach, and hand-pulled noodles.",
                 "priceL": 14,
                 "images": [
-                  "/menu-items/Noodles-with-Vegetables.jpg"
+                  "/menu-items/Item30.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -961,7 +961,7 @@ export const translations = {
                 "description": "Meat of choice, rice noodles, chili sauce, celery.",
                 "priceL": 14,
                 "images": [
-                  "/menu-items/POLO.jpeg"
+                  "/menu-items/Item31.jpeg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": false
@@ -1324,7 +1324,7 @@ export const translations = {
                   "/menu-items/Item27.jpg"
                 ],
                 "isSpicy": false,
-                "isVegetarian": true
+                "isVegetarian": false
               }
             ]
           }
@@ -1450,7 +1450,7 @@ export const translations = {
                 "id": "lag-item-1",
                 "name": "塔里木皇家拉面",
                 "german_name": "SCHAH LÄGHMEN",
-                "description": "自选肉类、灯笼椒、大白菜、蘑菇、洋葱和手工拉面。",
+                "description": "羊肉、灯笼椒、大白菜、蘑菇、洋葱和手工拉面。",
                 "priceL": 20,
                 "images": [
                   "/menu-items/Item7.jpg"
@@ -1461,7 +1461,7 @@ export const translations = {
               {
                 "id": "lag-item-2",
                 "name": "过油肉拌面",
-                "description": "精选肉类，甜椒，大白菜，蘑菇，洋葱，手拉面。",
+                "description": "羊肉，甜椒，大白菜，蘑菇，洋葱，手拉面。",
                 "priceL": 16,
                 "images": [
                   "/menu-items/Homemade-Laghman.jpeg"
@@ -1473,24 +1473,48 @@ export const translations = {
                 "id": "lag-item-3",
                 "name": "家常拉面",
                 "german_name": "NUDELN MIT GEMÜSE",
-                "description": "自选肉类、灯笼椒、菠菜和手工拉面。",
+                "description": "羊肉、灯笼椒、菠菜和手工拉面。",
                 "priceL": 14,
                 "images": [
-                  "/menu-items/Noodles-with-Vegetables.jpeg"
+                  "/menu-items/Item30.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
               },
-              {
-                "id": "lag-item-4",
-                "name": "鱼香肉丝",
-                "german_name": "鱼香肉丝",
-                "description": "甜酸微辣的手撕肉。",
-                "priceL": 18,
+              // {
+              //   "id": "lag-item-5",
+              //   "name": "炒面",
+              //   "german_name": "Gebratene Nudeln",
+              //   "description": "自选肉类、韭菜、干辣椒和灯笼椒。",
+              //   "priceL": 15,
+              //   "images": [
+              //     "/menu-items/-Noodles.jpeg"
+              //   ],
+              //   "isSpicy": false,
+              //   "isVegetarian": false
+              // },
+              // {
+              //   "id": "lag-item-4",
+              //   "name": "鱼香肉丝",
+              //   "german_name": "鱼香肉丝",
+              //   "description": "甜酸微辣的手撕肉。",
+              //   "priceL": 18,
+              //   "images": [
+              //     "/menu-items/Item20.jpg"
+              //   ],
+              //   "isSpicy": true,
+              //   "isVegetarian": false
+              // }
+               {
+                "id": "lag-item-5",
+                "name": "丁丁炒面",
+                "german_name": "MARJAN KORIMIS",
+                "description": "手工切面块、牛肉、灯笼椒。",
+                "priceL": 14.0,
                 "images": [
-                  "/menu-items/Item20.jpg"
+                  "/menu-items/beef-sliced-noodles.jpeg"
                 ],
-                "isSpicy": true,
+                "isSpicy": false,
                 "isVegetarian": false
               }
             ]
@@ -1498,32 +1522,32 @@ export const translations = {
           {
             "id": "laghman-main-1",
             "items": [
+              // {
+              //   "id": "lag-item-5",
+              //   "name": "炒面",
+              //   "german_name": "Gebratene Nudeln",
+              //   "description": "自选肉类、韭菜、干辣椒和灯笼椒。",
+              //   "priceL": 15,
+              //   "images": [
+              //     "/menu-items/-Noodles.jpeg"
+              //   ],
+              //   "isSpicy": false,
+              //   "isVegetarian": false
+              // },
               {
                 "id": "lag-item-5",
-                "name": "炒面",
-                "german_name": "Gebratene Nudeln",
-                "description": "自选肉类、韭菜、干辣椒和灯笼椒。",
-                "priceL": 15,
+                "name": "玛尔江拌面",
+                "german_name": "MARJAN KORIMIS",
+                "description": "手工切面块、肉、大白菜和灯笼椒。",
+                "priceL": 14.0,
                 "images": [
-                  "/menu-items/-Noodles.jpeg"
+                  "/menu-items/Items=32.jpeg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
               },
               {
                 "id": "lag-item-6",
-                "name": "玛尔江拌面",
-                "german_name": "MARJAN KORIMIS",
-                "description": "手工切面块、肉、大白菜和灯笼椒。",
-                "priceL": 14.0,
-                "images": [
-                  "/menu-items/beef-sliced-noodles.jpeg"
-                ],
-                "isSpicy": false,
-                "isVegetarian": false
-              },
-              {
-                "id": "lag-item-7",
                 "name": "面片汤",
                 "german_name": "Mamper",
                 "description": "自选肉类、灯笼椒、大白菜和家常面片。",
@@ -1620,7 +1644,7 @@ export const translations = {
                 "description": "自选肉类、米粉、辣椒酱、芹菜。",
                 "priceL": 14,
                 "images": [
-                  "/menu-items/POLO.jpeg"
+                  "/menu-items/Item31.jpeg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": false
@@ -2138,7 +2162,7 @@ export const translations = {
                 "description": "Мясо на выбор, болгарский перец, шпинат и лапша ручной работы.",
                 "priceL": 14,
                 "images": [
-                  "/menu-items/Noodles-with-Vegetables.jpeg"
+                  "/menu-items/Item30.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -2283,7 +2307,7 @@ export const translations = {
                 "description": "Мясо на выбор, рисовая лапша, соус чили, сельдерей.",
                 "priceL": 14,
                 "images": [
-                  "/menu-items/POLO.jpeg"
+                  "/menu-items/Item31.jpeg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": false
