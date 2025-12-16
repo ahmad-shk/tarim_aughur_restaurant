@@ -816,7 +816,7 @@ export const translations = {
                 "description": "Meat of choice, bell pepper, spinach, and hand-pulled noodles.",
                 "priceL": 14,
                 "images": [
-                  "/menu-items/Noodles-with"
+                  "/menu-items/Noodles-with-Vegetables.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -1073,7 +1073,7 @@ export const translations = {
                 "description": "Braised eggplant in a savory sauce.",
                 "priceL": 12,
                 "images": [
-                  "/menu-items/item2.jpg"
+                  "/menu-items/Item2.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": true
