@@ -91,7 +91,7 @@ export const translations = {
       "chicken_dishes": "Hühnchengerichte/ChickenDishes",
       "main_courses": "Hauptgerichte/MainCourses",
       "starters": "Vorspeisen/Starters",
-      "vegan_starters": "VegetarischeVorspeisen/VeganStarters"
+      "vegan_starters": "Vegetarische Gerichte"
 
 
     },
@@ -595,7 +595,7 @@ export const translations = {
       },
       {
         "id": "vegan_starters",
-        "name": "Vegetarische Vorspeisen/Vegan Starters",
+        "name": "Vegetarische Gerichte",
         "categoryImage": "/menu-items/Cucumber-Salad.jpg",
         "sections": [
           {
@@ -757,7 +757,7 @@ export const translations = {
       "chicken_dishes": "Chicken Dishes",
       "main_courses": "Main Courses",
       "starters": "Starters",
-      "vegan_starters": "Vegan Starters"
+      "vegan_starters": "Vegetarian dishes"
     },
     "categories": [
       {
@@ -1258,7 +1258,7 @@ export const translations = {
       },
       {
         "id": "vegan_starters",
-        "name": "Vegan Starters",
+        "name": "Vegetarian dishes",
         "categoryImage": "/menu-items/Cucumber-Salad.jpg",
         "sections": [
           {
@@ -1417,7 +1417,7 @@ export const translations = {
       "chicken_dishes": "鸡肉菜肴",
       "main_courses": "主菜",
       "starters": "开胃菜",
-      "vegan_starters": "素食开胃菜"
+      "vegan_starters": "素食菜肴"
     },
     "categories": [
       {
@@ -1918,7 +1918,7 @@ export const translations = {
       },
       {
         "id": "vegan_starters",
-        "name": "素食开胃菜",
+        "name": "素食菜肴",
         "categoryImage": "/menu-items/Cucumber-Salad.jpg",
         "sections": [
           {
@@ -2079,7 +2079,7 @@ export const translations = {
       "chicken_dishes": "Блюда из курицы",
       "main_courses": "Основные блюда",
       "starters": "Закуски",
-      "vegan_starters": "Веганские закуски"
+      "vegan_starters": "Вегетарианские блюда"
     },
     "categories": [
       {
@@ -2581,7 +2581,7 @@ export const translations = {
       },
       {
         "id": "vegan_starters",
-        "name": "Веганские закуски",
+        "name": "Вегетарианские блюда",
         "categoryImage": "/menu-items/Cucumber-Salad.jpg",
         "sections": [
           {
