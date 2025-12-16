@@ -907,6 +907,7 @@ export const translations = {
                   "/menu-items/item3.jpg"
                 ],
                 "isSpicy": false,
+
                 "isVegetarian": false
               }
             ]
@@ -2885,3 +2886,5 @@ export const getTranslation = (
   const value = translations[lang]?.[key] ?? translations.en?.[key];
   return typeof value === "string" ? value : "";
 };
+// Example usage:
+// const titleInRussian = getTranslation("ru", "cultureMeetsTitle");
