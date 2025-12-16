@@ -11,7 +11,9 @@ interface MenuItem {
   id: string
   name: string
   description: string
-  price: number
+  priceL: number
+  priceM?: number
+  priceS?: number
   unit?: string
   images: string[]
   isSpicy: boolean
@@ -112,9 +114,21 @@ export default function MenuGroup() {
                           </div>
                         </div>
 
-                        <span className="aboreto-text text-xl md:text-3xl text-black dark:text-color-secondary block text-end">
-                        €{item.price}{item.unit ? ` / ${item.unit}` : ""}
-                        </span>
+                        <div className="flex flex-col items-end">
+                          {/* Prices */}
+                          <span className="aboreto-text text-xl md:text-3xl text-black dark:text-color-secondary text-end">
+                            {item?.priceL ? `€${item.priceL}` : ""}
+                            {item?.priceM ? ` / €${item.priceM}` : ""}
+                            {item?.priceS ? ` / €${item.priceS}` : ""}
+                          </span>
+
+                          {/* Sizes - next line */}
+                          <span className="text-sm text-white text-end">
+                            {item?.priceM ? `(L)` : ""}
+                            {item?.priceM ? ` / (M)` : ""}
+                            {item?.priceS ? ` / (S)` : ""}
+                          </span>
+                        </div>
                       </li>
                     ))}
                   </ul>
@@ -167,9 +181,21 @@ export default function MenuGroup() {
                   </p>
                 </div>
 
-                <span className="aboreto-text text-xl md:text-3xl lg:text-[55px] text-color-primary dark:text-color-secondary">
-                €{selectedItem.price}
-                </span>
+                 <div className="flex flex-col items-end">
+                          {/* Prices */}
+                          <span className="aboreto-text text-xl md:text-3xl text-black dark:text-color-secondary text-end">
+                            {selectedItem?.priceL ? `€${selectedItem.priceL}` : ""}
+                            {selectedItem?.priceM ? ` / €${selectedItem.priceM}` : ""}
+                            {selectedItem?.priceS ? ` / €${selectedItem.priceS}` : ""}
+                          </span>
+
+                          {/* Sizes - next line */}
+                          <span className="text-sm text-white text-end">
+                            {selectedItem?.priceM ? `(L)` : ""}
+                            {selectedItem?.priceM ? ` / (M)` : ""}
+                            {selectedItem?.priceS ? ` / (S)` : ""}
+                          </span>
+                        </div>
               </div>
 
               {/* Image Gallery */}
@@ -275,9 +301,21 @@ export default function MenuGroup() {
                         </div>
                       </div>
 
-                      <span className="aboreto-text text-xl md:text-3xl text-black dark:text-color-secondary block text-end">
-                        ${item.price}
-                      </span>
+                      <div className="flex flex-col items-end">
+                          {/* Prices */}
+                          <span className="aboreto-text text-xl md:text-3xl text-black dark:text-color-secondary text-end">
+                            {item?.priceL ? `€${item.priceL}` : ""}
+                            {item?.priceM ? ` / €${item.priceM}` : ""}
+                            {item?.priceS ? ` / €${item.priceS}` : ""}
+                          </span>
+
+                          {/* Sizes - next line */}
+                          <span className="text-sm text-white text-end">
+                            {item?.priceM ? `(L)` : ""}
+                            {item?.priceM ? ` / (M)` : ""}
+                            {item?.priceS ? ` / (S)` : ""}
+                          </span>
+                      </div>
                     </li>
                   ))}
                 </ul>
