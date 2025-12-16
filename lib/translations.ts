@@ -442,7 +442,7 @@ export const translations = {
                 "description": "Brokkoli,Paprika.",
                 "priceL": 14,
                 "images": [
-                  "/menu-items/item15.jpg"
+                  "/menu-items/Item15.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": true
@@ -1124,7 +1124,7 @@ export const translations = {
                 "description": "Broccoli, bell pepper.",
                 "priceL": 14,
                 "images": [
-                  "/menu-items/item15.jpg"
+                  "/menu-items/Item15.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": true
