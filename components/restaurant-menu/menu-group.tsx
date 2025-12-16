@@ -120,6 +120,7 @@ export default function MenuGroup() {
                             {item?.priceL ? `€${item.priceL}` : ""}
                             {item?.priceM ? ` / €${item.priceM}` : ""}
                             {item?.priceS ? ` / €${item.priceS}` : ""}
+                            {item.unit ? ` / ${item.unit}` : ""}
                           </span>
 
                           {/* Sizes - next line */}

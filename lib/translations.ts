@@ -574,6 +574,23 @@ export const translations = {
             ]
           },
           {
+            "id": "starter-section-2",
+            "items": [
+              {
+                "id": "starter-item-5",
+                "name": "Lammspiesen",
+                "description": "Lamm.",
+                "priceL": 12,
+                "unit": "3 Stück",
+                "images": [
+                  "/menu-items/item28.jpg"
+                ],
+                "isSpicy": true,
+                "isVegetarian": false
+              }
+            ]
+          },
+          {
             "id": "starter-section-1",
             "items": [
               {
@@ -1217,7 +1234,7 @@ export const translations = {
                 "german_name": "LAMMSPIESEN",
                 "description": "Lamb meat.",
                 "priceL": 5,
-                "additionPrice": "per skewer",
+               "unit": "1 pieces",
                 "images": [
                   "/menu-items/item14.jpg"
                 ],
@@ -1229,6 +1246,7 @@ export const translations = {
                 "name": "Grilled lamb",
                 "description": "Roasted rack of lamb.",
                 "priceL": 7,
+                "unit": "3 pieces",
                 "images": [
                   "/menu-items/item26.jpg"
                 ],
@@ -1242,12 +1260,12 @@ export const translations = {
             "items": [
               {
                 "id": "starter-item-5",
-                "name": "Beef Salad",
-                "german_name": "RINDFLEISCHSALA",
-                "description": "Beef and homemade sauce.",
+                "name": "Lamb Skewers",
+                "description": "Lamb.",
                 "priceL": 13,
+                "unit": "3 pieces",
                 "images": [
-                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                  "/menu-items/item28.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": false
@@ -1877,7 +1895,7 @@ export const translations = {
                 "german_name": "LAMMSPIESEN",
                 "description": "羊肉。",
                 "priceL": 5,
-                "additionPrice": "串",
+                "unit": "1 pieces",
                 "images": [
                   "/menu-items/item14.jpg"
                 ],
@@ -1889,6 +1907,7 @@ export const translations = {
                 "name": "烤羊腰",
                 "description": "羊排。",
                 "priceL": 7,
+                "unit": "3 片",
                 "images": [
                   "/menu-items/item26.jpg"
                 ],
@@ -1902,12 +1921,12 @@ export const translations = {
             "items": [
               {
                 "id": "starter-item-5",
-                "name": "牛肉沙拉",
-                "german_name": "RINDFLEISCHSALA",
-                "description": "牛肉和家常酱汁。",
-                "priceL": 13,
+                "name": "羊肉串",
+                "description": "羊肉。",
+                "priceL": 12,
+                "unit": "3 片",
                 "images": [
-                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                  "/menu-items/item28.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": false
@@ -2539,7 +2558,7 @@ export const translations = {
                 "russian_name": "ШАШЛЫК ИЗ БАРАНИНЫ",
                 "description": "Баранина.",
                 "priceL": 5,
-                "additionPrice": "за штуку",
+                "unit": "1 штука",
                 "images": [
                   "/menu-items/item14.jpg"
                 ],
@@ -2551,6 +2570,7 @@ export const translations = {
                 "name": "Почки",
                 "description": "Корейка ягнёнка.",
                 "priceL": 7,
+                "unit": "за штуку",
                 "images": [
                   "/menu-items/item26.jpg"
                 ],
@@ -2564,13 +2584,12 @@ export const translations = {
             "items": [
               {
                 "id": "starter-item-5",
-                "name": "Салат из говядины",
-                "russian_name": "САЛАТ ИЗ ГОВЯДИНЫ",
-                "description": "Говядина и домашний соус.",
-
-                "priceL": 13,
+                "name": "Шашлык",
+                "description": "Баранина.",
+                "priceL": 12,
+                "unit": "за штуку",
                 "images": [
-                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
+                  "/menu-items/item28.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": false
