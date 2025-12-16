@@ -135,7 +135,7 @@ export const translations = {
                 "description": "FleischnachAuswahl,Paprika,SpinatundHandgezogeneNudeln.",
                 "priceL": 14,
                 "images": [
-                  "/menu-items/Noodles"
+                  "/menu-items/Noodles-with-Vegetables.jpeg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -208,11 +208,10 @@ export const translations = {
               {
                 "id": "rice-item-1",
                 "name": "Polo",
-                "german_name": "POLO",
                 "description": "Fleisch,Karotten,Reis",
                 "priceL": 15,
                 "images": [
-                  "/menu-items/POLO.jpeg"
+                  "/menu-items/Item29.jpeg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -888,12 +887,11 @@ export const translations = {
             "items": [
               {
                 "id": "rice-item-1",
-                "name": "Polo (Pilaf)",
-                "german_name": "POLO",
+                "name": "Polo ",
                 "description": "Meat, carrots, rice.",
                 "priceL": 15,
                 "images": [
-                  "/menu-items/POLO.jpeg"
+                  "/menu-items/Item29.jpeg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -1478,7 +1476,7 @@ export const translations = {
                 "description": "自选肉类、灯笼椒、菠菜和手工拉面。",
                 "priceL": 14,
                 "images": [
-                  "/menu-items/Noodles-with"
+                  "/menu-items/Noodles-with-Vegetables.jpeg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -1551,11 +1549,10 @@ export const translations = {
               {
                 "id": "rice-item-1",
                 "name": "抓饭",
-                "german_name": "POLO",
                 "description": "肉、胡萝卜、米饭。",
                 "priceL": 15,
                 "images": [
-                  "/menu-items/POLO.jpeg"
+                  "/menu-items/Item29.jpeg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -2141,7 +2138,7 @@ export const translations = {
                 "description": "Мясо на выбор, болгарский перец, шпинат и лапша ручной работы.",
                 "priceL": 14,
                 "images": [
-                  "/menu-items/Noodles-with"
+                  "/menu-items/Noodles-with-Vegetables.jpeg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -2218,7 +2215,7 @@ export const translations = {
                 "description": "Мясо, морковь, рис.",
                 "priceL": 15,
                 "images": [
-                  "/menu-items/POLO.jpeg"
+                  "/menu-items/Item29.jpeg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
