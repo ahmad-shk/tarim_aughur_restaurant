@@ -112,7 +112,7 @@ export const translations = {
                 "description": "FleischnachAuswahl,Paprika,Chinakohl,Pilzen,ZwiebelnundHandgezogenenNudel.",
                 "priceL": 20,
                 "images": [
-                  "/menu-items/item7.jpg"
+                  "/menu-items/Item7.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -147,7 +147,7 @@ export const translations = {
                 "description": "Süß-sauer und leicht scharfes zerkleinertes Fleisch.",
                 "priceL": 18,
                 "images": [
-                  "/menu-items/item20.jpg"
+                  "/menu-items/Item20.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": false
@@ -223,7 +223,7 @@ export const translations = {
                 "description": "Gebratener Reis mit Eiern, einfach und schmackhaft",
                 "priceL": 10,
                 "images": [
-                  "/menu-items/item3.jpg"
+                  "/menu-items/Item3.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -246,7 +246,7 @@ export const translations = {
                 "description": "Gebratene Reisnudeln mit Fleisch, Chilisauce und Sellerie.",
                 "priceL": 14,
                 "images": [
-                  "/menu-items/item25.jpg"
+                  "/menu-items/Item25.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": false
@@ -257,7 +257,7 @@ export const translations = {
                 "description": "Handgezogene Nudeln in einer kräftigen Brühe mit geschmortem Rindfleisch.",
                 "priceL": 14,
                 "images": [
-                  "/menu-items/item25.jpg"
+                  "/menu-items/Item25.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": false
@@ -268,7 +268,7 @@ export const translations = {
                 "description": "Klare Rinderbrühe mit zarten Rindfleischscheiben und Nudeln.",
                 "priceL": 10,
                 "images": [
-                  "/menu-items/item24.jpg"
+                  "/menu-items/Item24.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": false
@@ -306,7 +306,7 @@ export const translations = {
                 "priceM": 35,
                 "priceS": 15,
                 "images": [
-                  "/menu-items/item8.jpg"
+                  "/menu-items/Item8.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": false
@@ -318,7 +318,7 @@ export const translations = {
                 "description": "Knusprig gebratenes Hähnchen mit Chili und Gewürzen, ideal zum Teilen.",
                 "priceL": 40,
                 "images": [
-                  "/menu-items/item12.jpg"
+                  "/menu-items/Item12.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": false
@@ -342,7 +342,7 @@ export const translations = {
                 "description": "Gewürfeltes Hähnchen, mit Erdnüssen in einer mild scharfen Sauce gebraten.",
                 "priceL": 16,
                 "images": [
-                  "/menu-items/item9.jpg"
+                  "/menu-items/Item9.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": false
@@ -368,8 +368,8 @@ export const translations = {
                 "description": "Mit Ei gebratener Spinat.",
                 "priceL": 12,
                 "images": [
-                  "/menu-items/item5.jpg"
-                ],
+                  "/menu-items/Item5.jpg"
+                ],  
                 "isSpicy": false,
                 "isVegetarian": false
               },
@@ -391,7 +391,7 @@ export const translations = {
                 "description": "Geschmorte Aubergine in einer herzhaften Soße.",
                 "priceL": 12,
                 "images": [
-                  "/menu-items/item2.jpg"
+                  "/menu-items/Item2.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": true
@@ -419,7 +419,7 @@ export const translations = {
                 "description": "Weicher Tofu in einer scharfen und aromatischen Mala-Soße.",
                 "priceL": 14,
                 "images": [
-                  "/menu-items/item19.jpg"
+                  "/menu-items/Item19.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": true
@@ -430,7 +430,7 @@ export const translations = {
                 "description": "Gebratener Tofu mit Gemüse gebraten.",
                 "priceL": 16,
                 "images": [
-                  "/menu-items/item13.jpg"
+                  "/menu-items/Item13.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": true
@@ -454,7 +454,7 @@ export const translations = {
                 "description": "Flaschenkürbis,Paprika.",
                 "priceL": 12,
                 "images": [
-                  "/menu-items/item17.jpg"
+                  "/menu-items/Item17.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": true
@@ -471,7 +471,7 @@ export const translations = {
                 "description": "Rinderkutteln,Paprika.",
                 "priceL": 16,
                 "images": [
-                  "/menu-items/item6.jpg"
+                  "/menu-items/Item6.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": false
@@ -483,7 +483,7 @@ export const translations = {
                 "description": "Champignons,Fleisch,Paprika.",
                 "priceL": 16,
                 "images": [
-                  "/menu-items/item23.jpg"
+                  "/menu-items/Item23.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -495,7 +495,7 @@ export const translations = {
                 "description": "Rindfleischstreifen,Paprika,Pilze,Gurke,Karotten.",
                 "priceL": 16,
                 "images": [
-                  "/menu-items/item20.jpg"
+                  "/menu-items/Item20.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -507,7 +507,7 @@ export const translations = {
                 "description": "Eier,Tomaten,Paprika.",
                 "priceL": 10,
                 "images": [
-                  "/menu-items/item25.jpg"
+                  "/menu-items/Item25.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -542,7 +542,7 @@ export const translations = {
                 "description": "Gebackene Rindfleischbrötchen mit Sesam bestreut.",
                 "priceL": 3,
                 "images": [
-                  "/menu-items/item11.jpg"
+                  "/menu-items/Item11.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -555,7 +555,7 @@ export const translations = {
                 "priceL": 12,
                 "additionPrice": "3 stück",
                 "images": [
-                  "/menu-items/item14.jpg"
+                  "/menu-items/Item14.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -566,7 +566,7 @@ export const translations = {
                 "description": "Lammkarree.",
                 "priceL": 7,
                 "images": [
-                  "/menu-items/item26.jpg"
+                  "/menu-items/Item26.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -583,7 +583,7 @@ export const translations = {
                 "priceL": 12,
                 "unit": "3 Stück",
                 "images": [
-                  "/menu-items/item28.jpg"
+                  "/menu-items/Item28.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": false
@@ -625,7 +625,7 @@ export const translations = {
                 "description": "Frisch,zubereitete,Nudelnund,Hausgemachte,Sauce.",
                 "priceL": 6,
                 "images": [
-                  "/menu-items/item21.jpg"
+                  "/menu-items/Item21.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": true
@@ -636,7 +636,7 @@ export const translations = {
                 "description": "Knackige Gurken mit Hausdressing.",
                 "priceL": 7,
                 "images": [
-                  "/menu-items/item22.jpg"
+                  "/menu-items/Item22.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": true
@@ -647,7 +647,7 @@ export const translations = {
                 "description": "Frischer Salat mit Zwiebeln, Tomaten und Paprika.",
                 "priceL": 7,
                 "images": [
-                  "/menu-items/item16.jpg"
+                  "/menu-items/Item16.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": true
@@ -658,7 +658,7 @@ export const translations = {
                 "description": "Kaltes Rindfleisch in uigurischer Sauce.",
                 "priceL": 13,
                 "images": [
-                  "/menu-items/item27.jpg"
+                  "/menu-items/Item27.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": true
@@ -793,7 +793,7 @@ export const translations = {
                 "description": "Meat of choice, bell pepper, Chinese cabbage, mushrooms, onions, and hand-pulled noodles.",
                 "priceL": 20,
                 "images": [
-                  "/menu-items/item7.jpg"
+                  "/menu-items/Item7.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -828,7 +828,7 @@ export const translations = {
                 "description": "Sweet, sour, and mildly spicy shredded meat.",
                 "priceL": 18,
                 "images": [
-                  "/menu-items/item20.jpg"
+                  "/menu-items/Item20.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": false
@@ -904,7 +904,7 @@ export const translations = {
                 "description": "Stir-fried rice with eggs, simple and flavorful.",
                 "priceL": 10,
                 "images": [
-                  "/menu-items/item3.jpg"
+                  "/menu-items/Item3.jpg"
                 ],
                 "isSpicy": false,
 
@@ -928,7 +928,7 @@ export const translations = {
                 "description": "Rice noodles stir-fried with meat, chili sauce, and celery.",
                 "priceL": 14,
                 "images": [
-                  "/menu-items/item25.jpg"
+                  "/menu-items/Item25.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": false
@@ -940,7 +940,7 @@ export const translations = {
                 "description": "Hand-pulled noodles in a rich broth with braised beef.",
                 "priceL": 14,
                 "images": [
-                  "/menu-items/item10.jpg"
+                  "/menu-items/Item10.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": false
@@ -951,7 +951,7 @@ export const translations = {
                 "description": "Clear beef broth with tender beef slices and noodles.",
                 "priceL": 10,
                 "images": [
-                  "/menu-items/item24.jpg"
+                  "/menu-items/Item24.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": false
@@ -989,7 +989,7 @@ export const translations = {
                 "priceM": 35,
                 "priceS": 15,
                 "images": [
-                  "/menu-items/item8.jpg"
+                  "/menu-items/Item8.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": false
@@ -1001,7 +1001,7 @@ export const translations = {
                 "description": "Crispy chicken stir-fried with chili and spices, ideal for sharing.",
                 "priceL": 40,
                 "images": [
-                  "/menu-items/item12.jpg"
+                  "/menu-items/Item12.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": false
@@ -1025,7 +1025,7 @@ export const translations = {
                 "description": "Chicken, peanuts.",
                 "priceL": 16,
                 "images": [
-                  "/menu-items/item9.jpg"
+                  "/menu-items/Item9.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": false
@@ -1050,7 +1050,7 @@ export const translations = {
                 "description": "Spinach, eggs.",
                 "priceL": 12,
                 "images": [
-                  "/menu-items/item5.jpg"
+                  "/menu-items/Item5.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -1101,7 +1101,7 @@ export const translations = {
                 "description": "Soft tofu in a spicy and aromatic mala sauce.",
                 "priceL": 14,
                 "images": [
-                  "/menu-items/item19.jpg"
+                  "/menu-items/Item19.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": true
@@ -1112,7 +1112,7 @@ export const translations = {
                 "description": "convert into german russian chinese.",
                 "priceL": 16,
                 "images": [
-                  "/menu-items/item13.jpg"
+                  "/menu-items/Item13.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": true
@@ -1136,7 +1136,7 @@ export const translations = {
                 "description": "Zucchini (Squash), bell pepper.",
                 "priceL": 12,
                 "images": [
-                  "/menu-items/item17.jpg"
+                  "/menu-items/Item17.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": true
@@ -1153,7 +1153,7 @@ export const translations = {
                 "description": "Beef tripe, bell pepper.",
                 "priceL": 16,
                 "images": [
-                  "/menu-items/item6.jpg"
+                  "/menu-items/Item6.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": false
@@ -1177,7 +1177,7 @@ export const translations = {
                 "description": "Beef slices, bell pepper, mushrooms, cucumber, carrots.",
                 "priceL": 16,
                 "images": [
-                  "/menu-items/item20.jpg"
+                  "/menu-items/Item20.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -1189,7 +1189,7 @@ export const translations = {
                 "description": "Eggs, tomato, bell pepper.",
                 "priceL": 10,
                 "images": [
-                  "/menu-items/item25.jpg"
+                  "/menu-items/Item25.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -1224,7 +1224,7 @@ export const translations = {
                 "description": "Baked beef buns topped with sesame.",
                 "priceL": 3,
                 "images": [
-                  "/menu-items/item11.jpg"
+                  "/menu-items/Item11.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -1237,7 +1237,7 @@ export const translations = {
                 "priceL": 5,
                "unit": "1 pieces",
                 "images": [
-                  "/menu-items/item14.jpg"
+                  "/menu-items/Item14.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -1249,7 +1249,7 @@ export const translations = {
                 "priceL": 7,
                 "unit": "3 pieces",
                 "images": [
-                  "/menu-items/item26.jpg"
+                  "/menu-items/Item26.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -1266,7 +1266,7 @@ export const translations = {
                 "priceL": 13,
                 "unit": "3 pieces",
                 "images": [
-                  "/menu-items/item28.jpg"
+                  "/menu-items/Item28.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": false
@@ -1290,7 +1290,7 @@ export const translations = {
                 "description": "Freshly made noodles and homemade sauce.",
                 "priceL": 6,
                 "images": [
-                  "/menu-items/item21.jpg"
+                  "/menu-items/Item21.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": true
@@ -1301,7 +1301,7 @@ export const translations = {
                 "description": "Crisp cucumber tossed with house dressing.",
                 "priceL": 7,
                 "images": [
-                  "/menu-items/item22.jpg"
+                  "/menu-items/Item22.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": true
@@ -1312,7 +1312,7 @@ export const translations = {
                 "description": "Fresh salad with onions, tomatoes, and bell peppers.",
                 "priceL": 7,
                 "images": [
-                  "/menu-items/item16.jpg"
+                  "/menu-items/Item16.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": true
@@ -1323,7 +1323,7 @@ export const translations = {
                 "description": "Cold sliced beef with Uyghur-style sauce.",
                 "priceL": 13,
                 "images": [
-                  "/menu-items/item27.jpg"
+                  "/menu-items/Item27.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": true
@@ -1455,7 +1455,7 @@ export const translations = {
                 "description": "自选肉类、灯笼椒、大白菜、蘑菇、洋葱和手工拉面。",
                 "priceL": 20,
                 "images": [
-                  "/menu-items/item7.jpg"
+                  "/menu-items/Item7.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -1490,7 +1490,7 @@ export const translations = {
                 "description": "甜酸微辣的手撕肉。",
                 "priceL": 18,
                 "images": [
-                  "/menu-items/item20.jpg"
+                  "/menu-items/Item20.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": false
@@ -1566,7 +1566,7 @@ export const translations = {
                 "description": "蛋炒饭，简单美味。",
                 "priceL": 10,
                 "images": [
-                  "/menu-items/item3.jpg"
+                  "/menu-items/Item3.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -1589,7 +1589,7 @@ export const translations = {
                 "description": "炒米粉配肉、辣椒酱和芹菜。",
                 "priceL": 14,
                 "images": [
-                  "/menu-items/item25.jpg"
+                  "/menu-items/Item25.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": false
@@ -1600,7 +1600,7 @@ export const translations = {
                 "description": "手工拉面配浓汤炖牛肉。",
                 "priceL": 14,
                 "images": [
-                  "/menu-items/item10.jpg"
+                  "/menu-items/Item10.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": false
@@ -1611,7 +1611,7 @@ export const translations = {
                 "description": "清牛肉汤配嫩牛肉片和面条.",
                 "priceL": 10,
                 "images": [
-                  "/menu-items/item24.jpg"
+                  "/menu-items/Item24.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": false
@@ -1649,7 +1649,7 @@ export const translations = {
                 "priceM": 35,
                 "priceS": 15,
                 "images": [
-                  "/menu-items/item8.jpg"
+                  "/menu-items/Item8.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": false
@@ -1661,7 +1661,7 @@ export const translations = {
                 "description": "香辣脆炒鸡，配多种香料，适合分享。",
                 "priceL": 40,
                 "images": [
-                  "/menu-items/item12.jpg"
+                  "/menu-items/Item12.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": false
@@ -1685,7 +1685,7 @@ export const translations = {
                 "description": "宫保鸡丁（微辣），鸡丁与花生快炒而成。",
                 "priceL": 16,
                 "images": [
-                  "/menu-items/item9.jpg"
+                  "/menu-items/Item9.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": false
@@ -1710,7 +1710,7 @@ export const translations = {
                 "description": "菠菜炒鸡蛋。",
                 "priceL": 12,
                 "images": [
-                  "/menu-items/item5.jpg"
+                  "/menu-items/Item5.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -1733,7 +1733,7 @@ export const translations = {
                 "description": "红烧茄子。",
                 "priceL": 12,
                 "images": [
-                  "/menu-items/item2.jpg"
+                  "/menu-items/Item2.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": true
@@ -1761,7 +1761,7 @@ export const translations = {
                 "description": "嫩豆腐配香辣麻辣酱。",
                 "priceL": 14,
                 "images": [
-                  "/menu-items/item19.jpg"
+                  "/menu-items/Item19.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": true
@@ -1772,7 +1772,7 @@ export const translations = {
                 "description": "炒豆腐配蔬菜。",
                 "priceL": 16,
                 "images": [
-                  "/menu-items/item13.jpg"
+                  "/menu-items/Item13.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": true
@@ -1784,7 +1784,7 @@ export const translations = {
                 "description": "西兰花、灯笼椒。",
                 "priceL": 14,
                 "images": [
-                  "/menu-items/item15.jpg"
+                  "/menu-items/Item15.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": true
@@ -1796,7 +1796,7 @@ export const translations = {
                 "description": "葫芦瓜（南瓜）、灯笼椒。",
                 "priceL": 12,
                 "images": [
-                  "/menu-items/item17.jpg"
+                  "/menu-items/Item17.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": true
@@ -1813,7 +1813,7 @@ export const translations = {
                 "description": "牛肚、灯笼椒。",
                 "priceL": 16,
                 "images": [
-                  "/menu-items/item6.jpg"
+                  "/menu-items/Item16.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": false
@@ -1825,7 +1825,7 @@ export const translations = {
                 "description": "蘑菇、肉、灯笼椒。",
                 "priceL": 16,
                 "images": [
-                  "/menu-items/item23.jpg"
+                  "/menu-items/Item23.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -1837,7 +1837,7 @@ export const translations = {
                 "description": "牛肉丝、灯笼椒、蘑菇、黄瓜、胡萝卜。",
                 "priceL": 16,
                 "images": [
-                  "/menu-items/item20.jpg"
+                  "/menu-items/Item20.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -1849,7 +1849,7 @@ export const translations = {
                 "description": "鸡蛋、番茄、灯笼椒。",
                 "priceL": 10,
                 "images": [
-                  "/menu-items/item25.jpg"
+                  "/menu-items/Item25.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -1885,7 +1885,7 @@ export const translations = {
                 "description": "芝麻烤牛肉包。",
                 "priceL": 3,
                 "images": [
-                  "/menu-items/item11.jpg"
+                  "/menu-items/Item11.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -1898,7 +1898,7 @@ export const translations = {
                 "priceL": 5,
                 "unit": "1 pieces",
                 "images": [
-                  "/menu-items/item14.jpg"
+                  "/menu-items/Item14.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -1910,7 +1910,7 @@ export const translations = {
                 "priceL": 7,
                 "unit": "3 片",
                 "images": [
-                  "/menu-items/item26.jpg"
+                  "/menu-items/Item26.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -1927,7 +1927,7 @@ export const translations = {
                 "priceL": 12,
                 "unit": "3 片",
                 "images": [
-                  "/menu-items/item28.jpg"
+                  "/menu-items/Item28.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": false
@@ -1951,7 +1951,7 @@ export const translations = {
                 "description": "新鲜制作的面条和家常酱汁。",
                 "priceL": 6,
                 "images": [
-                  "/menu-items/item21.jpg"
+                  "/menu-items/Item21.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": true
@@ -1962,7 +1962,7 @@ export const translations = {
                 "description": "清脆黄瓜拌特制酱汁。",
                 "priceL": 7,
                 "images": [
-                  "/menu-items/item22.jpg"
+                  "/menu-items/Item22.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": true
@@ -1974,7 +1974,7 @@ export const translations = {
                 "description": " 新鲜沙拉配洋葱、西红柿和甜椒。",
                 "priceL": 7,
                 "images": [
-                  "/menu-items/item16.jpg"
+                  "/menu-items/Item16.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": true
@@ -1985,7 +1985,7 @@ export const translations = {
                 "description": "凉拌牛肉配维吾尔风味酱.",
                 "priceL": 13,
                 "images": [
-                  "/menu-items/item27.jpg"
+                  "/menu-items/Item27.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": true
@@ -2118,7 +2118,7 @@ export const translations = {
                 "description": "Мясо на выбор, болгарский перец, пекинская капуста, грибы, лук и лапша ручной работы.",
                 "priceL": 20,
                 "images": [
-                  "/menu-items/item7.jpg"
+                  "/menu-items/Item7.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -2153,7 +2153,7 @@ export const translations = {
                 "description": "Сладкое, кислое и слегка острое мясо, нарезанное на волокна.",
                 "priceL": 18,
                 "images": [
-                  "/menu-items/item20.jpg"
+                  "/menu-items/Item20.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": false
@@ -2229,7 +2229,7 @@ export const translations = {
                 "description": "Жареный рис с яйцами, просто и вкусно.",
                 "priceL": 10,
                 "images": [
-                  "/menu-items/item3.jpg"
+                  "/menu-items/Item3.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -2252,7 +2252,7 @@ export const translations = {
                 "description": "Жареная рисовая лапша с мясом, чили соусом и сельдереем.",
                 "priceL": 14,
                 "images": [
-                  "/menu-items/item25.jpg"
+                  "/menu-items/Item25.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": false
@@ -2263,7 +2263,7 @@ export const translations = {
                 "description": "Лапша ручной работы в насыщенном бульоне с тушёной говядиной.",
                 "priceL": 14,
                 "images": [
-                  "/menu-items/item10.jpg"
+                  "/menu-items/Item10.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": false
@@ -2274,7 +2274,7 @@ export const translations = {
                 "description": "Прозрачный говяжий бульон с нежными ломтиками говядины и лапшой.",
                 "priceL": 10,
                 "images": [
-                  "/menu-items/item24.jpg"
+                  "/menu-items/Item24.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": false
@@ -2312,7 +2312,7 @@ export const translations = {
                 "priceM": 35,
                 "priceS": 15,
                 "images": [
-                  "/menu-items/item8.jpg"
+                  "/menu-items/Item8.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": false
@@ -2324,7 +2324,7 @@ export const translations = {
                 "description": "Хрустящая курица, обжаренная с чили и специями, идеально подходит для совместного угощения.",
                 "priceL": 40,
                 "images": [
-                  "/menu-items/item12.jpg"
+                  "/menu-items/Item12.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": false
@@ -2348,7 +2348,7 @@ export const translations = {
                 "description": "Курица, нарезанная кубиками, обжаренная с арахисом в слегка остром соусе.",
                 "priceL": 16,
                 "images": [
-                  "/menu-items/item9.jpg"
+                  "/menu-items/Item9.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": false
@@ -2373,7 +2373,7 @@ export const translations = {
                 "description": "Шпинат, обжаренный с яйцом.",
                 "priceL": 12,
                 "images": [
-                  "/menu-items/item5.jpg"
+                  "/menu-items/Item5.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -2397,7 +2397,7 @@ export const translations = {
                 "description": "Тушёные баклажаны в пикантном соусе.",
                 "priceL": 12,
                 "images": [
-                  "/menu-items/item2.jpg"
+                  "/menu-items/Item2.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": true
@@ -2425,7 +2425,7 @@ export const translations = {
                 "description": "Мягкий тофу в остром и ароматном соусе мала.",
                 "priceL": 14,
                 "images": [
-                  "/menu-items/item19.jpg"
+                  "/menu-items/Item19.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": true
@@ -2436,7 +2436,7 @@ export const translations = {
                 "description": "Жареный тофу, обжаренный с овощами.",
                 "priceL": 16,
                 "images": [
-                  "/menu-items/item13.jpg"
+                  "/menu-items/Item13.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": true
@@ -2448,7 +2448,7 @@ export const translations = {
                 "description": "Брокколи, болгарский перец.",
                 "priceL": 14,
                 "images": [
-                  "/menu-items/item15.jpg"
+                  "/menu-items/Item15.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": true
@@ -2460,7 +2460,7 @@ export const translations = {
                 "description": "Цукини (тыква), болгарский перец.",
                 "priceL": 12,
                 "images": [
-                  "/menu-items/item17.jpg"
+                  "/menu-items/Item17.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": true
@@ -2477,7 +2477,7 @@ export const translations = {
                 "description": "Говяжий рубец, болгарский перец.",
                 "priceL": 16,
                 "images": [
-                  "/menu-items/item6.jpg"
+                  "/menu-items/Item6.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": false
@@ -2489,7 +2489,7 @@ export const translations = {
                 "description": "Грибы, мясо, болгарский перец.",
                 "priceL": 16,
                 "images": [
-                  "/menu-items/item23.jpg"
+                  "/menu-items/Item23.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -2501,7 +2501,7 @@ export const translations = {
                 "description": "Говяжье филе, болгарский перец, грибы, огурец, морковь.",
                 "priceL": 16,
                 "images": [
-                  "/menu-items/item20.jpg"
+                  "/menu-items/Item20.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -2513,7 +2513,7 @@ export const translations = {
                 "description": "Яйца, помидоры, болгарский перец.",
                 "priceL": 10,
                 "images": [
-                  "/menu-items/item25.jpg"
+                  "/menu-items/Item25.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -2548,7 +2548,7 @@ export const translations = {
                 "description": "Запечённые булочки с говядиной, посыпанные кунжутом.",
                 "priceL": 3,
                 "images": [
-                  "/menu-items/item11.jpg"
+                  "/menu-items/Item11.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -2561,7 +2561,7 @@ export const translations = {
                 "priceL": 5,
                 "unit": "1 штука",
                 "images": [
-                  "/menu-items/item14.jpg"
+                  "/menu-items/Item14.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -2573,7 +2573,7 @@ export const translations = {
                 "priceL": 7,
                 "unit": "за штуку",
                 "images": [
-                  "/menu-items/item26.jpg"
+                  "/menu-items/Item26.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
@@ -2590,7 +2590,7 @@ export const translations = {
                 "priceL": 12,
                 "unit": "за штуку",
                 "images": [
-                  "/menu-items/item28.jpg"
+                  "/menu-items/Item28.jpg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": false
@@ -2614,7 +2614,7 @@ export const translations = {
                 "description": "Свежеприготовленная лапша и домашний соус.",
                 "priceL": 6,
                 "images": [
-                  "/menu-items/item21.jpg"
+                  "/menu-items/Item21.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": true
@@ -2625,7 +2625,7 @@ export const translations = {
                 "description": "Хрустящий огурец в фирменной заправке.",
                 "priceL": 7,
                 "images": [
-                  "/menu-items/item22.jpg"
+                  "/menu-items/Item22.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": true
@@ -2637,7 +2637,7 @@ export const translations = {
                 "description": "Свежий салат с луком, помидорами и болгарским перцем.",
                 "priceL": 7,
                 "images": [
-                  "/menu-items/item16.jpg"
+                  "/menu-items/Item16.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": true
@@ -2648,7 +2648,7 @@ export const translations = {
                 "description": "Холодная нарезанная говядина с уйгурским соусом.",
                 "priceL": 13,
                 "images": [
-                  "/menu-items/item27.jpg"
+                  "/menu-items/Item27.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": true
