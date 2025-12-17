@@ -721,7 +721,7 @@ export const translations = {
                 "id": "lag-item-1",
                 "name": "Tarim Royal Laghman",
                 "german_name": "SCHAH LÄGHMEN",
-                "description": "Lamb, bell pepper, Chinese cabbage, mushrooms, onions, and handmade noodles.",
+                "description": " Meat of your choice, bell peppers, Chinese cabbage, mushrooms, onions, and handmade laghman (noodles).",
                 "priceL": 20,
                 "images": [
                   "/menu-items/Item7.jpg"
@@ -1318,7 +1318,7 @@ export const translations = {
                 "id": "lag-item-1",
                 "name": "塔里木皇家拉面",
                 "german_name": "SCHAH LÄGHMEN",
-                "description": "羊肉、灯笼椒、大白菜、蘑菇、洋葱和手工拉面。",
+                "description": "可选肉类，彩椒、大白菜、蘑菇、洋葱，以及手工拉制的拉条子（拉面）。",
                 "priceL": 20,
                 "images": [
                   "/menu-items/Item7.jpg"
@@ -1961,7 +1961,7 @@ export const translations = {
                 "id": "lag-item-1",
                 "name": "Королевский Лагман «Тарим»",
                 "german_name": "SCHAH LÄGHMEN",
-                "description": "Баранина, болгарский перец, китайская капуста, грибы, лук и лапша ручной работы.",
+                "description": "Мясо на выбор, болгарский перец, китайская капуста, грибы, лук и домашняя лапша лагман.",
                 "priceL": 20,
                 "images": [
                   "/menu-items/Item7.jpg"
