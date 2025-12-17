@@ -106,7 +106,7 @@ export const translations = {
             "items": [
               {
                 "id": "lag-item-1",
-                "name": "Königs-Läghmen von Tarim",
+                "name": "Tarim Royal Läghmen",
                 "german_name": "SCHAH LÄGHMEN",
                 "description": "Lamm, Paprika, Chinakohl, Pilze, Zwiebeln und handgemachte Läghmen (Nudeln).",
                 "priceL": 20,
