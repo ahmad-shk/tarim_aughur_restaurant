@@ -1875,7 +1875,7 @@ export const translations = {
                 "description": "凉拌牛肉配维吾尔风味酱.",
                 "priceL": 13,
                 "images": [
-                  "/menu-items/Item27.jpg"
+                  "/menu-items/Item27.jpg "
                 ],
                 "isSpicy": false,
                 "isVegetarian": true
