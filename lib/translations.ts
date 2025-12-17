@@ -594,7 +594,7 @@ export const translations = {
               "description": "Kaltes Rindfleisch mit uigurischer Soße.",
               "priceL": 13,
               "images": [
-                 "/menu-items/Item27.jpg"
+                 "/menu-items/Item33.png"
               ],
               "isSpicy": false,
               "isVegetarian": true
