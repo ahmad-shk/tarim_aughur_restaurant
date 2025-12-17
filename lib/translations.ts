@@ -1429,12 +1429,12 @@ export const translations = {
     "RestaurantMenuText": "塔里木维吾尔餐厅菜单",
     "menuCategories": {
       "laghman": "手工拉面",
-      "rice_bowls": "米饭菜肴",
+      "rice_bowls": "维吾尔特色菜",
       "noodles_with_soup": "汤面",
-      "chicken_dishes": "鸡肉菜肴",
-      "main_courses": "主菜",
-      "starters": "开胃菜",
-      "vegan_starters": "素食菜肴"
+      "chicken_dishes": "经典小炒",
+      "main_courses": "经典素菜",
+      "starters": "维吾尔小吃/烧烤",
+      "vegan_starters": "经典凉菜"
     },
     "categories": [
       {
@@ -1493,18 +1493,7 @@ export const translations = {
               //   "isSpicy": false,
               //   "isVegetarian": false
               // },
-              // {
-              //   "id": "lag-item-4",
-              //   "name": "鱼香肉丝",
-              //   "german_name": "鱼香肉丝",
-              //   "description": "甜酸微辣的手撕肉。",
-              //   "priceL": 18,
-              //   "images": [
-              //     "/menu-items/Item20.jpg"
-              //   ],
-              //   "isSpicy": true,
-              //   "isVegetarian": false
-              // }
+            
                {
                 "id": "lag-item-5",
                 "name": "丁丁炒面",
@@ -1536,36 +1525,25 @@ export const translations = {
               // },
               {
                 "id": "lag-item-5",
-                "name": "玛尔江拌面",
+                "name": "托克逊拌面",
                 "german_name": "MARJAN KORIMIS",
-                "description": "手工切面块、肉、大白菜和灯笼椒。",
+                "description": "手工切面块、牛肉、和灯笼椒。",
                 "priceL": 14.0,
                 "images": [
-                  "/menu-items/Items=32.jpeg"
+                  "/menu-items/Item32.jpeg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
               },
-              {
-                "id": "lag-item-6",
-                "name": "面片汤",
-                "german_name": "Mamper",
-                "description": "自选肉类、灯笼椒、大白菜和家常面片。",
-                "priceL": 15,
-                "images": [
-                  "/menu-items/Sliced-Noodles.jpeg"
-                ],
-                "isSpicy": false,
-                "isVegetarian": false
-              }
+          
             ]
           }
         ]
       },
       {
         "id": "rice_bowls",
-        "name": "2. 米饭菜肴",
-        "categoryImage": "/beef.png",
+        "name": "2. 经典菜肴",
+        "categoryImage": "/menu-items/Goxnan1.jpeg",
         "sections": [
           {
             "id": "rice-main",
@@ -1581,17 +1559,43 @@ export const translations = {
                 "isSpicy": false,
                 "isVegetarian": false
               },
+                 {
+                "id": "chicken-dish-item-1",
+                "name": "大盘鸡",
+                "german_name": "大盘鸡",
+                "description": "鸡肉配土豆、灯笼椒和辣椒，搭配手工拉面。",
+                "priceL": 45,
+                "priceM": 35,
+                "priceS": 15,
+                "images": [
+                  "/menu-items/Item8.jpg"
+                ],
+                "isSpicy": true,
+                "isVegetarian": false
+              },
               {
                 "id": "rice-item-2",
-                "name": "蛋炒饭",
-                "description": "蛋炒饭，简单美味。",
-                "priceL": 10,
+                "name": "烤包子",
+                "description": "羊肉 蔬菜",
+                "priceL": 3,
                 "images": [
-                  "/menu-items/Item3.jpg"
+                  "/menu-items/Item11.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
               }
+              //   {
+              //   "id": "noodles-with-soup-item-4",
+              //   "name": "00",
+              //   "german_name": "REISNUDELN MIT FLEISCH",
+              //   "description": "牛肉、米粉、辣椒酱、芹菜。",
+              //   "priceL": 14,
+              //   "images": [
+              //     "ambience-3.png"
+              //   ],
+              //   "isSpicy": true,
+              //   "isVegetarian": false
+              // }
             ]
           }
         ]
@@ -1604,17 +1608,7 @@ export const translations = {
           {
             "id": "",
             "items": [
-              {
-                "id": "noodles-with-soup-item-1",
-                "name": "炒米粉",
-                "description": "炒米粉配肉、辣椒酱和芹菜。",
-                "priceL": 14,
-                "images": [
-                  "/menu-items/Item25.jpg"
-                ],
-                "isSpicy": true,
-                "isVegetarian": false
-              },
+              //
               {
                 "id": "noodles-with-soup-item-2",
                 "name": "红烧牛肉面",
@@ -1637,44 +1631,20 @@ export const translations = {
                 "isSpicy": true,
                 "isVegetarian": false
               },
-              {
-                "id": "noodles-with-soup-item-4",
-                "name": "米粉肉",
-                "german_name": "REISNUDELN MIT FLEISCH",
-                "description": "自选肉类、米粉、辣椒酱、芹菜。",
-                "priceL": 14,
-                "images": [
-                  "/menu-items/Item31.jpeg"
-                ],
-                "isSpicy": true,
-                "isVegetarian": false
-              }
+            
             ]
           }
         ]
       },
       {
         "id": "chicken_dishes",
-        "name": "4. 鸡肉菜肴",
+        "name": "4. 经典小炒",
         "categoryImage": "/beef.png",
         "sections": [
           {
             "id": "chicken-dishes",
             "items": [
-              {
-                "id": "chicken-dish-item-1",
-                "name": "大盘鸡",
-                "german_name": "大盘鸡",
-                "description": "炖鸡配土豆、灯笼椒和辣椒，搭配手工拉面。",
-                "priceL": 45,
-                "priceM": 35,
-                "priceS": 15,
-                "images": [
-                  "/menu-items/Item8.jpg"
-                ],
-                "isSpicy": true,
-                "isVegetarian": false
-              },
+           ,
               {
                 "id": "chicken-dish-item-2",
                 "name": "辣子鸡",
@@ -1699,6 +1669,18 @@ export const translations = {
                 "isSpicy": true,
                 "isVegetarian": false
               },
+
+               {
+                "id": "noodles-with-soup-item-1",
+                "name": "炒米粉",
+                "description": "炒米粉配肉、辣椒酱和芹菜。",
+                "priceL": 14,
+                "images": [
+                  "/menu-items/item31.jpeg"
+                ],
+                "isSpicy": true,
+                "isVegetarian": false
+              },
               {
                 "id": "chicken-dish-item-4",
                 "name": "宫保鸡丁",
@@ -1710,6 +1692,39 @@ export const translations = {
                 ],
                 "isSpicy": true,
                 "isVegetarian": false
+              },   {
+                "id": "lag-item-4",
+                "name": "鱼香肉丝",
+                "german_name": "鱼香肉丝",
+                "description": "笋片. 牛肉. 木耳.青椒",
+                "priceL": 18,
+                "images": [
+                  "/menu-items/Item20.jpg"
+                ],
+                "isSpicy": true,
+                "isVegetarian": false
+               },  {
+                "id": "main-course-item-4",
+                "name": "蒜苔炒肉",
+                "german_name": "GEBRATENE YESHIL SAMSAK",
+                "description": "蒜苔、肉。",
+                "priceL": 16,
+                "images": [
+                  "/menu-items/Fried-Beef-Stew.jpeg"
+                ],
+                "isSpicy": false,
+                "isVegetarian": false
+              },{
+                "id": "main-course-item-10",
+                "name": "蘑菇炒肉",
+                "german_name": "GEBRATENE CHAMPIGNONS MIT FLEISCH",
+                "description": "蘑菇、肉、灯笼椒。",
+                "priceL": 16,
+                "images": [
+                  "/menu-items/Item23.jpg"
+                ],
+                "isSpicy": false,
+                "isVegetarian": false
               }
             ]
           }
@@ -1717,7 +1732,7 @@ export const translations = {
       },
       {
         "id": "main_courses",
-        "name": "5. 主菜",
+        "name": "5. 经典素菜",
         "categoryImage": "/menu-items/Homemade-Laghman1.jpeg",
         "categoryImage1": "/menu-items/Homemade-Laghman1.jpeg",
         "categoryImage2": "/menu-items/Homemade-Laghman1.jpeg",
@@ -1736,19 +1751,7 @@ export const translations = {
                 "isSpicy": false,
                 "isVegetarian": false
               },
-              {
-                "id": "main-course-item-2",
-                "name": "玉米炒时蔬",
-                "german_name": "MAIS MIT GEMÜSE",
-                "description": "玉米、灯笼椒、洋葱。",
-                "priceL": 10,
-                "images": [
-                  "/menu-items/Homemade-Laghman1.jpeg"
-                ],
-                "isSpicy": false,
-                "isVegetarian": true
-              },
-              {
+                   {
                 "id": "main-course-item-3",
                 "name": "红烧茄子",
                 "description": "红烧茄子。",
@@ -1759,24 +1762,7 @@ export const translations = {
                 "isSpicy": true,
                 "isVegetarian": true
               },
-              {
-                "id": "main-course-item-4",
-                "name": "蒜苔炒肉",
-                "german_name": "GEBRATENE YESHIL SAMSAK",
-                "description": "蒜苔、肉。",
-                "priceL": 16,
-                "images": [
-                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
-                ],
-                "isSpicy": false,
-                "isVegetarian": false
-              }
-            ]
-          },
-          {
-            "id": "main-courses-1",
-            "items": [
-              {
+               {
                 "id": "main-course-item-5",
                 "name": "麻辣豆腐",
                 "description": "嫩豆腐配香辣麻辣酱。",
@@ -1786,6 +1772,27 @@ export const translations = {
                 ],
                 "isSpicy": true,
                 "isVegetarian": true
+              },
+          
+         
+  
+            ]
+          },
+          {
+            "id": "main-courses-1",
+            "items": [
+             
+                  {
+                "id": "lag-item-6",
+                "name": "炒玉米",
+                "german_name": "Mamper",
+                "description": "玉米 蔬菜",
+                "priceL": 15,
+                "images": [
+                  "/menu-items/Sliced-Noodles.jpeg"
+                ],
+                "isSpicy": false,
+                "isVegetarian": false
               },
               {
                 "id": "main-course-item-6",
@@ -1827,42 +1834,31 @@ export const translations = {
           {
             "id": "main-courses-2",
             "items": [
-              {
-                "id": "main-course-item-9",
-                "name": "爆炒牛肚",
-                "german_name": "GEBRATENE RINDERKUTTELN",
-                "description": "牛肚、灯笼椒。",
-                "priceL": 16,
-                "images": [
-                  "/menu-items/Item16.jpg"
-                ],
-                "isSpicy": true,
-                "isVegetarian": false
-              },
-              {
-                "id": "main-course-item-10",
-                "name": "蘑菇炒肉",
-                "german_name": "GEBRATENE CHAMPIGNONS MIT FLEISCH",
-                "description": "蘑菇、肉、灯笼椒。",
-                "priceL": 16,
-                "images": [
-                  "/menu-items/Item23.jpg"
-                ],
-                "isSpicy": false,
-                "isVegetarian": false
-              },
-              {
-                "id": "main-course-item-11",
-                "name": "时蔬炒牛肚",
-                "german_name": "GEBRATENE RINDERKUTTELN MIT GEMÜSE",
-                "description": "牛肉丝、灯笼椒、蘑菇、黄瓜、胡萝卜。",
-                "priceL": 16,
-                "images": [
-                  "/menu-items/Item20.jpg"
-                ],
-                "isSpicy": false,
-                "isVegetarian": false
-              },
+              // {
+              //   "id": "main-course-item-9",
+              //   "name": "00",
+              //   "german_name": "GEBRATENE RINDERKUTTELN",
+              //   "description": "牛肚、灯笼椒。",
+              //   "priceL": 16,
+              //   "images": [
+              //     "/menu-items/Item16.jpg"
+              //   ],
+              //   "isSpicy": true,
+              //   "isVegetarian": false
+              // },
+             ,
+              // {
+              //   "id": "main-course-item-11",
+              //   "name": "时蔬炒牛肚",
+              //   "german_name": "GEBRATENE RINDERKUTTELN MIT GEMÜSE",
+              //   "description": "牛肉丝、灯笼椒、蘑菇、黄瓜、胡萝卜。",
+              //   "priceL": 16,
+              //   "images": [
+              //     "/menu-items/Item20.jpg"
+              //   ],
+              //   "isSpicy": false,
+              //   "isVegetarian": false
+              // },
               {
                 "id": "main-course-item-12",
                 "name": "鸡蛋炒番茄辣椒",
@@ -1881,7 +1877,7 @@ export const translations = {
       },
       {
         "id": "starters",
-        "name": "6. 开胃菜",
+        "name": "6. 维吾尔小吃/烧烤",
         "categoryImage": "/menu-items/Lamb-Skewers.jpg",
         "categoryImage1": "/menu-items/Lamb-Skewers.jpg",
         "sections": [
@@ -1938,28 +1934,12 @@ export const translations = {
               }
             ]
           },
-          {
-            "id": "starter-section-2",
-            "items": [
-              {
-                "id": "starter-item-5",
-                "name": "羊肉串",
-                "description": "羊肉。",
-                "priceL": 12,
-                "unit": "3 片",
-                "images": [
-                  "/menu-items/Item28.jpg"
-                ],
-                "isSpicy": true,
-                "isVegetarian": false
-              }
-            ]
-          }
+       
         ]
       },
       {
         "id": "vegan_starters",
-        "name": "素食菜肴",
+        "name": "经典凉菜",
         "categoryImage": "/menu-items/Cucumber-Salad.jpg",
         "sections": [
           {
