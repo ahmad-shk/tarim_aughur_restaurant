@@ -594,7 +594,7 @@ export const translations = {
               "description": "Kaltes Rindfleisch mit uigurischer Soße.",
               "priceL": 13,
               "images": [
-                "/menu-items/Item27.jpg"
+                 "/menu-items/Item16.jpg"
               ],
               "isSpicy": false,
               "isVegetarian": true
@@ -1200,7 +1200,7 @@ export const translations = {
             "description": "Cold sliced beef with Uyghur style sauce.",
             "priceL": 13,
             "images": [
-              "/menu-items/Item27.jpg"
+              "/menu-items/Item16.jpg"
             ],
             "isSpicy": false,
             "isVegetarian": true
@@ -1875,7 +1875,7 @@ export const translations = {
                 "description": "凉拌牛肉配维吾尔风味酱.",
                 "priceL": 13,
                 "images": [
-                  "/menu-items/Item27.jpg "
+                   "/menu-items/Item16.jpg"
                 ],
                 "isSpicy": false,
                 "isVegetarian": true
@@ -2479,7 +2479,7 @@ export const translations = {
               "description": "Холодная нарезанная говядина с уйгурским соусом.",
               "priceL": 13,
               "images": [
-                "/menu-items/Item27.jpg"
+                 "/menu-items/Item16.jpg"
               ],
               "isSpicy": false,
               "isVegetarian": true
