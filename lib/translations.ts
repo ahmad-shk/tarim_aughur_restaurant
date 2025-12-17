@@ -744,7 +744,7 @@ export const translations = {
                 "id": "lag-item-3",
                 "name": "Homemade Laghman Noodles",
                 "german_name": "NUDELN MIT GEMÜSE",
-                "description": "Lamb, bell pepper, spinach, and handmade noodles.",
+                "description": "Meat of your choice, bell peppers, spinach, and handmade laghman (noodles).",
                 "priceL": 14,
                 "images": [
                   "/menu-items/Item30.jpg"
@@ -1341,7 +1341,7 @@ export const translations = {
                 "id": "lag-item-3",
                 "name": "家常拉面",
                 "german_name": "NUDELN MIT GEMÜSE",
-                "description": "羊肉、灯笼椒、菠菜和手工拉面。",
+                "description": "可选肉类、彩椒、菠菜，以及手工拉制的拉条子（拉面）。",
                 "priceL": 14,
                 "images": [
                   "/menu-items/Item30.jpg"
@@ -1984,7 +1984,7 @@ export const translations = {
                 "id": "lag-item-3",
                 "name": "Домашний Лагман",
                 "german_name": "NUDELN MIT GEMÜSE",
-                "description": "Баранина, болгарский перец, шпинат и лапша ручной работы.",
+                "description": "Мясо на выбор, болгарский перец, шпинат и домашняя лапша лагман.",
                 "priceL": 14,
                 "images": [
                   "/menu-items/Item30.jpg"
