@@ -108,7 +108,7 @@ export const translations = {
                 "id": "lag-item-1",
                 "name": "Tarim Royal Läghmen",
                 "german_name": "SCHAH LÄGHMEN",
-                "description": "Lamm, Paprika, Chinakohl, Pilze, Zwiebeln und handgemachte Läghmen (Nudeln).",
+                "description": "Fleisch nach Auswahl.",
                 "priceL": 20,
                 "images": [
                   "/menu-items/Item7.jpg"
@@ -119,7 +119,7 @@ export const translations = {
               {
                 "id": "lag-item-2",
                 "name": "Goyru Laghman",
-                "description": "Lamm, Paprika, Chinakohl, Pilze, Zwiebeln, handgemachte Läghmen (Nudeln).",
+                "description": "Fleisch nach Auswahl.",
                 "priceL": 16,
                 "images": [
                   "/menu-items/Homemade-Laghman.jpeg"
@@ -131,7 +131,7 @@ export const translations = {
                 "id": "lag-item-3",
                 "name": "Läghmen nach Hausfrauenart",
                 "german_name": "NUDELN MIT GEMÜSE",
-                "description": "Lamm, Paprika, Spinat und handgemachte Läghmen (Nudeln).",
+                "description": "Fleisch nach Auswahl.",
                 "priceL": 14,
                 "images": [
                   "/menu-items/Item30.jpg"
