@@ -384,7 +384,7 @@ export const translations = {
                 "isVegetarian": false
               },
               {
-                "id": "main-course-item-3",
+                "id": "main-course-item-2",
                 "name": "Geschmorte Aubergine in Sojasauce",
                 "german_name": "GESCHMORTE AUBERGINE",
                 "description": "Geschmorte Aubergine in Sojasauce.",
@@ -396,7 +396,7 @@ export const translations = {
                 "isVegetarian": true
               },
               {
-                "id": "main-course-item-5",
+                "id": "main-course-item-3",
                 "name": "Mapo Tofu (Scharf & Betäubend)",
                 "german_name": "MAPO TOFU",
                 "description": "Zarter Tofu in würziger Szechuan-Sauce.",
@@ -406,14 +406,9 @@ export const translations = {
                 ],
                 "isSpicy": true,
                 "isVegetarian": true
-              }
-            ]
-          },
-          {
-            "id": "main-courses-1",
-            "items": [
-              {
-                "id": "lag-item-6",
+              },
+               {
+                "id": "main-course-item-4",
                 "name": "Gebratener Mais",
                 "german_name": "GEBRATENER MAIS",
                 "description": "Mais und Gemüse",
@@ -423,9 +418,14 @@ export const translations = {
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
-              },
+              }
+            ]
+          },
+          {
+            "id": "main-courses-1",
+            "items": [
               {
-                "id": "main-course-item-6",
+                "id": "main-course-item-5",
                 "name": "Tofu nach Hausfrauenart",
                 "german_name": "TOFU NACH HAUSFRAUENART",
                 "description": "Gebratener Tofu mit Gemüse.",
@@ -437,7 +437,7 @@ export const translations = {
                 "isVegetarian": true
               },
               {
-                "id": "main-course-item-7",
+                "id": "main-course-item-6",
                 "name": "Gebratener Brokkoli",
                 "german_name": "GEBRATENER BROKKOLI",
                 "description": "Brokkoli, Paprika.",
@@ -449,7 +449,7 @@ export const translations = {
                 "isVegetarian": true
               },
               {
-                "id": "main-course-item-8",
+                "id": "main-course-item-7",
                 "name": "Gebratene Zucchini",
                 "german_name": "GEBRATENER ZUCCHINI",
                 "description": "Zucchini (Kürbis), Paprika.",
@@ -459,24 +459,19 @@ export const translations = {
                 ],
                 "isSpicy": false,
                 "isVegetarian": true
-              }
-            ]
-          },
-          {
-            "id": "main-courses-2",
-            "items": [
-              {
-                "id": "main-course-item-12",
-                "name": "Ei gebraten mit Tomate und Chili",
-                "german_name": "Tuhum Shohla",
-                "description": "Ei, Tomaten, Paprika.",
-                "priceL": 10,
-                "images": [
-                  "/menu-items/Item25.jpg"
-                ],
-                "isSpicy": false,
-                "isVegetarian": false
-              }
+              },
+                 {
+                  "id": "main-course-item-12",
+                  "name": "Ei gebraten mit Tomate und Chili",
+                  "german_name": "Tuhum Shohla",
+                  "description": "Ei, Tomaten, Paprika.",
+                  "priceL": 10,
+                  "images": [
+                    "/menu-items/Item25.jpg"
+                  ],
+                  "isSpicy": false,
+                  "isVegetarian": false
+                }
             ]
           }
         ]
@@ -1636,7 +1631,7 @@ export const translations = {
                 "isVegetarian": false
               },
               {
-                "id": "main-course-item-3",
+                "id": "main-course-item-2",
                 "name": "红烧茄子",
                 "description": "红烧茄子。",
                 "priceL": 12,
@@ -1647,7 +1642,7 @@ export const translations = {
                 "isVegetarian": true
               },
               {
-                "id": "main-course-item-5",
+                "id": "main-course-item-3",
                 "name": "麻辣豆腐",
                 "description": "嫩豆腐配香辣麻辣酱。",
                 "priceL": 14,
@@ -1657,17 +1652,8 @@ export const translations = {
                 "isSpicy": true,
                 "isVegetarian": true
               },
-
-
-
-            ]
-          },
-          {
-            "id": "main-courses-1",
-            "items": [
-
-              {
-                "id": "lag-item-6",
+               {
+                "id": "main-course-item-4",
                 "name": "炒玉米",
                 "german_name": "Mamper",
                 "description": "玉米 蔬菜",
@@ -1677,9 +1663,14 @@ export const translations = {
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
-              },
+              }
+            ]
+          },
+          {
+            "id": "main-courses-1",
+            "items": [
               {
-                "id": "main-course-item-6",
+                "id": "main-course-item-5",
                 "name": "家常豆腐",
                 "description": "炒豆腐配蔬菜。",
                 "priceL": 16,
@@ -1690,7 +1681,7 @@ export const translations = {
                 "isVegetarian": true
               },
               {
-                "id": "main-course-item-7",
+                "id": "main-course-item-6",
                 "name": "炒西兰花",
                 "german_name": "GEBRATENER BROKKOLI",
                 "description": "西兰花、灯笼椒。",
@@ -1702,7 +1693,7 @@ export const translations = {
                 "isVegetarian": true
               },
               {
-                "id": "main-course-item-8",
+                "id": "main-course-item-7",
                 "name": "炒西葫芦",
                 "german_name": "GEBRATENER ZUCCHINI",
                 "description": "葫芦瓜（南瓜）、灯笼椒。",
@@ -1712,39 +1703,9 @@ export const translations = {
                 ],
                 "isSpicy": false,
                 "isVegetarian": true
-              }
-            ]
-          },
-          {
-            "id": "main-courses-2",
-            "items": [
-              // {
-              //   "id": "main-course-item-9",
-              //   "name": "00",
-              //   "german_name": "GEBRATENE RINDERKUTTELN",
-              //   "description": "牛肚、灯笼椒。",
-              //   "priceL": 16,
-              //   "images": [
-              //     "/menu-items/Item16.jpg"
-              //   ],
-              //   "isSpicy": true,
-              //   "isVegetarian": false
-              // },
-              ,
-              // {
-              //   "id": "main-course-item-11",
-              //   "name": "时蔬炒牛肚",
-              //   "german_name": "GEBRATENE RINDERKUTTELN MIT GEMÜSE",
-              //   "description": "牛肉丝、灯笼椒、蘑菇、黄瓜、胡萝卜。",
-              //   "priceL": 16,
-              //   "images": [
-              //     "/menu-items/Item20.jpg"
-              //   ],
-              //   "isSpicy": false,
-              //   "isVegetarian": false
-              // },
+              },
               {
-                "id": "main-course-item-12",
+                "id": "main-course-item-8",
                 "name": "鸡蛋炒番茄辣椒",
                 "german_name": "Tuhum Shohla",
                 "description": "鸡蛋、番茄、灯笼椒。",
@@ -2270,7 +2231,7 @@ export const translations = {
                 "isVegetarian": false
               },
               {
-                "id": "main-course-item-3",
+                "id": "main-course-item-2",
                 "name": "Тушеный Баклажан в Соевом Соусе",
                 "description": "Тушеный баклажан в соевом соусе.",
                 "priceL": 12,
@@ -2281,7 +2242,7 @@ export const translations = {
                 "isVegetarian": true
               },
               {
-                "id": "main-course-item-5",
+                "id": "main-course-item-3",
                 "name": "Ма По Тофу (Острый и Оглушающий)",
                 "description": "Нежный тофу в пряном и остром сычуаньском соусе.",
                 "priceL": 14,
@@ -2290,14 +2251,9 @@ export const translations = {
                 ],
                 "isSpicy": true,
                 "isVegetarian": true
-              }
-            ]
-          },
-          {
-            "id": "main-courses-1",
-            "items": [
-              {
-                "id": "lag-item-6",
+              },
+               {
+                "id": "main-course-item-4",
                 "name": "Жареная Кукуруза",
                 "german_name": "Mamper",
                 "description": "Кукуруза и овощи",
@@ -2307,9 +2263,14 @@ export const translations = {
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
-              },
+              }
+            ]
+          },
+          {
+            "id": "main-courses-1",
+            "items": [
               {
-                "id": "main-course-item-6",
+                "id": "main-course-item-5",
                 "name": "Тофу по-Домашнему",
                 "description": "Жареный тофу с овощами.",
                 "priceL": 16,
@@ -2320,7 +2281,7 @@ export const translations = {
                 "isVegetarian": true
               },
               {
-                "id": "main-course-item-7",
+                "id": "main-course-item-6",
                 "name": "Жареная Брокколи",
                 "german_name": "GEBRATENER BROKKOLI",
                 "description": "Брокколи, болгарский перец.",
@@ -2332,7 +2293,7 @@ export const translations = {
                 "isVegetarian": true
               },
               {
-                "id": "main-course-item-8",
+                "id": "main-course-item-7",
                 "name": "Жареные Кабачки/Цукини",
                 "german_name": "GEBRATENER ZUCCHINI",
                 "description": "Кабачок (тыква), болгарский перец.",
@@ -2342,14 +2303,9 @@ export const translations = {
                 ],
                 "isSpicy": false,
                 "isVegetarian": true
-              }
-            ]
-          },
-          {
-            "id": "main-courses-2",
-            "items": [
-              {
-                "id": "main-course-item-12",
+              },
+               {
+                "id": "main-course-item-8",
                 "name": "Яйцо Жареное с Помидорами и Перцем Чили",
                 "german_name": "Tuhum Shohla",
                 "description": "Яйцо, помидоры, болгарский перец.",
