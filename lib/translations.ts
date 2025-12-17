@@ -118,8 +118,7 @@ export const translations = {
               },
               {
                 "id": "lag-item-2",
-                "name": "Gebratene Läghmen mit Fleisch",
-                "german_name": "GOU YU ROU BAN MIAN",
+                "name": "Goyru Laghman",
                 "description": "Lamm, Paprika, Chinakohl, Pilze, Zwiebeln, handgemachte Läghmen (Nudeln).",
                 "priceL": 16,
                 "images": [
@@ -732,7 +731,7 @@ export const translations = {
               },
               {
                 "id": "lag-item-2",
-                "name": "Guo You Rou Ban Mian (Stir-fried Lamb Noodles)",
+                "name": "Goyru Laghman",
                 "description": "Lamb, sweet peppers, Chinese cabbage, mushrooms, onions, handmade noodles.",
                 "priceL": 16,
                 "images": [
