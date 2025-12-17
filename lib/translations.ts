@@ -83,590 +83,528 @@ export const translations = {
 
     // menu text
 
-    "RestaurantMenuText": "TARIM UYGHUR RESTAURANT MENÜ",
-    "menuCategories": {
-      "laghman": "HandgezogeneNudeln/Hand-PulledNooodle",
-      "rice_bowls": "Reisgerichte/RiceDishes",
-      "noodles_with_soup": "SuppemitNudeln/NoodlesWithSoup",
-      "chicken_dishes": "Hühnchengerichte/ChickenDishes",
-      "main_courses": "Hauptgerichte/MainCourses",
-      "starters": "Vorspeisen/Starters",
-      "vegan_starters": "Vegetarische Gerichte"
-
-
+    
+  "RestaurantMenuText": "Menü des Uigurischen Tarim-Restaurants",
+  "menuCategories": {
+    "laghman": "Handgemachte Läghmen (Nudeln)",
+    "rice_bowls": "Uigurische Spezialitäten",
+    "noodles_with_soup": "Nudeln mit Suppe",
+    "chicken_dishes": "Klassische Wok-Gerichte",
+    "main_courses": "Klassische Vegetarische Gerichte",
+    "starters": "Uigurische Snacks/Grillgerichte",
+    "vegan_starters": "Klassische Kalte Gerichte"
+  },
+  "categories": [
+    {
+      "id": "laghman",
+      "name": "1. Handgemachte Läghmen (Nudeln)",
+      "categoryImage": "/menu-items/Homemade-Laghman.jpg",
+      "categoryImage1": "/menu-items/Homemade-Laghman.jpg",
+      "sections": [
+        {
+          "id": "laghman-main",
+          "items": [
+            {
+              "id": "lag-item-1",
+              "name": "Königs-Läghmen von Tarim",
+              "german_name": "SCHAH LÄGHMEN",
+              "description": "Lamm, Paprika, Chinakohl, Pilze, Zwiebeln und handgemachte Läghmen (Nudeln).",
+              "priceL": 20,
+              "images": [
+                "/menu-items/Item7.jpg"
+              ],
+              "isSpicy": false,
+              "isVegetarian": false
+            },
+            {
+              "id": "lag-item-2",
+              "name": "Gebratene Läghmen mit Fleisch",
+              "german_name": "GOU YU ROU BAN MIAN",
+              "description": "Lamm, Paprika, Chinakohl, Pilze, Zwiebeln, handgemachte Läghmen (Nudeln).",
+              "priceL": 16,
+              "images": [
+                "/menu-items/Homemade-Laghman.jpeg"
+              ],
+              "isSpicy": false,
+              "isVegetarian": false
+            },
+            {
+              "id": "lag-item-3",
+              "name": "Läghmen nach Hausfrauenart",
+              "german_name": "NUDELN MIT GEMÜSE",
+              "description": "Lamm, Paprika, Spinat und handgemachte Läghmen (Nudeln).",
+              "priceL": 14,
+              "images": [
+                "/menu-items/Item30.jpg"
+              ],
+              "isSpicy": false,
+              "isVegetarian": false
+            },
+            {
+              "id": "lag-item-5",
+              "name": "Gebratene Nudelwürfel (Ding Ding Chao Mian)",
+              "german_name": "MARJAN KORIMIS",
+              "description": "Handgeschnittene Nudelwürfel, Rindfleisch, Paprika.",
+              "priceL": 14.0,
+              "images": [
+                "/menu-items/beef-sliced-noodles.jpeg"
+              ],
+              "isSpicy": false,
+              "isVegetarian": false
+            }
+          ]
+        },
+        {
+          "id": "laghman-main-1",
+          "items": [
+            {
+              "id": "lag-item-5",
+              "name": "Gebratene Nudeln Toksun Art",
+              "german_name": "MARJAN KORIMIS",
+              "description": "Handgeschnittene Nudelwürfel, Rindfleisch und Paprika.",
+              "priceL": 14.0,
+              "images": [
+                "/menu-items/Item32.jpeg"
+              ],
+              "isSpicy": false,
+              "isVegetarian": false
+            }
+          ]
+        }
+      ]
     },
-    "categories": [
-      {
-        "id": "laghman",
-        "name": "1. HandgezogeneNudeln/Hand-PulledNooodle",
-        "categoryImage": "/menu-items/Homemade-Laghman.jpg",
-        "categoryImage1": "/menu-items/Homemade-Laghman.jpg",
-        "sections": [
-          {
-            "id": "laghman-main",
-            "items": [
-              {
-                "id": "lag-item-1",
-                "name": "Tarim Royal Lagman",
-                "german_name": "SCHAH LÄGHMEN",
-                "description": "FleischnachAuswahl,Paprika,Chinakohl,Pilzen,ZwiebelnundHandgezogenenNudel.",
-                "priceL": 20,
-                "images": [
-                  "/menu-items/Item7.jpg"
-                ],
-                "isSpicy": false,
-                "isVegetarian": false
-              },
-              {
-                "id": "lag-item-2",
-                "name": "Schah Lagman",
-                "description": "Fleisch nach Auswahl, Paprika, Chinakohl, Pilze, Zwiebeln und handgezogene Nudeln.",
-                "priceL": 16,
-                "images": [
-                  "/menu-items/Homemade-Laghman.jpeg"
-                ],
-                "isSpicy": false,
-                "isVegetarian": false
-              },
-              {
-                "id": "lag-item-3",
-                "name": "Hausgemachte Lagman",
-                "german_name": "NUDELN MIT GEMÜSE",
-                "description": "FleischnachAuswahl,Paprika,SpinatundHandgezogeneNudeln.",
-                "priceL": 14,
-                "images": [
-                  "/menu-items/Item30.jpg"
-                ],
-                "isSpicy": false,
-                "isVegetarian": false
-              },
-              {
-                "id": "lag-item-4",
-                "name": "Rindfleischstreifen mit Gemüse",
-                "german_name": "RINDFLEISCHSTREIFEN MIT GEMÜSE",
-                "description": "Süß-sauer und leicht scharfes zerkleinertes Fleisch.",
-                "priceL": 18,
-                "images": [
-                  "/menu-items/Item20.jpg"
-                ],
-                "isSpicy": true,
-                "isVegetarian": false
-              },
-            ]
-          },
-          {
-            "id": "laghman-main-1",
-            "items": [
-              {
-                "id": "lag-item-5",
-                "name": "Gebratene Nudeln",
-                "german_name": "Gebratene Nudeln",
-                "description": "FleischnachAuswahl,Schnittlauch,getrocknetem ChiliundPaprika.",
-                "priceL": 15,
-                "images": [
-                  "/menu-items/Slic"
-                ],
-                "isSpicy": false,
-                "isVegetarian": false
-              },
-              {
-                "id": "lag-item-6",
-                "name": "Marjan korimis",
-                "german_name": "MARJAN KORIMIS",
-                "description": "HandgeschnitteneNudelwürfeln,Fleisch,ChinakohlundPaprik.",
-                "priceL": 14.0,
-                "images": [
-                  "/menu-items/beef-sliced-noodles.jpeg"
-                ],
-                "isSpicy": false,
-                "isVegetarian": false
-              },
-              {
-                "id": "lag-item-7",
-                "name": "Mamper",
-                "german_name": "Mamper",
-                "description": "FleischnachAuswahl,Paprika,ChinakohlundHausgemachteNudeln.",
-                "priceL": 15,
-                "images": [
-                  "/menu-items/Sliced-Noodles.jpeg"
-                ],
-                "isSpicy": false,
-                "isVegetarian": false
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "rice_bowls",
-        "name": "2. Reisgerichte/RiceDishes",
-        "categoryImage": "/beef.png",
-        "sections": [
-          {
-            "id": "rice-main",
-            "items": [
-              {
-                "id": "rice-item-1",
-                "name": "Polo",
-                "description": "Fleisch,Karotten,Reis",
-                "priceL": 15,
-                "images": [
-                  "/menu-items/Item29.jpeg"
-                ],
-                "isSpicy": false,
-                "isVegetarian": false
-              },
-              {
-                "id": "rice-item-2",
-                "name": "Gebratener Reis mit Ei",
-                "description": "Gebratener Reis mit Eiern, einfach und schmackhaft",
-                "priceL": 10,
-                "images": [
-                  "/menu-items/Item3.jpg"
-                ],
-                "isSpicy": false,
-                "isVegetarian": false
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "noodles_with_soup",
-        "name": "3. SuppemitNudeln/NoodlesWithSoup",
-        "categoryImage": "/beef.png",
-        "sections": [
-          {
-            "id": "",
-            "items": [
-              {
-                "id": "noodles-with-soup-item-1",
-                "name": "Reisnudeln mit Fleisch",
-                "description": "Gebratene Reisnudeln mit Fleisch, Chilisauce und Sellerie.",
-                "priceL": 14,
-                "images": [
-                  "/menu-items/Item25.jpg"
-                ],
-                "isSpicy": true,
-                "isVegetarian": false
-              },
-              {
-                "id": "noodles-with-soup-item-2",
-                "name": "Hongshao Ramen",
-                "description": "Handgezogene Nudeln in einer kräftigen Brühe mit geschmortem Rindfleisch.",
-                "priceL": 14,
-                "images": [
-                  "/menu-items/Item10.jpg"
-                ],
-                "isSpicy": true,
-                "isVegetarian": false
-              },
-              {
-                "id": "noodles-with-soup-item-3",
-                "name": "Ramen mit Rindfleischsuppe",
-                "description": "Klare Rinderbrühe mit zarten Rindfleischscheiben und Nudeln.",
-                "priceL": 10,
-                "images": [
-                  "/menu-items/Item24.jpg"
-                ],
-                "isSpicy": true,
-                "isVegetarian": false
-              },
-              {
-                "id": "noodles-with-soup-item-4",
-                "name": "Reisnudeln mit Fleisch",
-                "german_name": "REISNUDELN MIT FLEISCH",
-                "description": "FleischnachAuswahl,Reisnudeln,Chili-Sauce,Sellerie.",
-                "priceL": 14,
-                "images": [
-                  "/menu-items/Item31.jpeg"
-                ],
-                "isSpicy": true,
-                "isVegetarian": false
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "chicken_dishes",
-        "name": "4. Hühnchengerichte/ChickenDishes",
-        "categoryImage": "/beef.png",
-        "sections": [
-          {
-            "id": "chicken-dishes",
-            "items": [
-              {
-                "id": "chicken-dish-item-1",
-                "name": "Hähnchen mit Kartoffeln",
-                "german_name": "HÄHNCHEN MIT KARTOFFELN",
-                "description": "GeschmortesHähnchenmitKartoffeln,PaprikaundChili,serviertmitHandgezogenenNudeln.",
-                "priceL": 45,
-                "priceM": 35,
-                "priceS": 15,
-                "images": [
-                  "/menu-items/Item8.jpg"
-                ],
-                "isSpicy": true,
-                "isVegetarian": false
-              },
-              {
-                "id": "chicken-dish-item-2",
-                "name": "Hähnchen mit Chili",
-                "german_name": "HÄHNCHEN MIT CHILI",
-                "description": "Knusprig gebratenes Hähnchen mit Chili und Gewürzen, ideal zum Teilen.",
-                "priceL": 40,
-                "images": [
-                  "/menu-items/Item12.jpg"
-                ],
-                "isSpicy": true,
-                "isVegetarian": false
-              },
-              {
-                "id": "chicken-dish-item-3",
-                "name": "Gebratene Rinderkutteln",
-                "german_name": "GEBRATENE RINDERKUTTELN",
-                "description": "Hähnchen,Chili,Seasam.",
-                "priceL": 16,
-                "images": [
-                  "/menu-items/POLO.jpeg"
-                ],
-                "isSpicy": true,
-                "isVegetarian": false
-              },
-              {
-                "id": "chicken-dish-item-4",
-                "name": "Huhn mit Erdnüssen",
-                "german_name": "HUHN MIT ERDNÜSSEN",
-                "description": "Gewürfeltes Hähnchen, mit Erdnüssen in einer mild scharfen Sauce gebraten.",
-                "priceL": 16,
-                "images": [
-                  "/menu-items/Item9.jpg"
-                ],
-                "isSpicy": true,
-                "isVegetarian": false
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "main_courses",
-        "name": "5. Hauptgerichte/MainCourses",
-        "categoryImage": "/menu-items/Homemade-Laghman1.jpeg",
-        "categoryImage1": "/menu-items/Homemade-Laghman1.jpeg",
-        "categoryImage2": "/menu-items/Homemade-Laghman1.jpeg",
-
-        "sections": [
-          {
-            "id": "main-courses",
-            "items": [
-              {
-                "id": "main-course-item-1",
-                "name": "Spinat mit Ei",
-                "description": "Mit Ei gebratener Spinat.",
-                "priceL": 12,
-                "images": [
-                  "/menu-items/Item5.jpg"
-                ],  
-                "isSpicy": false,
-                "isVegetarian": false
-              },
-              {
-                "id": "main-course-item-2",
-                "name": "Maismit Gemuüse",
-                "german_name": "MAISMIT GEMÜSE",
-                "description": "Mais,Paprika,Zwiebe.",
-                "priceL": 10,
-                "images": [
-                  "/menu-items/Homemade-Laghman1.jpeg"
-                ],
-                "isSpicy": false,
-                "isVegetarian": true
-              },
-              {
-                "id": "main-course-item-3",
-                "name": "Aubergine geschmort",
-                "description": "Geschmorte Aubergine in einer herzhaften Soße.",
-                "priceL": 12,
-                "images": [
-                  "/menu-items/Item2.jpg"
-                ],
-                "isSpicy": true,
-                "isVegetarian": true
-              },
-              {
-                "id": "main-course-item-4",
-                "name": "Gebratene Yeshil Samsak",
-                "german_name": "GEBRATENE YESHIL SAMSAK",
-                "description": "Knoblauchstängel,Fleisch.",
-                "priceL": 16,
-                "images": [
-                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
-                ],
-                "isSpicy": false,
-                "isVegetarian": false
-              }
-            ]
-          },
-          {
-            "id": "main-courses-1",
-            "items": [
-              {
-                "id": "main-course-item-5",
-                "name": "Spicy Mala Tofu",
-                "description": "Weicher Tofu in einer scharfen und aromatischen Mala-Soße.",
-                "priceL": 14,
-                "images": [
-                  "/menu-items/Item19.jpg"
-                ],
-                "isSpicy": true,
-                "isVegetarian": true
-              },
-              {
-                "id": "main-course-item-6",
-                "name": "Gebratener Tofu nach Hausart",
-                "description": "Gebratener Tofu mit Gemüse gebraten.",
-                "priceL": 16,
-                "images": [
-                  "/menu-items/Item13.jpg"
-                ],
-                "isSpicy": false,
-                "isVegetarian": true
-              },
-              {
-                "id": "main-course-item-7",
-                "name": "Gebratener Brokkoli",
-                "german_name": "GEBRATENER BROKKOLI",
-                "description": "Brokkoli,Paprika.",
-                "priceL": 14,
-                "images": [
-                  "/menu-items/Item15.jpg"
-                ],
-                "isSpicy": false,
-                "isVegetarian": true
-              },
-              {
-                "id": "main-course-item-8",
-                "name": "Gebratener Zucchini",
-                "german_name": "GEBRATENER ZUCCHINI",
-                "description": "Flaschenkürbis,Paprika.",
-                "priceL": 12,
-                "images": [
-                  "/menu-items/Item17.jpg"
-                ],
-                "isSpicy": false,
-                "isVegetarian": true
-              }
-            ]
-          },
-          {
-            "id": "main-courses-2",
-            "items": [
-              {
-                "id": "main-course-item-9",
-                "name": "Gebratene Rinderkutteln",
-                "german_name": "GEBRATENE RINDERKUTTELN",
-                "description": "Rinderkutteln,Paprika.",
-                "priceL": 16,
-                "images": [
-                  "/menu-items/Item6.jpg"
-                ],
-                "isSpicy": true,
-                "isVegetarian": false
-              },
-              {
-                "id": "main-course-item-10",
-                "name": "Gebratene Champignons mit Fleisch",
-                "german_name": "GEBRATENE CHAMPIGNONS MIT FLEISCH",
-                "description": "Champignons,Fleisch,Paprika.",
-                "priceL": 16,
-                "images": [
-                  "/menu-items/Item23.jpg"
-                ],
-                "isSpicy": false,
-                "isVegetarian": false
-              },
-              {
-                "id": "main-course-item-11",
-                "name": "Gebratene Rinderkutteln mit Gemüse",
-                "german_name": "GEBRATENE RINDERKUTTELN MIT GEMÜSE",
-                "description": "Rindfleischstreifen,Paprika,Pilze,Gurke,Karotten.",
-                "priceL": 16,
-                "images": [
-                  "/menu-items/Item20.jpg"
-                ],
-                "isSpicy": false,
-                "isVegetarian": false
-              },
-              {
-                "id": "main-course-item-12",
-                "name": "Tuhum Shohla",
-                "german_name": "Tuhum Shohla",
-                "description": "Eier,Tomaten,Paprika.",
-                "priceL": 10,
-                "images": [
-                  "/menu-items/Item25.jpg"
-                ],
-                "isSpicy": false,
-                "isVegetarian": false
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "starters",
-        "name": "6. Vorspeisen/Starters",
-        "categoryImage": "/menu-items/Lamb-Skewers.jpg",
-        "categoryImage1": "/menu-items/Lamb-Skewers.jpg",
-        "sections": [
-          {
-            "id": "starter-section",
-            "items": [
-              {
-                "id": "starter-item-1",
-                "name": "Gedämpfte Teigtaschen",
-                "description": "Rindfleisch, Zwiebel, Chinakohl.",
-                "priceL": 7,
-                "images": [
-                  "/menu-items/Steamed-Dumplings.jpeg"
-                ],
-                "isSpicy": false,
-                "isVegetarian": false
-              },
-              {
-                "id": "starter-item-2",
-                "name": "Samsa",
-                "description": "Gebackene Rindfleischbrötchen mit Sesam bestreut.",
-                "priceL": 3,
-                "images": [
-                  "/menu-items/Item11.jpg"
-                ],
-                "isSpicy": false,
-                "isVegetarian": false
-              },
-              {
-                "id": "starter-item-3",
-                "name": "Lammspiesen",
-                "german_name": "LAMMSPIESEN",
-                "description": "Lamm.",
-                "priceL": 12,
-                "additionPrice": "3 stück",
-                "images": [
-                  "/menu-items/Item14.jpg"
-                ],
-                "isSpicy": false,
-                "isVegetarian": false
-              },
-              {
-                "id": "starter-item-4",
-                "name": "Lammkarree",
-                "description": "Lammkarree.",
-                "priceL": 7,
-                "images": [
-                  "/menu-items/Item26.jpg"
-                ],
-                "isSpicy": false,
-                "isVegetarian": false
-              }
-            ]
-          },
-          {
-            "id": "starter-section-2",
-            "items": [
-              {
-                "id": "starter-item-5",
-                "name": "Lammspiesen",
-                "description": "Lamm.",
-                "priceL": 12,
-                "unit": "3 Stück",
-                "images": [
-                  "/menu-items/Item28.jpg"
-                ],
-                "isSpicy": true,
-                "isVegetarian": false
-              }
-            ]
-          },
-          {
-            "id": "starter-section-1",
-            "items": [
-              {
-                "id": "starter-item-",
-                "name": "Rindfleischsala",
-                "german_name": "RINDFLEISCHSALA",
-                "description": "Rindfleisch und Hausgemachte Sauce.",
-                "priceL": 13,
-                "images": [
-                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
-                ],
-                "isSpicy": true,
-                "isVegetarian": false
-              }
-            ]
-          }
-        ]
-
-      },
-      {
-        "id": "vegan_starters",
-        "name": "Vegetarische Gerichte",
-        "categoryImage": "/menu-items/Cucumber-Salad.jpg",
-        "sections": [
-          {
-            "id": "vegan_starter_section_1",
-            "items": [
-              {
-                "id": "vegan_starter_item_1",
-                "name": "Nudeln mit Sauce",
-                "german_name": "NUDELN MIT SAUCE",
-                "description": "Frisch,zubereitete,Nudelnund,Hausgemachte,Sauce.",
-                "priceL": 6,
-                "images": [
-                  "/menu-items/Item21.jpg"
-                ],
-                "isSpicy": false,
-                "isVegetarian": true
-              },
-              {
-                "id": "vegan_starter_item_2",
-                "name": "Gurkensalat",
-                "description": "Knackige Gurken mit Hausdressing.",
-                "priceL": 7,
-                "images": [
-                  "/menu-items/Item22.jpg"
-                ],
-                "isSpicy": false,
-                "isVegetarian": true
-              },
-              {
-                "id": "vegan_starter_item_3",
-                "name": "Uigur Salat",
-                "description": "Frischer Salat mit Zwiebeln, Tomaten und Paprika.",
-                "priceL": 7,
-                "images": [
-                  "/menu-items/Item16.jpg"
-                ],
-                "isSpicy": false,
-                "isVegetarian": true
-              },
-              {
-                "id": "vegan_starter_item_4",
-                "name": "Rindfleischsalat",
-                "description": "Kaltes Rindfleisch in uigurischer Sauce.",
-                "priceL": 13,
-                "images": [
-                  "/menu-items/Item27.jpg"
-                ],
-                "isSpicy": false,
-                "isVegetarian": true
-              }
-            ]
-          }
-        ]
-      }
-    ],
+    {
+      "id": "rice_bowls",
+      "name": "2. Klassische Gerichte",
+      "categoryImage": "/menu-items/Goxnan1.jpeg",
+      "sections": [
+        {
+          "id": "rice-main",
+          "items": [
+            {
+              "id": "rice-item-1",
+              "name": "Polo (Uigurischer Pilaw)",
+              "german_name": "POLO",
+              "description": "Fleisch, Karotten, Reis.",
+              "priceL": 15,
+              "images": [
+                "/menu-items/Item29.jpeg"
+              ],
+              "isSpicy": false,
+              "isVegetarian": false
+            },
+            {
+              "id": "chicken-dish-item-1",
+              "name": "Da Pan Ji (Großes Teller Hähnchen)",
+              "german_name": "DA PAN JI",
+              "description": "Hähnchen mit Kartoffeln, Paprika und Chili, serviert mit handgemachten Läghmen (Nudeln).",
+              "priceL": 45,
+              "priceM": 35,
+              "priceS": 15,
+              "images": [
+                "/menu-items/Item8.jpg"
+              ],
+              "isSpicy": true,
+              "isVegetarian": false
+            },
+            {
+              "id": "rice-item-2",
+              "name": "Samsa (Gebackene Teigtaschen)",
+              "german_name": "SAMSA",
+              "description": "Lamm und Gemüse",
+              "priceL": 3,
+              "images": [
+                "/menu-items/Item11.jpg"
+              ],
+              "isSpicy": false,
+              "isVegetarian": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "noodles_with_soup",
+      "name": "3. Nudeln mit Suppe",
+      "categoryImage": "/beef.png",
+      "sections": [
+        {
+          "id": "",
+          "items": [
+            {
+              "id": "noodles-with-soup-item-2",
+              "name": "Rindfleisch-Nudelsuppe (Hong Shao Niu Rou Mian)",
+              "german_name": "RINDERRAGOUT NUDELSUPPE",
+              "description": "Handgemachte Nudeln mit Rinderragout in kräftiger Brühe.",
+              "priceL": 14,
+              "images": [
+                "/menu-items/Item10.jpg"
+              ],
+              "isSpicy": true,
+              "isVegetarian": false
+            },
+            {
+              "id": "noodles-with-soup-item-3",
+              "name": "Klare Rindfleisch-Nudelsuppe",
+              "german_name": "KLARE RINDERNUDELSUPPE",
+              "description": "Klare Rinderbrühe mit zarten Rindfleischscheiben und Nudeln.",
+              "priceL": 10,
+              "images": [
+                "/menu-items/Item24.jpg"
+              ],
+              "isSpicy": true,
+              "isVegetarian": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chicken_dishes",
+      "name": "4. Klassische Wok-Gerichte",
+      "categoryImage": "/beef.png",
+      "categoryImage1": "/beef.png",
+      "sections": [
+        {
+          "id": "chicken-dishes",
+          "items": [
+            {
+              "id": "chicken-dish-item-1",
+              "name": "Chongqing Chili Hähnchen",
+              "german_name": "LA ZI JI",
+              "description": "Scharf und knusprig gebratenes Hähnchen mit verschiedenen Gewürzen, zum Teilen geeignet.",
+              "priceL": 40,
+              "images": [
+                "/menu-items/Item12.jpg"
+              ],
+              "isSpicy": true,
+              "isVegetarian": false
+            },
+            {
+              "id": "chicken-dish-item-2",
+              "name": "Scharf Gebratener Rindertrippe",
+              "german_name": "GEBRATENE RINDERKUTTELN",
+              "description": "Hähnchen, Chili, Sesam.",
+              "priceL": 16,
+              "images": [
+                "/menu-items/POLO.jpeg"
+              ],
+              "isSpicy": true,
+              "isVegetarian": false
+            },
+            {
+              "id": "chicken-dish-item-3",
+              "name": "Gebratene Reisnudeln",
+              "german_name": "GEBRATENE REISNUDELN MIT FLEISCH",
+              "description": "Gebratene Reisnudeln mit Fleisch, Chilisauce und Sellerie.",
+              "priceL": 14,
+              "images": [
+                "/menu-items/item31.jpeg"
+              ],
+              "isSpicy": true,
+              "isVegetarian": false
+            },
+            {
+              "id": "chicken-dish-item-4",
+              "name": "Gong Bao Hähnchen",
+              "german_name": "GONG BAO JI DING",
+              "description": "Gong Bao Hähnchen (leicht scharf), Hähnchenwürfel schnell mit Erdnüssen gebraten.",
+              "priceL": 16,
+              "images": [
+                "/menu-items/Item9.jpg"
+              ],
+              "isSpicy": true,
+              "isVegetarian": false
+            }
+          ]
+        },
+        {
+          "id": "chicken-dishes",
+          "items": [
+            {
+              "id": "chicken-dish-item-5",
+              "name": "Geschreddertes Schweinefleisch in Fischsaucen-Geschmack",
+              "german_name": "YU XIANG ROU SI",
+              "description": "Bambussprossen, Rindfleisch, Mu-Err-Pilze, grüne Paprika.",
+              "priceL": 18,
+              "images": [
+                "/menu-items/Item20.jpg"
+              ],
+              "isSpicy": true,
+              "isVegetarian": false
+            },
+            {
+              "id": "chicken-dish-item-6",
+              "name": "Fleisch mit Knoblauchstangen",
+              "german_name": "GEBRATENE YESHIL SAMSAK MIT FLEISCH",
+              "description": "Knoblauchstangen, Fleisch.",
+              "priceL": 16,
+              "images": [
+                "/menu-items/Fried-Beef-Stew.jpeg"
+              ],
+              "isSpicy": false,
+              "isVegetarian": false
+            },
+            {
+              "id": "chicken-dish-item-7",
+              "name": "Fleisch mit Pilzen",
+              "german_name": "GEBRATENE CHAMPIGNONS MIT FLEISCH",
+              "description": "Pilze, Fleisch, Paprika.",
+              "priceL": 16,
+              "images": [
+                "/menu-items/Item23.jpg"
+              ],
+              "isSpicy": false,
+              "isVegetarian": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "main_courses",
+      "name": "5. Klassische Vegetarische Gerichte",
+      "categoryImage": "/menu-items/Homemade-Laghman1.jpeg",
+      "categoryImage1": "/menu-items/Homemade-Laghman1.jpeg",
+      "categoryImage2": "/menu-items/Homemade-Laghman1.jpeg",
+      "sections": [
+        {
+          "id": "main-courses",
+          "items": [
+            {
+              "id": "main-course-item-1",
+              "name": "Gebratener Spinat mit Ei",
+              "german_name": "GEBRATENER SPINAT MIT EI",
+              "description": "Gebratener Spinat mit Ei.",
+              "priceL": 12,
+              "images": [
+                "/menu-items/Item5.jpg"
+              ],
+              "isSpicy": false,
+              "isVegetarian": false
+            },
+            {
+              "id": "main-course-item-3",
+              "name": "Geschmorte Aubergine in Sojasauce",
+              "german_name": "GESCHMORTE AUBERGINE",
+              "description": "Geschmorte Aubergine in Sojasauce.",
+              "priceL": 12,
+              "images": [
+                "/menu-items/Item2.jpg"
+              ],
+              "isSpicy": true,
+              "isVegetarian": true
+            },
+            {
+              "id": "main-course-item-5",
+              "name": "Mapo Tofu (Scharf & Betäubend)",
+              "german_name": "MAPO TOFU",
+              "description": "Zarter Tofu in würziger Szechuan-Sauce.",
+              "priceL": 14,
+              "images": [
+                "/menu-items/Item19.jpg"
+              ],
+              "isSpicy": true,
+              "isVegetarian": true
+            }
+          ]
+        },
+        {
+          "id": "main-courses-1",
+          "items": [
+            {
+              "id": "lag-item-6",
+              "name": "Gebratener Mais",
+              "german_name": "GEBRATENER MAIS",
+              "description": "Mais und Gemüse",
+              "priceL": 15,
+              "images": [
+                "/menu-items/Sliced-Noodles.jpeg"
+              ],
+              "isSpicy": false,
+              "isVegetarian": false
+            },
+            {
+              "id": "main-course-item-6",
+              "name": "Tofu nach Hausfrauenart",
+              "german_name": "TOFU NACH HAUSFRAUENART",
+              "description": "Gebratener Tofu mit Gemüse.",
+              "priceL": 16,
+              "images": [
+                "/menu-items/Item13.jpg"
+              ],
+              "isSpicy": false,
+              "isVegetarian": true
+            },
+            {
+              "id": "main-course-item-7",
+              "name": "Gebratener Brokkoli",
+              "german_name": "GEBRATENER BROKKOLI",
+              "description": "Brokkoli, Paprika.",
+              "priceL": 14,
+              "images": [
+                "/menu-items/Item15.jpg"
+              ],
+              "isSpicy": false,
+              "isVegetarian": true
+            },
+            {
+              "id": "main-course-item-8",
+              "name": "Gebratene Zucchini",
+              "german_name": "GEBRATENER ZUCCHINI",
+              "description": "Zucchini (Kürbis), Paprika.",
+              "priceL": 12,
+              "images": [
+                "/menu-items/Item17.jpg"
+              ],
+              "isSpicy": false,
+              "isVegetarian": true
+            }
+          ]
+        },
+        {
+          "id": "main-courses-2",
+          "items": [
+            {
+              "id": "main-course-item-12",
+              "name": "Ei gebraten mit Tomate und Chili",
+              "german_name": "Tuhum Shohla",
+              "description": "Ei, Tomaten, Paprika.",
+              "priceL": 10,
+              "images": [
+                "/menu-items/Item25.jpg"
+              ],
+              "isSpicy": false,
+              "isVegetarian": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "starters",
+      "name": "6. Uigurische Snacks/Grillgerichte",
+      "categoryImage": "/menu-items/Lamb-Skewers.jpg",
+      "categoryImage1": "/menu-items/Lamb-Skewers.jpg",
+      "sections": [
+        {
+          "id": "starter-section-1",
+          "items": [
+            {
+              "id": "starter-item-1",
+              "name": "Pärä (Gedämpfte Teigtaschen)",
+              "german_name": "GEDÄMPFTE TEIGTASCHEN",
+              "description": "Rindfleisch, Zwiebeln, Chinakohl.",
+              "priceL": 7,
+              "images": [
+                "/menu-items/Steamed-Dumplings.jpeg"
+              ],
+              "isSpicy": false,
+              "isVegetarian": false
+            },
+            {
+              "id": "starter-item-2",
+              "name": "Samsa (Gebackene Teigtaschen)",
+              "german_name": "SAMSA",
+              "description": "Gebackene Rindfleisch-Taschen mit Sesam.",
+              "priceL": 3,
+              "images": [
+                "/menu-items/Item11.jpg"
+              ],
+              "isSpicy": false,
+              "isVegetarian": false
+            },
+            {
+              "id": "starter-item-3",
+              "name": "Lammspieße",
+              "german_name": "LAMMSPIESEN",
+              "description": "Lamm.",
+              "priceL": 5,
+              "unit": "1 Stück",
+              "images": [
+                "/menu-items/Item14.jpg"
+              ],
+              "isSpicy": false,
+              "isVegetarian": false
+            },
+            {
+              "id": "starter-item-4",
+              "name": "Gegrillte Lamm-Nieren",
+              "german_name": "GEGRILLTE LAMMNIEREN",
+              "description": "Lammrippchen (Anmerkung: Die Beschreibung des chinesischen Textes '羊排' (Lammrippchen) wurde mit dem Namen '烤羊腰' (Gegrillte Lamm-Nieren) übersetzt, da dies der traditionellere Name für dieses Gericht ist).",
+              "priceL": 7,
+              "unit": "3 Scheiben",
+              "images": [
+                "/menu-items/Item26.jpg"
+              ],
+              "isSpicy": false,
+              "isVegetarian": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vegan_starters",
+      "name": "Klassische Kalte Gerichte",
+      "categoryImage": "/menu-items/Cucumber-Salad.jpg",
+      "sections": [
+        {
+          "id": "vegan_starter_section_1",
+          "items": [
+            {
+              "id": "vegan_starter_item_1",
+              "name": "Kalte Nudeln mit Sauce",
+              "german_name": "NUDELN MIT SAUCE",
+              "description": "Frisch zubereitete Nudeln mit hausgemachter Sauce.",
+              "priceL": 6,
+              "images": [
+                "/menu-items/Item21.jpg"
+              ],
+              "isSpicy": false,
+              "isVegetarian": true
+            },
+            {
+              "id": "vegan_starter_item_2",
+              "name": "Gurkensalat",
+              "german_name": "GURKENSALAT",
+              "description": "Knackige Gurken in spezieller Sauce.",
+              "priceL": 7,
+              "images": [
+                "/menu-items/Item22.jpg"
+              ],
+              "isSpicy": false,
+              "isVegetarian": true
+            },
+            {
+              "id": "vegan_starter_item_3",
+              "name": "Uigurischer Spezialsala",
+              "german_name": "UIGURSALAT",
+              "description": "Frischer Salat mit Zwiebeln, Tomaten und Paprika.",
+              "priceL": 7,
+              "images": [
+                "/menu-items/Item16.jpg"
+              ],
+              "isSpicy": false,
+              "isVegetarian": true
+            },
+            {
+              "id": "vegan_starter_item_4",
+              "name": "Kaltes Rindfleisch in Scheiben",
+              "german_name": "KALTES RIND IN SCHEIBEN",
+              "description": "Kaltes Rindfleisch mit uigurischer Soße.",
+              "priceL": 13,
+              "images": [
+                "/menu-items/Item27.jpg"
+              ],
+              "isSpicy": false,
+              "isVegetarian": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
 
     contactUsTitle: "Contact Us",
     contactUsSubTitle: "Essenz traditioneller Aromen",
@@ -765,572 +703,514 @@ export const translations = {
 
     // menu text
 
-    "RestaurantMenuText": "TARIM UYGHUR RESTAURANT MENU",
-    "menuCategories": {
-      "laghman": "Hand-Pulled Noodle (Laghman)",
-      "rice_bowls": "Rice Dishes",
-      "noodles_with_soup": "Noodles With Soup",
-      "chicken_dishes": "Chicken Dishes",
-      "main_courses": "Main Courses",
-      "starters": "Starters",
-      "vegan_starters": "Vegetarian dishes"
+    
+  "RestaurantMenuText": "Tarim Uyghur Restaurant Menu",
+  "menuCategories": {
+    "laghman": "Handmade Laghman Noodles",
+    "rice_bowls": "Uyghur Specialties",
+    "noodles_with_soup": "Noodles with Soup",
+    "chicken_dishes": "Classic Stir-Fries",
+    "main_courses": "Classic Vegetarian Dishes",
+    "starters": "Uyghur Snacks/BBQ",
+    "vegan_starters": "Classic Cold Dishes"
+  },
+  "categories": [
+    {
+      "id": "laghman",
+      "name": "1. Handmade Laghman Noodles",
+      "categoryImage": "/menu-items/Homemade-Laghman.jpg",
+      "categoryImage1": "/menu-items/Homemade-Laghman.jpg",
+      "sections": [
+        {
+          "id": "laghman-main",
+          "items": [
+            {
+            "id": "lag-item-1",
+            "name": "Tarim Royal Laghman",
+            "german_name": "SCHAH LÄGHMEN",
+            "description": "Lamb, bell pepper, Chinese cabbage, mushrooms, onions, and handmade noodles.",
+            "priceL": 20,
+            "images": [
+              "/menu-items/Item7.jpg"
+            ],
+            "isSpicy": false,
+            "isVegetarian": false
+            },
+            {
+            "id": "lag-item-2",
+            "name": "Guo You Rou Ban Mian (Stir-fried Lamb Noodles)",
+            "description": "Lamb, sweet peppers, Chinese cabbage, mushrooms, onions, handmade noodles.",
+            "priceL": 16,
+            "images": [
+              "/menu-items/Homemade-Laghman.jpeg"
+            ],
+            "isSpicy": false,
+            "isVegetarian": false
+            },
+            {
+            "id": "lag-item-3",
+            "name": "Homemade Laghman Noodles",
+            "german_name": "NUDELN MIT GEMÜSE",
+            "description": "Lamb, bell pepper, spinach, and handmade noodles.",
+            "priceL": 14,
+            "images": [
+              "/menu-items/Item30.jpg"
+            ],
+            "isSpicy": false,
+            "isVegetarian": false
+            },
+            {
+            "id": "lag-item-5",
+            "name": "Ding Ding Stir-fried Noodles",
+            "german_name": "MARJAN KORIMIS",
+            "description": "Hand-cut noodle cubes, beef, bell pepper.",
+            "priceL": 14.0,
+            "images": [
+              "/menu-items/beef-sliced-noodles.jpeg"
+            ],
+            "isSpicy": false,
+            "isVegetarian": false
+            }
+          ]
+        },
+        {
+          "id": "laghman-main-1",
+          "items": [
+            {
+            "id": "lag-item-5",
+            "name": "Toksun Stir-fried Noodles",
+            "german_name": "MARJAN KORIMIS",
+            "description": "Hand-cut noodle cubes, beef, and bell pepper.",
+            "priceL": 14.0,
+            "images": [
+              "/menu-items/Item32.jpeg"
+            ],
+            "isSpicy": false,
+            "isVegetarian": false
+            }
+          ]
+        }
+      ]
     },
-    "categories": [
-      {
-        "id": "laghman",
-        "name": "1. Hand-Pulled Noodle / Laghman",
-        "categoryImage": "/menu-items/Homemade-Laghman.jpg",
-        "categoryImage1": "/menu-items/Homemade-Laghman.jpg",
-        "sections": [
-          {
-            "id": "laghman-main",
-            "items": [
-              {
-                "id": "lag-item-1",
-                "name": "Shah Laghman (Royal Laghman)",
-                "german_name": "SCHAH LÄGHMEN",
-                "description": "Meat of choice, bell pepper, Chinese cabbage, mushrooms, onions, and hand-pulled noodles.",
-                "priceL": 20,
-                "images": [
-                  "/menu-items/Item7.jpg"
-                ],
-                "isSpicy": false,
-                "isVegetarian": false
-              },
-              {
-                "id": "lag-item-2",
-                "name": "SchahLagman",
-                "description": "Meat of your choice, Bell peppers, Chinese cabbage, Mushrooms, Onions, and Hand-pulled noodles.",
-                "priceL": 16,
-                "images": [
-                  "/menu-items/Homemade-Laghman.jpeg"
-                ],
-                "isSpicy": false,
-                "isVegetarian": false
-              },
-              {
-                "id": "lag-item-3",
-                "name": "Noodles with Vegetables",
-                "german_name": "NUDELN MIT GEMÜSE",
-                "description": "Meat of choice, bell pepper, spinach, and hand-pulled noodles.",
-                "priceL": 14,
-                "images": [
-                  "/menu-items/Item30.jpg"
-                ],
-                "isSpicy": false,
-                "isVegetarian": false
-              },
-              {
-                "id": "lag-item-4",
-                "name": " Yu-Xiang Shredded Pork",
-                "german_name": "YU-XIANG SHREDDED PORK",
-                "description": "Sweet, sour, and mildly spicy shredded meat.",
-                "priceL": 18,
-                "images": [
-                  "/menu-items/Item20.jpg"
-                ],
-                "isSpicy": true,
-                "isVegetarian": false
-              }
-            ]
-          },
-          {
-            "id": "laghman-main-1",
-            "items": [
-              {
-                "id": "lag-item-5",
-                "name": "Fried Noodles (Chao Mian)",
-                "german_name": "Gebratene Nudeln",
-                "description": "Meat of choice, chives, dried chili, and bell pepper.",
-                "priceL": 15,
-                "images": [
-                  "/menu-items/Slic"
-                ],
-                "isSpicy": false,
-                "isVegetarian": false
-              },
-              {
-                "id": "lag-item-6",
-                "name": "Marjan Korimis (Sliced Noodle Dish)",
-                "german_name": "MARJAN KORIMIS",
-                "description": "Hand-cut noodle pieces, meat, Chinese cabbage, and bell pepper.",
-                "priceL": 14.0,
-                "images": [
-                  "/menu-items/beef-sliced-noodles.jpeg"
-                ],
-                "isSpicy": false,
-                "isVegetarian": false
-              },
-              {
-                "id": "lag-item-7",
-                "name": "Mampar (Noodle Piece Soup)",
-                "german_name": "Mamper",
-                "description": "Meat of choice, bell pepper, Chinese cabbage, and homemade noodle pieces.",
-                "priceL": 15,
-                "images": [
-                  "/menu-items/Sliced-Noodles.jpeg"
-                ],
-                "isSpicy": false,
-                "isVegetarian": false
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "rice_bowls",
-        "name": "2. Rice Dishes",
-        "categoryImage": "/beef.png",
-        "sections": [
-          {
-            "id": "rice-main",
-            "items": [
-              {
-                "id": "rice-item-1",
-                "name": "Polo ",
-                "description": "Meat, carrots, rice.",
-                "priceL": 15,
-                "images": [
-                  "/menu-items/Item29.jpeg"
-                ],
-                "isSpicy": false,
-                "isVegetarian": false
-              },
-              {
-                "id": "rice-item-2",
-                "name": "Egg Fried Rice",
-                "description": "Stir-fried rice with eggs, simple and flavorful.",
-                "priceL": 10,
-                "images": [
-                  "/menu-items/Item3.jpg"
-                ],
-                "isSpicy": false,
-
-                "isVegetarian": false
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "noodles_with_soup",
-        "name": "3. Noodles With Soup",
-        "categoryImage": "/beef.png",
-        "sections": [
-          {
-            "id": "",
-            "items": [
-              {
-                "id": "noodles-with-soup-item-1",
-                "name": "Stir-Fried Rice Noodles",
-                "description": "Rice noodles stir-fried with meat, chili sauce, and celery.",
-                "priceL": 14,
-                "images": [
-                  "/menu-items/Item25.jpg"
-                ],
-                "isSpicy": true,
-                "isVegetarian": false
-              },
-              {
-                "id": "noodles-with-soup-item-2",
-                "name": "Braised Beef Noodle Soup",
-                "german_name": "HONGSHAO RAMEN",
-                "description": "Hand-pulled noodles in a rich broth with braised beef.",
-                "priceL": 14,
-                "images": [
-                  "/menu-items/Item10.jpg"
-                ],
-                "isSpicy": true,
-                "isVegetarian": false
-              },
-              {
-                "id": "noodles-with-soup-item-3",
-                "name": "Beef Noodle Soup",
-                "description": "Clear beef broth with tender beef slices and noodles.",
-                "priceL": 10,
-                "images": [
-                  "/menu-items/Item24.jpg"
-                ],
-                "isSpicy": true,
-                "isVegetarian": false
-              },
-              {
-                "id": "noodles-with-soup-item-4",
-                "name": "Rice Noodles with Meat",
-                "german_name": "REISNUDELN MIT FLEISCH",
-                "description": "Meat of choice, rice noodles, chili sauce, celery.",
-                "priceL": 14,
-                "images": [
-                  "/menu-items/Item31.jpeg"
-                ],
-                "isSpicy": true,
-                "isVegetarian": false
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "chicken_dishes",
-        "name": "4. Chicken Dishes",
-        "categoryImage": "/beef.png",
-        "sections": [
-          {
-            "id": "chicken-dishes",
-            "items": [
-              {
-                "id": "chicken-dish-item-1",
-                "name": "Big Plate Chicken",
-                "german_name": "BIG PLATE CHICKEN",
-                "description": " Braised chicken with potatoes, bell peppers, and chili, served with hand-pulled noodles.",
-                "priceL": 45,
-                "priceM": 35,
-                "priceS": 15,
-                "images": [
-                  "/menu-items/Item8.jpg"
-                ],
-                "isSpicy": true,
-                "isVegetarian": false
-              },
-              {
-                "id": "chicken-dish-item-2",
-                "name": "Chicken with Chili",
-                "german_name": "HÄHNCHEN MIT CHILI",
-                "description": "Crispy chicken stir-fried with chili and spices, ideal for sharing.",
-                "priceL": 40,
-                "images": [
-                  "/menu-items/Item12.jpg"
-                ],
-                "isSpicy": true,
-                "isVegetarian": false
-              },
-              {
-                "id": "chicken-dish-item-3",
-                "name": "Stir-Fried Beef Tripe",
-                "german_name": "STIR-FRIED BEEF TRIPE",
-                "description": "Spicy stir-fried beef tripe with peppers.",
-                "priceL": 16,
-                "images": [
-                  "/menu-items/POLO.jpeg"
-                ],
-                "isSpicy": true,
-                "isVegetarian": false
-              },
-              {
-                "id": "chicken-dish-item-4",
-                "name": " Kung Pao Chicken",
-                "german_name": "KUNG PAO CHICKEN",
-                "description": "Chicken, peanuts.",
-                "priceL": 16,
-                "images": [
-                  "/menu-items/Item9.jpg"
-                ],
-                "isSpicy": true,
-                "isVegetarian": false
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "main_courses",
-        "name": "5. Main Courses",
-        "categoryImage": "/menu-items/Homemade-Laghman1.jpeg",
-        "categoryImage1": "/menu-items/Homemade-Laghman1.jpeg",
-        "categoryImage2": "/menu-items/Homemade-Laghman1.jpeg",
-        "sections": [
-          {
-            "id": "main-courses",
-            "items": [
-              {
-                "id": "main-course-item-1",
-                "name": "Spinach with Egg",
-                "description": "Spinach, eggs.",
-                "priceL": 12,
-                "images": [
-                  "/menu-items/Item5.jpg"
-                ],
-                "isSpicy": false,
-                "isVegetarian": false
-              },
-              {
-                "id": "main-course-item-2",
-                "name": "Corn with Vegetables",
-                "german_name": "MAIS MIT GEMÜSE",
-                "description": "Corn, bell pepper, onions.",
-                "priceL": 10,
-                "images": [
-                  "/menu-items/Homemade-Laghman1.jpeg"
-                ],
-                "isSpicy": false,
-                "isVegetarian": true
-              },
-              {
-                "id": "main-course-item-3",
-                "name": "Braised Eggplant",
-                "description": "Braised eggplant in a savory sauce.",
-                "priceL": 12,
-                "images": [
-                  "/menu-items/Item2.jpg"
-                ],
-                "isSpicy": true,
-                "isVegetarian": true
-              },
-              {
-                "id": "main-course-item-4",
-                "name": "Fried Garlic Scapes with Meat (Yeshil Samsak)",
-                "german_name": "GEBRATENE YESHIL SAMSAK",
-                "description": "Garlic scapes, meat.",
-                "priceL": 16,
-                "images": [
-                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
-                ],
-                "isSpicy": false,
-                "isVegetarian": false
-              }
-            ]
-          },
-          {
-            "id": "main-courses-1",
-            "items": [
-              {
-                "id": "main-course-item-5",
-                "name": "Spicy Mala Tofu",
-                "description": "Soft tofu in a spicy and aromatic mala sauce.",
-                "priceL": 14,
-                "images": [
-                  "/menu-items/Item19.jpg"
-                ],
-                "isSpicy": true,
-                "isVegetarian": true
-              },
-              {
-                "id": "main-course-item-6",
-                "name": "Homestyle Tofu",
-                "description": "convert into german russian chinese.",
-                "priceL": 16,
-                "images": [
-                  "/menu-items/Item13.jpg"
-                ],
-                "isSpicy": false,
-                "isVegetarian": true
-              },
-              {
-                "id": "main-course-item-7",
-                "name": "Fried Broccoli",
-                "german_name": "GEBRATENER BROKKOLI",
-                "description": "Broccoli, bell pepper.",
-                "priceL": 14,
-                "images": [
-                  "/menu-items/Item15.jpg"
-                ],
-                "isSpicy": false,
-                "isVegetarian": true
-              },
-              {
-                "id": "main-course-item-8",
-                "name": "Fried Zucchini",
-                "german_name": "GEBRATENER ZUCCHINI",
-                "description": "Zucchini (Squash), bell pepper.",
-                "priceL": 12,
-                "images": [
-                  "/menu-items/Item17.jpg"
-                ],
-                "isSpicy": false,
-                "isVegetarian": true
-              }
-            ]
-          },
-          {
-            "id": "main-courses-2",
-            "items": [
-              {
-                "id": "main-course-item-9",
-                "name": "Stir-fried Beef Tripe",
-                "german_name": "GEBRATENE RINDERKUTTELN",
-                "description": "Beef tripe, bell pepper.",
-                "priceL": 16,
-                "images": [
-                  "/menu-items/Item6.jpg"
-                ],
-                "isSpicy": true,
-                "isVegetarian": false
-              },
-              {
-                "id": "main-course-item-10",
-                "name": "Fried Mushrooms with Meat",
-                "german_name": "GEBRATENE CHAMPIGNONS MIT FLEISCH",
-                "description": "Mushrooms, meat, bell pepper.",
-                "priceL": 16,
-                "images": [
-                  "/menu-items/item23.jpg"
-                ],
-                "isSpicy": false,
-                "isVegetarian": false
-              },
-              {
-                "id": "main-course-item-11",
-                "name": "Fried Beef Tripe with Vegetables",
-                "german_name": "GEBRATENE RINDERKUTTELN MIT GEMÜSE",
-                "description": "Beef slices, bell pepper, mushrooms, cucumber, carrots.",
-                "priceL": 16,
-                "images": [
-                  "/menu-items/Item20.jpg"
-                ],
-                "isSpicy": false,
-                "isVegetarian": false
-              },
-              {
-                "id": "main-course-item-12",
-                "name": "Tuhum Shohla (Eggs with Tomato and Pepper)",
-                "german_name": "Tuhum Shohla",
-                "description": "Eggs, tomato, bell pepper.",
-                "priceL": 10,
-                "images": [
-                  "/menu-items/Item25.jpg"
-                ],
-                "isSpicy": false,
-                "isVegetarian": false
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "starters",
-        "name": "6. Starters",
-        "categoryImage": "/menu-items/Lamb-Skewers.jpg",
-        "categoryImage1": "/menu-items/Lamb-Skewers.jpg",
-        "sections": [
-          {
-            "id": "starter-section-1",
-            "items": [
-              {
-                "id": "starter-item-1",
-                "name": "baozi",
-                "description": "Beef, Onion, Chinese Cabbage.",
-                "priceL": 7,
-                "images": [
-                  "/menu-items/Steamed-Dumplings.jpeg"
-                ],
-                "isSpicy": false,
-                "isVegetarian": false
-              },
-              {
-                "id": "starter-item-2",
-                "name": "Baked Buns",
-                "description": "Baked beef buns topped with sesame.",
-                "priceL": 3,
-                "images": [
-                  "/menu-items/Item11.jpg"
-                ],
-                "isSpicy": false,
-                "isVegetarian": false
-              },
-              {
-                "id": "starter-item-3",
-                "name": "Lamb Skewers (Kebab)",
-                "german_name": "LAMMSPIESEN",
-                "description": "Lamb meat.",
-                "priceL": 5,
-               "unit": "1 pieces",
-                "images": [
-                  "/menu-items/Item14.jpg"
-                ],
-                "isSpicy": false,
-                "isVegetarian": false
-              },
-              {
-                "id": "starter-item-4",
-                "name": "Grilled lamb",
-                "description": "Roasted rack of lamb.",
-                "priceL": 7,
-                "unit": "3 pieces",
-                "images": [
-                  "/menu-items/Item26.jpg"
-                ],
-                "isSpicy": false,
-                "isVegetarian": false
-              }
-            ]
-          },
-          {
-            "id": "starter-section-2",
-            "items": [
-              {
-                "id": "starter-item-5",
-                "name": "Lamb Skewers",
-                "description": "Lamb.",
-                "priceL": 13,
-                "unit": "3 pieces",
-                "images": [
-                  "/menu-items/Item28.jpg"
-                ],
-                "isSpicy": true,
-                "isVegetarian": false
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "vegan_starters",
-        "name": "Vegetarian dishes",
-        "categoryImage": "/menu-items/Cucumber-Salad.jpg",
-        "sections": [
-          {
-            "id": "vegan_starter_section_1",
-            "items": [
-              {
-                "id": "vegan_starter_item_1",
-                "name": "Noodles with Sauce",
-                "german_name": "NUDELN MIT SAUCE",
-                "description": "Freshly made noodles and homemade sauce.",
-                "priceL": 6,
-                "images": [
-                  "/menu-items/Item21.jpg"
-                ],
-                "isSpicy": false,
-                "isVegetarian": true
-              },
-              {
-                "id": "vegan_starter_item_2",
-                "name": "Cold Cucumber Salad",
-                "description": "Crisp cucumber tossed with house dressing.",
-                "priceL": 7,
-                "images": [
-                  "/menu-items/Item22.jpg"
-                ],
-                "isSpicy": false,
-                "isVegetarian": true
-              },
-              {
-                "id": "vegan_starter_item_3",
-                "name": " Uyghur Special Salad",
-                "description": "Fresh salad with onions, tomatoes, and bell peppers.",
-                "priceL": 7,
-                "images": [
-                  "/menu-items/Item16.jpg"
-                ],
-                "isSpicy": false,
-                "isVegetarian": true
-              },
-              {
-                "id": "vegan_starter_item_4",
-                "name": "Cold Beef Salad",
-                "description": "Cold sliced beef with Uyghur-style sauce.",
-                "priceL": 13,
-                "images": [
-                  "/menu-items/Item27.jpg"
-                ],
-                "isSpicy": false,
-                "isVegetarian": false
-              }
-            ]
-          }
-        ]
-      }
-    ],
+    {
+      "id": "rice_bowls",
+      "name": "2. Uyghur Specialties",
+      "categoryImage": "/menu-items/Goxnan1.jpeg",
+      "sections": [
+        {
+          "id": "rice-main",
+          "items": [
+            {
+            "id": "rice-item-1",
+            "name": "Polo (Pilaf)",
+            "description": "Meat, carrots, rice.",
+            "priceL": 15,
+            "images": [
+              "/menu-items/Item29.jpeg"
+            ],
+            "isSpicy": false,
+            "isVegetarian": false
+            },
+            {
+            "id": "chicken-dish-item-1",
+            "name": "Da Pan Ji (Big Plate Chicken)",
+            "german_name": "大盘鸡",
+            "description": "Chicken with potatoes, bell pepper, and chili, served with handmade noodles.",
+            "priceL": 45,
+            "priceM": 35,
+            "priceS": 15,
+            "images": [
+              "/menu-items/Item8.jpg"
+            ],
+            "isSpicy": true,
+            "isVegetarian": false
+            },
+            {
+            "id": "rice-item-2",
+            "name": "Samsa (Baked Meat Pastry)",
+            "description": "Lamb and vegetables",
+            "priceL": 3,
+            "images": [
+              "/menu-items/Item11.jpg"
+            ],
+            "isSpicy": false,
+            "isVegetarian": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "noodles_with_soup",
+      "name": "3. Noodles with Soup",
+      "categoryImage": "/beef.png",
+      "sections": [
+        {
+          "id": "",
+          "items": [
+            {
+            "id": "noodles-with-soup-item-2",
+            "name": "Braised Beef Noodle Soup (Hong Shao Niu Rou Mian)",
+            "description": "Handmade noodles with slow-cooked beef in rich soup.",
+            "priceL": 14,
+            "images": [
+              "/menu-items/Item10.jpg"
+            ],
+            "isSpicy": true,
+            "isVegetarian": false
+            },
+            {
+            "id": "noodles-with-soup-item-3",
+            "name": "Clear Broth Beef Noodle Soup",
+            "description": "Clear beef broth with slices of tender beef and noodles.",
+            "priceL": 10,
+            "images": [
+              "/menu-items/Item24.jpg"
+            ],
+            "isSpicy": true,
+            "isVegetarian": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chicken_dishes",
+      "name": "4. Classic Stir-Fries",
+      "categoryImage": "/beef.png",
+      "categoryImage1": "/beef.png",
+      "sections": [
+        {
+          "id": "chicken-dishes",
+          "items": [
+            {
+            "id": "chicken-dish-item-1",
+            "name": "Chongqing Chili Chicken (La Zi Ji)",
+            "german_name": "辣子鸡",
+            "description": "Spicy and crispy fried chicken, suitable for sharing.",
+            "priceL": 40,
+            "images": [
+              "/menu-items/Item12.jpg"
+            ],
+            "isSpicy": true,
+            "isVegetarian": false
+            },
+            {
+            "id": "chicken-dish-item-2",
+            "name": "Stir-fried Beef Tripe",
+            "german_name": "爆炒牛肚",
+            "description": "Chicken, chili, sesame.",
+            "priceL": 16,
+            "images": [
+              "/menu-items/POLO.jpeg"
+            ],
+            "isSpicy": true,
+            "isVegetarian": false
+            },
+            {
+            "id": "chicken-dish-item-3",
+            "name": "Stir-fried Rice Vermicelli",
+            "description": "Stir-fried rice vermicelli with meat, chili sauce, and celery.",
+            "priceL": 14,
+            "images": [
+              "/menu-items/item31.jpeg"
+            ],
+            "isSpicy": true,
+            "isVegetarian": false
+            },
+            {
+            "id": "chicken-dish-item-4",
+            "name": "Kung Pao Chicken (Gong Bao Ji Ding)",
+            "german_name": "宫保鸡丁",
+            "description": "Kung Pao Chicken (slightly spicy), diced chicken quickly stir-fried with peanuts.",
+            "priceL": 16,
+            "images": [
+              "/menu-items/Item9.jpg"
+            ],
+            "isSpicy": true,
+            "isVegetarian": false
+            }
+          ]
+        },
+        {
+          "id": "chicken-dishes",
+          "items": [
+            {
+            "id": "chicken-dish-item-5",
+            "name": "Shredded Pork with Fish-Fragrant Sauce (Yu Xiang Rou Si)",
+            "german_name": "鱼香肉丝",
+            "description": "Bamboo shoots, beef, wood ear mushrooms, green peppers.",
+            "priceL": 18,
+            "images": [
+              "/menu-items/Item20.jpg"
+            ],
+            "isSpicy": true,
+            "isVegetarian": false
+            },
+            {
+            "id": "chicken-dish-item-6",
+            "name": "Stir-fried Meat with Garlic Scapes",
+            "german_name": "GEBRATENE YESHIL SAMSAK",
+            "description": "Garlic scapes, meat.",
+            "priceL": 16,
+            "images": [
+              "/menu-items/Fried-Beef-Stew.jpeg"
+            ],
+            "isSpicy": false,
+            "isVegetarian": false
+            },
+            {
+            "id": "chicken-dish-item-7",
+            "name": "Stir-fried Meat with Mushrooms",
+            "german_name": "GEBRATENE CHAMPIGNONS MIT FLEISCH",
+            "description": "Mushrooms, meat, bell pepper.",
+            "priceL": 16,
+            "images": [
+              "/menu-items/Item23.jpg"
+            ],
+            "isSpicy": false,
+            "isVegetarian": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "main_courses",
+      "name": "5. Classic Vegetarian Dishes",
+      "categoryImage": "/menu-items/Homemade-Laghman1.jpeg",
+      "categoryImage1": "/menu-items/Homemade-Laghman1.jpeg",
+      "categoryImage2": "/menu-items/Homemade-Laghman1.jpeg",
+      "sections": [
+        {
+          "id": "main-courses",
+          "items": [
+            {
+            "id": "main-course-item-1",
+            "name": "Stir-fried Spinach with Egg",
+            "description": "Stir-fried spinach with egg.",
+            "priceL": 12,
+            "images": [
+              "/menu-items/Item5.jpg"
+            ],
+            "isSpicy": false,
+            "isVegetarian": false
+            },
+            {
+            "id": "main-course-item-3",
+            "name": "Braised Eggplant in Soy Sauce",
+            "description": "Braised eggplant in soy sauce.",
+            "priceL": 12,
+            "images": [
+              "/menu-items/Item2.jpg"
+            ],
+            "isSpicy": true,
+            "isVegetarian": true
+            },
+            {
+            "id": "main-course-item-5",
+            "name": "Ma Po Tofu (Spicy and Numbing)",
+            "description": "Tender tofu with spicy and numbing chili sauce.",
+            "priceL": 14,
+            "images": [
+              "/menu-items/Item19.jpg"
+            ],
+            "isSpicy": true,
+            "isVegetarian": true
+            }
+          ]
+        },
+        {
+          "id": "main-courses-1",
+          "items": [
+            {
+            "id": "lag-item-6",
+            "name": "Stir-fried Corn",
+            "german_name": "Mamper",
+            "description": "Corn and vegetables",
+            "priceL": 15,
+            "images": [
+              "/menu-items/Sliced-Noodles.jpeg"
+            ],
+            "isSpicy": false,
+            "isVegetarian": false
+            },
+            {
+            "id": "main-course-item-6",
+            "name": "Home-style Tofu",
+            "description": "Stir-fried tofu with vegetables.",
+            "priceL": 16,
+            "images": [
+              "/menu-items/Item13.jpg"
+            ],
+            "isSpicy": false,
+            "isVegetarian": true
+            },
+            {
+            "id": "main-course-item-7",
+            "name": "Stir-fried Broccoli",
+            "german_name": "GEBRATENER BROKKOLI",
+            "description": "Broccoli, bell pepper.",
+            "priceL": 14,
+            "images": [
+              "/menu-items/Item15.jpg"
+            ],
+            "isSpicy": false,
+            "isVegetarian": true
+            },
+            {
+            "id": "main-course-item-8",
+            "name": "Stir-fried Zucchini",
+            "german_name": "GEBRATENER ZUCCHINI",
+            "description": "Zucchini (Squash), bell pepper.",
+            "priceL": 12,
+            "images": [
+              "/menu-items/Item17.jpg"
+            ],
+            "isSpicy": false,
+            "isVegetarian": true
+            }
+          ]
+        },
+        {
+          "id": "main-courses-2",
+          "items": [
+            {
+            "id": "main-course-item-12",
+            "name": "Egg Stir-fried with Tomato and Chili",
+            "german_name": "Tuhum Shohla",
+            "description": "Egg, tomato, bell pepper.",
+            "priceL": 10,
+            "images": [
+              "/menu-items/Item25.jpg"
+            ],
+            "isSpicy": false,
+            "isVegetarian": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "starters",
+      "name": "6. Uyghur Snacks/BBQ",
+      "categoryImage": "/menu-items/Lamb-Skewers.jpg",
+      "categoryImage1": "/menu-items/Lamb-Skewers.jpg",
+      "sections": [
+        {
+          "id": "starter-section-1",
+          "items": [
+            {
+            "id": "starter-item-1",
+            "name": "Pärä (Steamed Dumplings)",
+            "german_name": "GEDÄMPFTE TEIGTASCHEN",
+            "description": "Beef, onions, Chinese cabbage.",
+            "priceL": 7,
+            "images": [
+              "/menu-items/Steamed-Dumplings.jpeg"
+            ],
+            "isSpicy": false,
+            "isVegetarian": false
+            },
+            {
+            "id": "starter-item-2",
+            "name": "Samsa (Baked Meat Pastry)",
+            "description": "Baked beef bun with sesame.",
+            "priceL": 3,
+            "images": [
+              "/menu-items/Item11.jpg"
+            ],
+            "isSpicy": false,
+            "isVegetarian": false
+            },
+            {
+            "id": "starter-item-3",
+            "name": "Lamb Skewers (Käwape)",
+            "german_name": "LAMMSPIESEN",
+            "description": "Lamb.",
+            "priceL": 5,
+            "unit": "1 piece",
+            "images": [
+              "/menu-items/Item14.jpg"
+            ],
+            "isSpicy": false,
+            "isVegetarian": false
+            },
+            {
+            "id": "starter-item-4",
+            "name": "Grilled Lamb Kidney",
+            "description": "Lamb ribs.",
+            "priceL": 7,
+            "unit": "3 slices",
+            "images": [
+              "/menu-items/Item26.jpg"
+            ],
+            "isSpicy": false,
+            "isVegetarian": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vegan_starters",
+      "name": "Classic Cold Dishes",
+      "categoryImage": "/menu-items/Cucumber-Salad.jpg",
+      "sections": [
+        {
+          "id": "vegan_starter_section_1",
+          "items": [
+            {
+            "id": "vegan_starter_item_1",
+            "name": "Cold Noodles with Sauce (Ban Mian)",
+            "german_name": "NUDELN MIT SAUCE",
+            "description": "Freshly made noodles with home-style sauce.",
+            "priceL": 6,
+            "images": [
+              "/menu-items/Item21.jpg"
+            ],
+            "isSpicy": false,
+            "isVegetarian": true
+            },
+            {
+            "id": "vegan_starter_item_2",
+            "name": "Cucumber Salad",
+            "description": "Crisp cucumber tossed in special sauce.",
+            "priceL": 7,
+            "images": [
+              "/menu-items/Item22.jpg"
+            ],
+            "isSpicy": false,
+            "isVegetarian": true
+            },
+            {
+            "id": "vegan_starter_item_3",
+            "name": "Uyghur Special Salad (Uighursalat)",
+            "german_name": "UIGURSALAT",
+            "description": "Fresh salad with onions, tomatoes, and bell peppers.",
+            "priceL": 7,
+            "images": [
+              "/menu-items/Item16.jpg"
+            ],
+            "isSpicy": false,
+            "isVegetarian": true
+            },
+            {
+            "id": "vegan_starter_item_4",
+            "name": "Cold Beef Salad",
+            "description": "Cold sliced beef with Uyghur style sauce.",
+            "priceL": 13,
+            "images": [
+              "/menu-items/Item27.jpg"
+            ],
+            "isSpicy": false,
+            "isVegetarian": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
 
 
     contactUsTitle: "Contact Us",
@@ -1493,8 +1373,8 @@ export const translations = {
               //   "isSpicy": false,
               //   "isVegetarian": false
               // },
-            
-               {
+
+              {
                 "id": "lag-item-5",
                 "name": "丁丁炒面",
                 "german_name": "MARJAN KORIMIS",
@@ -1535,7 +1415,7 @@ export const translations = {
                 "isSpicy": false,
                 "isVegetarian": false
               },
-          
+
             ]
           }
         ]
@@ -1559,7 +1439,7 @@ export const translations = {
                 "isSpicy": false,
                 "isVegetarian": false
               },
-                 {
+              {
                 "id": "chicken-dish-item-1",
                 "name": "大盘鸡",
                 "german_name": "大盘鸡",
@@ -1631,7 +1511,7 @@ export const translations = {
                 "isSpicy": true,
                 "isVegetarian": false
               },
-            
+
             ]
           }
         ]
@@ -1640,13 +1520,15 @@ export const translations = {
         "id": "chicken_dishes",
         "name": "4. 经典小炒",
         "categoryImage": "/beef.png",
+        "categoryImage1": "/beef.png",
+
         "sections": [
           {
             "id": "chicken-dishes",
             "items": [
-           ,
+              ,
               {
-                "id": "chicken-dish-item-2",
+                "id": "chicken-dish-item-1",
                 "name": "辣子鸡",
                 "german_name": "辣子鸡",
                 "description": "香辣脆炒鸡，配多种香料，适合分享。",
@@ -1658,7 +1540,7 @@ export const translations = {
                 "isVegetarian": false
               },
               {
-                "id": "chicken-dish-item-3",
+                "id": "chicken-dish-item-2",
                 "name": "爆炒牛肚",
                 "german_name": "爆炒牛肚",
                 "description": "鸡肉、辣椒、芝麻。",
@@ -1670,8 +1552,8 @@ export const translations = {
                 "isVegetarian": false
               },
 
-               {
-                "id": "noodles-with-soup-item-1",
+              {
+                "id": "chicken-dish-item-3",
                 "name": "炒米粉",
                 "description": "炒米粉配肉、辣椒酱和芹菜。",
                 "priceL": 14,
@@ -1692,8 +1574,14 @@ export const translations = {
                 ],
                 "isSpicy": true,
                 "isVegetarian": false
-              },   {
-                "id": "lag-item-4",
+              }
+            ]
+          },
+          {
+            "id": "chicken-dishes",
+            "items": [
+              {
+                "id": "chicken-dish-item-5",
                 "name": "鱼香肉丝",
                 "german_name": "鱼香肉丝",
                 "description": "笋片. 牛肉. 木耳.青椒",
@@ -1703,8 +1591,9 @@ export const translations = {
                 ],
                 "isSpicy": true,
                 "isVegetarian": false
-               },  {
-                "id": "main-course-item-4",
+              },
+              {
+                "id": "chicken-dish-item-6",
                 "name": "蒜苔炒肉",
                 "german_name": "GEBRATENE YESHIL SAMSAK",
                 "description": "蒜苔、肉。",
@@ -1714,8 +1603,9 @@ export const translations = {
                 ],
                 "isSpicy": false,
                 "isVegetarian": false
-              },{
-                "id": "main-course-item-10",
+              },
+              {
+                "id": "chicken-dish-item-7",
                 "name": "蘑菇炒肉",
                 "german_name": "GEBRATENE CHAMPIGNONS MIT FLEISCH",
                 "description": "蘑菇、肉、灯笼椒。",
@@ -1727,7 +1617,7 @@ export const translations = {
                 "isVegetarian": false
               }
             ]
-          }
+          },
         ]
       },
       {
@@ -1751,7 +1641,7 @@ export const translations = {
                 "isSpicy": false,
                 "isVegetarian": false
               },
-                   {
+              {
                 "id": "main-course-item-3",
                 "name": "红烧茄子",
                 "description": "红烧茄子。",
@@ -1762,7 +1652,7 @@ export const translations = {
                 "isSpicy": true,
                 "isVegetarian": true
               },
-               {
+              {
                 "id": "main-course-item-5",
                 "name": "麻辣豆腐",
                 "description": "嫩豆腐配香辣麻辣酱。",
@@ -1773,16 +1663,16 @@ export const translations = {
                 "isSpicy": true,
                 "isVegetarian": true
               },
-          
-         
-  
+
+
+
             ]
           },
           {
             "id": "main-courses-1",
             "items": [
-             
-                  {
+
+              {
                 "id": "lag-item-6",
                 "name": "炒玉米",
                 "german_name": "Mamper",
@@ -1846,7 +1736,7 @@ export const translations = {
               //   "isSpicy": true,
               //   "isVegetarian": false
               // },
-             ,
+              ,
               // {
               //   "id": "main-course-item-11",
               //   "name": "时蔬炒牛肚",
@@ -1934,7 +1824,7 @@ export const translations = {
               }
             ]
           },
-       
+
         ]
       },
       {
@@ -2092,573 +1982,514 @@ export const translations = {
 
 
 
-    "RestaurantMenuText": "МЕНЮ УЙГУРСКОГО РЕСТОРАНА «ТАРИМ»",
-    "menuCategories": {
-      "laghman": "Лагман (Лапша ручной работы)",
-      "rice_bowls": "Блюда из риса",
-      "noodles_with_soup": "Лапша с супом",
-      "chicken_dishes": "Блюда из курицы",
-      "main_courses": "Основные блюда",
-      "starters": "Закуски",
-      "vegan_starters": "Вегетарианские блюда"
+    
+  "RestaurantMenuText": "Меню Уйгурского Ресторана «Тарим»",
+  "menuCategories": {
+    "laghman": "Лагман Ручной Работы",
+    "rice_bowls": "Уйгурские Фирменные Блюда",
+    "noodles_with_soup": "Супы с Лапшой",
+    "chicken_dishes": "Классические Жареные Блюда (Стир-Фрай)",
+    "main_courses": "Классические Вегетарианские Блюда",
+    "starters": "Уйгурские Закуски/Гриль",
+    "vegan_starters": "Классические Холодные Закуски"
+  },
+  "categories": [
+    {
+      "id": "laghman",
+      "name": "1. Лагман Ручной Работы",
+      "categoryImage": "/menu-items/Homemade-Laghman.jpg",
+      "categoryImage1": "/menu-items/Homemade-Laghman.jpg",
+      "sections": [
+        {
+          "id": "laghman-main",
+          "items": [
+            {
+              "id": "lag-item-1",
+              "name": "Королевский Лагман «Тарим»",
+              "german_name": "SCHAH LÄGHMEN",
+              "description": "Баранина, болгарский перец, китайская капуста, грибы, лук и лапша ручной работы.",
+              "priceL": 20,
+              "images": [
+                "/menu-items/Item7.jpg"
+              ],
+              "isSpicy": false,
+              "isVegetarian": false
+            },
+            {
+              "id": "lag-item-2",
+              "name": "Гоу Юй Жоу Бан Мянь (Жареный Лагман с Мясом)",
+              "description": "Баранина, сладкий перец, китайская капуста, грибы, лук, лапша ручной работы.",
+              "priceL": 16,
+              "images": [
+                "/menu-items/Homemade-Laghman.jpeg"
+              ],
+              "isSpicy": false,
+              "isVegetarian": false
+            },
+            {
+              "id": "lag-item-3",
+              "name": "Домашний Лагман",
+              "german_name": "NUDELN MIT GEMÜSE",
+              "description": "Баранина, болгарский перец, шпинат и лапша ручной работы.",
+              "priceL": 14,
+              "images": [
+                "/menu-items/Item30.jpg"
+              ],
+              "isSpicy": false,
+              "isVegetarian": false
+            },
+            {
+              "id": "lag-item-5",
+              "name": "Дин Дин Жареная Лапша (Ding Ding Chao Mian)",
+              "german_name": "MARJAN KORIMIS",
+              "description": "Кубики лапши ручной нарезки, говядина, болгарский перец.",
+              "priceL": 14.0,
+              "images": [
+                "/menu-items/beef-sliced-noodles.jpeg"
+              ],
+              "isSpicy": false,
+              "isVegetarian": false
+            }
+          ]
+        },
+        {
+          "id": "laghman-main-1",
+          "items": [
+            {
+              "id": "lag-item-5",
+              "name": "Жареная Лапша по-Токсунски",
+              "german_name": "MARJAN KORIMIS",
+              "description": "Кубики лапши ручной нарезки, говядина и болгарский перец.",
+              "priceL": 14.0,
+              "images": [
+                "/menu-items/Item32.jpeg"
+              ],
+              "isSpicy": false,
+              "isVegetarian": false
+            }
+          ]
+        }
+      ]
     },
-    "categories": [
-      {
-        "id": "laghman",
-        "name": "1. Лагман / Лапша ручной работы",
-        "categoryImage": "/menu-items/Homemade-Laghman.jpg",
-        "categoryImage1": "/menu-items/Homemade-Laghman.jpg",
-        "sections": [
-          {
-            "id": "laghman-main",
-            "items": [
-              {
-                "id": "lag-item-1",
-                "name": "Шах-Лагман",
-                "russian_name": "ШАХ-ЛАГМАН",
-                "description": "Мясо на выбор, болгарский перец, пекинская капуста, грибы, лук и лапша ручной работы.",
-                "priceL": 20,
-                "images": [
-                  "/menu-items/Item7.jpg"
-                ],
-                "isSpicy": false,
-                "isVegetarian": false
-              },
-              {
-                "id": "lag-item-2",
-                "name": "Гуйру Лагман",
-                "description": "Мясо по выбору, Перец, Китайская капуста, Грибы, Лук и Лапша ручной работы.",
-                "priceL": 16,
-                "images": [
-                  "/menu-items/Homemade-Laghman.jpeg"
-                ],
-                "isSpicy": false,
-                "isVegetarian": false
-              },
-              {
-                "id": "lag-item-3",
-                "name": "Лапша с овощами",
-                "russian_name": "ЛАПША С ОВОЩАМИ",
-                "description": "Мясо на выбор, болгарский перец, шпинат и лапша ручной работы.",
-                "priceL": 14,
-                "images": [
-                  "/menu-items/Item30.jpg"
-                ],
-                "isSpicy": false,
-                "isVegetarian": false
-              },
-              {
-                "id": "lag-item-4",
-                "name": "Юйсян жоусы",
-                "russian_name": "ЮЙСЯН ЖОУСЫ",
-                "description": "Сладкое, кислое и слегка острое мясо, нарезанное на волокна.",
-                "priceL": 18,
-                "images": [
-                  "/menu-items/Item20.jpg"
-                ],
-                "isSpicy": true,
-                "isVegetarian": false
-              }
-            ]
-          },
-          {
-            "id": "laghman-main-1",
-            "items": [
-              {
-                "id": "lag-item-5",
-                "name": "Жареная лапша",
-                "russian_name": "ЖАРЕНАЯ ЛАПША",
-                "description": "Мясо на выбор, лук-порей, сушеный перец чили и болгарский перец.",
-                "priceL": 15,
-                "images": [
-                  "/menu-items/Sliced"
-                ],
-                "isSpicy": false,
-                "isVegetarian": false
-              },
-              {
-                "id": "lag-item-6",
-                "name": "Марджан-Коримис",
-                "russian_name": "МАРДЖАН-КОРИМИС",
-                "description": "Нарезанная вручную лапша, мясо, пекинская капуста и болгарский перец.",
-                "priceL": 14.0,
-                "images": [
-                  "/menu-items/beef-sliced-noodles.jpeg"
-                ],
-                "isSpicy": false,
-                "isVegetarian": false
-              },
-              {
-                "id": "lag-item-7",
-                "name": "Мампар",
-                "russian_name": "МАМПАР",
-                "description": "Мясо на выбор, болгарский перец, пекинская капуста и домашние кусочки лапши.",
-                "priceL": 15,
-                "images": [
-                  "/menu-items/Sliced-Noodles.jpeg"
-                ],
-                "isSpicy": false,
-                "isVegetarian": false
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "rice_bowls",
-        "name": "2. Блюда из риса",
-        "categoryImage": "/beef.png",
-        "sections": [
-          {
-            "id": "rice-main",
-            "items": [
-              {
-                "id": "rice-item-1",
-                "name": "Плов",
-                "russian_name": "ПЛОВ",
-                "description": "Мясо, морковь, рис.",
-                "priceL": 15,
-                "images": [
-                  "/menu-items/Item29.jpeg"
-                ],
-                "isSpicy": false,
-                "isVegetarian": false
-              },
-              {
-                "id": "rice-item-2",
-                "name": "Рис с яйцом",
-                "description": "Жареный рис с яйцами, просто и вкусно.",
-                "priceL": 10,
-                "images": [
-                  "/menu-items/Item3.jpg"
-                ],
-                "isSpicy": false,
-                "isVegetarian": false
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "noodles_with_soup",
-        "name": "3. Лапша с супом",
-        "categoryImage": "/beef.png",
-        "sections": [
-          {
-            "id": "",
-            "items": [
-              {
-                "id": "noodles-with-soup-item-1",
-                "name": "Жареная рисовая лапша",
-                "description": "Жареная рисовая лапша с мясом, чили соусом и сельдереем.",
-                "priceL": 14,
-                "images": [
-                  "/menu-items/Item25.jpg"
-                ],
-                "isSpicy": true,
-                "isVegetarian": false
-              },
-              {
-                "id": "noodles-with-soup-item-2",
-                "name": "Лапша с тушёной говядиной",
-                "description": "Лапша ручной работы в насыщенном бульоне с тушёной говядиной.",
-                "priceL": 14,
-                "images": [
-                  "/menu-items/Item10.jpg"
-                ],
-                "isSpicy": true,
-                "isVegetarian": false
-              },
-              {
-                "id": "noodles-with-soup-item-3",
-                "name": "Лапша",
-                "description": "Прозрачный говяжий бульон с нежными ломтиками говядины и лапшой.",
-                "priceL": 10,
-                "images": [
-                  "/menu-items/Item24.jpg"
-                ],
-                "isSpicy": true,
-                "isVegetarian": false
-              },
-              {
-                "id": "noodles-with-soup-item-4",
-                "name": "Рисовая лапша с мясом",
-                "russian_name": "РИСОВАЯ ЛАПША С МЯСОМ",
-                "description": "Мясо на выбор, рисовая лапша, соус чили, сельдерей.",
-                "priceL": 14,
-                "images": [
-                  "/menu-items/Item31.jpeg"
-                ],
-                "isSpicy": true,
-                "isVegetarian": false
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "chicken_dishes",
-        "name": "4. Блюда из курицы",
-        "categoryImage": "/beef.png",
-        "sections": [
-          {
-            "id": "chicken-dishes",
-            "items": [
-              {
-                "id": "chicken-dish-item-1",
-                "name": "Дапанджи",
-                "german_name": "Дапанджи",
-                "description": " Тушеная курица с картофелем, болгарским перцем и чили, подается с лапшой ручной работы.",
-                "priceL": 45,
-                "priceM": 35,
-                "priceS": 15,
-                "images": [
-                  "/menu-items/Item8.jpg"
-                ],
-                "isSpicy": true,
-                "isVegetarian": false
-              },
-              {
-                "id": "chicken-dish-item-2",
-                "name": "Курица с чили",
-                "russian_name": "КУРИЦА С ЧИЛИ",
-                "description": "Хрустящая курица, обжаренная с чили и специями, идеально подходит для совместного угощения.",
-                "priceL": 40,
-                "images": [
-                  "/menu-items/Item12.jpg"
-                ],
-                "isSpicy": true,
-                "isVegetarian": false
-              },
-              {
-                "id": "chicken-dish-item-3",
-                "name": "Острая жареная курицаЖареный говяжий рубец",
-                "russian_name": "OCtРАЯ ЖАРЕНАЯ КУРИЦА ЖАРЕНЫЙ ГОВЯЖИЙ РУБЕЦ",
-                "description": "Курица, чили, кунжут.",
-                "priceL": 16,
-                "images": [
-                  "/menu-items/POLO.jpeg"
-                ],
-                "isSpicy": true,
-                "isVegetarian": false
-              },
-              {
-                "id": "chicken-dish-item-4",
-                "name": " Курица с арахисом",
-                "russian_name": "КУРИЦА С АРАХИСОМ",
-                "description": "Курица, нарезанная кубиками, обжаренная с арахисом в слегка остром соусе.",
-                "priceL": 16,
-                "images": [
-                  "/menu-items/Item9.jpg"
-                ],
-                "isSpicy": true,
-                "isVegetarian": false
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "main_courses",
-        "name": "5. Основные блюда",
-        "categoryImage": "/menu-items/Homemade-Laghman1.jpeg",
-        "categoryImage1": "/menu-items/Homemade-Laghman1.jpeg",
-        "categoryImage2": "/menu-items/Homemade-Laghman1.jpeg",
-        "sections": [
-          {
-            "id": "main-courses",
-            "items": [
-              {
-                "id": "main-course-item-1",
-                "name": " Яичница со шпинатом",
-                "description": "Шпинат, обжаренный с яйцом.",
-                "priceL": 12,
-                "images": [
-                  "/menu-items/Item5.jpg"
-                ],
-                "isSpicy": false,
-                "isVegetarian": false
-              },
-              {
-                "id": "main-course-item-2",
-                "name": "Кукуруза с овощами",
-                "russian_name": "КУКУРУЗА С ОВОЩАМИ",
-                "description": "Кукуруза, болгарский перец, лук.",
-                "priceL": 10,
-                "images": [
-                  "/menu-items/Homemade-Laghman1.jpeg"
-                ],
-                "isSpicy": false,
-                "isVegetarian": true
-              },
-              {
-                "id": "main-course-item-3",
-                "name": "Жареный баклажан",
-                "russian_name": "ЖАРЕНЫЙ БАКЛАЖАН",
-                "description": "Тушёные баклажаны в пикантном соусе.",
-                "priceL": 12,
-                "images": [
-                  "/menu-items/Item2.jpg"
-                ],
-                "isSpicy": true,
-                "isVegetarian": true
-              },
-              {
-                "id": "main-course-item-4",
-                "name": "Жареный чесночный стебель с мясом",
-                "russian_name": "ЖАРЕНЫЙ ЧЕСНОЧНЫЙ СТЕБЕЛЬ",
-                "description": "Чесночный стебель, мясо.",
-                "priceL": 16,
-                "images": [
-                  "/menu-items/Beef-Stew-with-Potatoes.jpeg"
-                ],
-                "isSpicy": false,
-                "isVegetarian": false
-              }
-            ]
-          },
-          {
-            "id": "main-courses-1",
-            "items": [
-              {
-                "id": "main-course-item-5",
-                "name": "Тофу в остром соусе",
-                "description": "Мягкий тофу в остром и ароматном соусе мала.",
-                "priceL": 14,
-                "images": [
-                  "/menu-items/Item19.jpg"
-                ],
-                "isSpicy": true,
-                "isVegetarian": true
-              },
-              {
-                "id": "main-course-item-6",
-                "name": "Тофу по-домашнему",
-                "description": "Жареный тофу, обжаренный с овощами.",
-                "priceL": 16,
-                "images": [
-                  "/menu-items/Item13.jpg"
-                ],
-                "isSpicy": false,
-                "isVegetarian": true
-              },
-              {
-                "id": "main-course-item-7",
-                "name": "Жареная брокколи",
-                "russian_name": "ЖАРЕНАЯ БРОККОЛИ",
-                "description": "Брокколи, болгарский перец.",
-                "priceL": 14,
-                "images": [
-                  "/menu-items/Item15.jpg"
-                ],
-                "isSpicy": false,
-                "isVegetarian": true
-              },
-              {
-                "id": "main-course-item-8",
-                "name": "Жареный цукини",
-                "russian_name": "ЖАРЕНЫЙ ЦУКИНИ",
-                "description": "Цукини (тыква), болгарский перец.",
-                "priceL": 12,
-                "images": [
-                  "/menu-items/Item17.jpg"
-                ],
-                "isSpicy": false,
-                "isVegetarian": true
-              }
-            ]
-          },
-          {
-            "id": "main-courses-2",
-            "items": [
-              {
-                "id": "main-course-item-9",
-                "name": "Жареный говяжий рубец",
-                "russian_name": "ЖАРЕНЫЙ ГОВЯЖИЙ РУБЕЦ",
-                "description": "Говяжий рубец, болгарский перец.",
-                "priceL": 16,
-                "images": [
-                  "/menu-items/Item6.jpg"
-                ],
-                "isSpicy": true,
-                "isVegetarian": false
-              },
-              {
-                "id": "main-course-item-10",
-                "name": "Жареные грибы с мясом",
-                "russian_name": "ЖАРЕНЫЕ ГРИБЫ С МЯСОМ",
-                "description": "Грибы, мясо, болгарский перец.",
-                "priceL": 16,
-                "images": [
-                  "/menu-items/Item23.jpg"
-                ],
-                "isSpicy": false,
-                "isVegetarian": false
-              },
-              {
-                "id": "main-course-item-11",
-                "name": "Жареный говяжий рубец с овощами",
-                "russian_name": "ЖАРЕНЫЙ ГОВЯЖИЙ РУБЕЦ С ОВОЩАМИ",
-                "description": "Говяжье филе, болгарский перец, грибы, огурец, морковь.",
-                "priceL": 16,
-                "images": [
-                  "/menu-items/Item20.jpg"
-                ],
-                "isSpicy": false,
-                "isVegetarian": false
-              },
-              {
-                "id": "main-course-item-12",
-                "name": "Тухум-Шохла",
-                "russian_name": "ТУХУМ-ШОХЛА",
-                "description": "Яйца, помидоры, болгарский перец.",
-                "priceL": 10,
-                "images": [
-                  "/menu-items/Item25.jpg"
-                ],
-                "isSpicy": false,
-                "isVegetarian": false
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "starters",
-        "name": "6. Закуски",
-        "categoryImage": "/menu-items/Lamb-Skewers.jpg",
-        "categoryImage1": "/menu-items/Lamb-Skewers.jpg",
-        "sections": [
-          {
-            "id": "starter-section-1",
-            "items": [
-              {
-                "id": "starter-item-1",
-                "name": "Манты",
-                "description": "Говядина, Лук, Китайская капуста.",
-                "priceL": 7,
-                "images": [
-                  "/menu-items/Steamed-Dumplings.jpeg"
-                ],
-                "isSpicy": false,
-                "isVegetarian": false
-              },
-              {
-                "id": "starter-item-2",
-                "name": "Самса",
-                "description": "Запечённые булочки с говядиной, посыпанные кунжутом.",
-                "priceL": 3,
-                "images": [
-                  "/menu-items/Item11.jpg"
-                ],
-                "isSpicy": false,
-                "isVegetarian": false
-              },
-              {
-                "id": "starter-item-3",
-                "name": "Шашлык из баранины",
-                "russian_name": "ШАШЛЫК ИЗ БАРАНИНЫ",
-                "description": "Баранина.",
-                "priceL": 5,
-                "unit": "1 штука",
-                "images": [
-                  "/menu-items/Item14.jpg"
-                ],
-                "isSpicy": false,
-                "isVegetarian": false
-              },
-              {
-                "id": "starter-item-4",
-                "name": "Почки",
-                "description": "Корейка ягнёнка.",
-                "priceL": 7,
-                "unit": "за штуку",
-                "images": [
-                  "/menu-items/Item26.jpg"
-                ],
-                "isSpicy": false,
-                "isVegetarian": false
-              }
-            ]
-          },
-          {
-            "id": "starter-section-2",
-            "items": [
-              {
-                "id": "starter-item-5",
-                "name": "Шашлык",
-                "description": "Баранина.",
-                "priceL": 12,
-                "unit": "за штуку",
-                "images": [
-                  "/menu-items/Item28.jpg"
-                ],
-                "isSpicy": true,
-                "isVegetarian": false
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "vegan_starters",
-        "name": "Вегетарианские блюда",
-        "categoryImage": "/menu-items/Cucumber-Salad.jpg",
-        "sections": [
-          {
-            "id": "vegan_starter_section_1",
-            "items": [
-              {
-                "id": "vegan_starter_item_1",
-                "name": "Лапша с соусом",
-                "russian_name": "ЛАПША С СОУСОМ",
-                "description": "Свежеприготовленная лапша и домашний соус.",
-                "priceL": 6,
-                "images": [
-                  "/menu-items/Item21.jpg"
-                ],
-                "isSpicy": false,
-                "isVegetarian": true
-              },
-              {
-                "id": "vegan_starter_item_2",
-                "name": "Салат из огурцов",
-                "description": "Хрустящий огурец в фирменной заправке.",
-                "priceL": 7,
-                "images": [
-                  "/menu-items/Item22.jpg"
-                ],
-                "isSpicy": false,
-                "isVegetarian": true
-              },
-              {
-                "id": "vegan_starter_item_3",
-                "name": " Свежий салат",
-                "russian_name": "УЙГУРСКИЙ САЛАТ",
-                "description": "Свежий салат с луком, помидорами и болгарским перцем.",
-                "priceL": 7,
-                "images": [
-                  "/menu-items/Item16.jpg"
-                ],
-                "isSpicy": false,
-                "isVegetarian": true
-              },
-              {
-                "id": "vegan_starter_item_4",
-                "name": "Салат из говядины",
-                "description": "Холодная нарезанная говядина с уйгурским соусом.",
-                "priceL": 13,
-                "images": [
-                  "/menu-items/Item27.jpg"
-                ],
-                "isSpicy": false,
-                "isVegetarian": true
-              }
-            ]
-          }
-        ]
-      }
-    ],
+    {
+      "id": "rice_bowls",
+      "name": "2. Уйгурские Фирменные Блюда",
+      "categoryImage": "/menu-items/Goxnan1.jpeg",
+      "sections": [
+        {
+          "id": "rice-main",
+          "items": [
+            {
+              "id": "rice-item-1",
+              "name": "Плов (Поло)",
+              "description": "Мясо, морковь, рис.",
+              "priceL": 15,
+              "images": [
+                "/menu-items/Item29.jpeg"
+              ],
+              "isSpicy": false,
+              "isVegetarian": false
+            },
+            {
+              "id": "chicken-dish-item-1",
+              "name": "Да Пань Цзи (Курица на Большом Блюде)",
+              "german_name": "大盘鸡",
+              "description": "Курица с картофелем, болгарским перцем и чили, подается с лапшой ручной работы.",
+              "priceL": 45,
+              "priceM": 35,
+              "priceS": 15,
+              "images": [
+                "/menu-items/Item8.jpg"
+              ],
+              "isSpicy": true,
+              "isVegetarian": false
+            },
+            {
+              "id": "rice-item-2",
+              "name": "Самса (Печеное Мясное Изделие)",
+              "description": "Баранина и овощи",
+              "priceL": 3,
+              "images": [
+                "/menu-items/Item11.jpg"
+              ],
+              "isSpicy": false,
+              "isVegetarian": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "noodles_with_soup",
+      "name": "3. Супы с Лапшой",
+      "categoryImage": "/beef.png",
+      "sections": [
+        {
+          "id": "",
+          "items": [
+            {
+              "id": "noodles-with-soup-item-2",
+              "name": "Лапша с Тушеной Говядиной (Хун Шао Ню Жоу Мянь)",
+              "description": "Лапша ручной работы с тушеной говядиной в насыщенном бульоне.",
+              "priceL": 14,
+              "images": [
+                "/menu-items/Item10.jpg"
+              ],
+              "isSpicy": true,
+              "isVegetarian": false
+            },
+            {
+              "id": "noodles-with-soup-item-3",
+              "name": "Лапша с Говядиной в Прозрачном Бульоне",
+              "description": "Прозрачный говяжий бульон с кусочками нежной говядины и лапшой.",
+              "priceL": 10,
+              "images": [
+                "/menu-items/Item24.jpg"
+              ],
+              "isSpicy": true,
+              "isVegetarian": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chicken_dishes",
+      "name": "4. Классические Жареные Блюда (Стир-Фрай)",
+      "categoryImage": "/beef.png",
+      "categoryImage1": "/beef.png",
+      "sections": [
+        {
+          "id": "chicken-dishes",
+          "items": [
+            {
+              "id": "chicken-dish-item-1",
+              "name": "Острая Курица по-Чунцински (Ла Цзы Цзи)",
+              "german_name": "辣子鸡",
+              "description": "Острая и хрустящая жареная курица с различными специями, подходит для компании.",
+              "priceL": 40,
+              "images": [
+                "/menu-items/Item12.jpg"
+              ],
+              "isSpicy": true,
+              "isVegetarian": false
+            },
+            {
+              "id": "chicken-dish-item-2",
+              "name": "Жареный Говяжий Рубец",
+              "german_name": "爆炒牛肚",
+              "description": "Курица, чили, кунжут.",
+              "priceL": 16,
+              "images": [
+                "/menu-items/POLO.jpeg"
+              ],
+              "isSpicy": true,
+              "isVegetarian": false
+            },
+            {
+              "id": "chicken-dish-item-3",
+              "name": "Жареная Рисовая Вермишель",
+              "description": "Жареная рисовая вермишель с мясом, соусом чили и сельдереем.",
+              "priceL": 14,
+              "images": [
+                "/menu-items/item31.jpeg"
+              ],
+              "isSpicy": true,
+              "isVegetarian": false
+            },
+            {
+              "id": "chicken-dish-item-4",
+              "name": "Курица Гунбао (Гун Бао Цзи Дин)",
+              "german_name": "宫保鸡丁",
+              "description": "Курица Гунбао (слегка острая), нарезанная кубиками курица, быстро обжаренная с арахисом.",
+              "priceL": 16,
+              "images": [
+                "/menu-items/Item9.jpg"
+              ],
+              "isSpicy": true,
+              "isVegetarian": false
+            }
+          ]
+        },
+        {
+          "id": "chicken-dishes",
+          "items": [
+            {
+              "id": "chicken-dish-item-5",
+              "name": "Шреддерованная Свинина со Вкусом «Рыбного Аромата» (Юй Сян Жоу Сы)",
+              "german_name": "鱼香肉丝",
+              "description": "Побеги бамбука, говядина, древесные грибы, зеленый перец.",
+              "priceL": 18,
+              "images": [
+                "/menu-items/Item20.jpg"
+              ],
+              "isSpicy": true,
+              "isVegetarian": false
+            },
+            {
+              "id": "chicken-dish-item-6",
+              "name": "Жареное Мясо с Чесночными Стрелками",
+              "german_name": "GEBRATENE YESHIL SAMSAK",
+              "description": "Чесночные стрелки, мясо.",
+              "priceL": 16,
+              "images": [
+                "/menu-items/Fried-Beef-Stew.jpeg"
+              ],
+              "isSpicy": false,
+              "isVegetarian": false
+            },
+            {
+              "id": "chicken-dish-item-7",
+              "name": "Жареное Мясо с Грибами",
+              "german_name": "GEBRATENE CHAMPIGNONS MIT FLEISCH",
+              "description": "Грибы, мясо, болгарский перец.",
+              "priceL": 16,
+              "images": [
+                "/menu-items/Item23.jpg"
+              ],
+              "isSpicy": false,
+              "isVegetarian": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "main_courses",
+      "name": "5. Классические Вегетарианские Блюда",
+      "categoryImage": "/menu-items/Homemade-Laghman1.jpeg",
+      "categoryImage1": "/menu-items/Homemade-Laghman1.jpeg",
+      "categoryImage2": "/menu-items/Homemade-Laghman1.jpeg",
+      "sections": [
+        {
+          "id": "main-courses",
+          "items": [
+            {
+              "id": "main-course-item-1",
+              "name": "Жареный Шпинат с Яйцом",
+              "description": "Жареный шпинат с яйцом.",
+              "priceL": 12,
+              "images": [
+                "/menu-items/Item5.jpg"
+              ],
+              "isSpicy": false,
+              "isVegetarian": false
+            },
+            {
+              "id": "main-course-item-3",
+              "name": "Тушеный Баклажан в Соевом Соусе",
+              "description": "Тушеный баклажан в соевом соусе.",
+              "priceL": 12,
+              "images": [
+                "/menu-items/Item2.jpg"
+              ],
+              "isSpicy": true,
+              "isVegetarian": true
+            },
+            {
+              "id": "main-course-item-5",
+              "name": "Ма По Тофу (Острый и Оглушающий)",
+              "description": "Нежный тофу в пряном и остром сычуаньском соусе.",
+              "priceL": 14,
+              "images": [
+                "/menu-items/Item19.jpg"
+              ],
+              "isSpicy": true,
+              "isVegetarian": true
+            }
+          ]
+        },
+        {
+          "id": "main-courses-1",
+          "items": [
+            {
+              "id": "lag-item-6",
+              "name": "Жареная Кукуруза",
+              "german_name": "Mamper",
+              "description": "Кукуруза и овощи",
+              "priceL": 15,
+              "images": [
+                "/menu-items/Sliced-Noodles.jpeg"
+              ],
+              "isSpicy": false,
+              "isVegetarian": false
+            },
+            {
+              "id": "main-course-item-6",
+              "name": "Тофу по-Домашнему",
+              "description": "Жареный тофу с овощами.",
+              "priceL": 16,
+              "images": [
+                "/menu-items/Item13.jpg"
+              ],
+              "isSpicy": false,
+              "isVegetarian": true
+            },
+            {
+              "id": "main-course-item-7",
+              "name": "Жареная Брокколи",
+              "german_name": "GEBRATENER BROKKOLI",
+              "description": "Брокколи, болгарский перец.",
+              "priceL": 14,
+              "images": [
+                "/menu-items/Item15.jpg"
+              ],
+              "isSpicy": false,
+              "isVegetarian": true
+            },
+            {
+              "id": "main-course-item-8",
+              "name": "Жареные Кабачки/Цукини",
+              "german_name": "GEBRATENER ZUCCHINI",
+              "description": "Кабачок (тыква), болгарский перец.",
+              "priceL": 12,
+              "images": [
+                "/menu-items/Item17.jpg"
+              ],
+              "isSpicy": false,
+              "isVegetarian": true
+            }
+          ]
+        },
+        {
+          "id": "main-courses-2",
+          "items": [
+            {
+              "id": "main-course-item-12",
+              "name": "Яйцо Жареное с Помидорами и Перцем Чили",
+              "german_name": "Tuhum Shohla",
+              "description": "Яйцо, помидоры, болгарский перец.",
+              "priceL": 10,
+              "images": [
+                "/menu-items/Item25.jpg"
+              ],
+              "isSpicy": false,
+              "isVegetarian": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "starters",
+      "name": "6. Уйгурские Закуски/Гриль",
+      "categoryImage": "/menu-items/Lamb-Skewers.jpg",
+      "categoryImage1": "/menu-items/Lamb-Skewers.jpg",
+      "sections": [
+        {
+          "id": "starter-section-1",
+          "items": [
+            {
+              "id": "starter-item-1",
+              "name": "Пяря (Манты на Пару)",
+              "german_name": "GEDÄMPFTE TEIGTASCHEN",
+              "description": "Говядина, лук, китайская капуста.",
+              "priceL": 7,
+              "images": [
+                "/menu-items/Steamed-Dumplings.jpeg"
+              ],
+              "isSpicy": false,
+              "isVegetarian": false
+            },
+            {
+              "id": "starter-item-2",
+              "name": "Самса (Печеное Мясное Изделие)",
+              "description": "Печеный пирожок с говядиной и кунжутом.",
+              "priceL": 3,
+              "images": [
+                "/menu-items/Item11.jpg"
+              ],
+              "isSpicy": false,
+              "isVegetarian": false
+            },
+            {
+              "id": "starter-item-3",
+              "name": "Бараньи Шашлыки (Кавап)",
+              "german_name": "LAMMSPIESEN",
+              "description": "Баранина.",
+              "priceL": 5,
+              "unit": "1 шт.",
+              "images": [
+                "/menu-items/Item14.jpg"
+              ],
+              "isSpicy": false,
+              "isVegetarian": false
+            },
+            {
+              "id": "starter-item-4",
+              "name": "Жареные Бараньи Почки",
+              "description": "Бараньи ребрышки.",
+              "priceL": 7,
+              "unit": "3 ломтика",
+              "images": [
+                "/menu-items/Item26.jpg"
+              ],
+              "isSpicy": false,
+              "isVegetarian": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vegan_starters",
+      "name": "Классические Холодные Закуски",
+      "categoryImage": "/menu-items/Cucumber-Salad.jpg",
+      "sections": [
+        {
+          "id": "vegan_starter_section_1",
+          "items": [
+            {
+              "id": "vegan_starter_item_1",
+              "name": "Холодная Лапша с Соусом (Бан Мянь)",
+              "german_name": "NUDELN MIT SAUCE",
+              "description": "Свежеприготовленная лапша с домашним соусом.",
+              "priceL": 6,
+              "images": [
+                "/menu-items/Item21.jpg"
+              ],
+              "isSpicy": false,
+              "isVegetarian": true
+            },
+            {
+              "id": "vegan_starter_item_2",
+              "name": "Огуречный Салат",
+              "description": "Хрустящие огурцы, заправленные специальным соусом.",
+              "priceL": 7,
+              "images": [
+                "/menu-items/Item22.jpg"
+              ],
+              "isSpicy": false,
+              "isVegetarian": true
+            },
+            {
+              "id": "vegan_starter_item_3",
+              "name": "Уйгурский Фирменный Салат (Уйгурсалат)",
+              "german_name": "UIGURSALAT",
+              "description": "Свежий салат с луком, помидорами и сладким перцем.",
+              "priceL": 7,
+              "images": [
+                "/menu-items/Item16.jpg"
+              ],
+              "isSpicy": false,
+              "isVegetarian": true
+            },
+            {
+              "id": "vegan_starter_item_4",
+              "name": "Холодный Салат с Говядиной",
+              "description": "Холодная нарезанная говядина с уйгурским соусом.",
+              "priceL": 13,
+              "images": [
+                "/menu-items/Item27.jpg"
+              ],
+              "isSpicy": false,
+              "isVegetarian": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
 
     contactUsTitle: "Связаться с нами",
     contactUsSubTitle: "Суть традиционных вкусов",
