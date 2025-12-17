@@ -299,7 +299,7 @@ export const translations = {
               "description": "Gebratene Reisnudeln mit Fleisch, Chilisauce und Sellerie.",
               "priceL": 14,
               "images": [
-                "/menu-items/item31.jpeg"
+                "/menu-items/Item31.jpeg"
               ],
               "isSpicy": true,
               "isVegetarian": false
@@ -912,7 +912,7 @@ export const translations = {
             "description": "Stir-fried rice vermicelli with meat, chili sauce, and celery.",
             "priceL": 14,
             "images": [
-              "/menu-items/item31.jpeg"
+              "/menu-items/Item31.jpeg"
             ],
             "isSpicy": true,
             "isVegetarian": false
@@ -1557,7 +1557,7 @@ export const translations = {
                 "description": "炒米粉配肉、辣椒酱和芹菜。",
                 "priceL": 14,
                 "images": [
-                  "/menu-items/item31.jpeg"
+                  "/menu-items/Item31.jpeg"
                 ],
                 "isSpicy": true,
                 "isVegetarian": false
@@ -2191,7 +2191,7 @@ export const translations = {
               "description": "Жареная рисовая вермишель с мясом, соусом чили и сельдереем.",
               "priceL": 14,
               "images": [
-                "/menu-items/item31.jpeg"
+                "/menu-items/Item31.jpeg"
               ],
               "isSpicy": true,
               "isVegetarian": false
