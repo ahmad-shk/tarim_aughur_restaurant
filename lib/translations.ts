@@ -732,7 +732,7 @@ export const translations = {
               {
                 "id": "lag-item-2",
                 "name": "Goyru Laghman",
-                "description": "Lamb, sweet peppers, Chinese cabbage, mushrooms, onions, handmade noodles.",
+                "description": " Meat of your choice, bell peppers, Chinese cabbage, mushrooms, onions, and handmade laghman (noodles).",
                 "priceL": 16,
                 "images": [
                   "/menu-items/Homemade-Laghman.jpeg"
@@ -1329,7 +1329,7 @@ export const translations = {
               {
                 "id": "lag-item-2",
                 "name": "过油肉拌面",
-                "description": "羊肉，甜椒，大白菜，蘑菇，洋葱，手拉面。",
+                "description": "可选肉类、彩椒、大白菜、蘑菇、洋葱、手工拉制的拉条子（拉面）。",
                 "priceL": 16,
                 "images": [
                   "/menu-items/Homemade-Laghman.jpeg"
@@ -1972,7 +1972,7 @@ export const translations = {
               {
                 "id": "lag-item-2",
                 "name": "Гоу Юй Жоу Бан Мянь (Жареный Лагман с Мясом)",
-                "description": "Баранина, сладкий перец, китайская капуста, грибы, лук, лапша ручной работы.",
+                "description": "Мясо на выбор, болгарский перец, китайская капуста, грибы, лук, домашняя лапша лагман.",
                 "priceL": 16,
                 "images": [
                   "/menu-items/Homemade-Laghman.jpeg"
