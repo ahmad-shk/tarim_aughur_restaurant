@@ -270,7 +270,7 @@ export const translations = {
           "items": [
             {
               "id": "chicken-dish-item-1",
-              "name": "Chongqing Chili Hähnchen",
+              "name": "Hähnchen mit Chili ",
               "german_name": "LA ZI JI",
               "description": "Scharf und knusprig gebratenes Hähnchen mit verschiedenen Gewürzen, zum Teilen geeignet.",
               "priceL": 40,
@@ -323,7 +323,7 @@ export const translations = {
           "items": [
             {
               "id": "chicken-dish-item-5",
-              "name": "Geschreddertes Schweinefleisch in Fischsaucen-Geschmack",
+              "name": "yu xiang rou si",
               "german_name": "YU XIANG ROU SI",
               "description": "Bambussprossen, Rindfleisch, Mu-Err-Pilze, grüne Paprika.",
               "priceL": 18,
@@ -492,7 +492,7 @@ export const translations = {
           "items": [
             {
               "id": "starter-item-1",
-              "name": "Pärä (Gedämpfte Teigtaschen)",
+              "name": "Gedämpfte Teigtaschen",
               "german_name": "GEDÄMPFTE TEIGTASCHEN",
               "description": "Rindfleisch, Zwiebeln, Chinakohl.",
               "priceL": 7,
@@ -516,11 +516,10 @@ export const translations = {
             },
             {
               "id": "starter-item-3",
-              "name": "Lammspieße",
+              "name": "Lammspiesen",
               "german_name": "LAMMSPIESEN",
               "description": "Lamm.",
-              "priceL": 5,
-              "unit": "1 Stück",
+              "priceL": "ab 3 Stück 12€",
               "images": [
                 "/menu-items/Item14.jpg"
               ],
@@ -531,7 +530,7 @@ export const translations = {
               "id": "starter-item-4",
               "name": "Gegrillte Lamm-Nieren",
               "german_name": "GEGRILLTE LAMMNIEREN",
-              "description": "Lammrippchen (Anmerkung: Die Beschreibung des chinesischen Textes '羊排' (Lammrippchen) wurde mit dem Namen '烤羊腰' (Gegrillte Lamm-Nieren) übersetzt, da dies der traditionellere Name für dieses Gericht ist).",
+              "description": "Lammkarree",
               "priceL": 7,
               "unit": "3 Scheiben",
               "images": [
@@ -937,7 +936,7 @@ export const translations = {
           "items": [
             {
             "id": "chicken-dish-item-5",
-            "name": "Shredded Pork with Fish-Fragrant Sauce (Yu Xiang Rou Si)",
+            "name": "Yu Xiang Rou Si",
             "german_name": "鱼香肉丝",
             "description": "Bamboo shoots, beef, wood ear mushrooms, green peppers.",
             "priceL": 18,
@@ -1102,7 +1101,7 @@ export const translations = {
           "items": [
             {
             "id": "starter-item-1",
-            "name": "Pärä (Steamed Dumplings)",
+            "name": "Steamed Dumplings",
             "german_name": "GEDÄMPFTE TEIGTASCHEN",
             "description": "Beef, onions, Chinese cabbage.",
             "priceL": 7,
