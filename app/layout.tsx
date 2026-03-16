@@ -5,6 +5,7 @@ import { Analytics } from "@vercel/analytics/next"
 import { LanguageProvider } from "@/lib/language-context"
 import "./globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
+import CookieConsentComponent from "@/components/CookieConsent";
 
 const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
@@ -44,7 +45,9 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet" />
-
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.1.0/dist/cookieconsent.css" />
+        <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+        <link rel="apple-touch-icon" href="/apple-icon.png" />
       </head>
       <body className={`font-sans antialiased mt-[92px]`}>
         <LanguageProvider>
@@ -52,6 +55,7 @@ export default function RootLayout({
             {children}
           </ThemeProvider>
           <Analytics />
+          <CookieConsentComponent />
         </LanguageProvider>
       </body>
     </html>

@@ -3,10 +3,22 @@
 import { useLanguage } from "@/lib/language-context"
 import { getTranslation } from "@/lib/translations"
 import Link from "next/link"
+import * as CookieConsent from 'vanilla-cookieconsent'
+import { ensureCookieConsentReady } from "./CookieConsent"
 
 export function Footer() {
   const { language } = useLanguage()
   const t = (key: string) => getTranslation(language, key as any)
+
+  const handleOpenCookieSettings = async (e: React.MouseEvent<HTMLButtonElement>) => {
+    e.preventDefault();
+    try {
+      await ensureCookieConsentReady();
+      CookieConsent.showPreferences();
+    } catch (error) {
+      console.error('Cookie preferences could not be opened', error);
+    }
+  };
 
   return (
     <>
@@ -35,6 +47,21 @@ export function Footer() {
             <p className="text-center dark:text-primary text-secondary">
               copyright © 2025 Tarim | {t("allRightsReserved")}
             </p>
+            <div className="flex gap-4 dark:text-primary text-secondary">
+              <Link href="/privacy-policy" className="hover:underline">
+                {t("privacyPolicy")}
+              </Link>
+              <Link href="/imprint" className="hover:underline">
+                {t("imprint")}
+              </Link>
+              <button
+                type="button"
+                onClick={handleOpenCookieSettings}
+                className="hover:underline"
+              >
+                {language === 'de' ? 'Cookie-Einstellungen' : 'Cookie Settings'}
+              </button>
+            </div>
             <div className="flex gap-4">
               {/* <Link href={'/'} passHref>
               <span className="dark:text-primary text-secondary">

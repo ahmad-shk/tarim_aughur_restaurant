@@ -5,6 +5,14 @@ import { useState } from "react"
 import { useLanguage } from "@/lib/language-context"
 import { getTranslation } from "@/lib/translations"
 import DatePicker from "react-datepicker";
+import emailjs from '@emailjs/browser';
+
+// ─── EmailJS Configuration ───────────────────────────────────────────────────
+const EMAILJS_SERVICE_ID = 'service_wpbcu6l';
+const EMAILJS_TEMPLATE_ID = 'template_vkbhb5w';      // → email to restaurant
+const EMAILJS_CUSTOMER_TEMPLATE = 'template_lu35eac'; // → confirmation to customer
+const EMAILJS_PUBLIC_KEY = 'Ln1QPxODiYW2IvUJd';
+// ─────────────────────────────────────────────────────────────────────────────
 
 import "react-datepicker/dist/react-datepicker.css";
 
@@ -15,6 +23,7 @@ export function Reservation() {
     phone: "",
     guests: "",
     email: "",
+    remarks: "",
   })
 
   const { language } = useLanguage()
@@ -28,42 +37,57 @@ export function Reservation() {
     setFormData((prev) => ({ ...prev, [name]: value }))
   }
 
+  const [errors, setErrors] = useState<Record<string, string>>({});
   const [success, setSuccess] = useState(false);
 
-  const handleSubmit = async (e: React.FormEvent) => {
-    setLoading(true);
-    e.preventDefault();
+  const validate = () => {
+    const newErrors: Record<string, string> = {};
+    if (!formData.name.trim()) newErrors.name = t("errorName");
+    if (!formData.email.trim() || !/\S+@\S+\.\S+/.test(formData.email)) newErrors.email = t("errorEmail");
+    if (!formData.phone.trim()) newErrors.phone = t("errorPhone");
+    if (!startDate) newErrors.date = t("errorDate");
+    if (!time) newErrors.time = t("errorTime");
+    if (!formData.guests) newErrors.guests = t("errorGuests");
+    setErrors(newErrors);
+    return Object.keys(newErrors).length === 0;
+  };
 
-    const data = {
-      name: formData.name,
-      email: formData.email,
-      phone: formData.phone,
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!validate()) return;
+    
+    setLoading(true);
+
+    const templateData = {
+      customer_name: formData.name,
+      customer_email: formData.email,
+      customer_phone: formData.phone || '—',
+      date: startDate ? startDate.toLocaleDateString('de-DE') : "",
+      time: time ? time.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" }) + " Uhr" : "",
       guests: formData.guests,
-      date: startDate ? startDate.toDateString() : "",
-      time: time ? time.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" }) : "",
+      remarks: formData.remarks || '—',
     };
 
     try {
-      const res = await fetch("/api/reservation", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(data),
-      });
-      const result = await res.json();
+      // Send both emails in parallel
+      await Promise.all([
+        // 1. Notify restaurant
+        emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, templateData, EMAILJS_PUBLIC_KEY),
+        // 2. Confirmation to customer
+        emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_CUSTOMER_TEMPLATE, templateData, EMAILJS_PUBLIC_KEY),
+      ]);
 
-      if (result.success) {
-        setSuccess(true); // show green tick button
-        setFormData({ name: "", phone: "", guests: "", email: "" });
-        setStartDate(null);
-        setTime(null);
+      setSuccess(true);
+      setFormData({ name: "", phone: "", guests: "", email: "", remarks: "" });
+      setStartDate(null);
+      setTime(null);
 
-        setTimeout(() => setSuccess(false), 3000); // reset after 3 seconds
-      } else {
-        alert("Error sending reservation: " + result.error);
-      }
+      setTimeout(() => setSuccess(false), 3000);
     } catch (err: any) {
-      console.error(err);
-      alert("Something went wrong: " + err.message);
+      console.error('EmailJS error:', err);
+      alert(language === 'de' 
+        ? "Etwas ist schiefgelaufen. Bitte rufen Sie uns an: +43 677 6317 8906" 
+        : "Something went wrong. Please call us: +43 677 6317 8906");
     }
 
     setLoading(false);
@@ -114,6 +138,7 @@ export function Reservation() {
                 className="w-full border border-white bg-white/10 py-[12px] px-[20px] rounded-[10px]"
                 placeholder={t("nameLabel")}
               />
+              {errors.name && <p className="text-red-500 text-sm mt-1">{errors.name}</p>}
             </div>
             <div>
               <input
@@ -125,6 +150,7 @@ export function Reservation() {
                 className="w-full border border-white bg-white/10 py-[12px] px-[20px] rounded-[10px]"
                 placeholder={t("emailLabel")}
               />
+              {errors.email && <p className="text-red-500 text-sm mt-1">{errors.email}</p>}
             </div>
 
             <div className="grid md:grid-cols-2 gap-4">
@@ -138,6 +164,7 @@ export function Reservation() {
                   className="w-full border border-white bg-white/10 py-[12px] px-[20px] rounded-[10px]"
                   placeholder={t("phoneLabel")}
                 />
+                {errors.phone && <p className="text-red-500 text-sm mt-1">{errors.phone}</p>}
               </div>
               <div className="relative">
                 <select
@@ -157,10 +184,12 @@ export function Reservation() {
                     <path d="M1 1L6 6L11 1" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                   </svg>
                 </div>
+                {errors.guests && <p className="text-red-500 text-sm mt-1">{errors.guests}</p>}
               </div>
 
               <div>
                 <DatePicker className="w-full border border-white bg-white/10 py-[12px] px-[20px] rounded-[10px]" selected={startDate} onChange={(date) => setStartDate(date)} placeholderText={t("dateLabel")} />
+                {errors.date && <p className="text-red-500 text-sm mt-1">{errors.date}</p>}
               </div>
               <div>
                 <DatePicker
@@ -170,9 +199,20 @@ export function Reservation() {
                   showTimeSelectOnly
                   timeIntervals={15}
                   timeCaption="Time"
-                  dateFormat="h:mm aa"
+                  dateFormat="HH:mm"
                   placeholderText={t("selectTime")}
                   className="w-full border border-white bg-white/10 py-[12px] px-[20px] rounded-[10px]"
+                />
+                {errors.time && <p className="text-red-500 text-sm mt-1">{errors.time}</p>}
+              </div>
+              <div className="md:col-span-2">
+                <input
+                  type="text"
+                  name="remarks"
+                  value={formData.remarks}
+                  onChange={handleChange}
+                  className="w-full border border-white bg-white/10 py-[12px] px-[20px] rounded-[10px]"
+                  placeholder={t("remarksLabel")}
                 />
               </div>
             </div>

@@ -69,6 +69,13 @@ export const translations = {
     emailLabel: "E-Mail",
     bookTable: "TISCH RESERVIEREN",
     bookNow: "JETZT BUCHEN",
+    remarksLabel: "Anmerkungen (optional)",
+    errorName: "Bitte geben Sie Ihren Namen ein",
+    errorEmail: "Bitte geben Sie eine gültige E-Mail-Adresse ein",
+    errorPhone: "Bitte geben Sie Ihre Telefonnummer ein",
+    errorDate: "Bitte wählen Sie ein Datum",
+    errorTime: "Bitte wählen Sie eine Uhrzeit",
+    errorGuests: "Bitte wählen Sie die Anzahl der Personen",
 
     locationTitle: "UNSER STANDORT",
     locationDesc:
@@ -79,6 +86,10 @@ export const translations = {
     footerAbout:
       "TARIM ist ein authentisches uigurisches Restaurant, das die Küche der Seidenstraße in ein modernes Speiseerlebnis bringt.",
     allRightsReserved: "Alle Rechte vorbehalten",
+    privacyPolicy: "Datenschutzerklärung",
+    imprint: "Impressum",
+    privacyPolicyText: "Vielen Dank für Ihren Besuch auf unserer Website. Diese Seite erläutert unsere Datenschutzrichtlinie und wie wir mit Ihren Daten umgehen. Unser Ziel ist es, Ihnen von ganzem Herzen zu dienen und stets unser Bestes zu tun, um die Sicherheit Ihrer Daten zu gewährleisten. Seien Sie versichert, dass wir Ihre Daten gemäß den gesetzlichen Anforderungen verwenden werden.\n\nDiese Datenschutzrichtlinie gilt für alle Informationen, die Sie uns freiwillig zur Verfügung stellen oder die wir bereits über Sie haben. Diese Richtlinie beschreibt, wie wir Ihre personenbezogenen Daten erheben, verwenden, weitergeben, verarbeiten und verwalten. Ihre Registrierung, das Durchsuchen der Website, die Bestellung von Produkten und andere Aktivitäten auf dieser Website stellen Ihre Zustimmung zu dieser Datenschutzrichtlinie dar.\n\nKontakt für Fragen\n\nWenn Sie Fragen zu dieser Datenschutzrichtlinie haben, kontaktieren Sie uns bitte per E-Mail unter:\n\ntarimrestaurantwien@gmail.com\noder telefonisch unter: 0670 1958888\n\nI. Geschäftszwecke\nWir können Ihre personenbezogenen Daten verwenden, um gesetzliche Verpflichtungen zu erfüllen, neue Produkte zu entwickeln, Buchhaltungsunterlagen zu führen sowie Forschung und Personalschulungen durchzuführen.\n\nII. Marketingzwecke\nMit Ihrer Zustimmung informieren wir Sie über Produkte, Dienstleistungen, Veranstaltungen und Sonderangebote.\n\nIII. Feedback & Kontakt\nWir verwenden Ihre Daten, um auf Beschwerden oder Feedback zu reagieren.\n\nV. Keine Weitergabe an Dritte\nWir verkaufen Ihre Daten niemals an Dritte.\n\nVII. Übertragung an Dienstleister\nDaten werden mit Partnern für Hosting, Analyse, Versand, Zahlungsabwicklung und Marketing geteilt, die in unserem Auftrag arbeiten.\n\nXIII. Datensicherheit\nAlle Informationen werden auf sicheren Servern gespeichert. Wir können jedoch unbefugten Zugriff außerhalb unserer Kontrolle nicht vollständig verhindern.\n\nDrittanbieter-Websites\nUnsere Website kann Links zu externen Websites enthalten. Wir übernehmen keine Verantwortung für deren Datenschutzpraktiken.\n\nCookies\nSie können Cookie-Einstellungen direkt in Ihrem Browser (z. B. Google Chrome) verwalten oder löschen.",
+    imprintText: "Alle Inhalte sind urheberrechtlich geschützt und werden gemäß § 25 Mediengesetz zur Verfügung gestellt.\n\nWebsite-Betreiber\n...\n\nTarim Uyghur Restaurant\n\nLorystraße 44,\n\n1110 Wien\n\nÖsterreich\n\nKontakt\nTel.: 0670 1958888\n\nE-Mail: tarimrestaurantwien@gmail.com\n\nWebmaster:\n\n...\n\nGeschäftsführung\n...\n\nUnternehmensgegenstand\nGastronomie\n\nUID-Nummer\n...\n\nWir haben die administrative Kontrolle über die Website und organisieren die Inhalte sorgfältig. Wir übernehmen jedoch keine Verantwortung für die Verwaltung oder Garantie der Inhalte externer Links.\n\nBei Unzufriedenheit oder Anmerkungen zu unserem Service wenden Sie sich bitte per E-Mail oder Telefon an den Kundenservice. Sollten Sie mit der Bearbeitung Ihres Falls nicht zufrieden sein, können Sie die ODR-Plattform nutzen:\n\nhttps://ec.europa.eu/consumers/odr/main/",
 
 
     // menu text
@@ -683,6 +694,13 @@ export const translations = {
     emailLabel: "E-Mail",
     bookTable: "BOOK TABLE",
     bookNow: "BOOK NOW",
+    remarksLabel: "Remarks (optional)",
+    errorName: "Please enter your name",
+    errorEmail: "Please enter a valid email address",
+    errorPhone: "Please enter your phone number",
+    errorDate: "Please select a date",
+    errorTime: "Please select a time",
+    errorGuests: "Please select number of guests",
 
     locationTitle: "OUR LOCATION",
     locationDesc:
@@ -693,6 +711,10 @@ export const translations = {
     footerAbout:
       "TARIM is an authentic Uyghur restaurant bringing Silk Road cuisine to a modern dining experience.",
     allRightsReserved: "All Rights Reserved",
+    privacyPolicy: "Privacy Policy",
+    imprint: "Imprint",
+    privacyPolicyText: "First of all, thank you for visiting this website. This page explains our privacy policy and how we handle your data. Our goal is to serve you wholeheartedly and always do our best to ensure the security of your data. Please be assured that we will use your data in accordance with legal requirements.\n\nThis privacy policy applies to all information you voluntarily provide to us or that we already hold about you. This policy describes how we collect, use, disclose, process, and manage your personal data. Your registration, browsing, ordering products, and other activities on this website constitute your acceptance of this privacy policy.\n\nContact for questions\n\nIf you have any questions about this privacy policy, please contact us by email at:\n\ntarimrestaurantwien@gmail.com\nor by phone at: 0670 1958888\n\nI. Business Purposes\nWe may use your personal data to comply with legal obligations, develop new products, maintain accounting records, and conduct research and staff training.\n\nII. Marketing purposes\nWith your consent, we will inform you about products, services, events and special offers.\n\nIII. Feedback & Contact\nWe use your data to respond to complaints or feedback.\n\nV. No disclosure to third parties\nWe never sell your data to third parties.\n\nVII. Transfer to service providers\nData is shared with partners for hosting, analysis, shipping, payment processing and marketing, who work on our behalf.\n\nXIII. Data Security\nAll information is stored on secure servers. However, we cannot completely prevent unauthorized access beyond our control.\n\nThird-party websites\nOur website may contain links to external sites. We assume no responsibility for their privacy practices.\n\nCookies\nYou can manage or delete cookie settings directly in your browser (e.g., Google Chrome).",
+    imprintText: "All content is protected by copyright and is provided in accordance with §25 of the Media Act.\n\nWebsite operator\n...\n\nTarim Uyghur Restaurant\n\nLorystraße 44,\n\n1110 Vienna\n\nAustria\n\nContact\nTel.: 0670 1958888\n\nEmail: tarimrestaurantwien@gmail.com\n\nWebmaster:\n\n...\n\nManaging Director\n...\n\nBusiness Purpose\nGastronomy\n\nVAT ID No\nVAT ID No..\n\nWe have administrative authority over the website and organize the content carefully. However, we are not responsible for managing or guaranteeing the content of external links.\n\nIf you have any dissatisfaction or comments regarding our service, please contact customer service by email or telephone. If you are not satisfied with the handling of your case, you can use the ODR platform:\n\nhttps://ec.europa.eu/consumers/odr/main/",
 
     // menu text
 
@@ -1281,6 +1303,13 @@ export const translations = {
     emailLabel: "电子邮件",
     bookTable: "预订餐桌",
     bookNow: "立即预订",
+    remarksLabel: "备注 (可选)",
+    errorName: "请输入您的姓名",
+    errorEmail: "请输入有效的电子邮件地址",
+    errorPhone: "请输入您的电话号码",
+    errorDate: "请选择日期",
+    errorTime: "请选择时间",
+    errorGuests: "请选择人数",
 
     locationTitle: "我们的位置",
     locationDesc:
@@ -1291,6 +1320,10 @@ export const translations = {
     footerAbout:
       "TARIM是一家真正的维吾尔餐厅，将丝绸之路美食带入现代餐饮体验。",
     allRightsReserved: "版权所有",
+    privacyPolicy: "隐私政策",
+    imprint: "法律声明",
+    privacyPolicyText: "我们非常重视您的个人数据保护。我们根据法定数据保护法规和本隐私政策对您的个人数据保密。通常可以在不提供个人数据的情况下使用我们的网站。",
+    imprintText: "根据 TMG § 5 提供的信息：\n\nTarim 维吾尔餐厅\nLorystraße 44\n1110 维也纳，奥地利\n\n联系方式：\n电话：0670 1958888\n电子邮件：tarimrestaurantwien@gmail.com\n\n代表人：[代表人姓名]\n增值税 ID：[您的增值税 ID]",
 
     // menu text
 
@@ -1921,6 +1954,13 @@ export const translations = {
     dateLabel: "Дата",
     bookTable: "ЗАБРОНИРОВАТЬ СТОЛИК",
     bookNow: "БРОНИРОВАТЬ СЕЙЧАС",
+    remarksLabel: "Примечания (необязательно)",
+    errorName: "Пожалуйста, введите ваше имя",
+    errorEmail: "Пожалуйста, введите корректный адрес электронной почты",
+    errorPhone: "Пожалуйста, введите ваш номер телефона",
+    errorDate: "Пожалуйста, выберите дату",
+    errorTime: "Пожалуйста, выберите время",
+    errorGuests: "Пожалуйста, выберите количество гостей",
 
     locationTitle: "НАШЕ МЕСТОПОЛОЖЕНИЕ",
     locationDesc:
@@ -1931,6 +1971,10 @@ export const translations = {
     footerAbout:
       "TARIM — это аутентичный уйгурский ресторан, объединяющий кухню Шёлкового пути с современным опытом ужина.",
     allRightsReserved: "Все права защищены",
+    privacyPolicy: "Политика конфиденциальности",
+    imprint: "Импринт/Выходные данные",
+    privacyPolicyText: "Мы очень серьезно относимся к защите ваших личных данных. Мы обрабатываем ваши персональные данные конфиденциально и в соответствии с установленными законом правилами защиты данных и настоящей политикой конфиденциальности. Использование нашего веб-сайта обычно возможно без предоставления персональных данных.",
+    imprintText: "Информация в соответствии с § 5 TMG:\n\nРесторан Tarim Uyghur\nLorystraße 44\n1110 Вена, Австрия\n\nКонтакты:\nТелефон: 0670 1958888\nЭлектронная почта: tarimrestaurantwien@gmail.com\n\nПредставлено: [Имя представителя]\nИНН/НДС: [Ваш номер НДС]",
 
     // menu text
 
