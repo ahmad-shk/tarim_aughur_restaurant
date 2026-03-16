@@ -6,6 +6,7 @@ import { useLanguage } from "@/lib/language-context"
 import { getTranslation } from "@/lib/translations"
 import DatePicker from "react-datepicker";
 import emailjs from '@emailjs/browser';
+import Image from "next/image";
 
 // ─── EmailJS Configuration ───────────────────────────────────────────────────
 const EMAILJS_SERVICE_ID = 'service_wpbcu6l';
@@ -127,6 +128,15 @@ export function Reservation() {
           </div>
 
           <form onSubmit={handleSubmit} className="bg-primary primary-text-color rounded-lg p-8 space-y-4 form-bg">
+            <div className="flex justify-center md:justify-start mb-4">
+              <Image 
+                src="/logo/logo.svg" 
+                alt="Tarim Logo" 
+                width={150} 
+                height={60} 
+                className="brightness-0 invert opacity-80"
+              />
+            </div>
             <h2 className="md:text-left text-center aboreto-text text-[#E3C08D] 2xl:text-[60px] xl:text-[50px] text-[28px] mb-[20px] md:pt-[20px]">{t("reservationTitle")}</h2>
             <div>
               <input
@@ -134,7 +144,6 @@ export function Reservation() {
                 name="name"
                 value={formData.name}
                 onChange={handleChange}
-                required
                 className="w-full border border-white bg-white/10 py-[12px] px-[20px] rounded-[10px]"
                 placeholder={t("nameLabel")}
               />
@@ -146,7 +155,6 @@ export function Reservation() {
                 name="email"
                 value={formData.email}
                 onChange={handleChange}
-                required
                 className="w-full border border-white bg-white/10 py-[12px] px-[20px] rounded-[10px]"
                 placeholder={t("emailLabel")}
               />
