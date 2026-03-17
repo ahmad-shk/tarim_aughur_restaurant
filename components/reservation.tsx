@@ -22,7 +22,7 @@ export function Reservation() {
   const [formData, setFormData] = useState({
     name: "",
     phone: "",
-    guests: "",
+    guests: "1 Person",
     email: "",
     remarks: "",
   })
@@ -56,7 +56,7 @@ export function Reservation() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!validate()) return;
-    
+
     setLoading(true);
 
     const templateData = {
@@ -86,8 +86,8 @@ export function Reservation() {
       setTimeout(() => setSuccess(false), 3000);
     } catch (err: any) {
       console.error('EmailJS error:', err);
-      alert(language === 'de' 
-        ? "Etwas ist schiefgelaufen. Bitte rufen Sie uns an: +43 677 6317 8906" 
+      alert(language === 'de'
+        ? "Etwas ist schiefgelaufen. Bitte rufen Sie uns an: +43 677 6317 8906"
         : "Something went wrong. Please call us: +43 677 6317 8906");
     }
 
@@ -129,11 +129,11 @@ export function Reservation() {
 
           <form onSubmit={handleSubmit} className="bg-primary primary-text-color rounded-lg p-8 space-y-4 form-bg">
             <div className="flex justify-center md:justify-start mb-4">
-              <Image 
-                src="/logo/logo.svg" 
-                alt="Tarim Logo" 
-                width={150} 
-                height={60} 
+              <Image
+                src="/logo/logo.svg"
+                alt="Tarim Logo"
+                width={150}
+                height={60}
                 className="brightness-0 invert opacity-80"
               />
             </div>
