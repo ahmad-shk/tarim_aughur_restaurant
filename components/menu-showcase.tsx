@@ -10,19 +10,39 @@ export function MenuShowcase() {
   const [selectedView, setSelectedView] = useState<string | null>(null)
   const { language } = useLanguage()
   const router = useRouter();
-  
+
   const handleClick = () => {
     router.push('/restaurant-menu'); // navigate to /about page
   };
 
   const t = (key: string) => getTranslation(language, key as any)
 
-  const menuItems = [
-    { image: "slice-1.jpeg", name: "Uyghur Nann", price: "€3.00", description: "Crispy potatoes with signature sauce" },
-    { image: "slice-2.jpeg", name: "big Plate Chicken", price: "€36.00", description: "Seafood paella with saffron rice" },
-    { image: "specy01.jpeg", name: "Spicy Chicken", price: "€40.00", description: "Premium beef steak" },
-    { image: "slice-4.jpeg", name: "Manta", price: "€7.00", description: "Traditional Madrid stew" },
-  ]
+  const menuItems = {
+    en: [
+      { image: "slice-1.jpeg", name: "Uyghur Nan", price: "€3.00", description: "Traditional Uyghur flatbread" },
+      { image: "slice-2.jpeg", name: "Big Plate Chicken", price: "€36.00", description: "Large portion of spicy chicken with potatoes and hand-pulled noodles" },
+      { image: "specy01.jpeg", name: "Spicy Chicken", price: "€40.00", description: "Spicy sautéed chicken with vegetables" },
+      { image: "slice-4.jpeg", name: "Manta", price: "€7.00", description: "Steamed dumplings filled with seasoned meat and onions" },
+    ],
+    de: [
+      { image: "slice-1.jpeg", name: "Uyghur Nan", price: "€3.00", description: "Traditionelles uigurisches Fladenbrot" },
+      { image: "slice-2.jpeg", name: "Großer Hühnerteller", price: "€36.00", description: "Große Portion scharfes Hähnchen mit Kartoffeln und handgezogenen Nudeln" },
+      { image: "specy01.jpeg", name: "Scharfes Hähnchen", price: "€40.00", description: "Scharf angebratenes Hähnchen mit Gemüse" },
+      { image: "slice-4.jpeg", name: "Manta", price: "€7.00", description: "Gedämpfte Teigtaschen gefüllt mit gewürztem Fleisch und Zwiebeln" },
+    ],
+    zh: [
+      { image: "slice-1.jpeg", name: "维吾尔馕", price: "€3.00", description: "传统的维吾尔族大馕" },
+      { image: "slice-2.jpeg", name: "大盘鸡", price: "€36.00", description: "大份鲜辣鸡肉配土豆和手工皮带面" },
+      { image: "specy01.jpeg", name: "辣子鸡", price: "€40.00", description: "香辣爆炒鸡块配时令蔬菜" },
+      { image: "slice-4.jpeg", name: "馒头/薄皮包子", price: "€7.00", description: "鲜肉洋葱馅蒸包" },
+    ],
+    ru: [
+      { image: "slice-1.jpeg", name: "Уйгурский нан", price: "€3.00", description: "Традиционная уйгурская лепешка" },
+      { image: "slice-2.jpeg", name: "Дапанцзи", price: "€36.00", description: "Большая порция острой курицы с картофелем и лапшой" },
+      { image: "specy01.jpeg", name: "Острая курица", price: "€40.00", description: "Острая обжаренная курица с овощами" },
+      { image: "slice-4.jpeg", name: "Манты", price: "€7.00", description: "Паровые пельмени с приправленным мясом и луком" },
+    ]
+  };
 
   return (
     <section id="menu" className="xl:py-20 py-12 relative">
@@ -34,7 +54,7 @@ export function MenuShowcase() {
         </div>
         <div className="dark:bg-white/10 bg-[#66282C]/10 md:p-7 p-4 rounded-[14px]">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[7px]">
-            {menuItems.map((item, idx) => (
+            {menuItems[language].map((item, idx) => (
               <div key={idx} className="dark:bg-black/37 bg-[#66282C] rounded-lg hover:shadow-lg transition overflow-hidden">
                 <div className="bg-gradient-to-br from-accent/20 to-primary/10 rounded-lg flex items-center justify-center">
                   <img
@@ -47,12 +67,12 @@ export function MenuShowcase() {
                   <h3 className="aboreto-text text-[#F5E3BF] xl:text-[23px] mb-2">{item.name}</h3>
                   <p className="text-[#F5E3BF] mb-5 font-bold">{item.price}</p>
                   <div className="flex justify-center items-center">
-                    <button 
-                    onClick={()=>{
-                      handleClick()
-                    }}
+                    <button
+                      onClick={() => {
+                        handleClick()
+                      }}
 
-                    className="bg-[#F5E3BF] rounded-[6px] cursor-pointer text-primary px-8 py-2 xl:font-bold font-medium transition transition-ease hover:opacity-85">{t("viewMenu")}</button>
+                      className="bg-[#F5E3BF] rounded-[6px] cursor-pointer text-primary px-8 py-2 xl:font-bold font-medium transition transition-ease hover:opacity-85">{t("viewMenu")}</button>
                   </div>
                 </div>
               </div>

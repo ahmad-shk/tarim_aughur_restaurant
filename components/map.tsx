@@ -7,7 +7,7 @@ export function Map() {
   const { language } = useLanguage()
   const t = (key: string) => getTranslation(language, key as any)
 
-  const address = "Lorystraße 44, 1110 Wien, Austria"
+  const address = "Leberstrasse 44/2-5, 1110 Wien, Austria"
   const googleMapsUrl = `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(address)}`
 
   return (
@@ -20,7 +20,7 @@ export function Map() {
 
         <div className="rounded-lg overflow-hidden border border-border shadow-lg">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2660.165!2d16.4058!3d48.1806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476d07a9a9a9a9a9%3A0x1234567890!2sLorystra%C3%9Fe%2044%2C%201110%20Wien%2C%20Austria!5e0!3m2!1sen!2sat!4v1730000000000"
+            src="https://www.google.com/maps?q=Leberstrasse%2044/2-5,%201110%20Wien&t=&z=13&ie=UTF8&iwloc=&output=embed"
             width="100%"
             height="400"
             style={{ border: 0 }}

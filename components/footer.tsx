@@ -34,7 +34,7 @@ export function Footer() {
           <div className="flex items-end md:justify-between justify-center md:flex-nowrap flex-wrap gap-5">
             <div className="dark:text-primary text-secondary md:text-start text-center">
               <p>{t("phoneLabel")}</p>
-              <Link href={'callto:+90 000 000 0000'}>0670 1958888</Link>
+              <Link href={'tel:06701958888'}>0670 1958888</Link>
             </div>
             <div className="flex gap-5 aboreto-text dark:text-primary text-secondary lg:text-[24px]">
               <Link href={'/'} className="hover:underline">{t("home")}</Link>
