@@ -9,10 +9,10 @@ import emailjs from '@emailjs/browser';
 import Image from "next/image";
 
 // ─── EmailJS Configuration ───────────────────────────────────────────────────
-const EMAILJS_SERVICE_ID = 'service_yyh3b2k';
-const EMAILJS_TEMPLATE_ID = 'template_dow92x5';      // → email to restaurant
-const EMAILJS_CUSTOMER_TEMPLATE = 'template_s1dsuyl'; // → confirmation to customer
-const EMAILJS_PUBLIC_KEY = 'x2V7dnZRhRi7m58GG';
+const EMAILJS_SERVICE_ID = 'service_asw4uor';
+const EMAILJS_TEMPLATE_ID = 'template_ks36q6c';      // → email to restaurant
+const EMAILJS_CUSTOMER_TEMPLATE = 'template_6ggbege'; // → confirmation to customer
+const EMAILJS_PUBLIC_KEY = '1WaHcRW1AWiuVMRAv';
 // ─────────────────────────────────────────────────────────────────────────────
 
 import "react-datepicker/dist/react-datepicker.css";
