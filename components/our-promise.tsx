@@ -9,7 +9,8 @@ export function OurPromise() {
 
   return (
     <section className="relative md:pt-20 md:pb-24 py-12 bg-background" style={{background: 'url(/image/our-promise.png) center center no-repeat', backgroundSize: 'cover'}}>
-      <div className="bg-layer absolute inset-0 w-full h-full z-1" style={{background: 'linear-gradient(90deg, rgba(102, 40, 44, 0) 4.75%, #66282C 72.26%)'}}></div>
+      <div className="bg-layer absolute inset-0 w-full h-full z-1 hidden md:block" style={{background: 'linear-gradient(90deg, rgba(102, 40, 44, 0) 4.75%, #66282C 72.26%)'}}></div>
+      <div className="bg-layer absolute inset-0 w-full h-full z-1 block md:hidden" style={{background: 'linear-gradient(90deg, rgba(102, 40, 44, 0.85) 0%, #66282C 100%)'}}></div>
       <div className="max-w-[1300px] mx-auto px-4 relative z-2">
         
         <div className="flex justify-end items-end">
