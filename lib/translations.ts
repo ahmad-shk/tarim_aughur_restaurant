@@ -80,7 +80,7 @@ export const translations = {
     locationTitle: "UNSER STANDORT",
     locationDesc:
       "Besuchen Sie unser Restaurant im Herzen von Wien. Wir befinden uns in der Nähe des Enklplatz U-Bahn-Zentrums für einfache Anfahrt und Komfort.",
-    address: "Leberstrasse 44/2-5, 1110 Wien, Österreich",
+    address: "Lorystraße 44, 1110 Wien, Österreich",
     getDirections: "RICHTUNGEN ABRUFEN",
 
     footerAbout:
@@ -89,7 +89,7 @@ export const translations = {
     privacyPolicy: "Datenschutzerklärung",
     imprint: "Impressum",
     privacyPolicyText: "Vielen Dank für Ihren Besuch auf unserer Website. Diese Seite erläutert unsere Datenschutzrichtlinie und wie wir mit Ihren Daten umgehen. Unser Ziel ist es, Ihnen von ganzem Herzen zu dienen und stets unser Bestes zu tun, um die Sicherheit Ihrer Daten zu gewährleisten. Seien Sie versichert, dass wir Ihre Daten gemäß den gesetzlichen Anforderungen verwenden werden.\n\nDiese Datenschutzrichtlinie gilt für alle Informationen, die Sie uns freiwillig zur Verfügung stellen oder die wir bereits über Sie haben. Diese Richtlinie beschreibt, wie wir Ihre personenbezogenen Daten erheben, verwenden, weitergeben, verarbeiten und verwalten. Ihre Registrierung, das Durchsuchen der Website, die Bestellung von Produkten und andere Aktivitäten auf dieser Website stellen Ihre Zustimmung zu dieser Datenschutzrichtlinie dar.\n\nKontakt für Fragen\n\nWenn Sie Fragen zu dieser Datenschutzrichtlinie haben, kontaktieren Sie uns bitte per E-Mail unter:\n\nTarimuigurrestaurant@gmail.com\noder telefonisch unter: 0670 1958888\n\nI. Geschäftszwecke\nWir können Ihre personenbezogenen Daten verwenden, um gesetzliche Verpflichtungen zu erfüllen, neue Produkte zu entwickeln, Buchhaltungsunterlagen zu führen sowie Forschung und Personalschulungen durchzuführen.\n\nII. Marketingzwecke\nMit Ihrer Zustimmung informieren wir Sie über Produkte, Dienstleistungen, Veranstaltungen und Sonderangebote.\n\nIII. Feedback & Kontakt\nWir verwenden Ihre Daten, um auf Beschwerden oder Feedback zu reagieren.\n\nV. Keine Weitergabe an Dritte\nWir verkaufen Ihre Daten niemals an Dritte.\n\nVII. Übertragung an Dienstleister\nDaten werden mit Partnern für Hosting, Analyse, Versand, Zahlungsabwicklung und Marketing geteilt, die in unserem Auftrag arbeiten.\n\nXIII. Datensicherheit\nAlle Informationen werden auf sicheren Servern gespeichert. Wir können jedoch unbefugten Zugriff außerhalb unserer Kontrolle nicht vollständig verhindern.\n\nDrittanbieter-Websites\nOur website may contain links to external sites. We assume no responsibility for their privacy practices.\n\nCookies\nYou can manage or delete cookie settings directly in your browser (e.g., Google Chrome).",
-    imprintText: "Alle Inhalte sind urheberrechtlich geschützt und werden gemäß § 25 Mediengesetz zur Verfügung gestellt.\n\nWebsite-Betreiber\nMuhammed Aydin\n\nTarim Uyghur Restaurant\n\nLeberstrasse 44/2-5,\n\n1110 Wien\n\nÖsterreich\n\nKontakt\nTel.: 0670 1958888\n\nE-Mail: Tarimuigurrestaurant@gmail.com\n\nWebmaster:\n\n...\n\nGeschäftsführung\n...\n\nUnternehmensgegenstand\nGastronomie\n\nUID-Nummer\n037989217\n\nWir haben die administrative Kontrolle über die Website und organisieren die Inhalte sorgfältig. Wir übernehmen jedoch keine Verantwortung für die Verwaltung oder Garantie der Inhalte externer Links.\n\nBei Unzufriedenheit oder Anmerkungen zu unserem Service wenden Sie sich bitte per E-Mail oder Telefon an den Kundenservice. Sollten Sie mit der Bearbeitung Ihres Falls nicht zufrieden sein, können Sie die ODR-Plattform nutzen:\n\nhttps://ec.europa.eu/consumers/odr/main/",
+    imprintText: "Alle Inhalte sind urheberrechtlich geschützt und werden gemäß § 25 Mediengesetz zur Verfügung gestellt.\n\nWebsite-Betreiber\nMuhammed Aydin\n\nTarim Uyghur Restaurant\n\nLorystraße 44,\n\n1110 Wien\n\nÖsterreich\n\nKontakt\nTel.: 0670 1958888\n\nE-Mail: Tarimuigurrestaurant@gmail.com\n\nWebmaster:\n\n...\n\nGeschäftsführung\n...\n\nUnternehmensgegenstand\nGastronomie\n\nUID-Nummer\n037989217\n\nWir haben die administrative Kontrolle über die Website und organisieren die Inhalte sorgfältig. Wir übernehmen jedoch keine Verantwortung für die Verwaltung oder Garantie der Inhalte externer Links.\n\nBei Unzufriedenheit oder Anmerkungen zu unserem Service wenden Sie sich bitte per E-Mail oder Telefon an den Kundenservice. Sollten Sie mit der Bearbeitung Ihres Falls nicht zufrieden sein, können Sie die ODR-Plattform nutzen:\n\nhttps://ec.europa.eu/consumers/odr/main/",
 
 
     // menu text
@@ -617,7 +617,7 @@ export const translations = {
     ContactSection1Block1Title: "Öffnungszeiten",
     ContactSection1Block1Time: "11:00 AM – 10:00 PM",
     ContactSection1Block2Title: "Adresse",
-    ContactSection1Block2Time: "Leberstrasse 44/2-5, 1110 Wien, Österreich"
+    ContactSection1Block2Time: "Lorystraße 44, 1110 Wien, Österreich"
   },
 
   // English
@@ -705,7 +705,7 @@ export const translations = {
     locationTitle: "OUR LOCATION",
     locationDesc:
       "Visit our restaurant in the heart of Vienna. We are located near Enklplatz U-Bahn station for easy access and convenience.",
-    address: "Leberstrasse 44/2-5, 1110 Wien, Austria",
+    address: "Lorystraße 44, 1110 Wien, Austria",
     getDirections: "GET DIRECTIONS",
 
     footerAbout:
@@ -714,7 +714,7 @@ export const translations = {
     privacyPolicy: "Privacy Policy",
     imprint: "Imprint",
     privacyPolicyText: "First of all, thank you for visiting this website. This page explains our privacy policy and how we handle your data. Our goal is to serve you wholeheartedly and always do our best to ensure the security of your data. Please be assured that we will use your data in accordance with legal requirements.\n\nThis privacy policy applies to all information you voluntarily provide to us or that we already hold about you. This policy describes how we collect, use, disclose, process, and manage your personal data. Your registration, browsing, ordering products, and other activities on this website constitute your acceptance of this privacy policy.\n\nContact for questions\n\nIf you have any questions about this privacy policy, please contact us by email at:\n\nTarimuigurrestaurant@gmail.com\nor by phone at: 0670 1958888\n\nI. Business Purposes\nWe may use your personal data to comply with legal obligations, develop new products, maintain accounting records, and conduct research and staff training.\n\nII. Marketing purposes\nWith your consent, we will inform you about products, services, events and special offers.\n\nIII. Feedback & Contact\nWe use your data to respond to complaints or feedback.\n\nV. No disclosure to third parties\nWe never sell your data to third parties.\n\nVII. Transfer to service providers\nData is shared with partners for hosting, analysis, shipping, payment processing and marketing, who work on our behalf.\n\nXIII. Data Security\nAll information is stored on secure servers. However, we cannot completely prevent unauthorized access beyond our control.\n\nThird-party websites\nOur website may contain links to external sites. We assume no responsibility for their privacy practices.\n\nCookies\nYou can manage or delete cookie settings directly in your browser (e.g., Google Chrome).",
-    imprintText: "All content is protected by copyright and is provided in accordance with §25 of the Media Act.\n\nWebsite operator\nMuhammed Aydin\n\nTarim Uyghur Restaurant\n\nLeberstrasse 44/2-5,\n\n1110 Vienna\n\nAustria\n\nContact\nTel.: 0670 1958888\n\nEmail: Tarimuigurrestaurant@gmail.com\n\nManaging Director\nMuhammed Aydin\n\nBusiness Purpose\nGastronomy\n\nVAT ID No\n037989217\n\nWe have administrative authority over the website and organize the content carefully. However, we are not responsible for managing or guaranteeing the content of external links.\n\nIf you have any dissatisfaction or comments regarding our service, please contact customer service by email or telephone. If you are not satisfied with the handling of your case, you can use the ODR platform:\n\nhttps://ec.europa.eu/consumers/odr/main/",
+    imprintText: "All content is protected by copyright and is provided in accordance with §25 of the Media Act.\n\nWebsite operator\nMuhammed Aydin\n\nTarim Uyghur Restaurant\n\nLorystraße 44,\n\n1110 Vienna\n\nAustria\n\nContact\nTel.: 0670 1958888\n\nEmail: Tarimuigurrestaurant@gmail.com\n\nManaging Director\nMuhammed Aydin\n\nBusiness Purpose\nGastronomy\n\nVAT ID No\n037989217\n\nWe have administrative authority over the website and organize the content carefully. However, we are not responsible for managing or guaranteeing the content of external links.\n\nIf you have any dissatisfaction or comments regarding our service, please contact customer service by email or telephone. If you are not satisfied with the handling of your case, you can use the ODR platform:\n\nhttps://ec.europa.eu/consumers/odr/main/",
 
     // menu text
 
@@ -1230,7 +1230,7 @@ export const translations = {
     ContactSection1Block1Title: "Opening Hours",
     ContactSection1Block1Time: "11:00 AM – 10:00 PM",
     ContactSection1Block2Title: "Address",
-    ContactSection1Block2Time: "Leberstrasse 44/2-5, 1110 Wien"
+    ContactSection1Block2Time: "Lorystraße 44, 1110 Wien"
   },
   // Chinese
   zh: {
@@ -1314,7 +1314,7 @@ export const translations = {
     locationTitle: "我们的位置",
     locationDesc:
       "访问我们位于维也纳市中心的餐厅。我们位于Enklplatz U-Bahn站附近，便于进出和舒适。",
-    address: "Leberstrasse 44/2-5, 1110 Wien, Austria",
+    address: "Lorystraße 44, 1110 Wien, Austria",
     getDirections: "获取方向",
 
     footerAbout:
@@ -1323,7 +1323,7 @@ export const translations = {
     privacyPolicy: "隐私政策",
     imprint: "法律声明",
     privacyPolicyText: "首先，感谢您访问本网站。本页面旨在说明我们的隐私政策以及我们处理您数据的方式。我们的目标是全心全意为您服务，并尽最大努力确保您的数据安全。请放心，我们将严格按照法律要求使用您的数据。\n\n本隐私政策适用于您自愿提供给我们或我们已持有的关于您的所有信息。本政策描述了我们如何收集、使用、披露、处理和管理您的个人数据。您在本网站上的注册、浏览、订购产品及其他活动均构成的您对本隐私政策的接受。\n\n问题咨询\n\n如果您对本隐私政策有任何疑问，请通过以下方式与我们联系：\n\n电子邮件：Tarimuigurrestaurant@gmail.com\n电话：0670 1958888\n\n一、 商业用途\n我们可能会使用您的个人数据来履行法律义务、开发新产品、维护会计记录以及进行研究和员工培训。\n\n二、 营销用途\n在征得您同意的情况下，我们将向您告知有关产品、服务、活动和特别优惠的信息。\n\n三、 反馈与联系\n我们使用您的数据来回复您的投诉或反馈。\n\n四、 不向第三方披露\n我们绝不会向第三方出售您的数据。\n\n五、 传输至服务提供商\n数据会与代表我们工作的合作伙伴共享，用于托管、分析、运输、支付处理和市场营销。\n\n六、 数据安全\n所有信息均存储在安全的服务器上。然而，我们无法完全防止超出我们控制范围的未经授权的访问。\n\n七、 第三方网站\n我们的网站可能包含指向外部网站的链接。我们对这些网站的隐私做法不承担任何责任。\n\n八、 Cookies\n您可以直接在浏览器（如 Google Chrome）中管理或删除 Cookie 设置。",
-    imprintText: "根据 TMG § 5 提供的信息：Muhammed Aydin\n\nTarim 维吾尔餐厅\nLeberstrasse 44/2-5\n1110 维也纳，奥地利\n\n联系方式：\n电话：0670 1958888\n电子邮件：Tarimuigurrestaurant@gmail.com\n\n代表人：[代表人姓名]\n增值税 ID：037989217",
+    imprintText: "根据 TMG § 5 提供的信息：Muhammed Aydin\n\nTarim 维吾尔餐厅\nLorystraße 44\n1110 维也纳，奥地利\n\n联系方式：\n电话：0670 1958888\n电子邮件：Tarimuigurrestaurant@gmail.com\n\n代表人：[代表人姓名]\n增值税 ID：037989217",
 
     // menu text
 
@@ -1881,7 +1881,7 @@ export const translations = {
     ContactSection1Block1Title: "营业时间",
     ContactSection1Block1Time: "11:00 AM – 10:00 PM",
     ContactSection1Block2Title: "地址",
-    ContactSection1Block2Time: "奥地利 维也纳 1110 区 Leberstrasse 44/2-5 号"
+    ContactSection1Block2Time: "奥地利 维也纳 1110 区 Lorystraße 44 号"
   },
   // Russian
   ru: {
@@ -1965,7 +1965,7 @@ export const translations = {
     locationTitle: "НАШЕ МЕСТОПОЛОЖЕНИЕ",
     locationDesc:
       "Посетите наш ресторан в самом сердце Вены. Мы находимся рядом со станцией метро Enklplatz — удобно и легко добраться.",
-    address: "Leberstrasse 44/2-5, 1110 Вена, Австрия",
+    address: "Lorystraße 44, 1110 Вена, Австрия",
     getDirections: "ПОЛУЧИТЬ МАРШРУТ",
 
     footerAbout:
@@ -1974,7 +1974,7 @@ export const translations = {
     privacyPolicy: "Политика конфиденциальности",
     imprint: "Импринт/Выходные данные",
     privacyPolicyText: "Прежде всего, благодарим вас за посещение этого веб-сайта. На этой странице разъясняется наша политика конфиденциальности и то, как мы обрабатываем ваши данные. Наша цель — искренне служить вам и всегда делать все возможное для обеспечения безопасности ваших данных. Пожалуйста, будьте уверены, что мы будем использовать ваши данные в соответствии с требованиями законодательства.\n\nДанная политика конфиденциальности распространяется на всю информацию, которую вы добровольно предоставляете нам или которой мы уже располагаем. Эта политика описывает, как мы собираем, используем, раскрываем, обрабатываем и управляем вашими персональными данными. Ваша регистрация, просмотр страниц, заказ товаров и другие действия на этом веб-сайте означают ваше согласие с данной политикой конфиденциальности.\n\nКонтактная информация для вопросов\n\nЕсли у вас есть вопросы по поводу этой политики конфиденциальности, пожалуйста, свяжитесь с нами по электронной почте:\n\nTarimuigurrestaurant@gmail.com\nили по телефону: 0670 1958888\n\nI. Деловые цели\nМы можем использовать ваши персональные данные для выполнения юридических обязательств, разработки новых продуктов, ведения бухгалтерского учета, а также для проведения исследований и обучения персонала.\n\nII. Маркетинговые цели\nС вашего согласия мы будем информировать вас о продуктах, услугах, мероприятиях и специальных предложениях.\n\nIII. Обратная связь и контакты\nМы используем ваши данные для ответа на жалобы или отзывы.\n\nIV. Неразглашение третьим лицам\nМы никогда не продаем ваши данные третьим лицам.\n\nV. Передача поставщикам услуг\nДанные передаются партнерам для хостинга, анализа, доставки, обработки платежей и маркетинга, которые работают от нашего имени.\n\nVI. Безопасность данных\nВся информация хранится на защищенных серверах. Однако мы не можем полностью предотвратить несанкционированный доступ, находящийся вне нашего контроля.\n\nVII. Сторонние веб-сайты\nНаш веб-сайт может содержать ссылки на внешние сайты. Мы не несем ответственности за их политику конфиденциальности.\n\nVIII. Cookies\nВы можете управлять настройками файлов cookie или удалять их непосредственно в своем браузере (например, Google Chrome).",
-    imprintText: "Информация в соответствии с § 5 TMG:\n\nРесторан Tarim Uyghur\nLeberstrasse 44/2-5\n1110 Вена, Австрия\n\nКонтакты:\nТелефон: 0670 1958888\nЭлектронная почта: Tarimuigurrestaurant@gmail.com\n\nПредставлено: [Имя представителя]\nИНН/НДС: 037989217",
+    imprintText: "Информация в соответствии с § 5 TMG:\n\nРесторан Tarim Uyghur\nLorystraße 44\n1110 Вена, Австрия\n\nКонтакты:\nТелефон: 0670 1958888\nЭлектронная почта: Tarimuigurrestaurant@gmail.com\n\nПредставлено: [Имя представителя]\nИНН/НДС: 037989217",
 
     // menu text
 
@@ -2491,7 +2491,7 @@ export const translations = {
     ContactSection1Block1Title: "Часы работы",
     ContactSection1Block1Time: "11:00 AM – 10:00 PM",
     ContactSection1Block2Title: "Адрес",
-    ContactSection1Block2Time: "Leberstrasse 44/2-5, 1110 Вена, Австрия"
+    ContactSection1Block2Time: "Lorystraße 44, 1110 Вена, Австрия"
   },
 }
 

@@ -7,7 +7,7 @@ export function Map() {
   const { language } = useLanguage()
   const t = (key: string) => getTranslation(language, key as any)
 
-  const address = "Leberstrasse 44/2-5, 1110 Wien, Austria"
+  const address = "Lorystraße 44, 1110 Wien, Austria"
   const googleMapsUrl = `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(address)}`
 
   return (
@@ -20,7 +20,7 @@ export function Map() {
 
         <div className="rounded-lg overflow-hidden border border-border shadow-lg">
           <iframe
-            src="https://www.google.com/maps?q=Leberstrasse%2044/2-5,%201110%20Wien&t=&z=13&ie=UTF8&iwloc=&output=embed"
+            src="https://maps.google.com/maps?width=100%25&height=600&hl=en&q=Lorystra%C3%9Fe%2044,%201110%20Wien&t=&z=15&ie=UTF8&iwloc=B&output=embed"
             width="100%"
             height="400"
             style={{ border: 0 }}
@@ -28,11 +28,11 @@ export function Map() {
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
             className="w-full"
-            title="TARIM Uyghur Restaurant Vienna Location"
+            title="Tarim Uigur Restaurant Vienna"
           ></iframe>
         </div>
 
-          {/* <div className="grid md:grid-cols-2 gap-8 mt-12">
+        {/* <div className="grid md:grid-cols-2 gap-8 mt-12">
             <div className="bg-card p-8 rounded-lg border border-border">
               <h3 className="text-2xl font-serif font-bold text-foreground mb-4">Contact Information</h3>
               <div className="space-y-4 text-foreground/70">
