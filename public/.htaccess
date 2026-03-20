@@ -1,0 +1,31 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # Ensure index.html is used for directories
+  DirectoryIndex index.html
+
+  # Disable directory listing unconditionally to prevent 403 Forbidden errors from showing
+  Options -Indexes
+
+  # Serve existing files natively
+  RewriteCond %{REQUEST_FILENAME} -f
+  RewriteRule ^ - [L]
+
+  # Make sure the root is correctly routed to index.html
+  RewriteRule ^$ /index.html [L]
+
+  # For any request, if a matching .html file exists, serve that .html
+  # This handles clean URLs (e.g. /contact-us or /contact-us/ -> /contact-us.html)
+  RewriteCond %{DOCUMENT_ROOT}/$1.html -f
+  RewriteRule ^(.+?)/?$ /$1.html [L]
+
+  # Fallback to custom 404 page if it exists
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^ /404.html [L]
+</IfModule>
+
+<IfModule mod_negotiation.c>
+  Options -MultiViews
+</IfModule>
