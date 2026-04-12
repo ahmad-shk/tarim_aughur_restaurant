@@ -779,7 +779,7 @@ export const translations = {
                 "name": "Ding Ding Stir-fried Noodles",
                 "german_name": "MARJAN KORIMIS",
                 "description": "Hand-cut noodle cubes, beef, bell pepper.",
-                "priceL": 14.0,
+                "priceL": 15.0,
                 "images": [
                   "/menu-items/beef-sliced-noodles.jpeg"
                 ],
@@ -796,7 +796,7 @@ export const translations = {
                 "name": "Toksun Stir-fried Noodles",
                 "german_name": "MARJAN KORIMIS",
                 "description": "Hand-cut noodle cubes, beef, and bell pepper.",
-                "priceL": 14.0,
+                "priceL": 15.0,
                 "images": [
                   "/menu-items/Item32.jpeg"
                 ],

@@ -22,13 +22,13 @@ export function MenuShowcase() {
       { image: "slice-1.jpeg", name: "Uyghur Nan", price: "€3.00", description: "Traditional Uyghur flatbread" },
       { image: "slice-2.jpeg", name: "Big Plate Chicken", price: "€36.00", description: "Large portion of spicy chicken with potatoes and hand-pulled noodles" },
       { image: "specy01.jpeg", name: "Spicy Chicken", price: "€40.00", description: "Spicy sautéed chicken with vegetables" },
-      { image: "slice-4.jpeg", name: "Manta", price: "€7.00", description: "Steamed dumplings filled with seasoned meat and onions" },
+      { image: "slice-4.jpeg", name: "Manta", price: "€15.00", description: "Steamed dumplings filled with seasoned meat and onions" },
     ],
     de: [
       { image: "slice-1.jpeg", name: "Uyghur Nan", price: "€3.00", description: "Traditionelles uigurisches Fladenbrot" },
       { image: "slice-2.jpeg", name: "Großer Hühnerteller", price: "€36.00", description: "Große Portion scharfes Hähnchen mit Kartoffeln und handgezogenen Nudeln" },
       { image: "specy01.jpeg", name: "Scharfes Hähnchen", price: "€40.00", description: "Scharf angebratenes Hähnchen mit Gemüse" },
-      { image: "slice-4.jpeg", name: "Manta", price: "€7.00", description: "Gedämpfte Teigtaschen gefüllt mit gewürztem Fleisch und Zwiebeln" },
+      { image: "slice-4.jpeg", name: "Manta", price: "€15.00", description: "Gedämpfte Teigtaschen gefüllt mit gewürztem Fleisch und Zwiebeln" },
     ],
     zh: [
       { image: "slice-1.jpeg", name: "维吾尔馕", price: "€3.00", description: "传统的维吾尔族大馕" },
