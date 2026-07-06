@@ -12,7 +12,7 @@ import Image from "next/image";
 const EMAILJS_SERVICE_ID = 'service_asw4uor';
 const EMAILJS_TEMPLATE_ID = 'template_ks36q6c';      // → email to restaurant
 const EMAILJS_CUSTOMER_TEMPLATE = 'template_6ggbege'; // → confirmation to customer
-const EMAILJS_PUBLIC_KEY = '1WaHcRW1AWiuVMRAv';
+const EMAILJS_PUBLIC_KEY = '9DU9QJK0NrO3dm6yU';
 // ─────────────────────────────────────────────────────────────────────────────
 
 import "react-datepicker/dist/react-datepicker.css";
